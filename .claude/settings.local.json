@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(claude mcp *)",
+      "Bash(curl -s -X DELETE https://api.zotero.org/users/15086139/items/AW58GNFW -H 'Zotero-API-Key: SZu9e4D70klRvMtsJeKzznAC' -H 'If-Unmodified-Since-Version: 399')",
+      "Bash(curl -s -X POST https://api.zotero.org/users/15086139/items -H 'Zotero-API-Key: SZu9e4D70klRvMtsJeKzznAC' -H 'Content-Type: application/json' -d '[{ *)",
+      "Bash(python3 -m json.tool)",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('Attached:', list\\(d['successful'].values\\(\\)\\)[0]['key'] if d['successful'] else d['failed']\\)\")",
+      "Bash(curl -s -X PATCH https://api.zotero.org/users/15086139/items/BER2RKRN -H 'Zotero-API-Key: SZu9e4D70klRvMtsJeKzznAC' -H 'Content-Type: application/json' -H 'If-Unmodified-Since-Version: 403' -d '{\"pages\": \"4700-4722\"}')",
+      "Bash(curl -s \"https://api.zotero.org/users/15086139/items/BER2RKRN\" -H \"Zotero-API-Key: SZu9e4D70klRvMtsJeKzznAC\")",
+      "Bash(python3 scripts/citation_spider.py)",
+      "Bash(python3 \"/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/scripts/lint_wiki.py\")",
+      "mcp__claude_ai_Google_Drive__read_file_content",
+      "mcp__claude_ai_Google_Drive__download_file_content",
+      "WebFetch(domain:tiss.ac.in)",
+      "Bash(curl -k -L \"https://tiss.ac.in/uploads/files/Manual_of_Style.pdf\" -o /tmp/tiss_manual_of_style.pdf)"
+    ]
+  }
+}

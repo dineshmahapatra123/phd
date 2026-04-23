@@ -1,0 +1,27 @@
+{
+  "cascadeColors": false,
+  "colorBackground": false,
+  "palette": [
+    {
+      "id": "0M63pXVB_CeQfhC9CfufK",
+      "name": "Pink",
+      "value": "#ff1493"
+    },
+    {
+      "id": "_zloxlyQHcrQPX7pFkWbC",
+      "name": "Blue",
+      "value": "#00008b"
+    },
+    {
+      "id": "gbMINF0HHUNzhtqTW5XTk",
+      "name": "Yellow",
+      "value": "#f6be00"
+    },
+    {
+      "id": "YUPI3BFicXto1vHZHrodU",
+      "name": "Red",
+      "value": "#8b0000"
+    }
+  ],
+  "fileColors": []
+}

@@ -1,0 +1,575 @@
+{
+  "search_metadata": {
+    "id": "69bc3c7571a41d811214d27b",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/ignoi4SgVRvh6Z_H2IvzIg/69bc3c7571a41d811214d27b.json",
+    "created_at": "2026-03-19 18:12:05 UTC",
+    "processed_at": "2026-03-19 18:12:05 UTC",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=Property+rights+in+India&hl=en&as_ylo=2023&as_yhi=2023",
+    "raw_html_file": "https://serpapi.com/searches/ignoi4SgVRvh6Z_H2IvzIg/69bc3c7571a41d811214d27b.html",
+    "total_time_taken": 2.79
+  },
+  "search_parameters": {
+    "engine": "google_scholar",
+    "q": "Property rights in India",
+    "hl": "en",
+    "as_ylo": "2023",
+    "as_yhi": "2023"
+  },
+  "search_information": {
+    "organic_results_state": "Results for exact spelling",
+    "total_results": 175000,
+    "time_taken_displayed": 0.05,
+    "query_displayed": "Property rights in India"
+  },
+  "organic_results": [
+    {
+      "position": 1,
+      "title": "Educational Perspective of Intellectual Property Rights",
+      "result_id": "2iqSOZ2r_yIJ",
+      "type": "Html",
+      "link": "https://cyberleninka.ru/article/n/educational-perspective-of-intellectual-property-rights",
+      "snippet": "… (Tiwari, S, 1999),In this paper, the author shows that India's … India, acquiring intellectual property rights can present you with a number of challenges related to intellectual property rights. …",
+      "publication_info": {
+        "summary": "V Prasad, AK Dangi, R Tripathi, N Kumar - Russian Law Journal, 2023 - cyberleninka.ru",
+        "authors": [
+          {
+            "name": "V Prasad"
+          },
+          {
+            "name": "AK Dangi"
+          },
+          {
+            "name": "R Tripathi"
+          },
+          {
+            "name": "N Kumar",
+            "link": "https://scholar.google.com/citations?user=b01eCwUAAAAJ&hl=en&oi=sra",
+            "author_id": "b01eCwUAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=b01eCwUAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "cyberleninka.ru",
+          "file_format": "HTML",
+          "link": "https://cyberleninka.ru/article/n/educational-perspective-of-intellectual-property-rights"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=2iqSOZ2r_yIJ",
+        "html_version": "https://cyberleninka.ru/article/n/educational-perspective-of-intellectual-property-rights",
+        "cited_by": {
+          "total": 22,
+          "link": "https://scholar.google.com/scholar?cites=2521923008114862810&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "2521923008114862810",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=2521923008114862810&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:2iqSOZ2r_yIJ:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3A2iqSOZ2r_yIJ%3Ascholar.google.com%2F",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:2iqSOZ2r_yIJ:scholar.google.com/+Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023"
+      }
+    },
+    {
+      "position": 2,
+      "title": "The Right to Property in the Indian Constitution:“Evolution and impact”",
+      "result_id": "ZeRz9n0GXDAJ",
+      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4643401",
+      "snippet": "… Sustainable Development: The changing landscape of property rights in India provides a … The changing landscape of property rights in India, particularly in the context of the Land …",
+      "publication_info": {
+        "summary": "KBG Singh - Available at SSRN 4643401, 2023 - papers.ssrn.com",
+        "authors": [
+          {
+            "name": "KBG Singh"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "ssrn.com",
+          "file_format": "PDF",
+          "link": "https://papers.ssrn.com/sol3/Delivery.cfm?abstractid=4643401"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ZeRz9n0GXDAJ",
+        "cited_by": {
+          "total": 1,
+          "link": "https://scholar.google.com/scholar?cites=3484667349753390181&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "3484667349753390181",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=3484667349753390181&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:ZeRz9n0GXDAJ:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3AZeRz9n0GXDAJ%3Ascholar.google.com%2F",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:ZeRz9n0GXDAJ:scholar.google.com/+Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023"
+      }
+    },
+    {
+      "position": 3,
+      "title": "Women's right to property and the child quantity-quality trade-off: evidence from India.",
+      "result_id": "YJaJiKynTV8J",
+      "link": "https://search.ebscohost.com/login.aspx?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=09331433&AN=173653018&h=n5Oe%2FKTqMYAM2tfIZky1sXD92ZH2aHYHaga2puU5S3ln26uxh9GSfE3%2BRLEepcu6QtuxjB0FfPrOF10vBa1hvA%3D%3D&crl=c",
+      "snippet": "… Among the different sub populations, we find that the effect of the property rights provision on fertility is strongest in rural households. The differential access to ultrasound technologies …",
+      "publication_info": {
+        "summary": "V Tandel, A Dutta, S Gandhi… - Journal of Population …, 2023 - search.ebscohost.com",
+        "authors": [
+          {
+            "name": "V Tandel",
+            "link": "https://scholar.google.com/citations?user=8uuu7MgAAAAJ&hl=en&oi=sra",
+            "author_id": "8uuu7MgAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8uuu7MgAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "A Dutta",
+            "link": "https://scholar.google.com/citations?user=uArvA8gAAAAJ&hl=en&oi=sra",
+            "author_id": "uArvA8gAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=uArvA8gAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "S Gandhi",
+            "link": "https://scholar.google.com/citations?user=YplW2KIAAAAJ&hl=en&oi=sra",
+            "author_id": "YplW2KIAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=YplW2KIAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=YJaJiKynTV8J",
+        "cited_by": {
+          "total": 13,
+          "link": "https://scholar.google.com/scholar?cites=6867329366276806240&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "6867329366276806240",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=6867329366276806240&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:YJaJiKynTV8J:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3AYJaJiKynTV8J%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 8,
+          "link": "https://scholar.google.com/scholar?cluster=6867329366276806240&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+          "cluster_id": "6867329366276806240",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&cluster=6867329366276806240&engine=google_scholar&hl=en"
+        }
+      }
+    },
+    {
+      "position": 4,
+      "title": "Emerging Technologies and Intellectual Property Rights: A Cross-Jurisdictional Examination of AI and Patent Laws in India and the USA",
+      "result_id": "1AAA05ZZU3EJ",
+      "link": "https://or.niscpr.res.in/index.php/JIPR/article/view/399",
+      "snippet": "… OF AI AND PATENT LAWS IN INDIA AND THE USA … ownership of intellectual property rights linked to these inventions. One of … In such cases, determining the intellectual property rights' …",
+      "publication_info": {
+        "summary": "P Mishra, VS Thakur, S Shandilya… - … Property Rights (JIPR), 2023 - or.niscpr.res.in",
+        "authors": [
+          {
+            "name": "P Mishra",
+            "link": "https://scholar.google.com/citations?user=Ab7uGwYAAAAJ&hl=en&oi=sra",
+            "author_id": "Ab7uGwYAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Ab7uGwYAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "VS Thakur",
+            "link": "https://scholar.google.com/citations?user=ULoLuiAAAAAJ&hl=en&oi=sra",
+            "author_id": "ULoLuiAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ULoLuiAAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "S Shandilya",
+            "link": "https://scholar.google.com/citations?user=dBWrylwAAAAJ&hl=en&oi=sra",
+            "author_id": "dBWrylwAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=dBWrylwAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "niscpr.res.in",
+          "file_format": "PDF",
+          "link": "https://or.niscpr.res.in/index.php/JIPR/article/download/399/1915"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=1AAA05ZZU3EJ",
+        "cited_by": {
+          "total": 6,
+          "link": "https://scholar.google.com/scholar?cites=8165969053672800468&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "8165969053672800468",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=8165969053672800468&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:1AAA05ZZU3EJ:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3A1AAA05ZZU3EJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=8165969053672800468&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+          "cluster_id": "8165969053672800468",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&cluster=8165969053672800468&engine=google_scholar&hl=en"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:1AAA05ZZU3EJ:scholar.google.com/+Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023"
+      }
+    },
+    {
+      "position": 5,
+      "title": "Women's land ownership in India: Evidence from digital land records",
+      "result_id": "F33bH2KRNr0J",
+      "link": "https://www.sciencedirect.com/science/article/pii/S0264837723003010",
+      "snippet": "… We also analyse the extent to which the States laws and provisions related to women land rights have controlled these biases, for which State-wise laws/ provisions were reviewed. We …",
+      "publication_info": {
+        "summary": "C Jain, D Saxena, S Sen, D Sanan - Land Use Policy, 2023 - Elsevier",
+        "authors": [
+          {
+            "name": "C Jain",
+            "link": "https://scholar.google.com/citations?user=8Gd_6XEAAAAJ&hl=en&oi=sra",
+            "author_id": "8Gd_6XEAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8Gd_6XEAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "D Saxena"
+          },
+          {
+            "name": "S Sen"
+          },
+          {
+            "name": "D Sanan"
+          }
+        ]
+      },
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=F33bH2KRNr0J",
+        "cited_by": {
+          "total": 37,
+          "link": "https://scholar.google.com/scholar?cites=13634244772538055959&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "13634244772538055959",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=13634244772538055959&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:F33bH2KRNr0J:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3AF33bH2KRNr0J%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 8,
+          "link": "https://scholar.google.com/scholar?cluster=13634244772538055959&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+          "cluster_id": "13634244772538055959",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&cluster=13634244772538055959&engine=google_scholar&hl=en"
+        }
+      }
+    },
+    {
+      "position": 6,
+      "title": "Decussating aspects of intellectual property rights and private international law in India",
+      "result_id": "x4GH-dFn_rcJ",
+      "type": "Pdf",
+      "link": "https://or.niscpr.res.in/index.php/JIPR/article/download/762/2087",
+      "snippet": "… The lack of willingness on the part of courts to consider claims involving external intellectual property rights resulted in a pattern of domestic litigation of foreign conflicts …",
+      "publication_info": {
+        "summary": "A Gilda, A Ghose - Journal of Intellectual Property Rights (JIPR), 2023 - or.niscpr.res.in",
+        "authors": [
+          {
+            "name": "A Gilda"
+          },
+          {
+            "name": "A Ghose",
+            "link": "https://scholar.google.com/citations?user=AEx4610AAAAJ&hl=en&oi=sra",
+            "author_id": "AEx4610AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=AEx4610AAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "niscpr.res.in",
+          "file_format": "PDF",
+          "link": "https://or.niscpr.res.in/index.php/JIPR/article/download/762/2087"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=x4GH-dFn_rcJ",
+        "cited_by": {
+          "total": 7,
+          "link": "https://scholar.google.com/scholar?cites=13258148504557552071&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "13258148504557552071",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=13258148504557552071&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:x4GH-dFn_rcJ:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3Ax4GH-dFn_rcJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 2,
+          "link": "https://scholar.google.com/scholar?cluster=13258148504557552071&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+          "cluster_id": "13258148504557552071",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&cluster=13258148504557552071&engine=google_scholar&hl=en"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:x4GH-dFn_rcJ:scholar.google.com/+Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023"
+      }
+    },
+    {
+      "position": 7,
+      "title": "PERFORMERS 'RIGHTS IN INDIAN COPYRIGHT LAW: LEGAL DEVELOPMENTS AND PRESENT SCENARIO",
+      "result_id": "eGZ57V8fq6UJ",
+      "type": "Pdf",
+      "link": "https://alexispress.us/wp-content/uploads/2022/10/Introduction-to-Intellectual-Property-Rights.pdf#page=93",
+      "snippet": "… to the Indian subcontinent. The existence of common law property rights in intellectual … Indian Constitution is expanded to include court rulings from the UK prior to independence. …",
+      "publication_info": {
+        "summary": "S Batar - INTELLECTUAL PROPERTY RIGHTS - alexispress.us",
+        "authors": [
+          {
+            "name": "S Batar",
+            "link": "https://scholar.google.com/citations?user=XV0bedYAAAAJ&hl=en&oi=sra",
+            "author_id": "XV0bedYAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=XV0bedYAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "alexispress.us",
+          "file_format": "PDF",
+          "link": "https://alexispress.us/wp-content/uploads/2022/10/Introduction-to-Intellectual-Property-Rights.pdf#page=93"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=eGZ57V8fq6UJ",
+        "cited_by": {
+          "total": 15,
+          "link": "https://scholar.google.com/scholar?cites=11937669734142142072&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "11937669734142142072",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=11937669734142142072&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:eGZ57V8fq6UJ:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3AeGZ57V8fq6UJ%3Ascholar.google.com%2F",
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:eGZ57V8fq6UJ:scholar.google.com/+Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023"
+      }
+    },
+    {
+      "position": 8,
+      "title": "Protection of personality rights in India: Issues and challenges",
+      "result_id": "spEpbaPI3VYJ",
+      "type": "Pdf",
+      "link": "https://www.researchgate.net/profile/Agnes-Augustian/publication/384724409_PROTECTION_OF_PERSONALITY_RIGHTS_IN_INDIA_ISSUES_AND_CHALLENGES/links/67051161f540ba7e6e1f3624/PROTECTION-OF-PERSONALITY-RIGHTS-IN-INDIA-ISSUES-AND-CHALLENGES.pdf",
+      "snippet": "… intellectual property laws are apt for personality rights … is an emerging topic in the current context, especially in India. … attention in the realm of intellectual property right. Also, currently, …",
+      "publication_info": {
+        "summary": "A Augustian - IPR Journal of Maharashtra National Law University …, 2023 - researchgate.net",
+        "authors": [
+          {
+            "name": "A Augustian"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "researchgate.net",
+          "file_format": "PDF",
+          "link": "https://www.researchgate.net/profile/Agnes-Augustian/publication/384724409_PROTECTION_OF_PERSONALITY_RIGHTS_IN_INDIA_ISSUES_AND_CHALLENGES/links/67051161f540ba7e6e1f3624/PROTECTION-OF-PERSONALITY-RIGHTS-IN-INDIA-ISSUES-AND-CHALLENGES.pdf"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=spEpbaPI3VYJ",
+        "cited_by": {
+          "total": 5,
+          "link": "https://scholar.google.com/scholar?cites=6259379661351522738&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "6259379661351522738",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=6259379661351522738&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:spEpbaPI3VYJ:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3AspEpbaPI3VYJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 3,
+          "link": "https://scholar.google.com/scholar?cluster=6259379661351522738&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+          "cluster_id": "6259379661351522738",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&cluster=6259379661351522738&engine=google_scholar&hl=en"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:spEpbaPI3VYJ:scholar.google.com/+Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023"
+      }
+    },
+    {
+      "position": 9,
+      "title": "Does Assignment of Individual Property Rights Improve Forest Conservation Outcomes?: Empirical Evidence from West Bengal, India",
+      "result_id": "_8WHpbSm7bYJ",
+      "link": "https://ecoinsee.org/journal/ojs/index.php/ees/article/view/709",
+      "snippet": "… in the Indian Parliament to assign individual property rights … the assignment of individual property rights results in positive … that the assignment of individual property rights to both the …",
+      "publication_info": {
+        "summary": "S Chand, B Behera - Ecology, Economy and Society–the INSEE …, 2023 - ecoinsee.org",
+        "authors": [
+          {
+            "name": "S Chand",
+            "link": "https://scholar.google.com/citations?user=xzdg6UIAAAAJ&hl=en&oi=sra",
+            "author_id": "xzdg6UIAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xzdg6UIAAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "B Behera",
+            "link": "https://scholar.google.com/citations?user=KbKpvNAAAAAJ&hl=en&oi=sra",
+            "author_id": "KbKpvNAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=KbKpvNAAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "ecoinsee.org",
+          "file_format": "PDF",
+          "link": "https://ecoinsee.org/journal/ojs/index.php/ees/article/download/709/279"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=_8WHpbSm7bYJ",
+        "cited_by": {
+          "total": 4,
+          "link": "https://scholar.google.com/scholar?cites=13181374979184772607&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "13181374979184772607",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=13181374979184772607&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:_8WHpbSm7bYJ:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3A_8WHpbSm7bYJ%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 8,
+          "link": "https://scholar.google.com/scholar?cluster=13181374979184772607&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+          "cluster_id": "13181374979184772607",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&cluster=13181374979184772607&engine=google_scholar&hl=en"
+        },
+        "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:_8WHpbSm7bYJ:scholar.google.com/+Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023"
+      }
+    },
+    {
+      "position": 10,
+      "title": "The tension between state ownership and private quasi‐property rights in water",
+      "result_id": "89GwoEPf_b8J",
+      "link": "https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wat2.1621",
+      "snippet": "… , eg, Canada and India), and property rights are held by the … whether a water right is defined as a property right (Saxer, … what past and present “property” rights systems imply for state …",
+      "publication_info": {
+        "summary": "HJ Bosch, J Gupta - Wiley Interdisciplinary Reviews: Water, 2023 - Wiley Online Library",
+        "authors": [
+          {
+            "name": "HJ Bosch",
+            "link": "https://scholar.google.com/citations?user=fv8ZcF4AAAAJ&hl=en&oi=sra",
+            "author_id": "fv8ZcF4AAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=fv8ZcF4AAAAJ&engine=google_scholar_author&hl=en"
+          },
+          {
+            "name": "J Gupta",
+            "link": "https://scholar.google.com/citations?user=LtjhLZAAAAAJ&hl=en&oi=sra",
+            "author_id": "LtjhLZAAAAAJ",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=LtjhLZAAAAAJ&engine=google_scholar_author&hl=en"
+          }
+        ]
+      },
+      "resources": [
+        {
+          "title": "wiley.com",
+          "file_format": "PDF",
+          "link": "https://wires.onlinelibrary.wiley.com/doi/pdf/10.1002/wat2.1621"
+        }
+      ],
+      "inline_links": {
+        "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=89GwoEPf_b8J",
+        "cited_by": {
+          "total": 22,
+          "link": "https://scholar.google.com/scholar?cites=13834459111903777267&as_sdt=805&sciodt=0,3&hl=en",
+          "cites_id": "13834459111903777267",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=805&cites=13834459111903777267&engine=google_scholar&hl=en"
+        },
+        "related_pages_link": "https://scholar.google.com/scholar?q=related:89GwoEPf_b8J:scholar.google.com/&scioq=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+        "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=related%3A89GwoEPf_b8J%3Ascholar.google.com%2F",
+        "versions": {
+          "total": 5,
+          "link": "https://scholar.google.com/scholar?cluster=13834459111903777267&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+          "cluster_id": "13834459111903777267",
+          "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&cluster=13834459111903777267&engine=google_scholar&hl=en"
+        }
+      }
+    }
+  ],
+  "related_searches": [
+    {
+      "query": "intellectual property rights in india",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=1&q=intellectual+property+rights+in+india&qst=br"
+    },
+    {
+      "query": "artificial intelligence intellectual property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=2&q=artificial+intelligence+intellectual+property+rights&qst=br"
+    },
+    {
+      "query": "land rights in india",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=3&q=land+rights+in+india&qst=br"
+    },
+    {
+      "query": "indian perspective property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=4&q=indian+perspective+property+rights&qst=br"
+    },
+    {
+      "query": "western ghats of india property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=5&q=western+ghats+of+india+property+rights&qst=br"
+    },
+    {
+      "query": "fundamental right in india",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=6&q=fundamental+right+in+india&qst=br"
+    },
+    {
+      "query": "individual property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=7&q=individual+property+rights&qst=br"
+    },
+    {
+      "query": "educational perspective intellectual property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=8&q=educational+perspective+intellectual+property+rights&qst=br"
+    },
+    {
+      "query": "women's property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=9&q=women%27s+property+rights&qst=br"
+    },
+    {
+      "query": "economic security intellectual property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=10&q=economic+security+intellectual+property+rights&qst=br"
+    },
+    {
+      "query": "cross-jurisdictional examination intellectual property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=11&q=cross-jurisdictional+examination+intellectual+property+rights&qst=br"
+    },
+    {
+      "query": "private international law intellectual property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=12&q=private+international+law+intellectual+property+rights&qst=br"
+    },
+    {
+      "query": "competition law intellectual property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=13&q=competition+law+intellectual+property+rights&qst=br"
+    },
+    {
+      "query": "distributive aspects property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=14&q=distributive+aspects+property+rights&qst=br"
+    },
+    {
+      "query": "distributional implications property rights",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=15&q=distributional+implications+property+rights&qst=br"
+    },
+    {
+      "query": "property in the indian constitution",
+      "link": "https://scholar.google.com/scholar?hl=en&as_sdt=0,3&qsp=16&q=property+in+the+indian+constitution&qst=br"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://scholar.google.com/scholar?start=10&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+    "other_pages": {
+      "2": "https://scholar.google.com/scholar?start=10&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+      "3": "https://scholar.google.com/scholar?start=20&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+      "4": "https://scholar.google.com/scholar?start=30&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+      "5": "https://scholar.google.com/scholar?start=40&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+      "6": "https://scholar.google.com/scholar?start=50&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+      "7": "https://scholar.google.com/scholar?start=60&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+      "8": "https://scholar.google.com/scholar?start=70&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+      "9": "https://scholar.google.com/scholar?start=80&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023",
+      "10": "https://scholar.google.com/scholar?start=90&q=Property+rights+in+India&hl=en&as_sdt=0,3&as_ylo=2023&as_yhi=2023"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=10",
+    "next": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=10",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=10",
+      "3": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=20",
+      "4": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=30",
+      "5": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=40",
+      "6": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=50",
+      "7": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=60",
+      "8": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=70",
+      "9": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=80",
+      "10": "https://serpapi.com/search.json?as_sdt=0%2C3&as_yhi=2023&as_ylo=2023&engine=google_scholar&hl=en&q=Property+rights+in+India&start=90"
+    }
+  }
+}

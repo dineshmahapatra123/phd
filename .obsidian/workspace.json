@@ -1,0 +1,280 @@
+{
+  "main": {
+    "id": "fef0518ea4c29345",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd6e8097a58c3751",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56e81075e47be163",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1b4256a9f89f0222",
+    "type": "split",
+    "children": [
+      {
+        "id": "d95d104b5c7cecac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0c709618f9f3d7f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ef3ccea0436a3b62",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d6c303c0c5d9fee4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "d25e177055c9be98",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fee6251afd667b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "358c3e123de2267c",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "custom-frames-gemini",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-sparkles",
+              "title": "Gemini"
+            }
+          },
+          {
+            "id": "1053a677012e6427",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "c328120253a9b1db",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "b881f10ec888de9c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          },
+          {
+            "id": "1d90e4f1bde22fc0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "4bb2ab72d5df8ef7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d12fd260265c095b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8e0450c1b0f1d38e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "284d4d567cb9f8e8",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-chatgpt",
+              "state": {},
+              "icon": "lucide-brain",
+              "title": "ChatGPT"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 334.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:Open command palette": false,
+      "obsidian42-brat:BRAT": false,
+      "surfing:surfing-bookmark-manager": false,
+      "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "bases:Create new base": false,
+      "obsidian-custom-frames:Open ChatGPT": false,
+      "obsidian-custom-frames:Open Gemini": false,
+      "obsidian-custom-frames:Open NotebookLM": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "lean-terminal:Toggle Terminal": false
+    }
+  },
+  "active": "56e81075e47be163",
+  "lastOpenFiles": [
+    "2 - Notes/Papers/The property right paradigm.md",
+    "2 - Notes/Papers/Toward a theory of property rights.md",
+    "7 - Raw/Guaranteeing title to land.pdf",
+    "CLAUDE.md",
+    "CODEX.md",
+    "9 - Knowledge_base/TISS_STYLE.md",
+    "2 - Notes/Papers/In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.md",
+    "7 - Raw/The Effects of Land Registration on Financial Development and Economic Growth_Byamugisha.pdf",
+    "8 - Doc_dump/Theory_Property_Rights/TechnicalManual_cadestral_survey_using_modern_tech.pdf",
+    "8 - Doc_dump/Theory_Property_Rights/The World Bank-Perspectives on Poverty in India_ Stylized Facts from Survey Data    -World Bank Publications (2011).pdf",
+    "8 - Doc_dump/Pending_Reading/Bromley_1989_Property_Relations.pdf",
+    "8 - Doc_dump/Pending_Reading/Illegibly legible_Outcomes of a land records modernisation programme in South India.pdf",
+    "8 - Doc_dump/Pending_Reading/Land record management in India.pdf",
+    "8 - Doc_dump/Pending_Reading/Land Registration, Governance, and Development_Klaus Deininger_Feder.pdf",
+    "8 - Doc_dump/Pending_Reading/Land Tenure and Property Rights Theory and Implications for Development Policy_Feder_Feeny.pdf",
+    "8 - Doc_dump/Pending_Reading/Land_Reforms_to_and_Titling_Pradeep_Naik.pdf",
+    "2 - Notes/Papers/Guaranteeing title to land.md",
+    "2 - Notes/Papers/Institutions and economic growth_ An historical introduction.md",
+    "2 - Notes/Papers/Institutions, institutional change and economic performance.md",
+    "2 - Notes/Papers/Institutions, transaction costs and economic growth.md",
+    "2 - Notes/Papers/Private and common property rights.md",
+    "2 - Notes/Papers/The benefits of land registration and titling_ economic and social perspectives.md",
+    "2 - Notes/Papers/Institutions and credible commitment.md",
+    "2 - Notes/Papers/Guaranteeing title to land_ a preliminary study.md",
+    "9 - Knowledge_base/Concepts/Eminent Domain.md",
+    "9 - Knowledge_base/Concepts/Domain of Demarcated Uses.md",
+    "9 - Knowledge_base/Concepts/Credible Commitment.md",
+    "9 - Knowledge_base/Concepts/Conflict Resolution (Institutions).md",
+    "9 - Knowledge_base/Concepts/Communal Rights.md",
+    "9 - Knowledge_base/Concepts/Common-pool resources.md",
+    "9 - Knowledge_base/Concepts/Collateral Value of Land.md",
+    "9 - Knowledge_base/Concepts/Classes of Property Rights Holders.md",
+    "9 - Knowledge_base/Concepts/Chotanagpur Tenancy Act 1908.md",
+    "9 - Knowledge_base/Concepts/Attenuated Property Rights.md",
+    "9 - Knowledge_base/Concepts/Acts in Law vs Acts of the Sovereign.md",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile99.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile98.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile97.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile96.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile95.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile94.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile93.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile92.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile91.png",
+    "9 - Knowledge_base/sources/Institutions, institutional change and economic performance_images/imageFile90.png",
+    "Untitled.canvas"
+  ]
+}

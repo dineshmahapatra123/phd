@@ -1,0 +1,41 @@
+{
+  "frames": [
+    {
+      "url": "https://chatgpt.com",
+      "displayName": "ChatGPT",
+      "icon": "brain",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://notebooklm.google.com",
+      "displayName": "NotebookLM",
+      "icon": "book-open",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": true,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    },
+    {
+      "url": "https://gemini.google.com/app",
+      "displayName": "Gemini",
+      "icon": "sparkles",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}

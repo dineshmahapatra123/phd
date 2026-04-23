@@ -1,0 +1,15 @@
+![](https://substackcdn.com/image/fetch/$s_!9bQ3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9686a5b5-908d-4e32-adfb-9afaff7f101c_1240x930.jpeg)
+
+Noam Chomsky and Jeffrey Epstein (image released by the House oversight committee)
+
+I don’t expect much from politicians, corporate tycoons, the presidents of prestigious universities, billionaire philanthropists, celebrities, royalty or oligarchs. They live in narcissistic and hedonistic bubbles that cater to their self-worship and moral depravity. But I do expect a lot from intellectuals such as Noam Chomsky. The explanation by his wife Valéria - Noam suffered a severe stroke in June 2023 and is incapacitated - of their relationship with Jeffrey Epstein is filled with the fatuous excuses used by all those who have been outed in the Epstein emails and documents. According to Valéria, she and Noam were “overly trusting.” This led to “poor judgment.” She writes that she and Noam were ensnared by dinners with luminaries at Epstein’s mansion, flights on his private jet nicknamed the Lolita Express, a literary reference to the sexual exploitation of girls Noam would have recognized, financial assistance, trips to Epstein’s ranch and the use of one of Epstein’s apartments in New York. Like everyone else outed in the Epstein files she and Noam “never witnessed any inappropriate behavior from Epstein or others.”
+
+Noam’s advice to Epstein on how to handle press inquiries into his crimes, like Noam’s letter of recommendation for Epstein, was, she insists, the result of Epstein’s taking “advantage of Noam’s public criticism towards what came to be known as ‘cancel culture’ to present himself as a victim of it.” After Epstein’s second arrest in 2019, she and Noam “were careless in not thoroughly researching his background.” She ends by expressing “unrestricted solidarity with the victims.” Her letter regurgitates the formula of everyone outed in the Epstein files. I know and have long admired Noam. He is, arguably, our greatest and most principled intellectual. I can assure you he is not as passive or gullible as his wife claims. He knew about Epstein’s abuse of children. They all knew. And like others in the Epstein orbit, he did not care. From the email correspondence between Epstein and Valéria it appears she particularly enjoyed the privileges that came with being in Epstein’s circle, but this does not absolve Noam’s acquiescence. Noam, of all people, knows the predatory nature of the ruling class and the cruelty of capitalists, where the vulnerable, especially girls and women, are commodified as objects to be used and exploited. He was not fooled by Epstein. He was seduced. His association with Epstein is a terrible and, to many, unforgivable stain. It irreparably tarnishes his legacy. If there is a lesson here, it is this. The ruling class offers nothing without expecting something in return. The closer you get to these vampires the more you become enslaved. Our role is not to socialize with them. It is to destroy them.
+
+---
+
+---
+
+---
+
+---

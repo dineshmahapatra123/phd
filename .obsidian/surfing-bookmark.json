@@ -1,0 +1,60 @@
+{
+  "bookmarks": [
+    {
+      "id": "1069303923",
+      "name": "Feedly – Keep up with the topics and trends you care about",
+      "url": "https://feedly.com/i/my/me",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1774368073722,
+      "modified": 1774368073722
+    },
+    {
+      "id": "1218495369",
+      "name": "Paywalled? Read the Full Article Free | SMRY",
+      "url": "https://smry.ai/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1774365435160,
+      "modified": 1774365435160
+    },
+    {
+      "id": "-665511972",
+      "name": "Webpage archive",
+      "url": "https://archive.ph/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1774365403106,
+      "modified": 1774365403106
+    },
+    {
+      "id": "933747933",
+      "name": "Google",
+      "url": "https://www.google.com/",
+      "description": "",
+      "category": [
+        "ROOT"
+      ],
+      "tags": "",
+      "created": 1774365377852,
+      "modified": 1774365377852
+    }
+  ],
+  "categories": [
+    {
+      "value": "ROOT",
+      "text": "ROOT",
+      "label": "ROOT",
+      "children": []
+    }
+  ]
+}

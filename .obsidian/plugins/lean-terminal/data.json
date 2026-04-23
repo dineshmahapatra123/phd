@@ -1,0 +1,13 @@
+{
+  "shellPath": "",
+  "fontSize": 12,
+  "fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "theme": "obsidian-light",
+  "backgroundColor": "",
+  "cursorBlink": true,
+  "scrollback": 5000,
+  "defaultLocation": "right",
+  "notifyOnCompletion": true,
+  "notificationSound": "beep",
+  "notificationVolume": 50
+}
