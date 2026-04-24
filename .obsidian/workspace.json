@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "18cc5911d0ec488d",
+        "id": "1f0bf7f4602eeb11",
         "type": "tabs",
         "children": [
           {
-            "id": "b9f59141b3181560",
+            "id": "c0487781102a7a5e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -230,6 +230,7 @@
   },
   "active": "d0c709618f9f3d7f",
   "lastOpenFiles": [
+    "AGENTS.md",
     "1 - Rough/Handy notes/HN_01.md",
     "Tweets/Gratitude.md",
     "Tweets/Course Generator.md",
@@ -256,7 +257,6 @@
     "9 - Knowledge_base/TISS_STYLE.md",
     "9 - Knowledge_base/PHD_SCHEMA.md",
     "9 - Knowledge_base/PHD_CONSTITUTION.md",
-    "9 - Knowledge_base/logs/2026-04-24_raw-folder-completion-audit.md",
     "9 - Knowledge_base/logs",
     "7 - Raw/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf",
     "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images/imageFile22.png",
