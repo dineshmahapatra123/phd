@@ -1,6 +1,6 @@
 ---
-Type: Concept
-Paper_Linked: [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]]
+type: Concept
+Paper_Linked: [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
 Last_Processed: 2026-04-07
 Status: Sapling
 ---

@@ -1,6 +1,6 @@
 ---
-Type: Topic
-Paper_Linked: [[Institutions, institutional change and economic performance]], [[The property right paradigm.pdf]], [[Guaranteeing title to land_ a preliminary study.pdf]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]]
+type: Topic
+Paper_Linked: [[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]]
 Last_Processed: 2026-04-06
 Status: Sapling++
 ---

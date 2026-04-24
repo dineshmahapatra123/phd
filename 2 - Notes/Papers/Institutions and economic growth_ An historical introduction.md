@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[Institutions and economic growth_ An historical introduction.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
 [[Institutions and economic growth_ An historical introduction.pdf]]
 
 APA Citation from Zotero: North, D. C.. (1989). Institutions and economic growth: An historical introduction. World Development, 17(9), 1319–1332. https://doi.org/10.1016/0305-750X(89)90075-2

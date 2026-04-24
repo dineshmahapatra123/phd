@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[Private and common property rights.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
 [[Private and common property rights.pdf]]
 
 APA Citation from Zotero: Ostrom, E.. (2000). Private and common property rights. Encyclopedia of Law and Economics, II, 332–379.

@@ -12,7 +12,7 @@ description: Perform a structural and scholarly health check of the PhD Knowledg
 
 3.  **Reporting**
     *   Read the generated report at `/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/lint_report.md`.
-    *   Summarize the key findings (Orphans, Broken Links, Seed Notes) for the user.
+    *   Summarize the four check categories: Missing YAML, Unindexed Articles, Broken Source Links, Underdeveloped Seed Notes.
     *   Provide a direct link to the report for deeper review.
     *   Ask: "Shall I help you address any of these issues today?"
 

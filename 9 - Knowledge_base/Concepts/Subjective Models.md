@@ -1,5 +1,5 @@
 ---
-Type: Concept
+type: Concept
 Paper_Linked: [[Institutions, institutional change and economic performance]], [[Institutions and economic growth_ An historical introduction]]
 Last_Processed: 2026-04-06
 Status: Seed

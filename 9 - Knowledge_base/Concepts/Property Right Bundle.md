@@ -1,5 +1,5 @@
 ---
-Type: Concept
+type: Concept
 Paper_Linked: [[The property right paradigm]], [[Private and common property rights]]
 Last_Processed: 2026-04-06
 Status: Evergreen

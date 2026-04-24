@@ -7,7 +7,7 @@ description: Convert one or more PDF files to Markdown (and optionally JSON) usi
 
 ## Overview
 This skill converts research PDFs into clean, structured Markdown using [opendataloader-pdf].  
-- **Outputs saved to**: "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/Full-Text/"
+- **Outputs saved to**: "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/sources/"
 
 ## Prerequisites
 - **Java 21**: "/opt/homebrew/opt/openjdk@21"
@@ -27,7 +27,7 @@ The slash command /pdf2md triggers this skill.
    ```bash
    python3 "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/.agent/skills/pdf-to-markdown/scripts/convert.py" \
      --input "<input_path>" \
-     --output "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/Full-Text/" \
+     --output "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/sources/" \
      --format "markdown"
    ```
 3. **Report**:

@@ -59,11 +59,16 @@
     - [[Institutional Efficiency]]
     - [[Tenure Security]]
     - [[Collateral Value of Land]]
+    - [[Land Market Efficiency]]
+    - [[Systematic vs Sporadic Registration]]
+    - [[Prerequisites for Land Registration]]
     - [[Conflict Resolution (Institutions)]]
     - [[Attenuated Property Rights]]
     - [[Record-Reality Gap]]
     - [[Mutation Lag]]
     - [[Implementation Failure (Land Reform)]]
+    - [[Land Liquidity]]
+    - [[Labor Mobility (Land Registration)]]
 - **[[People/]]** — Scholarly Networks  
     - [[Armen Alchian]]
     - [[Harold Demsetz]]
@@ -77,6 +82,7 @@
     - [[Henry Sumner Maine]]
     - [[Douglass North]]
     - [[Gershon Feder]]
+    - [[Frank F.K. Byamugisha]]
 - **[[Methods/]]** — Research Design & Tools  
     - [[Comparative Institutional Analysis]]
     - [[Historical Institutionalism (Land)]]
@@ -84,6 +90,10 @@
     - [[Schlager-Ostrom Taxonomy]]
     - [[New Institutional Economics]]
 - **[[Topics/]]** — Field Debates  
+    - [[Definition of Private Property]]
+    - [[Institutional Property Rights Evolution]]
+- **[[Comparisons/]]** — Cross-Paper Analysis  
+    - [[Spain vs England Institutional Divergence]]
 - **[[Queries/]]** — AI Research Interactions & Question Logs (Unindexed. Search `9 - Knowledge_base/Queries/` directly for context and past answers)
 - **[[sources/]]** — Machine-Readable Research  
     - [[The property right paradigm]]

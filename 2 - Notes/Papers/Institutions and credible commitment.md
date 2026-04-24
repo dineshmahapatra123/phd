@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[Institutions and credible commitment.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
 [[Institutions and credible commitment.pdf]]
 
 APA Citation from Zotero: North, D. C.. (1993). Institutions and credible commitment. Journal of Institutional and Theoretical Economics (JITE) / Zeitschrift Für Die Gesamte Staatswissenschaft, 149(1), 11–23.

@@ -1,7 +1,7 @@
 ---
-Type: Topic
-Paper_Linked: [[Institutions, institutional change and economic performance]], [[The property right paradigm.pdf]], [[Guaranteeing title to land_ a preliminary study.pdf]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]], [[Institutions and economic growth_ An historical introduction.pdf]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]]
-Last_Processed: 2026-04-21
+type: Topic
+Paper_Linked: [[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
+Last_Processed: 2026-04-24
 Status: Sapling++
 ---
 
@@ -112,3 +112,14 @@ According to **Feder & Nishio (1998)**, a critical evolutionary stage occurs whe
 2.  **The Impact**: Titled farmers gain access to **52–521% more credit** (Thailand Study) compared to untitled peers.
 3.  **Titling Premium**: Market prices reflect this "Security Dividend," with titled land commanding a **14.5% to 58.0% premium** in market value. 
 
+
+## The Economy-Wide Financial Transition (Byamugisha, 1999 — NEW)
+[[Frank F.K. Byamugisha]] extends the Feder et al. (1988) framework from sectoral to **economy-wide** analysis, identifying five channels through which land registration drives financial development and growth:
+
+1. **Tenure Security → Investment Incentives**: Documented at farm level by Feder; Byamugisha extends this to direct foreign investment (DFI) — inadequate tenure security in Sub-Saharan Africa and former Soviet bloc countries has been a documented constraint on DFI flows.
+2. **Title → Collateral → Credit**: Titled land enables borrowers to access credit; lenders gain an expanded base of creditworthy borrowers; both benefit from lower spreads. UK: 18–67% of credit secured by residential property. US: mortgage debt = 34% of total debt ($4.2 trillion, 1993).
+3. **[[Land Liquidity]] → Deposit Mobilization**: Registration transforms land (50–75% of national wealth in most countries) into a liquid, divisible asset. Unlocked resources flow into financial markets — expanding the deposit base and aggregate investment.
+4. **[[Land Market Efficiency]] → Allocative Efficiency**: Lower land transaction costs allow property rights to move from less to more efficient users — across individuals and across sectors (agriculture → industry).
+5. **[[Labor Mobility (Land Registration)]] → Allocative Efficiency**: Secure tenure allows landowners to leave agriculture (lease out or sell) and return when needed. Thailand's 1997 crisis demonstrated this safety-valve function — reverse migration from urban to rural was enabled by active land markets and secure tenure.
+
+**Empirical application (Thailand)**: Time-series analysis found land titling has positive long-run effects on financial development; public expenditure on registration has positive and strongly significant effects on economic growth.

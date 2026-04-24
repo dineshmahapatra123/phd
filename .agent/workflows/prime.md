@@ -5,7 +5,7 @@ description: Read a PDF and populate the corresponding note with an AI Primer.
 1.  **Idempotency Check**
     *   Locate the target markdown note in `/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/2 - Notes/Papers`.
     *   Read the file content.
-    *   **SKIP CONDITION**: If the file already contains the header `## AI Primer`, **STOP immediately**. Do not run the rest of this workflow. Output: "AI Primer already exists for [Paper Name]. Skipping."
+    *   **SKIP CONDITION**: If the `## AI Primer` section exists AND its content has been replaced (i.e., the placeholder text `*(Run \`/prime\` to populate this section)*` is no longer present), **STOP immediately**. Output: "AI Primer already exists for [Paper Name]. Skipping."
 
 2.  **Highlight Extraction**
     *   Read the content under the `## Highlights` heading within the master note.

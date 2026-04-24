@@ -1,6 +1,7 @@
 ---
-Field: [[Land Economics]], [[Development Economics]], [[New Institutional Economics]]
-Associated_Works: [[The benefits of land registration and titling_ economic and social perspectives.md]]
+type: Person
+Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]]
+Last_Processed: 2026-04-24
 Status: Seed
 ---
 

@@ -1,7 +1,9 @@
 ---
-Related: [[Definition of Private Property]], [[Institutional Property Rights Evolution]]
+type: Concept
+Related: [[Definition of Private Property]], [[Institutional Property Rights Evolution]], [[Collateral Value of Land]], [[Prerequisites for Land Registration]], [[Systematic vs Sporadic Registration]]
 Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]]
-Status: Seed
+Last_Processed: 2026-04-24
+Status: Sapling
 ---
 
 # Tenure Security
@@ -20,5 +22,19 @@ The primary economic function of tenure security is the extension of the **inves
 ## **⚠️ Contradiction: The Customary Exception**
 Feder & Nishio (1998) note that formal titling is not always the only path to security. In many parts of **Sub-Saharan Africa**, indigenous customary systems provide sufficient de-facto security for current levels of economic development, making formal registration potentially redundant or even disruptive if implemented prematurely.
 
+## **Empirical Evidence (Feder & Nishio, 1999)**
+
+| Country | Finding |
+|---------|---------|
+| Thailand (rural) | Titled farmers had 52–521% more institutional credit; 14.5–20.8% higher revenue; 25–132% higher land values |
+| Philippines (Davao) | Formal sector housing 58% more expensive than informal (identical units) — premium = tenure security |
+| Indonesia (Jakarta) | Registered titles 10.6–28.5% more valuable than tax-receipt-only parcels |
+| Honduras | USAID-titled farmers invested 117% more in attached improvements; received 4.5× more credit |
+| Brazil (Pará) | Titled land 45–189% more valuable depending on distance from market; 21–48% more area in permanent crops |
+| Sub-Saharan Africa | No clear impact in Ghana/Rwanda/Kenya — customary systems provided sufficient de-facto security at current development stage |
+
+## **Conditional Nature**
+Tenure security via formal registration is NOT universally beneficial. Feder identifies prerequisites — see [[Prerequisites for Land Registration]].
+
 ---
-**Source Source**: [[The benefits of land registration and titling_ economic and social perspectives]]
+**Source**: [[The benefits of land registration and titling_ economic and social perspectives]]

@@ -1,5 +1,5 @@
 ---
-Type: Concept
+type: Concept
 Paper_Linked: [[Guaranteeing title to land_ a preliminary study]]
 Last_Processed: 2026-04-07
 Status: Sapling

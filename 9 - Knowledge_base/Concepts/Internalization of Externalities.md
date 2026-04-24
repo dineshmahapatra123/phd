@@ -1,5 +1,5 @@
 ---
-Type: Concept
+type: Concept
 Paper_Linked: [[Toward a theory of property rights]], [[The property right paradigm]]
 Last_Processed: 2026-04-06
 Status: Seed

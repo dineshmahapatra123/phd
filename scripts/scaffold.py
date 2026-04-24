@@ -1,4 +1,5 @@
 import os
+from datetime import date
 
 # Paths
 base_path = "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD"
@@ -21,21 +22,26 @@ def scaffold_notes():
         return
 
     notes_created = 0
-    
+    today = date.today().strftime("%Y-%m-%d")
+
     for filename in os.listdir(papers_dir):
         if filename.lower().endswith('.pdf'):
             base_name = os.path.splitext(filename)[0]
-            
+
             # --- 3. Scaffold Master Note ---
             note_filename = base_name + ".md"
             note_path = os.path.join(notes_dir, note_filename)
 
             if not os.path.exists(note_path):
                 print(f"Creating Master Note for: {base_name}")
-                pdf_link = f"[[{filename}]]\n\n"
-                new_content = pdf_link + template_content
+                # Substitute placeholders directly in the template
+                note_content = (
+                    template_content
+                    .replace("{{paper_linked}}", filename)
+                    .replace("{{date}}", today)
+                )
                 with open(note_path, 'w') as f:
-                    f.write(new_content)
+                    f.write(note_content)
                 notes_created += 1
 
     if notes_created == 0:

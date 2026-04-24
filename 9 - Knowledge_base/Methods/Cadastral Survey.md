@@ -1,5 +1,5 @@
 ---
-Type: Method
+type: Method
 Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
 Last_Processed: 2026-04-06
 Status: Sapling

@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[Institutions, transaction costs and economic growth.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
 [[Institutions, transaction costs and economic growth.pdf]]
 
 APA Citation from Zotero: North, D. C.. (1987). Institutions, transaction costs and economic growth. Economic Inquiry, 25(3), 419–428. https://doi.org/10.1111/j.1465-7295.1987.tb00750.x

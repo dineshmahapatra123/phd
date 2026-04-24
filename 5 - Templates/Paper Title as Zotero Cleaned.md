@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[{{paper_linked}}]]"
+Last_Processed: "{{date}}"
+Status: Seed
+---
+
 APA Citation from Zotero: 
 
 Tags: 

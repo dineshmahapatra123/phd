@@ -1,5 +1,5 @@
 ---
-Type: Comparison
+type: Comparison
 Paper_Linked: [[Institutions and economic growth_ An historical introduction]]
 Last_Processed: 2026-04-07
 Status: Sapling

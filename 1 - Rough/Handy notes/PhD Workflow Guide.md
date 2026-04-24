@@ -56,7 +56,7 @@ This is a high-integrity, **Cyborg Research Workflow** designed for PhD synthesi
      - **[[Concepts/]]** (Theories and Frameworks)
      - **[[Methods/]]** (Research Designs)
      - **[[People/]]** (Scholarly Lenses & Networks)
-61. **Log** 🧠
+10. **Log** 🧠
     - Review the **[log.md](file:///Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My%20Drive/PhD/9%20-%20Knowledge_base/log.md)** to see the "Neural Surgery" results.
 
 ---

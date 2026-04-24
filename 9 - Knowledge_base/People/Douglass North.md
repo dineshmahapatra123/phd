@@ -1,5 +1,5 @@
 ---
-Type: Person
+type: Person
 Paper_Linked: [[Institutions, institutional change and economic performance]], [[Institutions and credible commitment]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]]
 Last_Processed: 2026-04-06
 Status: Sapling

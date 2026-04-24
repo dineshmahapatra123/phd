@@ -6,7 +6,7 @@ from datetime import datetime
 base_path = "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base"
 index_path = os.path.join(base_path, "index.md")
 sources_dir = os.path.join(base_path, "sources")
-folders_to_lint = ["Concepts", "People", "Methods"]
+folders_to_lint = ["Concepts", "People", "Methods", "Topics", "Comparisons"]
 report_path = os.path.join(base_path, "lint_report.md")
 
 def lint_wiki():
@@ -52,13 +52,15 @@ def lint_wiki():
                     if f"[[{note_name}]]" not in index_content:
                         all_issues["unindexed"].append(f"[[{folder}/{note_name}]]")
 
-                    # Check 3: Broken Paper Links
-                    match = re.search(r"Paper_Linked:\s*\[\[(.*?)\]\]", content)
-                    if match:
-                        paper_name = match.group(1)
-                        paper_md = f"{paper_name}.md"
-                        if not os.path.exists(os.path.join(sources_dir, paper_md)):
-                            all_issues["broken_links"].append(f"[[{folder}/{note_name}]] -> Missing source: `{paper_name}`")
+                    # Check 3: Broken Paper Links (handles multiple [[...]] values)
+                    paper_linked_match = re.search(r"Paper_Linked:\s*(.+)", content)
+                    if paper_linked_match:
+                        linked_str = paper_linked_match.group(1)
+                        linked_papers = re.findall(r"\[\[([^\]]+)\]\]", linked_str)
+                        for paper_name in linked_papers:
+                            paper_md = f"{paper_name}.md"
+                            if not os.path.exists(os.path.join(sources_dir, paper_md)):
+                                all_issues["broken_links"].append(f"[[{folder}/{note_name}]] -> Missing source: `{paper_name}`")
 
                     # Check 4: Seed Status / Vitality
                     if "Status: Seed" in content and len(content) < 500:

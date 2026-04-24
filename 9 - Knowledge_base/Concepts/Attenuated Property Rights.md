@@ -1,6 +1,8 @@
 ---
+type: Concept
 Related: [[Property Right Bundle]], [[Transaction Costs]], [[Institutional Property Rights Evolution]]
 Paper_Linked: [[The property right paradigm]]
+Last_Processed: 2026-04-06
 Status: Evergreen
 ---
 

@@ -33,18 +33,32 @@ python scripts/generate_flowchart.py
 | Directory | Purpose |
 |-----------|---------|
 | `7 - Raw/` | Source PDFs (canonical; one PDF per paper) |
-| `2 - Notes/Papers/` | Master notes, one per PDF, created by `scaffold.py` |
+| `2 - Notes/Papers/` | Master notes, one per PDF, created by `scaffold.py` (`type: Note`) |
 | `Highlights/` | Extracted Skim annotations, one `.md` per PDF |
 | `9 - Knowledge_base/` | The "brain" — wiki, index, schema, queries |
-| `6 - Writings/` | Chapter drafts (Chapter 1–4) |
+| `6 - Writings/` | Chapter drafts (`type: Chapter`) |
 | `5 - Templates/` | Note templates; `Paper Title as Zotero Cleaned.md` is the master note template |
 | `3 - Tags/` | Per-topic tag files |
+| `Types/` | Type definition files — one per note type; specify required frontmatter, icon, and colour |
 | `PhD.bib` | Zotero BibTeX export; source of truth for citations |
+
+### Note Types
+
+Every `.md` file in this vault belongs to a defined type. Type definitions live in `Types/` and specify the required YAML frontmatter and body sections for each type. The full frontmatter spec is in `9 - Knowledge_base/PHD_SCHEMA.md`.
+
+| Type | Location | Created by |
+|------|----------|-----------|
+| `Note` | `2 - Notes/Papers/` | `/scaffold` (automated) |
+| `Chapter` | `6 - Writings/` | Manual |
+| `Concept` | `9 - Knowledge_base/Concepts/` | `/compile-phd` |
+| `Topic` | `9 - Knowledge_base/Topics/` | `/refresh-topic` |
+| `Comparison` | `9 - Knowledge_base/Comparisons/` | Manual / research |
+| `Query` | `9 - Knowledge_base/Queries/` | Research interactions |
 
 ### Knowledge Base Sub-Structure (`9 - Knowledge_base/`)
 
 ```
-sources/     ← Machine-readable full-text; IMMUTABLE — never edit
+sources/     ← Machine-readable full-text from /pdf2md; IMMUTABLE — never edit
 Concepts/    ← Atomic concept notes (governed by PHD_SCHEMA.md)
 People/      ← Scholar profiles
 Methods/     ← Research design and methodology notes
@@ -78,24 +92,9 @@ See full workflow: `1 - Rough/Handy notes/PhD Workflow Guide.md`
 - **Queries**: Standard AI research interactions go to `Queries/` and are **not** added to `index.md`.
 - **Sources are immutable**: Never edit files in `sources/`.
 
-## Wiki Page Schema (PHD_SCHEMA.md)
+## Wiki Page Schema
 
-Every wiki page requires this YAML frontmatter:
-
-```yaml
-Type: Concept | Person | Method
-Paper_Linked: [[Paper Title]]
-Last_Processed: YYYY-MM-DD
-Status: Seed | Sapling | Evergreen
-Contradicts: [[Conflict File]]
-```
-
-Section structure by type:
-- **Concepts**: Standard Definition → Scholarly Debate → PhD Application → Measurement/Methods → Related Papers
-- **People**: Scholarly Lens → Core Bibliography → Inter-Person Links → Methodological Bias
-- **Methods**: Description → Strengths/Weaknesses → PhD Relevance
-- **Topics**: The Big Question → Timeline
-- **Queries**: Query → Reasoning Path → Key Answer → Next Steps → Status: `Permanent Log`
+Every `.md` file in this vault must open with a `type:` YAML field. The full frontmatter spec for all 8 types (Note, Chapter, Concept, Topic, Comparison, Query, Person, Method) is in `9 - Knowledge_base/PHD_SCHEMA.md`. Type definitions with icons and section structure live in `Types/`.
 
 ## Agent Skills & Workflows (`.agent/`)
 
@@ -105,7 +104,7 @@ Custom slash commands defined in `.agent/skills/` and `.agent/workflows/`. Claud
 
 | Command | Description |
 |---------|-------------|
-| `/pdf2md` | Convert a PDF to Markdown using opendataloader-pdf (requires Java 21 + `.venv-odl`). Output saved to `9 - Knowledge_base/Full-Text/` |
+| `/pdf2md` | Convert a PDF to Markdown using opendataloader-pdf (requires Java 21 + `.venv-odl`). Output saved to `9 - Knowledge_base/sources/` |
 
 ### Workflows
 
@@ -148,16 +147,27 @@ Use `/style-check` to lint any passage, `/cite` to generate in-text citations, `
 
 ## Master Note Template (`5 - Templates/Paper Title as Zotero Cleaned.md`)
 
+Scaffold creates this structure automatically (with YAML frontmatter prepended by `scripts/scaffold.py`):
+
 ```
-APA Citation from Zotero: 
-Tags: 
-One-line thesis: 
-Keywords: 
-Quotes (Verbatim)
-Research Question(s)
-Concepts Covered
-Summaries (Section + Paper)
-Main Anchors (figures, models, causal pathways, diagrams)
-Critique
-Future readings (citations)
+---
+type: Note
+Paper_Linked: "[[filename.pdf]]"
+Last_Processed: "YYYY-MM-DD"
+Status: Seed
+---
+
+APA Citation from Zotero:        ← populated by /sync-bib; do not delete this line
+Tags:                             ← wikilinks to Topic notes
+
+## Highlights
+*(Paste verbatim quotes, page numbers, and raw thoughts here — Dinesh only)*
+
+---
+
+## AI Primer
+*(Run /prime to populate — reads only from ## Highlights above)*
 ```
+
+> [!IMPORTANT]
+> Never delete `APA Citation from Zotero:` — `citation_spider.py` uses this exact string to find and update the citation. Never write in `## Highlights` — that section belongs to Dinesh.

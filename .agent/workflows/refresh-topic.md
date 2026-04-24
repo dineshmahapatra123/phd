@@ -14,11 +14,25 @@ Use this command to update any existing academic synthesis note in `9 - Knowledg
 -   Identify new papers or concept notes added since the file was last updated.
 
 ### 3. Update the Answer
--   **Overwrite/Append**: Update the "Scholarly Debate" and "State of the Art" sections with the latest research.
+-   **Overwrite/Append**: Update the "Key Arguments" and "State of the Art" sections with the latest research.
 -   **Neural Snowball**: Do not delete old evidence unless it is superseded. Use `### ⚠️ Contradiction` for conflicting findings.
+-   Append a **SYNTHESIS** entry to `9 - Knowledge_base/log.md`:
+    ```
+    - **SYNTHESIS**: Refreshed [[Topic Name]]. Integrated [Paper(s)]. Updated [sections changed]. Status → [new status].
+    ```
 
-### 4. Timestamp
--   Update the YAML `Last_Processed` date to today's date.
+### 4. Frontmatter Check
+-   Ensure the file opens with the correct YAML block per `Types/topic.md`:
+    ```yaml
+    ---
+    type: Topic
+    Paper_Linked: "[[Paper A]], [[Paper B]], ..."
+    Last_Processed: "YYYY-MM-DD"
+    Status: Seed | Sapling | Sapling++ | Evergreen
+    ---
+    ```
+-   Add any newly processed papers to `Paper_Linked`.
+-   Update `Last_Processed` to today's date.
 
 ---
 

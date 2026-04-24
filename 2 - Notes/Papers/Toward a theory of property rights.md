@@ -1,4 +1,11 @@
- [[Toward a theory of property rights.pdf]]
+---
+type: Note
+Paper_Linked: "[[Toward a theory of property rights.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
+[[Toward a theory of property rights.pdf]]
 [View High-Fidelity Source](file:///Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My%20Drive/PhD/9%20-%20Knowledge_base/sources/Toward%20a%20theory%20of%20property%20rights.md)
 
 APA Citation from Zotero: Demsetz, H.. (1967). Toward a theory of property rights. The American Economic Review, 57(2), 347–359.

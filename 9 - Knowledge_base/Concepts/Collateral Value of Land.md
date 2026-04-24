@@ -1,7 +1,9 @@
 ---
-Related: [[Tenure Security]], [[Transaction Costs]], [[Institutions and credible commitment]]
-Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]]
-Status: Seed
+type: Concept
+Related: [[Tenure Security]], [[Transaction Costs]], [[Institutions and credible commitment]], [[Prerequisites for Land Registration]]
+Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
+Last_Processed: 2026-04-24
+Status: Sapling
 ---
 
 # Collateral Value of Land

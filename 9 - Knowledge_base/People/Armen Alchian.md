@@ -1,5 +1,5 @@
 ---
-Type: Person
+type: Person
 Paper_Linked: [[The property right paradigm]]
 Last_Processed: 2026-04-06
 Status: Sapling

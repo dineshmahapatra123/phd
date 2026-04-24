@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+Last_Processed: "2026-04-24"
+Status: Seed
+---
+
 [[The benefits of land registration and titling_ economic and social perspectives.pdf]]
 
 APA Citation from Zotero: Feder, G., & Nishio, A.. (1999). The benefits of land registration and titling: Economic and social perspectives. Land Use Policy, 15(1), 25–43. https://doi.org/10.1016/S0264-8377(97)00039-2

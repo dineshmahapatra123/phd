@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[Institutions, institutional change and economic performance.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
 [[Institutions, institutional change and economic performance.pdf]]
 [View High-Fidelity Source](file:///Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My%20Drive/PhD/9%20-%20Knowledge_base/sources/Institutions,%20institutional%20change%20and%20economic%20performance.md)
 

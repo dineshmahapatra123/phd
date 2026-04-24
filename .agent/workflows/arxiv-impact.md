@@ -30,5 +30,5 @@ Use this workflow when you need to identify the "State of the Art" or foundation
 
 4.  **Synthesis & Integration**
     *   Generate a "Top 5" report focusing on *Contribution* vs. *Impact*.
-    *   Provide direct ArXiv IDs and PDF URLs for phase-1 ingestion into the `7 - Papers` folder.
-    *   Offer follow-up actions: `/prime` for summaries or `/extract` for highlights.
+    *   Provide direct ArXiv IDs and PDF URLs for phase-1 ingestion into the `7 - Raw/` folder.
+    *   Offer follow-up actions: `/prime` to build an AI Primer once you have added highlights to the master note.

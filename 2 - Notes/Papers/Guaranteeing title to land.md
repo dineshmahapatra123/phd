@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[Guaranteeing title to land.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
 [[Guaranteeing title to land.pdf]]
 
 APA Citation from Zotero: Wadhwa, D. C.. (2002). Guaranteeing Title to Land. Economic and Political Weekly, 37(47), 4700–4722.

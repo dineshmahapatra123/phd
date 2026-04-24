@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
 [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]
 
 APA Citation from Zotero: Ghosh, R. K., & Deodhar, S. Y.. (2025). "In the name of eminent domain": A historical and colonial perspective to land governance and land struggles in India (Numbers WP 2025-06-02).

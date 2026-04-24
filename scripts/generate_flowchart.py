@@ -120,18 +120,27 @@ phases = [
         ("Rename Paper (@[/rename-paper])", "AI"),
         ("Scaffold Note (@[/scaffold])", "Script")
     ]),
-    ("Phase 2: Analysis", [
-        ("Deep Read in Skim", "Researcher"),
-        ("Extract Highlights (@[/extract])", "AI"),
-        ("Synthesize to Note", "Researcher"),
+    ("Phase 2: High-Integrity Analysis", [
+        ("Deep Read PDF", "Researcher"),
+        ("Paste Highlights in Master Note", "Researcher"),
         ("Prime with AI (@[/prime])", "AI")
     ]),
     ("Phase 3: Truth Loop", [
-        ("Add to Zotero (Metadata)", "Researcher"),
+        ("Add to Zotero (@[/add-zotero])", "AI"),
+        ("Verify Author/Year/Title", "Researcher"),
         ("Sync Citations (@[/sync-bib])", "Script")
     ]),
-    ("Phase 4: Synthesis", [
-        ("Snowball Concepts (@[/concept-snowballer])", "AI")
+    ("Phase 4: Knowledge Engineering", [
+        ("Shatter Paper (@[/compile-phd])", "AI"),
+        ("Review log.md", "Researcher")
+    ]),
+    ("Phase 5: Neural Synthesis", [
+        ("Refresh Topics (@[/refresh-topic])", "AI"),
+        ("Audit Contradictions", "Researcher")
+    ]),
+    ("Phase 6: Wiki Vitality", [
+        ("Lint Knowledge Base (@[/lint-wiki])", "Script"),
+        ("Garden Seed Notes", "Researcher")
     ])
 ]
 

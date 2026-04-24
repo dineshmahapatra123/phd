@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[Guaranteeing title to land_ a preliminary study.pdf]]"
+Last_Processed: "2026-04-06"
+Status: Seed
+---
+
 [[Guaranteeing title to land_ a preliminary study.pdf]]
 
 APA Citation from Zotero: Wadhwa, D. C.. (1989). Guaranteeing Title to Land: A Preliminary Study. Economic and Political Weekly, 24(41), 2323–2334.

@@ -1,6 +1,8 @@
 ---
+type: Concept
 Related: [[Institutional Property Rights Evolution]], [[Definition of Private Property]], [[Transaction Costs]]
 Paper_Linked: [[The property right paradigm]]
+Last_Processed: 2026-04-06
 Status: Evergreen
 ---
 

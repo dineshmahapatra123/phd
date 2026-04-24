@@ -1,5 +1,5 @@
 ---
-Type: Method
+type: Method
 Paper_Linked: [[Institutions, transaction costs and economic growth]]
 Last_Processed: 2026-04-06
 Status: Seed

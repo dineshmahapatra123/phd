@@ -1,3 +1,10 @@
+---
+type: Note
+Paper_Linked: "[[The property right paradigm.pdf]]"
+Last_Processed: "2026-04-05"
+Status: Seed
+---
+
 [[The property right paradigm.pdf]]
 
 APA Citation from Zotero: Alchian, A. A., & Demsetz, H.. (1973). The property right paradigm. The Journal of Economic History, 33(1), 16–27.
