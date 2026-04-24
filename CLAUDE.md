@@ -33,8 +33,7 @@ python scripts/generate_flowchart.py
 | Directory | Purpose |
 |-----------|---------|
 | `7 - Raw/` | Source PDFs (canonical; one PDF per paper) |
-| `2 - Notes/Papers/` | Master notes, one per PDF, created by `scaffold.py` (`type: Note`) |
-| `Highlights/` | Extracted Skim annotations, one `.md` per PDF |
+| `2 - Notes/Papers/` | Master notes (one per PDF) containing manual highlights and AI primers |
 | `9 - Knowledge_base/` | The "brain" — wiki, index, schema, queries |
 | `6 - Writings/` | Chapter drafts (`type: Chapter`) |
 | `5 - Templates/` | Note templates; `Paper Title as Zotero Cleaned.md` is the master note template |
