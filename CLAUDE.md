@@ -75,7 +75,7 @@ Comparisons/ ← Filed results of cross-paper comparisons (must be added to inde
 Queries/     ← AI research interaction logs (unindexed; search directory directly)
 index.md     ← Master index; must be updated when adding Concepts/People/Methods/Comparisons
 PHD_CONSTITUTION.md  ← Governance rules (read first)
-PHD_SCHEMA.md        ← YAML schema and section structure for all wiki pages
+PHD_SCHEMA.md        ← YAML schema and section structure. Use locally configured Zotero credentials if needed. The expected local note is `1 - Rough/Handy notes/HN_01.md`. When reading this file, look for the line containing the label "Zotero" to extract the token. Never print API keys.
 ```
 
 ## Research Workflow
@@ -179,4 +179,7 @@ Tags:                             ← wikilinks to Topic notes
 ```
 
 > [!IMPORTANT]
+>- Zotero API credentials and GitHub tokens are stored locally in `1 - Rough/Handy notes/HN_01.md`.
+>- **Note to Agents**: When reading `HN_01.md`, always look for a label (e.g. `Zotero`, `GitHub`) on the same line to extract the correct token. Do not rely on line numbers.
+>- Read credentials only when needed and never echo them in chat or terminal output.
 > Never delete `APA Citation from Zotero:` — `citation_spider.py` uses this exact string to find and update the citation. Never write in `## Highlights` — that section belongs to Dinesh.

@@ -109,11 +109,13 @@ Tags:
 ---
 
 ## AI Primer
-*(Run /prime to populate — reads only from ## Highlights above)*
+*(Run /prime to populate — reads only from ## Highlights)*
 ```
 
-**Never delete** `APA Citation from Zotero:` — `citation_spider.py` uses this exact string.
-**Never write in** `## Highlights` — that section belongs to Dinesh only.
+> [!IMPORTANT]
+> Never delete `APA Citation from Zotero:` — `citation_spider.py` uses this exact string to find and update the citation. Never write in `## Highlights` — that section belongs to Dinesh.
+> 
+> **Secret Management**: When reading `1 - Rough/Handy notes/HN_01.md`, look for specific labels (e.g., `Zotero`, `GitHub`, `OpenAI`) to extract tokens. Do not assume a specific line number.
 
 ---
 
@@ -164,7 +166,10 @@ Output always goes to `9 - Knowledge_base/sources/` — never to `Full-Text/` or
 
 ---
 
-## Zotero API
+## Zotero API & Secrets
 
-- Zotero credentials are stored locally in `1 - Rough/Handy notes/HN_01.md`.
+- Zotero credentials and other API keys are stored locally in `1 - Rough/Handy notes/HN_01.md`.
+- **Standard Format**: Use labels to ensure all agents find the correct token regardless of file order:
+  - `ZOTERO_API_KEY: [token]` or `[token] -- **Zotero API**`
+  - `GITHUB_TOKEN: [token]` or `[token] -- **GitHub Token**`
 - Never print API keys, tokens, or secrets in chat or terminal summaries.

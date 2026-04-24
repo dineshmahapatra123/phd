@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+import re
 from pathlib import Path
 
 USER_ID = "15086139"
@@ -14,9 +15,20 @@ def get_api_key():
     if os.environ.get("ZOTERO_API_KEY"):
         return os.environ["ZOTERO_API_KEY"].strip()
     if HN_01.exists():
-        first_line = HN_01.read_text(encoding="utf-8").splitlines()[0].strip()
-        if first_line:
-            return first_line.split()[0]
+        content = HN_01.read_text(encoding="utf-8")
+        # Search for a line containing "zotero" (case-insensitive)
+        for line in content.splitlines():
+            if "zotero" in line.lower():
+                # Find the token (alphanumeric, at least 10 chars)
+                match = re.search(r'([a-zA-Z0-9]{10,})', line)
+                if match:
+                    return match.group(1)
+        
+        # Fallback to the old behavior: first word of first line
+        lines = content.splitlines()
+        if lines and lines[0].strip():
+            return lines[0].strip().split()[0]
+            
     raise RuntimeError("Zotero API key not found in ZOTERO_API_KEY or HN_01.md")
 
 

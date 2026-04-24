@@ -11,10 +11,14 @@
             "id": "fbf84cbb7593683c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough/Handy notes/HN_01.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "HN_01"
             }
           }
         ]
