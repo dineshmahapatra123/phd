@@ -62,5 +62,5 @@ description: Format a raw citation into a correctly structured TISS bibliography
 
 6. **Output**
    - Print the formatted bibliography entry, ready to paste.
-   - Also print the corresponding **in-text citation** format: *(Surname Year)* or *(Surname Year: page)*.
+   - Also print the corresponding **in-text citation** format: *(Surname, Year)* or *(Surname, Year, p. X)*.
    - If the user is adding this to `PhD.bib`, remind them to run `/sync-bib` after updating Zotero.

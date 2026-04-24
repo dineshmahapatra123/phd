@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "04c574758c5c7912",
+        "id": "9ca1e93ed6d74501",
         "type": "tabs",
         "children": [
           {
-            "id": "73c1881596173aca",
+            "id": "fbf84cbb7593683c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Notes/Papers/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "prompts for the folder",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,16 +228,37 @@
       "lean-terminal:Toggle Terminal": false
     }
   },
-  "active": "73c1881596173aca",
+  "active": "fbf84cbb7593683c",
   "lastOpenFiles": [
-    "9 - Knowledge_base/Concepts/Acts in Law vs Acts of the Sovereign.md",
-    "9 - Knowledge_base/Concepts/Attenuated Property Rights.md",
+    "Tweets/Gratitude.md",
+    "Tweets/Course Generator.md",
+    "ReadItLater Inbox/Why Hershey’s promised to use only real chocolate after backlash in the US.md",
+    "9 - Knowledge_base/Comparisons/Spain vs England Institutional Divergence.md",
+    "5 - Templates/Paper Title as Zotero Cleaned.md",
+    "Types/method.md",
+    "Types/concept.md",
+    "Types/comparison.md",
+    "Types/clip.md",
+    "Types/chapter.md",
+    "Types/book.md",
+    "Clippings/AI/Claude Code Changed How I Work (Part 1).md",
+    "2 - Notes/Books",
+    "Clippings/AI/Ai tools.md",
+    "1 - Rough/Handy notes/Prompts.md",
+    "1 - Rough/Handy notes/PhD Workflow Guide.md",
+    "1 - Rough/Handy notes/India defies the odds_Why democracy survives.md",
+    "1 - Rough/Handy notes/HN_02.md",
+    "1 - Rough/Handy notes/HN_01.md",
     "9 - Knowledge_base/Topics/Definition of Private Property.md",
-    "9 - Knowledge_base/Topics/Institutional Property Rights Evolution.md",
-    "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.md",
-    "9 - Knowledge_base/People/Frank F.K. Byamugisha.md",
-    "9 - Knowledge_base/Concepts/Labor Mobility (Land Registration).md",
-    "9 - Knowledge_base/Concepts/Land Liquidity.md",
+    "9 - Knowledge_base/index.md",
+    "9 - Knowledge_base/lint_report.md",
+    "9 - Knowledge_base/log.md",
+    "9 - Knowledge_base/TISS_STYLE.md",
+    "9 - Knowledge_base/PHD_SCHEMA.md",
+    "9 - Knowledge_base/PHD_CONSTITUTION.md",
+    "9 - Knowledge_base/logs/2026-04-24_raw-folder-completion-audit.md",
+    "9 - Knowledge_base/logs",
+    "7 - Raw/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf",
     "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images/imageFile22.png",
     "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images/imageFile21.png",
     "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images/imageFile20.png",
@@ -253,33 +270,12 @@
     "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images/imageFile14.png",
     "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images/imageFile13.png",
     "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images",
-    "2 - Notes/Papers/The Effects of Land Registration on Financial Development and Economic Growth_Byamugisha.md",
     "7 - Raw/The Effects of Land Registration on Financial Development and Economic Growth_Byamugisha.pdf",
-    "2 - Notes/Papers/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.md",
-    "7 - Raw/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf",
-    "2 - Notes/Papers/The benefits of land registration and titling_ economic and social perspectives.md",
-    "2 - Notes/Papers/In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.md",
-    "2 - Notes/Papers/Guaranteeing title to land_ a preliminary study.md",
-    "2 - Notes/Papers/Guaranteeing title to land.md",
-    "2 - Notes/Papers/Institutions and credible commitment.md",
-    "2 - Notes/Papers/Institutions and economic growth_ An historical introduction.md",
-    "2 - Notes/Papers/Institutions, institutional change and economic performance.md",
-    "2 - Notes/Papers/Institutions, transaction costs and economic growth.md",
-    "2 - Notes/Papers/Private and common property rights.md",
-    "2 - Notes/Papers/The property right paradigm.md",
-    "2 - Notes/Papers/Toward a theory of property rights.md",
-    "5 - Templates/Document Title as Zotero.md",
-    "5 - Templates/Paper Title as Zotero Cleaned.md",
-    "9 - Knowledge_base/Concepts/Prerequisites for Land Registration.md",
-    "9 - Knowledge_base/Concepts/Systematic vs Sporadic Registration.md",
-    "9 - Knowledge_base/Concepts/Land Market Efficiency.md",
     "7 - Raw/Toward a theory of property rights.pdf",
     "scripts/lint_wiki.py.tmp.29958.1777003040911",
     "Types",
     "7 - Raw/~$ported.docx",
     "7 - Raw/exported.docx",
-    "7 - Raw/Guaranteeing title to land.pdf",
-    "8 - Doc_dump/Theory_Property_Rights/TechnicalManual_cadestral_survey_using_modern_tech.pdf",
     "Untitled.canvas"
   ]
 }

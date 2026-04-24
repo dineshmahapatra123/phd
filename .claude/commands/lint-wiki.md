@@ -17,4 +17,5 @@ description: Perform a structural and scholarly health check of the PhD Knowledg
     *   Ask: "Shall I help you address any of these issues today?"
 
 4.  **Audit Log**
-    *   Record the lint operation in `9 - Knowledge_base/log.md`.
+    *   Follow `9 - Knowledge_base/PHD_CONSTITUTION.md` → Operational Logging.
+    *   Record only a compact lint status in `9 - Knowledge_base/log.md`; put detailed lint provenance in `9 - Knowledge_base/logs/` only when needed.

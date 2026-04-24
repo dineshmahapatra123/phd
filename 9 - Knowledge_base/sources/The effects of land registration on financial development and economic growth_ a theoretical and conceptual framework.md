@@ -1,3 +1,6 @@
+---
+type: Note
+---
 ![image 1](The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images/imageFile1.png)
 
 Public Disclosure AuthorizedPublic Disclosure Authorized

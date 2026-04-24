@@ -25,6 +25,7 @@ description: Work safely inside this Obsidian PhD research vault by reusing the 
 - New Concepts, People, Methods, and Comparisons must be indexed.
 - Queries are permanent logs but not indexed.
 - Paper notes in `2 - Notes/Papers/` are the human-curated layer.
+- For logging, follow `9 - Knowledge_base/PHD_CONSTITUTION.md` -> Operational Logging.
 
 ## Preferred Runner
 
@@ -37,6 +38,10 @@ python3 .codex-phd/bin/phd.py sync-bib
 python3 .codex-phd/bin/phd.py lint-wiki
 ```
 
+## Logging
+
+When recording workflow activity, follow `9 - Knowledge_base/PHD_CONSTITUTION.md` -> Operational Logging.
+
 ## PDF Conversion
 
 For `pdf2md`, use the existing skill:
@@ -44,9 +49,8 @@ For `pdf2md`, use the existing skill:
 - `.agent/skills/pdf-to-markdown/SKILL.md`
 - `.agent/skills/pdf-to-markdown/scripts/convert.py`
 
-Output should land in `9 - Knowledge_base/Full-Text/` unless the user specifies otherwise. For `/compile-phd`, ensure a permanent source exists in `9 - Knowledge_base/sources/`.
+Output should land in `9 - Knowledge_base/sources/` unless the user specifies otherwise. For `/compile-phd`, ensure a permanent source exists in `9 - Knowledge_base/sources/`.
 
 ## Secret Handling
 
 Some local notes/config files contain API keys. Do not print secrets. Prefer saying that credentials were found locally and used, if needed.
-

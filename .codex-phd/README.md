@@ -13,8 +13,8 @@ The goal is to let Codex reuse the existing PhD vault architecture without distu
 - `bin/phd.py`: small command runner for safe repeated operations.
 - `workflows/`: Codex-readable versions of the current research workflows.
 - `skills/phd-vault/SKILL.md`: compact skill instructions for working inside this vault.
+- `STYLE_POLICY.md`: Codex-only conflict resolver for TISS style rules.
 
 ## Rule
 
 Existing Claude/Antigravity files are source material. Codex may read them, but should not edit them unless the user explicitly asks.
-

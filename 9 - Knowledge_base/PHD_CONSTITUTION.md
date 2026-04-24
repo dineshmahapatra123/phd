@@ -22,6 +22,15 @@ This document contains the "Laws of the Vault." The AI must read this at the sta
 - **General Queries**: Standard research interactions must go to `9 - Knowledge_base/Queries/`. These are **Unindexed** to prevent index bloat. Do not add them to `index.md`. Instead, agents must actively search the `/Queries/` directory to retrieve past context when answering new questions.
 
 ## 5. Metadata (YAML Frontmatter)
-Every wiki page must open with a YAML block. The authoritative spec — covering all types (Concept, Topic, Comparison, Query, Person, Method, Note, Chapter) with required fields for each — is in `9 - Knowledge_base/PHD_SCHEMA.md`. Type definitions with icons and colours live in `Types/`.
+Every scholarly vault note or wiki page must open with a YAML block. The authoritative spec — covering all types (Concept, Topic, Comparison, Query, Person, Method, Note, Chapter) with required fields for each — is in `9 - Knowledge_base/PHD_SCHEMA.md`. Type definitions with icons and colours live in `Types/`.
 
-The governing rule: **every `.md` file must have a `type:` field**. No untyped notes.
+The governing rule: **every research note governed by the schema must have a `type:` field**. Operational Markdown files such as workflows, logs, prompts, templates, and agent instructions are exempt unless they explicitly declare a type.
+
+## 6. Operational Logging
+Use a two-layer log to reduce agent context load.
+
+`9 - Knowledge_base/log.md` is the compact ledger and may be loaded at session start. Keep entries short: date, event label (`SHATTER`, `SYNTHESIS`, `LINT`, `FIX`, `COMPLETE`), paper/topic name, status, small counts, and link to details.
+
+Detailed provenance goes in dated files under `9 - Knowledge_base/logs/`. Put created files, updated files, refreshed topics, skipped phases, contradictions, lint details, and unresolved issues there.
+
+Agents must not load detailed audit files by default. Open them only for provenance, reopened papers, ambiguous workflow status, or file-level history.

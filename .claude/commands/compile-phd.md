@@ -30,8 +30,12 @@ Use this command to process a research paper—either a new PDF from your inbox 
 - Link them back to the original source (`2 - Notes/Papers/` for papers, or the source file for notes).
 - Update `9 - Knowledge_base/index.md` with the new entries.
 
+### 5. Activity Log
+- Follow `9 - Knowledge_base/PHD_CONSTITUTION.md` → Operational Logging.
+- Add only a compact **SHATTER** ledger entry to `9 - Knowledge_base/log.md`.
+- Put detailed created/updated note lists, source artifacts, contradictions, and caveats in a dated audit file under `9 - Knowledge_base/logs/`.
+
 ---
 
 > [!NOTE]
 > This workflow is rigorous. It prioritizes academic finding and methodological "how" over general summary.
-

@@ -7,12 +7,14 @@ This file is the Codex-only operating guide for this PhD vault. It does not repl
 - Treat this repository as a live Obsidian PhD research vault, not a normal software project.
 - Read `CLAUDE.md` first for the canonical architecture.
 - Read `9 - Knowledge_base/PHD_CONSTITUTION.md` and `9 - Knowledge_base/PHD_SCHEMA.md` before editing the knowledge base.
+- For chapter prose, citations, bibliography formatting, and style checks, treat `9 - Knowledge_base/TISS_STYLE.md` as canonical. If any older agent memory conflicts with it, follow `TISS_STYLE.md`.
 - Do not edit `.claude/` or `.agent/` unless the user explicitly asks.
 - Do not edit `9 - Knowledge_base/sources/`; sources are immutable.
 - Prefer appending/updating existing wiki notes over creating duplicates.
 - Search `9 - Knowledge_base/index.md` before creating Concepts, People, Methods, or Comparisons.
 - General research logs go in `9 - Knowledge_base/Queries/` and are not added to `index.md`.
 - Deep comparative syntheses go in `9 - Knowledge_base/Comparisons/` and must be added to `index.md`.
+- For logging, follow `9 - Knowledge_base/PHD_CONSTITUTION.md` -> Operational Logging.
 
 ## Existing Systems
 
@@ -48,6 +50,9 @@ When the user says one of these, Codex should interpret it as follows:
 | `add zotero <paper>` | Follow `.codex-phd/workflows/add-zotero.md`; avoid exposing secrets in chat |
 | `ingest paper <paper>` | Follow `.codex-phd/workflows/ingest-paper.md` |
 | `pdf2md <pdf>` | Follow `.codex-phd/skills/phd-vault/SKILL.md` and the existing `.agent/skills/pdf-to-markdown/SKILL.md` |
+| `cite <source>` | Follow `.codex-phd/workflows/cite.md` |
+| `style-check <passage/file>` | Follow `.codex-phd/workflows/style-check.md` |
+| `bib-format <source>` | Follow `.codex-phd/workflows/bib-format.md` |
 
 ## Safety Defaults
 
@@ -55,7 +60,12 @@ When the user says one of these, Codex should interpret it as follows:
 - Ask before writing into `7 - Raw/` unless the user explicitly requests ingestion.
 - Ask before any network operation that downloads papers or calls Zotero.
 - Never print API keys, tokens, or secrets found in local notes/configs.
+- Zotero API credentials may be stored in `1 - Rough/Handy notes/HN_01.md`; read them only when needed and never echo them.
 - If a workflow references `7 - Papers`, use `7 - Raw/`; the actual vault folder is `7 - Raw/`.
+
+## Logging Policy
+
+Follow `9 - Knowledge_base/PHD_CONSTITUTION.md` -> Operational Logging. Keep `log.md` compact and put detailed provenance in `9 - Knowledge_base/logs/`.
 
 ## Useful Local Commands
 
@@ -66,4 +76,3 @@ python3 .codex-phd/bin/phd.py sync-bib
 python3 .codex-phd/bin/phd.py lint-wiki
 python3 .codex-phd/bin/phd.py paths
 ```
-

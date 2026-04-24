@@ -19,9 +19,9 @@ Use this command to update any existing academic synthesis note in `9 - Knowledg
 
 ### 4. Timestamp
 -   Update the YAML `Last_Processed` date to today's date.
+-   Follow `9 - Knowledge_base/PHD_CONSTITUTION.md` → Operational Logging: compact **SYNTHESIS** entry in `log.md`, detailed provenance in `9 - Knowledge_base/logs/` only when needed.
 
 ---
 
 > [!TIP]
 > **Simplicity First**: This command turns a static chat answer into a living research draft.
-

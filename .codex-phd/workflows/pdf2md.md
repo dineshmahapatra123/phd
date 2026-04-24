@@ -12,6 +12,5 @@ Use the existing Antigravity skill:
 ## Notes
 
 - Requires Java 21 and the existing `.venv-odl` environment.
-- Default output is `9 - Knowledge_base/Full-Text/`.
+- Default output is `9 - Knowledge_base/sources/`.
 - For `compile-phd`, establish the permanent source under `9 - Knowledge_base/sources/`.
-

@@ -6,7 +6,7 @@ description: Convert one or more PDF files to Markdown using opendataloader-pdf.
 
 Converts a research PDF into clean, structured Markdown.
 
-- **Output**: `9 - Knowledge_base/Full-Text/`
+- **Output**: `9 - Knowledge_base/sources/`
 - **Requires**: Java 21 + `.venv-odl`
 
 ## Steps
@@ -19,7 +19,7 @@ Converts a research PDF into clean, structured Markdown.
 
    python3 "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/.agent/skills/pdf-to-markdown/scripts/convert.py" \
      --input "<input_path>" \
-     --output "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/Full-Text/" \
+     --output "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/sources/" \
      --format "markdown"
    ```
    *(Replace `<input_path>` with the absolute path to the PDF the user specified.)*

@@ -2,7 +2,7 @@
 title: Institutions, institutional change and economic performance
 author: Douglass C. North
 year: 1990
-type: book
+type: Book
 high_fidelity: true
 neural_reset: true
 ---

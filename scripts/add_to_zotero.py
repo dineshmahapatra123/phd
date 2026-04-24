@@ -1,12 +1,26 @@
 import requests
 import json
 import os
+from pathlib import Path
 
-API_KEY = "SZu9e4D70klRvMtsJeKzznAC"
 USER_ID = "15086139"
 COLLECTION_ID = "32MFM4ZJ"
 BASE_URL = f"https://api.zotero.org/users/{USER_ID}/items"
-HEADERS = {"Zotero-API-Key": API_KEY, "Content-Type": "application/json"}
+ROOT = Path("/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD")
+HN_01 = ROOT / "1 - Rough" / "Handy notes" / "HN_01.md"
+
+
+def get_api_key():
+    if os.environ.get("ZOTERO_API_KEY"):
+        return os.environ["ZOTERO_API_KEY"].strip()
+    if HN_01.exists():
+        first_line = HN_01.read_text(encoding="utf-8").splitlines()[0].strip()
+        if first_line:
+            return first_line.split()[0]
+    raise RuntimeError("Zotero API key not found in ZOTERO_API_KEY or HN_01.md")
+
+
+HEADERS = {"Zotero-API-Key": get_api_key(), "Content-Type": "application/json"}
 
 # Metadata for the report
 report_data = {
@@ -56,7 +70,7 @@ def add_attachment(parent_key, file_path):
         print(f"Error linking attachment: {response.status_code} - {response.text}")
 
 if __name__ == "__main__":
-    pdf_path = "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/7 - Raw/In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf"
+    pdf_path = str(ROOT / "7 - Raw" / "In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf")
     item_key = add_item()
     if item_key:
         add_attachment(item_key, pdf_path)

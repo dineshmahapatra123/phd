@@ -3,6 +3,7 @@ Type: Query
 Query: "The importance of cadastral maps in the Indian context"
 Last_Processed: 2026-04-07
 Status: Permanent Log
+type: Query
 ---
 
 # Query: The importance of cadastral maps in the Indian context

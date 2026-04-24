@@ -16,10 +16,8 @@ Use this command to update any existing academic synthesis note in `9 - Knowledg
 ### 3. Update the Answer
 -   **Overwrite/Append**: Update the "Key Arguments" and "State of the Art" sections with the latest research.
 -   **Neural Snowball**: Do not delete old evidence unless it is superseded. Use `### ⚠️ Contradiction` for conflicting findings.
--   Append a **SYNTHESIS** entry to `9 - Knowledge_base/log.md`:
-    ```
-    - **SYNTHESIS**: Refreshed [[Topic Name]]. Integrated [Paper(s)]. Updated [sections changed]. Status → [new status].
-    ```
+-   Follow `9 - Knowledge_base/PHD_CONSTITUTION.md` → Operational Logging.
+-   Add only a compact **SYNTHESIS** ledger entry to `9 - Knowledge_base/log.md`; put detailed changed sections and provenance in `9 - Knowledge_base/logs/`.
 
 ### 4. Frontmatter Check
 -   Ensure the file opens with the correct YAML block per `Types/topic.md`:
@@ -38,4 +36,3 @@ Use this command to update any existing academic synthesis note in `9 - Knowledg
 
 > [!TIP]
 > **Simplicity First**: This command turns a static chat answer into a living research draft.
-

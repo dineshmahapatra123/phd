@@ -50,7 +50,7 @@ def cmd_status() -> int:
     print(f"Root: {ROOT}")
     print()
     print("Vault counts:")
-    print(f"- Raw files: {count_files(PATHS['raw'])}")
+    print(f"- Raw PDFs: {count_files(PATHS['raw'], '*.pdf')}")
     print(f"- Paper notes: {count_files(PATHS['paper_notes'], '*.md')}")
     print(f"- Knowledge base notes: {count_files(PATHS['kb'].resolve(), '**/*.md')}")
     print(f"- Sources: {count_files(PATHS['sources'], '*.md')}")
@@ -98,4 +98,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

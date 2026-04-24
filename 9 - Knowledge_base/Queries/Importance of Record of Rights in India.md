@@ -2,6 +2,7 @@
 Type: Query
 Last_Processed: 2026-04-07
 Status: Permanent Log
+type: Query
 ---
 
 # Query: The Importance of Record of Rights (RoR) in India

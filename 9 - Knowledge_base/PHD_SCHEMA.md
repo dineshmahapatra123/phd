@@ -18,8 +18,16 @@ This schema defines how scholarly research is "shattered" into the PhD Wiki. It 
 | `Query` | `9 - Knowledge_base/Queries/` | Research interactions | **No** |
 | `Person` | `9 - Knowledge_base/People/` | `/compile-phd` | Yes |
 | `Method` | `9 - Knowledge_base/Methods/` | `/compile-phd` | Yes |
+| `Paper` | `2 - Notes/Papers/` | Manual / future paper workflow | No |
+| `Book` | `2 - Notes/Books/` | Manual | No |
+| `Tweet` | `Tweets/` | Manual / clipping | No |
+| `Clip` | `Clippings/` | Manual / clipping | No |
 
 ---
+
+## Scope
+
+This schema governs scholarly vault notes and wiki pages: Notes, Chapters, Concepts, Topics, Comparisons, Queries, People, Methods, Papers, Books, Tweets, and Clips. Operational Markdown files such as workflows, logs, prompts, templates, and agent instructions are exempt unless they explicitly declare a type.
 
 ## YAML Frontmatter by Type
 
@@ -84,7 +92,7 @@ Status: Permanent Log
 ---
 ```
 
-### Person (no Type file — governed here)
+### Person (`Types/person.md`)
 ```yaml
 ---
 type: Person
@@ -94,13 +102,69 @@ Status: Seed | Sapling | Evergreen
 ---
 ```
 
-### Method (no Type file — governed here)
+### Method (`Types/method.md`)
 ```yaml
 ---
 type: Method
 Paper_Linked: "[[Paper where method is used]]"
 Last_Processed: "YYYY-MM-DD"
 Status: Seed | Sapling | Evergreen
+---
+```
+
+### Paper (`Types/paper.md`)
+```yaml
+---
+type: Paper
+Paper_Linked: "[[filename.pdf]]"
+Last_Processed: "YYYY-MM-DD"
+Status: Seed | Sapling | Evergreen
+APA_Citation: ""
+DOI:
+Authors:
+Year:
+---
+```
+
+### Book (`Types/book.md`)
+```yaml
+---
+type: Book
+Last_Processed: "YYYY-MM-DD"
+Status: Seed | Sapling | Evergreen
+APA_Citation: ""
+Authors:
+Year:
+Publisher:
+ISBN:
+---
+```
+
+### Tweet (`Types/tweet.md`)
+```yaml
+---
+type: Tweet
+Last_Processed: "YYYY-MM-DD"
+Status: Inbox | Processed | Archived
+Author:
+Handle:
+URL:
+Date_Posted:
+Tags:
+---
+```
+
+### Clip (`Types/clip.md`)
+```yaml
+---
+type: Clip
+Last_Processed: "YYYY-MM-DD"
+Status: Inbox | Processed | Archived
+Source:
+Author:
+URL:
+Date_Published:
+Tags:
 ---
 ```
 
@@ -148,6 +212,37 @@ Status: Seed | Sapling | Evergreen
 4. **Next Steps** — follow-up questions or gaps
 5. **Status** — always `Permanent Log`
 
+### Paper
+1. **Citation**
+2. **Research Question**
+3. **Argument**
+4. **Method / Evidence**
+5. **Key Passages**
+6. **PhD Relevance**
+7. **Links**
+
+### Book
+1. **Citation**
+2. **Central Argument**
+3. **Chapter Map**
+4. **Key Passages**
+5. **Concepts / Methods**
+6. **PhD Relevance**
+7. **Links**
+
+### Tweet
+1. **Original / Capture**
+2. **Why It Matters**
+3. **Extracted Idea**
+4. **Action / Linkage**
+
+### Clip
+1. **Source**
+2. **Captured Text / Summary**
+3. **Key Claims**
+4. **Use in PhD**
+5. **Next Action**
+
 ---
 
 > [!IMPORTANT]
@@ -155,4 +250,4 @@ Status: Seed | Sapling | Evergreen
 > 1. **Index First**: Always scan `index.md` before creating a page.
 > 2. **Neural Snowball**: **APPEND/UPDATE** existing pages; do not recreate.
 > 3. **Conflict Detection**: If a new source contradicts an existing one, create a `### ⚠️ Contradiction` section and set `Contradicts:` in YAML.
-> 4. **Type First**: Every new `.md` file must open with the correct YAML frontmatter for its type. No exceptions.
+> 4. **Type First**: Every new scholarly note governed by this schema must open with the correct YAML frontmatter for its type. No exceptions.

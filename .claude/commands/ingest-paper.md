@@ -19,7 +19,7 @@ Use this workflow to quickly move a discovered paper into your reading queue.
 
 3.  **Handoff**
     *   The paper is now ready in `8 - Doc_dump/Automated_Search`.
-    *   When you are ready to read it, move it to `7 - Papers` and follow the standard `@[/rename-paper]` -> `@[/scaffold]` flow.
+    *   When you are ready to read it, move it to `7 - Raw/` and follow the standard `@[/rename-paper]` -> `@[/scaffold]` flow.
 
 4.  **Google Scholar MCP (Optional)**
     *   If you choose to install the Google Scholar MCP, you can use it to fetch metadata that isn't available on ArXiv.

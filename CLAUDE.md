@@ -39,12 +39,14 @@ python scripts/generate_flowchart.py
 | `6 - Writings/` | Chapter drafts (`type: Chapter`) |
 | `5 - Templates/` | Note templates; `Paper Title as Zotero Cleaned.md` is the master note template |
 | `3 - Tags/` | Per-topic tag files |
+| `Tweets/` | Saved social-media/thread notes (`type: Tweet`) |
+| `Clippings/` | Saved web/article/newsletter clips (`type: Clip`) |
 | `Types/` | Type definition files — one per note type; specify required frontmatter, icon, and colour |
 | `PhD.bib` | Zotero BibTeX export; source of truth for citations |
 
 ### Note Types
 
-Every `.md` file in this vault belongs to a defined type. Type definitions live in `Types/` and specify the required YAML frontmatter and body sections for each type. The full frontmatter spec is in `9 - Knowledge_base/PHD_SCHEMA.md`.
+Every scholarly vault note belongs to a defined type. Type definitions live in `Types/` and specify the required YAML frontmatter and body sections for each type. The full frontmatter spec is in `9 - Knowledge_base/PHD_SCHEMA.md`. Operational Markdown files such as workflows, logs, prompts, templates, and agent instructions are exempt unless they explicitly declare a type.
 
 | Type | Location | Created by |
 |------|----------|-----------|
@@ -54,6 +56,12 @@ Every `.md` file in this vault belongs to a defined type. Type definitions live 
 | `Topic` | `9 - Knowledge_base/Topics/` | `/refresh-topic` |
 | `Comparison` | `9 - Knowledge_base/Comparisons/` | Manual / research |
 | `Query` | `9 - Knowledge_base/Queries/` | Research interactions |
+| `Person` | `9 - Knowledge_base/People/` | `/compile-phd` |
+| `Method` | `9 - Knowledge_base/Methods/` | `/compile-phd` |
+| `Paper` | `2 - Notes/Papers/` | Manual / future paper workflow |
+| `Book` | `2 - Notes/Books/` | Manual |
+| `Tweet` | `Tweets/` | Manual / clipping |
+| `Clip` | `Clippings/` | Manual / clipping |
 
 ### Knowledge Base Sub-Structure (`9 - Knowledge_base/`)
 
@@ -91,10 +99,11 @@ See full workflow: `1 - Rough/Handy notes/PhD Workflow Guide.md`
 - **Comparisons**: Deep comparative queries must be filed as `.md` in `Comparisons/` and added to `index.md`.
 - **Queries**: Standard AI research interactions go to `Queries/` and are **not** added to `index.md`.
 - **Sources are immutable**: Never edit files in `sources/`.
+- **Operational logging**: Follow `PHD_CONSTITUTION.md` → Operational Logging. Keep `log.md` compact; put detailed provenance in `9 - Knowledge_base/logs/`.
 
 ## Wiki Page Schema
 
-Every `.md` file in this vault must open with a `type:` YAML field. The full frontmatter spec for all 8 types (Note, Chapter, Concept, Topic, Comparison, Query, Person, Method) is in `9 - Knowledge_base/PHD_SCHEMA.md`. Type definitions with icons and section structure live in `Types/`.
+Every scholarly vault note must open with a `type:` YAML field. The full frontmatter spec for all defined types is in `9 - Knowledge_base/PHD_SCHEMA.md`. Type definitions with icons and section structure live in `Types/`.
 
 ## Agent Skills & Workflows (`.agent/`)
 

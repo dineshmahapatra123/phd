@@ -23,6 +23,8 @@ This vault is an Obsidian-based PhD research workspace for institutional economi
 | `6 - Writings/` | Chapter drafts; `type: Chapter` |
 | `5 - Templates/` | Note templates |
 | `3 - Tags/` | Per-topic tag files |
+| `Tweets/` | Saved social-media/thread notes (`type: Tweet`) |
+| `Clippings/` | Saved web/article/newsletter clips (`type: Clip`) |
 | `Types/` | Type definition files; one per note type |
 | `PhD.bib` | Zotero BibTeX export; source of truth for citations |
 
@@ -37,7 +39,7 @@ Topics/      ← Field-level debate tracking
 Comparisons/ ← Cross-paper analysis (must be added to index.md)
 Queries/     ← AI research interaction logs (NOT indexed in index.md)
 index.md     ← Master index; update when adding any Concept/Person/Method/Topic/Comparison
-log.md       ← Activity log; append SHATTER/SYNTHESIS/LINT entries
+log.md       ← Compact activity ledger; detailed provenance goes in logs/
 PHD_SCHEMA.md       ← YAML schema and section structure for all wiki page types
 PHD_CONSTITUTION.md ← Governance rules
 ```
@@ -46,7 +48,7 @@ PHD_CONSTITUTION.md ← Governance rules
 
 ## Note Type Conventions (Tolaria-Compatible)
 
-Every `.md` file must open with a YAML block. The `type:` field is **always lowercase**.
+Every scholarly vault note must open with a YAML block. The `type:` field is **always lowercase**. Operational Markdown files such as workflows, logs, prompts, templates, and agent instructions are exempt unless they explicitly declare a type.
 
 | Type | Location | Required YAML fields |
 |------|----------|---------------------|
@@ -58,6 +60,10 @@ Every `.md` file must open with a YAML block. The `type:` field is **always lowe
 | `Query` | `9 - Knowledge_base/Queries/` | `type`, `Last_Processed` |
 | `Person` | `9 - Knowledge_base/People/` | `type`, `Paper_Linked`, `Last_Processed`, `Status` |
 | `Method` | `9 - Knowledge_base/Methods/` | `type`, `Paper_Linked`, `Last_Processed`, `Status` |
+| `Paper` | `2 - Notes/Papers/` | `type`, `Paper_Linked`, `Last_Processed`, `Status`, `APA_Citation`, `Authors`, `Year` |
+| `Book` | `2 - Notes/Books/` | `type`, `Last_Processed`, `Status`, `APA_Citation`, `Authors`, `Year`, `Publisher` |
+| `Tweet` | `Tweets/` | `type`, `Last_Processed`, `Status`, `Author`, `Handle`, `URL` |
+| `Clip` | `Clippings/` | `type`, `Last_Processed`, `Status`, `Source`, `Author`, `URL` |
 
 **Critical rule**: Never use `Type:` (capital T). Always `type:` (lowercase).
 
@@ -89,7 +95,7 @@ Contradicts:
 ```
 ---
 type: Note
-Paper_Linked: "[[filename without extension]]"
+Paper_Linked: "[[filename.pdf]]"
 Last_Processed: "YYYY-MM-DD"
 Status: Seed
 ---
@@ -122,6 +128,7 @@ Tags:
 7. **Comparisons go in index.md**: Any file created in `Comparisons/` must be added to `index.md`.
 8. **Queries are NOT indexed**: Files in `Queries/` are never added to `index.md`.
 9. **Topics not created in compile-phd**: Topics are managed by `/refresh-topic` only.
+10. **Operational logging**: Follow `PHD_CONSTITUTION.md` → Operational Logging. Keep `log.md` compact; put detailed provenance in `9 - Knowledge_base/logs/`.
 
 ---
 
@@ -159,6 +166,5 @@ Output always goes to `9 - Knowledge_base/sources/` — never to `Full-Text/` or
 
 ## Zotero API
 
-- User ID: `15086139`
-- PhD Collection Key: `32MFM4ZJ`
-- API Key: in `1 - Rough/Handy notes/Handy_note_1.md`
+- Zotero credentials are stored locally in `1 - Rough/Handy notes/HN_01.md`.
+- Never print API keys, tokens, or secrets in chat or terminal summaries.
