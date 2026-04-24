@@ -20,8 +20,13 @@ Converts a research PDF into clean, structured Markdown.
    python3 "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/.agent/skills/pdf-to-markdown/scripts/convert.py" \
      --input "<input_path>" \
      --output "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/sources/" \
-     --format "markdown"
+     --format "markdown" \
+     --hybrid "docling-fast" \
+     --include-header-footer
    ```
+   *Options:*
+   - Use `--hybrid "docling-fast"` for technical papers with formulas and tables.
+   - Use `--include-header-footer` to keep page artifacts.
    *(Replace `<input_path>` with the absolute path to the PDF the user specified.)*
 
 2. **Report**: Show the first 20 lines of the generated `.md` as a preview, then confirm it is ready for `/compile-phd`.

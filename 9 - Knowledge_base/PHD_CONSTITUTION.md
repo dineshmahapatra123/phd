@@ -3,7 +3,7 @@
 This document contains the "Laws of the Vault." The AI must read this at the start of every session to ensure consistency across years of research.
 
 ## 1. The Trinity of Files
-1.  **Sources (`sources/`)**: Immutable, machine-readable full-text from pdf2md. Zero edits allowed.
+1.  **Sources (`sources/`)**: Immutable, high-fidelity, machine-readable full-text from pdf2md (OpenDataLoader v2.3+). Includes AI-extracted formulas (LaTeX) and complex tables. Zero edits allowed.
 2.  **Wiki (`Concepts/`, `People/`, `Methods/`, `Topics/`, `Comparisons/`, `Queries/`)**: Atomic articles shattered from sources. AI-managed, human-guided.
 3.  **Constitution (This File)**: The rules that govern how the brain grows.
 

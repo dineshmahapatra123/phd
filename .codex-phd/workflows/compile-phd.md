@@ -8,6 +8,7 @@ Purpose: shatter a paper or Markdown source into atomic knowledge-base notes.
 2. Read `CODEX.md`, `CLAUDE.md`, `PHD_CONSTITUTION.md`, `PHD_SCHEMA.md`, and `index.md`.
 3. If the source is a PDF, check whether a Markdown source already exists in `9 - Knowledge_base/sources/`.
 4. If a source Markdown does not exist, convert or copy the source into `9 - Knowledge_base/sources/` as the permanent source record.
+    - *Tip*: For technical papers, use `--hybrid docling-fast` to capture formulas and tables.
 5. Search `index.md` and the relevant folders before creating any note.
 6. Create or update atomic notes:
    - `Concepts/`

@@ -63,12 +63,27 @@ def main():
         "--format", "-f", default="markdown",
         help="Output format(s), comma-separated: markdown,json,html (default: markdown)"
     )
+    parser.add_argument(
+        "--hybrid", choices=["off", "docling-fast"], default="off",
+        help="Use hybrid backend for high-fidelity extraction (requires docling-fast). Default: off"
+    )
+    parser.add_argument(
+        "--hybrid-mode", choices=["auto", "full"], default="auto",
+        help="Hybrid triage mode. Default: auto"
+    )
+    parser.add_argument(
+        "--include-header-footer", action="store_true",
+        help="Include page headers and footers in output"
+    )
     args = parser.parse_args()
 
     # Resolve paths
     input_path = os.path.expanduser(args.input)
     output_dir = os.path.expanduser(resolve_output_dir(input_path, args.output))
     fmt = args.format.strip()
+    hybrid = args.hybrid
+    hybrid_mode = args.hybrid_mode
+    include_header_footer = args.include_header_footer
 
     # Gather input files
     inputs = gather_inputs(input_path)
@@ -77,6 +92,8 @@ def main():
         print(f"    • {f}")
     print(f"[→] Output directory : {output_dir}")
     print(f"[→] Format(s)        : {fmt}")
+    if hybrid != "off":
+        print(f"[→] Hybrid Engine    : {hybrid} ({hybrid_mode})")
     print()
 
     # Create output dir
@@ -101,6 +118,9 @@ def main():
             input_path=inputs,      # Batch everything in one call (avoids repeated JVM spawning)
             output_dir=output_dir,
             format=fmt,
+            hybrid=hybrid if hybrid != "off" else None,
+            hybrid_mode=hybrid_mode,
+            include_header_footer=include_header_footer,
         )
     except Exception as e:
         print(f"[!] Error during conversion: {e}")

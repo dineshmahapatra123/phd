@@ -14,3 +14,4 @@ Use the existing Antigravity skill:
 - Requires Java 21 and the existing `.venv-odl` environment.
 - Default output is `9 - Knowledge_base/sources/`.
 - For `compile-phd`, establish the permanent source under `9 - Knowledge_base/sources/`.
+- *Options*: Use `--hybrid docling-fast` for technical papers (formulas/tables). Use `--include-header-footer` if page metadata is needed.

@@ -13,7 +13,8 @@ Use this command to process a research paper—either a new PDF from your inbox 
 ### 2. The Bridge (Source Standardization)
 - **Case A: PDF Source**
     - **Check**: Does `9 - Knowledge_base/sources/[Name].md` exist?
-    - **Action**: If not, run **`@[/pdf2md]`** on the PDF — output lands in `9 - Knowledge_base/sources/` automatically.
+    - **Action**: If not, run **`@[/pdf2md]`** on the PDF — output lands in `9 - Knowledge_base/sources/` automatically. 
+        - *Tip*: For technical papers, use `--hybrid docling-fast` to capture formulas and tables.
 - **Case B: Markdown Source**
     - **Action**: If the file is not already in `9 - Knowledge_base/sources/`, **copy** it there to establish a permanent record of the source for the shattering.
 - In both cases, read the full text from `9 - Knowledge_base/sources/[Name].md` for shattering.

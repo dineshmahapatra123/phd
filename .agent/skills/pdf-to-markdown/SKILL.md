@@ -25,11 +25,17 @@ The slash command /pdf2md triggers this skill.
    ```
 2. **Run the conversion**:
    ```bash
-   python3 "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/.agent/skills/pdf-to-markdown/scripts/convert.py" \
-     --input "<input_path>" \
-     --output "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/sources/" \
-     --format "markdown"
-   ```
+    python3 "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/.agent/skills/pdf-to-markdown/scripts/convert.py" \
+      --input "<input_path>" \
+      --output "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/sources/" \
+      --format "markdown" \
+      --hybrid "docling-fast" \
+      --include-header-footer
+    ```
+    *Flags:*
+    - `--hybrid "docling-fast"`: Optional. Uses docling for improved extraction of complex formulas and tables.
+    - `--include-header-footer`: Optional. Set to include document headers and footers in the output.
+
 3. **Report**:
    - First 20 lines as a preview.
    - Confirmation that it is ready for @[/compile-phd].
