@@ -4,6 +4,7 @@ _icon: layers
 _color: "#f59e0b"
 _folder: "9 - Knowledge_base/Topics"
 _sort: "modified:desc"
+_order: 11
 ---
 
 # Topic

@@ -4,6 +4,7 @@ _icon: file-stack
 _color: "#2563eb"
 _folder: "2 - Notes/Papers"
 _sort: "modified:desc"
+_order: 8
 ---
 
 # Paper

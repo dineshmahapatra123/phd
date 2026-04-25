@@ -4,6 +4,7 @@ _icon: microscope
 _color: "#64748b"
 _folder: "9 - Knowledge_base/Methods"
 _sort: "modified:desc"
+_order: 6
 ---
 
 # Method

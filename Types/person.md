@@ -4,6 +4,7 @@ _icon: user
 _color: "#14b8a6"
 _folder: "9 - Knowledge_base/People"
 _sort: "modified:desc"
+_order: 9
 ---
 
 # Person

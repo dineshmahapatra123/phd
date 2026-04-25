@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "1f0bf7f4602eeb11",
+        "id": "9bf8cf130d08863f",
         "type": "tabs",
         "children": [
           {
-            "id": "c0487781102a7a5e",
+            "id": "2b4f421c855462ff",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -228,10 +228,24 @@
       "lean-terminal:Toggle Terminal": false
     }
   },
-  "active": "c0487781102a7a5e",
+  "active": "d0c709618f9f3d7f",
   "lastOpenFiles": [
-    "AGENTS.md",
+    "views/favourites.yml",
+    "views",
+    "type.md",
+    "1 - Rough/Handy notes/Skim PDF Reader.md",
+    "1 - Rough/Handy notes/Prompts.md",
+    "1 - Rough/Handy notes/Prompt for the folder.md",
+    "1 - Rough/Handy notes/How codex works.md",
+    "1 - Rough/Handy notes/How claude works from Codex POV.md",
+    "1 - Rough/Handy notes/How claude works.md",
+    "1 - Rough/Handy notes/How antigravity works from Codex POV.md",
+    "1 - Rough/Handy notes/How antigravity works.md",
     "1 - Rough/Handy notes/HN_01.md",
+    "1 - Rough/Handy notes/PhD Workflow Guide.md",
+    "1 - Rough/Handy notes/India defies the odds_Why democracy survives.md",
+    "1 - Rough/Handy notes/Together_Claude and Antigravity.md",
+    "AGENTS.md",
     "Tweets/Gratitude.md",
     "Tweets/Course Generator.md",
     "ReadItLater Inbox/Why Hershey’s promised to use only real chocolate after backlash in the US.md",
@@ -243,20 +257,7 @@
     "Types/clip.md",
     "Types/chapter.md",
     "Types/book.md",
-    "Clippings/AI/Claude Code Changed How I Work (Part 1).md",
     "2 - Notes/Books",
-    "Clippings/AI/Ai tools.md",
-    "1 - Rough/Handy notes/Prompts.md",
-    "1 - Rough/Handy notes/PhD Workflow Guide.md",
-    "1 - Rough/Handy notes/India defies the odds_Why democracy survives.md",
-    "1 - Rough/Handy notes/HN_02.md",
-    "9 - Knowledge_base/Topics/Definition of Private Property.md",
-    "9 - Knowledge_base/index.md",
-    "9 - Knowledge_base/lint_report.md",
-    "9 - Knowledge_base/log.md",
-    "9 - Knowledge_base/TISS_STYLE.md",
-    "9 - Knowledge_base/PHD_SCHEMA.md",
-    "9 - Knowledge_base/PHD_CONSTITUTION.md",
     "9 - Knowledge_base/logs",
     "7 - Raw/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf",
     "9 - Knowledge_base/sources/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_images/imageFile22.png",
@@ -275,7 +276,6 @@
     "scripts/lint_wiki.py.tmp.29958.1777003040911",
     "Types",
     "7 - Raw/~$ported.docx",
-    "7 - Raw/exported.docx",
     "Untitled.canvas"
   ]
 }

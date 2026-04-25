@@ -4,6 +4,7 @@ _icon: book-open
 _color: "#7c3aed"
 _folder: "2 - Notes/Books"
 _sort: "modified:desc"
+_order: 1
 ---
 
 # Book

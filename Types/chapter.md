@@ -4,6 +4,7 @@ _icon: book
 _color: "#3b82f6"
 _folder: "6 - Writings"
 _sort: "modified:desc"
+_order: 2
 ---
 
 # Chapter

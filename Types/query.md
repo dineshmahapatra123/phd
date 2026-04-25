@@ -4,6 +4,7 @@ _icon: help-circle
 _color: "#f97316"
 _folder: "9 - Knowledge_base/Queries"
 _sort: "created:desc"
+_order: 10
 ---
 
 # Query

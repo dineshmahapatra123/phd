@@ -4,6 +4,7 @@ _icon: lightbulb
 _color: "#8b5cf6"
 _folder: "9 - Knowledge_base/Concepts"
 _sort: "modified:desc"
+_order: 5
 ---
 
 # Concept

@@ -4,6 +4,7 @@ _icon: newspaper
 _color: "#f97316"
 _folder: "Clippings"
 _sort: "created:desc"
+_order: 3
 ---
 
 # Clip

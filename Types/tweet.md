@@ -4,6 +4,7 @@ _icon: messages-square
 _color: "#0ea5e9"
 _folder: "Tweets"
 _sort: "created:desc"
+_order: 12
 ---
 
 # Tweet
