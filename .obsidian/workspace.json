@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9bf8cf130d08863f",
+        "id": "b895ff6b73fd1035",
         "type": "tabs",
         "children": [
           {
-            "id": "2b4f421c855462ff",
+            "id": "3905a39b915dbe3f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "9 - Knowledge_base/log.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "log"
             }
           }
         ]
@@ -228,35 +232,36 @@
       "lean-terminal:Toggle Terminal": false
     }
   },
-  "active": "d0c709618f9f3d7f",
+  "active": "3905a39b915dbe3f",
   "lastOpenFiles": [
+    "type.md",
+    "9 - Knowledge_base/log.md",
+    "1 - Rough/Handy notes/Together_Claude and Antigravity.md",
+    "1 - Rough/Handy notes/How antigravity works.md",
+    "1 - Rough/Handy notes/HN_02.md",
+    "1 - Rough/Handy notes/HN_01.md",
+    "9 - Knowledge_base/Concepts/Collateral Value of Land.md",
+    "2 - Notes/Papers/Guaranteeing title to land.md",
+    "3 - Tags/DILRMP.md",
+    "2 - Notes/Papers/In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.md",
+    "3 - Tags/Private Property.md",
+    "3 - Tags/Orwell.md",
+    "3 - Tags/MGNREGS.md",
+    "3 - Tags/Humility.md",
+    "3 - Tags/Dollar.md",
+    "3 - Tags/Democracy.md",
+    "3 - Tags/AI.md",
+    "5 - Templates/Paper Title as Zotero Cleaned.md",
+    "2 - Notes/Papers/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.md",
+    "2 - Notes/Papers/Toward a theory of property rights.md",
     "views/favourites.yml",
     "views",
-    "type.md",
     "1 - Rough/Handy notes/Skim PDF Reader.md",
     "1 - Rough/Handy notes/Prompts.md",
     "1 - Rough/Handy notes/Prompt for the folder.md",
     "1 - Rough/Handy notes/How codex works.md",
     "1 - Rough/Handy notes/How claude works from Codex POV.md",
     "1 - Rough/Handy notes/How claude works.md",
-    "1 - Rough/Handy notes/How antigravity works from Codex POV.md",
-    "1 - Rough/Handy notes/How antigravity works.md",
-    "1 - Rough/Handy notes/HN_01.md",
-    "1 - Rough/Handy notes/PhD Workflow Guide.md",
-    "1 - Rough/Handy notes/India defies the odds_Why democracy survives.md",
-    "1 - Rough/Handy notes/Together_Claude and Antigravity.md",
-    "AGENTS.md",
-    "Tweets/Gratitude.md",
-    "Tweets/Course Generator.md",
-    "ReadItLater Inbox/Why Hershey’s promised to use only real chocolate after backlash in the US.md",
-    "9 - Knowledge_base/Comparisons/Spain vs England Institutional Divergence.md",
-    "5 - Templates/Paper Title as Zotero Cleaned.md",
-    "Types/method.md",
-    "Types/concept.md",
-    "Types/comparison.md",
-    "Types/clip.md",
-    "Types/chapter.md",
-    "Types/book.md",
     "2 - Notes/Books",
     "9 - Knowledge_base/logs",
     "7 - Raw/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf",
@@ -275,7 +280,6 @@
     "7 - Raw/Toward a theory of property rights.pdf",
     "scripts/lint_wiki.py.tmp.29958.1777003040911",
     "Types",
-    "7 - Raw/~$ported.docx",
     "Untitled.canvas"
   ]
 }

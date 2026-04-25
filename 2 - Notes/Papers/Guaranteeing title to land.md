@@ -9,7 +9,7 @@ Status: Seed
 
 APA Citation from Zotero: Wadhwa, D. C.. (2002). Guaranteeing Title to Land. Economic and Political Weekly, 37(47), 4700–4722.
 
-Tags: 
+Tags: [[DILRMP]]
 
 ## Highlights
 *(Paste your verbatim quotes, page numbers, and raw thoughts here)*

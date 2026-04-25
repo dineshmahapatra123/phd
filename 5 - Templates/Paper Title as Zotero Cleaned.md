@@ -1,5 +1,5 @@
 ---
-type: Note
+type: null
 Paper_Linked: "[[{{paper_linked}}]]"
 Last_Processed: "{{date}}"
 Status: Seed
