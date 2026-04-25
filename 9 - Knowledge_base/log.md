@@ -6,6 +6,10 @@ Rule for agents: do not infer unfinished work from missing manual highlights, pl
 
 ## Chronological Activity
 
+### 2026-04-25
+- [2026-04-25] INGEST: [[Land tenure and property rights_ theory and implications for development policy]] (Feder & Feeny 1991)
+- [2026-04-25] SHATTER: [[Land tenure and property rights_ theory and implications for development policy]] -> 11 articles created/updated. [Audit](file:///Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/9 - Knowledge_base/logs/2026-04-25_feder-feeny-shatter.md)
+
 ### 2026-04-05
 - **SYSTEM**: Initialized the Layer 3 PhD knowledge-base architecture; created `PHD_CONSTITUTION.md`; migrated full text to `sources/`; adopted manual high-integrity highlight curation.
 - **SHATTER**: Processed early property-rights and land-title sources, including Alchian & Demsetz, Ghosh & Deodhar, and Wadhwa. Details: [[logs/2026-04-24_raw-folder-completion-audit]].

@@ -5,7 +5,7 @@ Last_Processed: "2026-04-24"
 Status: Seed
 ---
 
-APA Citation from Zotero: Byamugisha, F. F. K. (1999). The effects of land registration on financial development and economic growth: A theoretical and conceptual framework (Policy Research Working Paper No. 2240). The World Bank.
+APA Citation from Zotero: Byamugisha, F. F. K.. (1999). The Effects of Land Registration on Financial Development and Economic Growth: A Theoretical and Conceptual Framework (Number 2240).
 
 Tags: 
 

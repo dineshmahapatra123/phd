@@ -69,6 +69,13 @@
     - [[Implementation Failure (Land Reform)]]
     - [[Land Liquidity]]
     - [[Labor Mobility (Land Registration)]]
+    - [[Constitutional Order]]
+    - [[Institutional Arrangements]]
+    - [[Normative Behavioral Codes]]
+    - [[Open Access (Property Right)]]
+    - [[State Property]]
+    - [[Collateral Premium]]
+    - [[Asymmetric Information (Land Rights)]]
 - **[[People/]]** — Scholarly Networks  
     - [[Armen Alchian]]
     - [[Harold Demsetz]]
@@ -82,6 +89,7 @@
     - [[Henry Sumner Maine]]
     - [[Douglass North]]
     - [[Gershon Feder]]
+    - [[David Feeny]]
     - [[Frank F.K. Byamugisha]]
 - **[[Methods/]]** — Research Design & Tools  
     - [[Comparative Institutional Analysis]]
@@ -89,6 +97,7 @@
     - [[Cadastral Survey]]
     - [[Schlager-Ostrom Taxonomy]]
     - [[New Institutional Economics]]
+    - [[Land Titling]]
 - **[[Topics/]]** — Field Debates  
     - [[Definition of Private Property]]
     - [[Institutional Property Rights Evolution]]
@@ -111,7 +120,7 @@
 ---
 
 ## 📈 Statistics
-- Total Articles: 57
-- Last Neural Scan: 2026-04-21
+- Total Articles: 68
+- Last Neural Scan: 2026-04-25
 - Source Repository: `7 - Raw/`
 

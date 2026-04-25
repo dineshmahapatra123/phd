@@ -1,8 +1,8 @@
 ---
 type: Person
-Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]]
-Last_Processed: 2026-04-24
-Status: Seed
+Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]], [[Land tenure and property rights_ theory and implications for development policy]]
+Last_Processed: 2026-04-25
+Status: Sapling
 ---
 
 # Gershon Feder
@@ -18,6 +18,6 @@ Feder's work is characterized by the use of rigorous **econometric analysis** to
 In his widely cited study of rural Thailand, Feder and colleagues provided one of the first quantitative benchmarks for the impact of secure titling. They demonstrated that titled farmers invested more, used more inputs, and realized higher revenues than untitled farmers, largely due to the formalization of their access to the credit market.
 
 ## **Linkages**
-- **Connected to**: [[Akihiko Nishio]], [[David Simpson]].
-- **Theoretical Base**: [[Property Right Bundle]], [[Transaction Costs]].
-- **Institutional Alignment**: [[Torrens System]], [[Presumptive vs Conclusive Title]].
+- **Connected to**: [[Akihiko Nishio]], [[David Feeny]].
+- **Theoretical Base**: [[Property Right Bundle]], [[Transaction Costs]], [[Constitutional Order]].
+- **Institutional Alignment**: [[Torrens System]], [[Presumptive vs Conclusive Title]], [[Land Titling]].

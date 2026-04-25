@@ -1,8 +1,8 @@
 ---
 type: Topic
-Paper_Linked: [[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
-Last_Processed: 2026-04-24
-Status: Sapling++
+Paper_Linked: [[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Land tenure and property rights_ theory and implications for development policy]]
+Last_Processed: 2026-04-25
+Status: Sapling+++
 ---
 
 # Topic: The Evolution of Institutional Property Rights
@@ -20,6 +20,7 @@ The development and formalization of property rights through institutional chang
 - **Douglass North (1993)**: Argues that evolution is a process of creating **[[Credible Commitment]]** to binding agreements. Evolution is a struggle to "shackle" the state, moving from **Motivational Credibility** (self-enforcing) to **Imperative Credibility** (discretion-disabled) to enable complex, anonymous contracting.
 - **Ghosh & Deodhar (2025)**: Document the "Tectonic Shift" in Indian land relations—from decentralized **[[Samudaya]]** (ancient) to revenue-centric **Zabt** (Mughal) to extractive **[[Eminent Domain]]** (British).
 - **Sir Robert Torrens**: Revolutionized the "Evolution" of land rights via the **[[Torrens System]]** (1858), adapting the logic of the **Merchant Shipping Act** to land to eliminate costly retrospective investigations.
+- **[[Gershon Feder]] & [[David Feeny]] (1991)**: Provide a comprehensive framework for evolution based on the **Supply and Demand of Institutions**. Evolution is driven by shifts in relative factor prices (land scarcity) and new technology (demand for credit). They highlight the role of the **[[Constitutional Order]]** as a slow-moving constraint on more rapid changes in **[[Institutional Arrangements]]** (like titling).
 - **[[Elinor Ostrom]] (2000)**: Rejects the linear evolution theory that assumes all property must eventually become private. Evolution is context-dependent and resource-dependent. She identifies the **"Troika of Confusions"** (conflating Open Access, CPRs, and Common Property) that leads to failed institutional transitions.
 
 ## Theory of The Tectonic Shift (Indian Context)
@@ -123,3 +124,13 @@ According to **Feder & Nishio (1998)**, a critical evolutionary stage occurs whe
 5. **[[Labor Mobility (Land Registration)]] → Allocative Efficiency**: Secure tenure allows landowners to leave agriculture (lease out or sell) and return when needed. Thailand's 1997 crisis demonstrated this safety-valve function — reverse migration from urban to rural was enabled by active land markets and secure tenure.
 
 **Empirical application (Thailand)**: Time-series analysis found land titling has positive long-run effects on financial development; public expenditure on registration has positive and strongly significant effects on economic growth.
+
+## The Supply and Demand of Institutions (Feder & Feeny, 1991 — NEW)
+Evolution is not automatic; it is a result of the interaction between the **demand** for rights and the **supply** of legal/administrative machinery:
+
+1. **The Demand Side**: Driven by economic forces that increase the value of land (population growth, new markets) or the need for investment (new technology). As land becomes scarce, actors demand clearer definitions of exclusivity to prevent rent-seeking and overlap.
+2. **The Supply Side**: Depends on the **[[Constitutional Order]]**. If the fundamental rules of society do not support impersonal contract enforcement or the "shackling" of the state, efficient institutional arrangements (like titling) will not be supplied, even if demand is high.
+3. **The Information Bridge**: Property rights evolution is a response to **[[Asymmetric Information (Land Rights)]]**. In local, face-to-face societies, information is symmetric and informal norms suffice. As the market expands and transactions become anonymous, the state must supply formal titles to provide a "common knowledge" bridge between buyers, sellers, and lenders.
+4. **The Collateral Premium**: A landmark stage in evolution is reached when land acquires a **[[Collateral Premium]]**. This signifies that the institutional framework is strong enough for banks to accept land as a substitute for personal reputation, effectively turning dead capital into liquid financial assets.
+
+**Theoretical link**: This adds a "Political Economy of Supply" layer to the Demsetzian "Economic Demand" model, explaining why some countries (like India) remain stuck in a "Presumptive Title Trap" despite high economic demand for clarity.
