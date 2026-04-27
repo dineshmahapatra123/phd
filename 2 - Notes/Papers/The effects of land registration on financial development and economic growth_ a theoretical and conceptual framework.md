@@ -9,13 +9,13 @@ APA Citation from Zotero: Byamugisha, F. F. K.. (1999). The Effects of Land Regi
 
 Tags: 
 
-## Highlights
+# Highlights
 *(Paste your verbatim quotes, page numbers, and raw thoughts here)*
 
 ---
 
 # Claude AI
-### Overview: Situating the Paper Historically and Intellectually
+## Overview: Situating the Paper Historically and Intellectually
 
 This 1999 World Bank Policy Research Working Paper arrives at a particular moment in the global intellectual history of land governance — a moment when the neo-liberal consensus on property rights formalization was reaching its peak institutional confidence. The 1990s witnessed the wide-scale rollout of World Bank-supported land titling programmes across Southeast Asia, Latin America, and Sub-Saharan Africa, animated largely by the theoretical scaffolding provided by Hernando de Soto's arguments about "dead capital" and the transformative potential of bringing informal assets into formal legal systems. Byamugisha's paper is firmly embedded in this intellectual current, though it represents a more technically rigorous and cautious contribution than the sweeping claims of de Soto.
 
@@ -167,3 +167,9 @@ The paper ultimately makes the strongest possible case for land registration wit
 
 # AI Primer
 *(Run `/prime` to populate this section)*
+
+
+|     |     |
+| --- | --- |
+|     |     |
+|     |     |

@@ -16,3 +16,30 @@ Most importantly — do not just summarize the paper mechanically. Identify the 
 
 
 Antigravity prompt: I am working on my PhD. Follow the PHD_CONSTITUTION.md protocols. Prioritize search in 9 - Knowledge_base. Understand the architecture of Knowledge_base: index.md, log.md, PHD_SCHEMA.md. Understand PhD Workflow Guide.md. 
+
+
+
+Prompt for claude
+
+I am a PhD student in Development studies at TISS. I have uploaded a paper.
+
+Go through the entire paper carefully.
+
+Give me a thorough, holistic, comprehensive review — deep dive — covering every important concept, argument, and idea in the paper.
+
+Structure the review as follows:
+
+Start with an Overview that situates the paper historically and intellectually — what problem it is responding to, where it sits in broader debates, and why it matters.
+
+Then work through the paper systematically, section by section, following the author's own logic and structure.
+
+For every major argument or concept, explain it fully — what it means, why it matters, how it connects to the central thesis.
+
+Anchor every key point with a direct quote or close paraphrase from the text, with section references.
+
+End with a Critical Assessment — what the paper does exceptionally well, what its blind spots are, what voices or variables are missing, and what significance it holds for the field.
+
+Write in flowing prose, not bullet points. Go deep. Do not summarise superficially. Treat this as a serious scholarly engagement with the text.
+
+My research focus is [Land record modernisation in Odisha] — keep that in mind as you review, flagging where the paper is most relevant to my work (but after the whole review is written).
+
