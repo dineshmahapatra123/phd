@@ -1,6 +1,0 @@
----
-type: Note
----
-# Test
-
-Howdy?
