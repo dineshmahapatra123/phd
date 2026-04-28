@@ -38,13 +38,15 @@
 | Rule | Example |
 |------|---------|
 | Spell out one through ninety-nine | *three villages*, *fifty states*, *ninety-nine problems* |
-| Use numerals for 100 and above | *100 states*, *242 pages* |
-| Never start a sentence with a numeral | *Forty-two respondents…* |
-| Use numerals for percentages | *8 per cent* (not *8%* in body text) |
-| Write *per cent* as two words | *per cent* (not *percent* or *%*) |
+| Also spell out small numbers + hundred/thousand/million | *three hundred*, *fifty thousand*, *two million* |
+| Use numerals for 100 and above (standalone) | *100 states*, *242 pages* |
+| Never start a sentence with a numeral | *Forty-two respondents…* (recast if cumbersome) |
+| Physical quantities always in figures | age: *32 years old*; currency: *Rs 23*; distance: *40 km*; electricity: *220 volts*; percentage: *6 per cent*; weight: *12.5 kg*; period: *1990s* |
+| Write *per cent* as two words in body text | *8 per cent* — use *%* only in tables and parentheses |
 | Decades spelled out | *the 1990s* (no apostrophe) |
 | Ranges with en-dash | *1990–2010*, *pp. 45–52* |
 | Large round numbers | *2 million*, *3.5 billion* (not *2,000,000*) |
+| Numbers 21–99 written as words: hyphenated | *fifty-two*, *forty-five per cent* |
 
 ---
 
@@ -53,12 +55,14 @@
 | Rule | Correct | Wrong |
 |------|---------|-------|
 | Oxford (serial) comma | *land, labour, and capital* | *land, labour and capital* |
-| En-dash for ranges | *2000–2010* | *2000-2010* |
-| Em-dash for parenthetical break | *The result—unexpected by all—was…* | *The result - unexpected - was…* |
-| No space around em-dash | *result—unexpected* | *result — unexpected* |
-| Ampersand | Only in citations (*Gupta & Singh, 2001*); spell out *and* in prose |
-| Ellipsis | Three dots with spaces *. . .* or standard *…*; indicate omission in quotes |
+| En-dash for ranges (no space) | *2000–2010*, *Rural–urban continuum* | *2000-2010* |
+| Em-dash for parenthetical break (no space) | *The result—unexpected by all—was…* | *The result — unexpected — was…* |
+| En-dash as separating dash (space each side) | *You can be a patriot – as many people are – without…* | — |
+| Ampersand | **Never** in prose or citations; only in quotations, book titles, publisher names | *Gupta & Singh (2001)* in text |
+| Ellipsis | Three dots with spaces *...* (word/phrase omitted); four dots *....* (sentence or end omitted); *[....]* (whole paragraph omitted) |
 | Hyphenation | Compound adjectives before noun: *land-tenure system*; predicative: *the system is well established* |
+| Colon | Introduces explanation, list, definition, quotation; also between title and subtitle |
+| Closing quotation mark | Follows punctuation: *(.',)* *(.',)* *(?')* — the mark comes after comma/full stop |
 
 ---
 
@@ -72,8 +76,8 @@
 | Quote within a block quote | Single quotation marks |
 | Omission from quote | Ellipsis: three dots with spaces *...* (word/phrase); four dots *....* (end of sentence or whole sentence) |
 | Whole paragraph omitted | Four dots enclosed in brackets *[....]* |
-| Interpolation | Square brackets: *[emphasis added]*, *[italics mine]*, *[sic]* — note: *[sic]* is not followed by a period |
-| Citation for direct quotes | APA: *(Sharma, 2005, p. 34)* |
+| Interpolation | Square brackets: *[emphasis added]*, *[italics mine/author's]*, *[sic]* — *[sic]* is **not** followed by a period and is always in brackets |
+| Citation for direct quotes | Chicago: *(Stone 2008: 42)* — colon before page, no "p." |
 
 ---
 
@@ -88,11 +92,12 @@
 
 **Key rules:**
 - Maximum **three levels** of subheading
+- Level 1 and Level 2 use **title case**: capitalise all major words (nouns, pronouns, adjectives, verbs, adverbs, subordinate conjunctions); lowercase articles (*the*, *a*, *an*), co-ordinate conjunctions (*and*, *or*, *for*, *nor*), and prepositions
 - Level 3 is NOT a standalone heading — the bold italic word/phrase is followed by a period and paragraph text continues on the **same line**
 - No colon (*:*) or colon-hyphen (*:-*) at the end of any subhead
 - No underline on any subhead
 - Numbering system: double numeration recommended if subheads are referenced elsewhere (e.g., 3.4 = fourth section of Chapter 3)
-- First paragraph after Level 1 or Level 2: **no indent**
+- First paragraph after chapter title, Level 1, or Level 2: **no indent**
 - First paragraph of Level 3 run-in: **0.3" tab** (it is the paragraph itself)
 
 ---
@@ -116,31 +121,30 @@
 
 ---
 
-## 9. In-Text Citations (APA Author-Date System)
+## 9. In-Text Citations (Chicago Author-Date System)
 
 | Case | Format |
 |------|--------|
-| Single author | (Sharma, 2005) |
-| Two authors | (Gupta & Singh, 2001) |
-| Three or more authors | (Jha et al., 2010) |
-| Direct quote | (Sharma, 2005, p. 34) |
-| Direct quote, page range | (Sharma, 2005, pp. 34–36) |
-| Multiple works same author | (Sharma, 2003, 2005) |
-| Multiple authors same year | (Sharma, 2005a, 2005b) |
-| Two works in one citation | (Sharma, 2005; Gupta, 2008) |
-| Institutional author | (NSSO, 2011) |
-| No author | Shortened title in italics: (*Land Report*, 2003) |
-| Forthcoming | (Sharma, in press) |
-| Personal communication | (R. Sharma, personal communication, March 14, 2022) |
-| Author name used in sentence | Sharma (2005) argues… |
+| Single author | `(Stone 2008)` |
+| Single author with page | `(Stone 2008: 42)` |
+| Single author, page range | `(Stone 2008: 5–6)` |
+| Single author, multiple works | `(Stone 1984, 1988a, 2008)` — chronological, comma-separated |
+| Same author, same year | `(Stone 1988a, 1988b)` |
+| Two authors | `(Grindle and Thomas 1989)` — **"and"**, not "&" |
+| Three or more authors | `(True et al. 2007)` |
+| Multiple separate authors | `(Stone 1984; Grindle and Thomas 2007; Soni 2017)` — semicolons |
+| Institutional author | `(Government of Karnataka 2006)` or `(NCRB 2017)` |
+| Secondary reference | `(quoted in or cited in ....)` |
+| Author name used in sentence | `Stone (2008) argues…` / `Grindle and Thomas (1989) argue…` |
 
 **Key rules**:
-- **Comma** between author and year: *(Sharma, 2005)* — not *(Sharma 2005)*
-- **Comma + p.** before page: *(Sharma, 2005, p. 34)* — not a colon
-- Use **&** (not *and*) between author names inside parenthetical citations
-- Use **and** in prose: *Gupta and Singh (2001) argue…*
-- *et al.* from the first citation for three or more authors (APA 7th ed.)
+- **No comma** between author and year: *(Stone 2008)* — not *(Stone, 2008)*
+- **Colon** before page number: *(Stone 2008: 42)* — not "p." and not a comma
+- **"and"** between co-authors everywhere — in parentheses and in prose: *(Grindle and Thomas 1989)*
+- **Never use "&"** in citations (only acceptable in book titles and publisher names)
+- *et al.* for three or more authors from the first citation
 - Citation placed **before** the full stop at sentence end
+- Footnotes and endnotes must **not** be used for citations — use parenthetical author-date only
 
 ---
 
@@ -148,67 +152,105 @@
 
 ### Book
 ```
-Surname, F. (Year). *Title in italics: Subtitle*. Publisher.
+Surname, First Name. Year. Title in Title Case. City: Publisher.
 ```
 Example:
-> Sharma, M. (2006). *Landscapes and lives: Environmental dispatches on rural India*. Oxford University Press.
+> Stone, Deborah. 1988. *Policy Paradox: The Art of Political Decision Making*. London: W. W. Norton and Co.
 
 ### Edited Book
 ```
-Surname, F. (Ed.). (Year). *Title*. Publisher.
+Surname, First Name (ed.). Year. Title in Title Case. City: Publisher.
 ```
-(Multiple editors: `(Eds.)`)
+(Multiple editors: `(eds.)`)
 
 ### Chapter in Edited Book
 ```
-Surname, F. (Year). Chapter title. In F. Surname (Ed.), *Book title* (pp. XX–XX). Publisher.
+Surname, First Name. Year. 'Chapter Title in Title Case', in First Name Surname (ed.): Book Title. City: Publisher, pp. XX–XX.
 ```
+Example:
+> True, James L., Bryan D. Jones and Frank R. Baumgartner. 2007. 'Punctuated-Equilibrium Theory: Explaining Stability and Change in Public Policymaking', in Paul A. Sabatier (ed.): *Theories of the Policy Process*. Boulder, Colorado: Westview Press, pp. 155–187.
 
 ### Journal Article
 ```
-Surname, F. (Year). Article title. *Journal Name*, *Vol*(No), XX–XX. https://doi.org/xxx
+Surname, First Name. Year. 'Article Title in Title Case'. Journal Name Vol (No): XX–XX.
 ```
 Example:
-> Deshpande, S. (2008). Exclusive inequalities. *Economic and Political Weekly*, *43*(35), 46–55.
+> Warren, Samuel D. and Brandeis D. Louis. 1890. 'The Right to Privacy'. *Harvard Law Review* 4 (5): 193–220.
 
 ### Newspaper Article
 ```
-Surname, F. (Year, Month Day). Article title. *Newspaper Name*, p. X.
+Surname, First Name. Year. 'Article Title', Newspaper Name (City), Day Month, p. X.
 ```
+Example:
+> Vagishwari, S. P. 2017. 'Are Lingayats not Hindus?', *Deccan Herald* (Bengaluru), 12 September, p. 10.
 
 ### Internet Source
 ```
-Surname, F. (Year). Title. Retrieved Month Day, Year, from URL
+Surname, First Name. Year. 'Article Title', (URL) (accessed on Day Month Year).
 ```
+Example:
+> Soni, Anusha. 2017. 'In Democracy, Liberty Cannot Exist without Right to Privacy', (https://www.indiatoday.in/...) (posted on 18 July 2017) (accessed on 18 August 2018).
 
 ### Blog / Social Media
 ```
-Surname, F. [@handle]. (Year, Month Day). Post title or opening words [Post type]. Platform. URL
+Surname, First Name. Year. 'Entry Title' (blog), (URL) (accessed on Day Month Year).
 ```
+Example:
+> Bailey, Rishab. 2019. 'Disclosures in Privacy Policies: Does "Notice and Consent" Work?' (blog), (https://blog.theleapjournal.org/...) (accessed on 20 March 2019).
 
-### Unpublished Work (Thesis, Report, Working Paper)
+### Unpublished Work (Thesis, Working Paper, Conference Paper)
 ```
-Surname, F. (Year). *Title* [Type, e.g., Doctoral dissertation]. Institution. URL or database name.
+Surname, First Name. Year. 'Title'. [Type, e.g., Unpublished PhD Thesis / Paper presented at Conference]. Institution, Date.
 ```
+Example:
+> Palan, Ruchi. 2017. *Disabled Students in Higher Education: A Study of Experiences and Aspirations*. Unpublished Ph.D. Thesis. Mumbai: Tata Institute of Social Sciences.
 
 ### Court Case / Legal Document
+Court cases are cited **in footnotes/endnotes only**, not in Bibliography or References.
 ```
-*Case Name*, Volume Reporter Page (Court Year).
+Case Name (Reporter Year Court Docket)
 ```
+Example: *Keshavananda Bharati v. The State of Kerala and Others* (AIR 1973 SC 1461).
+If many cases cited, add a separate 'Court Cases' section in Bibliography.
 
-**Key bibliography (References) rules**:
-- Section heading: **References** (not Bibliography)
-- Alphabetical by author surname
-- Hanging indent for all entries
-- Only first author inverted (Surname, F.); all subsequent authors also inverted in APA 7th
-- Sentence case for titles of books and articles (capitalise only first word, proper nouns, and first word after a colon)
-- *Italics* for book and journal titles; journal volume number also italicised
+**Key bibliography rules**:
+- Section heading: **Bibliography** or **References** or **Bibliography and References** (choose one, use consistently)
+- **Title case**: capitalise first and last words and all nouns, pronouns, adjectives, verbs, adverbs, and subordinate conjunctions; lowercase articles (*the*, *a*, *an*), co-ordinate conjunctions (*and*, *or*, *for*, *nor*), and prepositions
+- **Single inverted commas** around chapter and article titles (not italics, not double marks)
+- *Italics* for book and journal titles
+- **Year after author name, no parentheses**: `Stone, Deborah. 1988.` not `Stone, D. (1988).`
+- **City of publication** included for books: `London: Publisher`
+- Alphabetical by author surname; hanging indent 0.3"; single line spacing; TNR 12
 - No *ibid.*, *op. cit.*, or *loc. cit.*
-- Include DOI where available; URL with retrieval date for webpages
+- URL with access date for internet sources
+- All co-authors listed by name (first author inverted, rest in normal order)
 
 ---
 
-## 11. Writing Style (Substance)
+## 11. Pagination
+
+| Element | Rule |
+|---------|------|
+| Front matter pages | Lowercase Roman numerals: *i, ii, iii, iv…* |
+| Text and back matter pages | Arabic numerals starting at **1** (first text page = page 1) |
+| Chapter-opening pages | Pagination **suppressed** (no number shown) |
+| Page number position | Top of page, centre |
+
+---
+
+## 12. Footnotes and Endnotes
+
+- Footnotes and endnotes are for **clarifying elaboration or digression** — supplementary content not directly related to the argument
+- **Must NOT be used for citation or referencing** — use parenthetical author-date in the text
+- In dissertations/theses: **footnotes recommended** (not endnotes)
+- In term/research papers: endnotes recommended
+- Numbered consecutively with **Arabic numerals** starting at 1: 1, 2, 3…
+- Author identification note: **single asterisk [*]** instead of a number
+- Acknowledgements and disclaimers: **double asterisk [**]**
+
+---
+
+## 13. Writing Style (Substance)
 
 - Write in **active voice** wherever possible.
 - Prefer **short sentences** (avg. < 25 words); vary length for rhythm.
@@ -239,4 +281,4 @@ Extracted from the live Chapter 2 document (ID: 1YqmmCQj6X8-D6DsEdXjB_WWplJb_-v-
 
 ---
 
-*Last updated: 2026-04-22 (fully verified against TISS Manual of Style, 8th Revised Edition, Jayaram 2019, all 42 pages).*
+*Last updated: 2026-04-28 (corrected against source PDF — TISS Manual of Style, 8th Revised Edition, Jayaram 2019, all 42 pages. Major corrections: citation system changed from APA to Chicago author-date; bibliography format corrected to Chicago with title case; §4 ampersand rule fixed; pagination and footnotes sections added).*
