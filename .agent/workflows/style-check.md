@@ -16,38 +16,41 @@ description: Lint a passage of PhD prose against the TISS Manual of Style — fl
    - Flag: *-or* endings → should be *-our* (colour, behaviour, labour, honour)
    - Flag: *center* → *centre*; *program* → *programme*; *catalog* → *catalogue*; *judgment* → *judgement*; *license* (noun) → *licence*
    - Flag: contractions (*don't*, *can't*, *it's*) — replace with full forms in academic prose
+   - Flag: ligatures (*æ*, *œ*) — replace with *ae*, *oe*
 
    **Numbers**
-   - Flag: numerals used for one through ninety-nine in body text (should be words)
+   - Flag: numerals used for one through ninety-nine in body text (should be words), EXCEPT physical quantities (age, currency, distance, electricity, percentage, weight, period/century)
    - Flag: words used for 100 and above in body text (should be numerals)
    - Flag: any sentence opening with a numeral — sentence must be recast
    - Flag: *%* in body text → should be *per cent* (two words); *%* is only acceptable in tables and parentheses
    - Flag: *percent* (one word) → should be *per cent*
    - Flag: ranges using a hyphen (*2000-2010*) → should be en-dash (*2000–2010*)
+   - Flag: numbers 21–99 written as words without a hyphen (*fifty two*) → should be hyphenated (*fifty-two*)
 
    **Punctuation**
    - Flag: missing Oxford comma before *and* or *or* in a list of three or more items
-   - Flag: *&* used in prose (should be *and*; *&* is only allowed inside parenthetical citations and in publisher names)
-   - Flag: space around em-dash — no space on either side
-   - Flag: double hyphen *--* used as a dash — replace with em-dash or en-dash
+   - Flag: *&* used in prose (should be *and*; *&* is only acceptable in quotations, book titles, and publisher names — never in citations)
+   - Flag: em-dash with spaces around it (*result — unexpected*) → no space on either side (*result—unexpected*)
+   - Flag: en-dash used as separating dash without spaces (*result–unexpected*) → space before and after (*result – unexpected*)
+   - Flag: double hyphen *--* used as a dash → replace with em-dash or en-dash
    - Flag: colon or *:-* at the end of a subheading — not allowed per TISS
+   - Flag: closing quotation mark placed before punctuation: *'text'.* → should be *'text.'*
 
    **Quotations**
    - Flag: double quotation marks (" ") for short run-in quotes — should be single (' ')
    - Flag: quotes exceeding 4 lines or 50 words that are not block-indented
    - Flag: block quotes that still carry quotation marks — remove them
-   - Flag: direct quote citation missing a page number — APA requires *(Author, Year, p. X)*
+   - Flag: direct quote citation missing a page number — Chicago requires *(Author Year: page)*
    - Flag: block quote not in TNR 10pt single-spaced (advisory — cannot check font in plain text, remind user)
    - Flag: block quote with no line space above and below (advisory)
 
-   **In-text citations (APA 7th ed.)**
-   - Flag: no comma between author and year: *(Sharma 2005)* → *(Sharma, 2005)*
-   - Flag: colon before page: *(Sharma, 2005: 34)* → *(Sharma, 2005, p. 34)*
-   - Flag: missing *p.* before page number in direct quote: *(Sharma, 2005, 34)* → *(Sharma, 2005, p. 34)*
-   - Flag: *and* between authors inside parentheses: *(Gupta and Singh, 2001)* → *(Gupta & Singh, 2001)*
-   - Flag: *&* between authors in prose: *Gupta & Singh (2001)* → *Gupta and Singh (2001)*
-   - Flag: four or more author names written out in full → should be *et al.*
+   **In-text citations (Chicago author-date)**
+   - Flag: comma between author and year: *(Stone, 2008)* → should be *(Stone 2008)* — no comma
+   - Flag: "p." before page number: *(Stone 2008, p. 42)* or *(Stone 2008, 42)* → should be *(Stone 2008: 42)* — colon only
+   - Flag: "&" between authors inside or outside parentheses: *(Grindle & Thomas 1989)* → should be *(Grindle and Thomas 1989)*
    - Flag: citation placed after the full stop → must be before the full stop
+   - Flag: four or more author names written out in full → should be *et al.*
+   - Flag: citation in a footnote/endnote — footnotes must NOT be used for citations
 
    **Latin abbreviations in prose**
    - Flag: *i.e.* → write *that is*
@@ -59,6 +62,7 @@ description: Lint a passage of PhD prose against the TISS Manual of Style — fl
    **Headings**
    - Flag: Level 1 heading not centred or not bold or not 14pt (advisory)
    - Flag: Level 2 heading not flush left or not bold or not 12pt (advisory)
+   - Flag: Level 1 or Level 2 heading not in title case (all major words should be capitalised, excepting prepositions and articles)
    - Flag: Level 3 heading written as a standalone heading — it must be a **run-in side head**: bold italic text followed by a period, with paragraph text continuing on the same line
    - Flag: any subheading followed by a colon or *:-*
    - Flag: more than three levels of heading used
