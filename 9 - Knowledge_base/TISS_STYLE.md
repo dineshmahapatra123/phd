@@ -58,7 +58,7 @@
 | En-dash for ranges (no space) | *2000–2010*, *Rural–urban continuum* | *2000-2010* |
 | Em-dash for parenthetical break (no space) | *The result—unexpected by all—was…* | *The result — unexpected — was…* |
 | En-dash as separating dash (space each side) | *You can be a patriot – as many people are – without…* | — |
-| Ampersand | **Never** in prose or citations; only in quotations, book titles, publisher names | *Gupta & Singh (2001)* in text |
+| Ampersand | **"&"** inside parenthetical citations *(Feder & Feeny, 1991)*; **"and"** in prose *Feder and Feeny (1991)*; also acceptable in book titles and publisher names |
 | Ellipsis | Three dots with spaces *...* (word/phrase omitted); four dots *....* (sentence or end omitted); *[....]* (whole paragraph omitted) |
 | Hyphenation | Compound adjectives before noun: *land-tenure system*; predicative: *the system is well established* |
 | Colon | Introduces explanation, list, definition, quotation; also between title and subtitle |
@@ -121,109 +121,100 @@
 
 ---
 
-## 9. In-Text Citations (Chicago Author-Date System)
+## 9. In-Text Citations (APA 7th Edition)
 
 | Case | Format |
 |------|--------|
-| Single author | `(Stone 2008)` |
-| Single author with page | `(Stone 2008: 42)` |
-| Single author, page range | `(Stone 2008: 5–6)` |
-| Single author, multiple works | `(Stone 1984, 1988a, 2008)` — chronological, comma-separated |
-| Same author, same year | `(Stone 1988a, 1988b)` |
-| Two authors | `(Grindle and Thomas 1989)` — **"and"**, not "&" |
-| Three or more authors | `(True et al. 2007)` |
-| Multiple separate authors | `(Stone 1984; Grindle and Thomas 2007; Soni 2017)` — semicolons |
-| Institutional author | `(Government of Karnataka 2006)` or `(NCRB 2017)` |
-| Secondary reference | `(quoted in or cited in ....)` |
-| Author name used in sentence | `Stone (2008) argues…` / `Grindle and Thomas (1989) argue…` |
+| Single author | `(North, 1990)` |
+| Single author with page | `(North, 1990, p. 34)` |
+| Single author, page range | `(North, 1990, pp. 34–36)` |
+| Single author, multiple works | `(North, 1984, 1990)` — chronological, comma-separated |
+| Same author, same year | `(North, 1990a, 1990b)` |
+| Two authors | `(Feder & Feeny, 1991)` — **"&"** inside parentheses |
+| Three or more authors | `(True et al., 2007)` — comma after *et al.* |
+| Multiple separate works | `(North, 1990; Feder & Feeny, 1991)` — semicolons |
+| Institutional author | `(World Bank, 2006)` or `(NSSO, 2011)` |
+| No author | Shortened title in italics: `(*Land Report*, 2003)` |
+| Forthcoming | `(North, in press)` |
+| Secondary reference | `(as cited in North, 1990)` |
+| Author name in running text | `North (1990) argues…` |
+| Two authors in running text | `Feder and Feeny (1991) show…` — **"and"** in prose |
 
 **Key rules**:
-- **No comma** between author and year: *(Stone 2008)* — not *(Stone, 2008)*
-- **Colon** before page number: *(Stone 2008: 42)* — not "p." and not a comma
-- **"and"** between co-authors everywhere — in parentheses and in prose: *(Grindle and Thomas 1989)*
-- **Never use "&"** in citations (only acceptable in book titles and publisher names)
-- *et al.* for three or more authors from the first citation
+- **Comma** between author and year: *(North, 1990)* — not *(North 1990)*
+- **Comma + p.** before page: *(North, 1990, p. 34)* — not a colon
+- **"&"** between co-authors inside parenthetical citations; **"and"** in prose
+- *et al.* for three or more authors, with comma: *(True et al., 2007)*
 - Citation placed **before** the full stop at sentence end
-- Footnotes and endnotes must **not** be used for citations — use parenthetical author-date only
+- Footnotes and endnotes must **not** be used for citations
 
 ---
 
-## 10. Bibliography Formats
+## 10. Bibliography Formats (APA 7th Edition)
 
 ### Book
 ```
-Surname, First Name. Year. Title in Title Case. City: Publisher.
+Surname, F. (Year). *Title in sentence case: Subtitle*. Publisher.
 ```
 Example:
-> Stone, Deborah. 1988. *Policy Paradox: The Art of Political Decision Making*. London: W. W. Norton and Co.
+> North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.
 
 ### Edited Book
 ```
-Surname, First Name (ed.). Year. Title in Title Case. City: Publisher.
+Surname, F. (Ed.). (Year). *Title in sentence case*. Publisher.
 ```
-(Multiple editors: `(eds.)`)
+(Multiple editors: `(Eds.)`)
 
 ### Chapter in Edited Book
 ```
-Surname, First Name. Year. 'Chapter Title in Title Case', in First Name Surname (ed.): Book Title. City: Publisher, pp. XX–XX.
+Surname, F. (Year). Chapter title in sentence case. In F. Surname (Ed.), *Book title* (pp. XX–XX). Publisher.
 ```
 Example:
-> True, James L., Bryan D. Jones and Frank R. Baumgartner. 2007. 'Punctuated-Equilibrium Theory: Explaining Stability and Change in Public Policymaking', in Paul A. Sabatier (ed.): *Theories of the Policy Process*. Boulder, Colorado: Westview Press, pp. 155–187.
+> True, J. L., Jones, B. D., & Baumgartner, F. R. (2007). Punctuated-equilibrium theory: Explaining stability and change in public policymaking. In P. A. Sabatier (Ed.), *Theories of the policy process* (pp. 155–187). Westview Press.
 
 ### Journal Article
 ```
-Surname, First Name. Year. 'Article Title in Title Case'. Journal Name Vol (No): XX–XX.
+Surname, F. (Year). Article title in sentence case. *Journal Name*, *Vol*(No), XX–XX. https://doi.org/xxx
 ```
 Example:
-> Warren, Samuel D. and Brandeis D. Louis. 1890. 'The Right to Privacy'. *Harvard Law Review* 4 (5): 193–220.
+> Feder, G., & Feeny, D. (1991). Land tenure and property rights: Theory and implications for development policy. *The World Bank Economic Review*, *5*(1), 135–153.
 
 ### Newspaper Article
 ```
-Surname, First Name. Year. 'Article Title', Newspaper Name (City), Day Month, p. X.
+Surname, F. (Year, Month Day). Article title. *Newspaper Name*, p. X.
 ```
-Example:
-> Vagishwari, S. P. 2017. 'Are Lingayats not Hindus?', *Deccan Herald* (Bengaluru), 12 September, p. 10.
 
 ### Internet Source
 ```
-Surname, First Name. Year. 'Article Title', (URL) (accessed on Day Month Year).
+Surname, F. (Year). Title. Retrieved Month Day, Year, from URL
 ```
-Example:
-> Soni, Anusha. 2017. 'In Democracy, Liberty Cannot Exist without Right to Privacy', (https://www.indiatoday.in/...) (posted on 18 July 2017) (accessed on 18 August 2018).
 
 ### Blog / Social Media
 ```
-Surname, First Name. Year. 'Entry Title' (blog), (URL) (accessed on Day Month Year).
+Surname, F. [@handle]. (Year, Month Day). Post title or opening words [Post type]. Platform. URL
 ```
-Example:
-> Bailey, Rishab. 2019. 'Disclosures in Privacy Policies: Does "Notice and Consent" Work?' (blog), (https://blog.theleapjournal.org/...) (accessed on 20 March 2019).
 
-### Unpublished Work (Thesis, Working Paper, Conference Paper)
+### Unpublished Work (Thesis, Working Paper)
 ```
-Surname, First Name. Year. 'Title'. [Type, e.g., Unpublished PhD Thesis / Paper presented at Conference]. Institution, Date.
+Surname, F. (Year). *Title* [Doctoral dissertation / Unpublished manuscript]. Institution.
 ```
 Example:
-> Palan, Ruchi. 2017. *Disabled Students in Higher Education: A Study of Experiences and Aspirations*. Unpublished Ph.D. Thesis. Mumbai: Tata Institute of Social Sciences.
+> Palan, R. (2017). *Disabled students in higher education: A study of experiences and aspirations* [Doctoral dissertation]. Tata Institute of Social Sciences.
 
 ### Court Case / Legal Document
 Court cases are cited **in footnotes/endnotes only**, not in Bibliography or References.
-```
-Case Name (Reporter Year Court Docket)
-```
-Example: *Keshavananda Bharati v. The State of Kerala and Others* (AIR 1973 SC 1461).
-If many cases cited, add a separate 'Court Cases' section in Bibliography.
+If many cases are cited, add a separate 'Court Cases' section.
 
-**Key bibliography rules**:
-- Section heading: **Bibliography** or **References** or **Bibliography and References** (choose one, use consistently)
-- **Title case**: capitalise first and last words and all nouns, pronouns, adjectives, verbs, adverbs, and subordinate conjunctions; lowercase articles (*the*, *a*, *an*), co-ordinate conjunctions (*and*, *or*, *for*, *nor*), and prepositions
-- **Single inverted commas** around chapter and article titles (not italics, not double marks)
-- *Italics* for book and journal titles
-- **Year after author name, no parentheses**: `Stone, Deborah. 1988.` not `Stone, D. (1988).`
-- **City of publication** included for books: `London: Publisher`
+**Key bibliography (References) rules**:
+- Section heading: **References** (APA standard; *Bibliography* also acceptable per TISS)
+- **Sentence case** for titles of books and articles: capitalise only the first word, proper nouns, and the first word after a colon
+- *Italics* for book and journal titles; journal volume number also italicised
+- **Year in parentheses** after author: `North, D. C. (1990).`
+- **"&"** between co-authors in reference list; all authors listed (no *et al.* in references)
 - Alphabetical by author surname; hanging indent 0.3"; single line spacing; TNR 12
 - No *ibid.*, *op. cit.*, or *loc. cit.*
-- URL with access date for internet sources
-- All co-authors listed by name (first author inverted, rest in normal order)
+- Include DOI where available; URL with retrieval date for webpages
+- No city of publication required (APA 7th dropped this)
 
 ---
 
@@ -281,4 +272,4 @@ Extracted from the live Chapter 2 document (ID: 1YqmmCQj6X8-D6DsEdXjB_WWplJb_-v-
 
 ---
 
-*Last updated: 2026-04-28 (corrected against source PDF — TISS Manual of Style, 8th Revised Edition, Jayaram 2019, all 42 pages. Major corrections: citation system changed from APA to Chicago author-date; bibliography format corrected to Chicago with title case; §4 ampersand rule fixed; pagination and footnotes sections added).*
+*Last updated: 2026-04-29 (verified against source PDF — TISS Manual of Style, 8th Revised Edition, Jayaram 2019, all 42 pages. Citation system confirmed as APA 7th edition by user. Corrections: §9 and §10 set to APA 7th; §4 ampersand rule corrected; pagination and footnotes sections added).*

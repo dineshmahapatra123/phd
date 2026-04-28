@@ -7,7 +7,7 @@ description: Format a raw citation into a correctly structured TISS bibliography
 
 2. **Receive the citation details**
    - The user will provide raw citation details in any form (BibTeX, DOI, free text, or a mix of fields).
-   - If only a DOI or title is given, ask the user to confirm the key fields before proceeding (author, year, title, journal/publisher, volume, issue, pages, city of publication).
+   - If only a DOI or title is given, ask the user to confirm the key fields before proceeding (author, year, title, journal/publisher, volume, issue, pages).
    - If the user provides a BibTeX entry from `PhD.bib`, parse it directly.
 
 3. **Identify the source type** — ask the user if ambiguous:
@@ -21,56 +21,52 @@ description: Format a raw citation into a correctly structured TISS bibliography
    - Unpublished work (thesis, working paper, conference paper)
    - Court case / legal document
 
-4. **Apply the correct format template** (Chicago author-date, from TISS_STYLE.md §10):
+4. **Apply the correct format template** (APA 7th edition, from TISS_STYLE.md §10):
 
    **Book**:
-   `Surname, First Name. Year. Title in Title Case. City: Publisher.`
-   Example: `Stone, Deborah. 1988. Policy Paradox: The Art of Political Decision Making. London: W. W. Norton and Co.`
+   `Surname, F. (Year). *Title in sentence case: Subtitle*. Publisher.`
+   Example: `North, D. C. (1990). *Institutions, institutional change and economic performance*. Cambridge University Press.`
 
    **Edited book**:
-   `Surname, First Name (ed.). Year. Title in Title Case. City: Publisher.`
-   (Multiple editors: `(eds.)`)
+   `Surname, F. (Ed.). (Year). *Title in sentence case*. Publisher.`
+   (Multiple editors: `(Eds.)`)
 
    **Chapter in edited book**:
-   `Surname, First Name. Year. 'Chapter Title in Title Case', in First Name Surname (ed.): Book Title. City: Publisher, pp. XX–XX.`
+   `Surname, F. (Year). Chapter title in sentence case. In F. Surname (Ed.), *Book title* (pp. XX–XX). Publisher.`
 
    **Journal article**:
-   `Surname, First Name. Year. 'Article Title in Title Case'. Journal Name Vol (No): XX–XX.`
+   `Surname, F. (Year). Article title in sentence case. *Journal Name*, *Vol*(No), XX–XX. https://doi.org/xxx`
+   Example: `Feder, G., & Feeny, D. (1991). Land tenure and property rights: Theory and implications for development policy. *The World Bank Economic Review*, *5*(1), 135–153.`
 
    **Newspaper**:
-   `Surname, First Name. Year. 'Article Title', Newspaper Name (City), Day Month, p. X.`
+   `Surname, F. (Year, Month Day). Article title. *Newspaper Name*, p. X.`
 
    **Internet source**:
-   `Surname, First Name. Year. 'Article Title', (URL) (accessed on Day Month Year).`
+   `Surname, F. (Year). Title. Retrieved Month Day, Year, from URL`
 
    **Blog / social media**:
-   `Surname, First Name. Year. 'Entry Title' (blog), (URL) (accessed on Day Month Year).`
-   For Twitter: include day, month, year, time, and tweet URL.
+   `Surname, F. [@handle]. (Year, Month Day). Post title or opening words [Post type]. Platform. URL`
 
-   **Unpublished (thesis, working paper, conference paper)**:
-   `Surname, First Name. Year. 'Title'. [Type]. Institution, Date.`
-   Example (thesis): `Palan, Ruchi. 2017. Disabled Students in Higher Education. Unpublished Ph.D. Thesis. Mumbai: Tata Institute of Social Sciences.`
-   Example (conference): `Jayaram, N. 2017. 'Dynamics of Symbolic Inclusion in a "Secular" State'. Paper presented at National Seminar on Secularism, Equality, and Inclusion, Guru Nanak Dev University, Amritsar, 10–11 March 2017.`
+   **Unpublished (thesis, working paper)**:
+   `Surname, F. (Year). *Title* [Doctoral dissertation / Unpublished manuscript]. Institution.`
+   Example: `Palan, R. (2017). *Disabled students in higher education* [Doctoral dissertation]. Tata Institute of Social Sciences.`
 
    **Court case**:
-   Court cases are cited in **footnotes/endnotes only**, not in Bibliography/References.
-   Format: `Case Name (Reporter Year Court Docket).`
-   Example: `Keshavananda Bharati v. The State of Kerala and Others (AIR 1973 SC 1461).`
+   Court cases are cited in **footnotes/endnotes only**, not in References.
+   Format: `Case Name, Volume Reporter Page (Court Year).`
 
-5. **Apply global bibliography rules** (always):
-   - Section heading: **Bibliography** or **References** or **Bibliography and References**
-   - **Title case**: capitalise all major words — nouns, pronouns, adjectives, verbs, adverbs, subordinate conjunctions; lowercase articles, co-ordinate conjunctions, and prepositions
-   - **Single inverted commas** around chapter and article titles (not italics, not double marks)
-   - *Italics* for book and journal titles
-   - **Year after author name, no parentheses**: `Stone, Deborah. 1988.`
-   - **City of publication** for books: `London: W. W. Norton and Co.`
-   - All co-authors listed by full name; first author inverted, others in normal order
-   - Page ranges use en-dash: `pp. 155–187`
-   - URL with access date for internet sources; no DOI required unless available
-   - No *ibid.*, *op. cit.*, or *loc. cit.*
+5. **Apply global APA 7th References rules** (always):
+   - Section heading: **References**
+   - **Sentence case** for book and article titles: capitalise only first word, proper nouns, first word after colon
+   - *Italics* for book titles and journal names; journal volume number also italicised
+   - **"&"** between co-authors in reference list; list all authors (no *et al.* in references)
+   - Year in parentheses after author: `North, D. C. (1990).`
+   - No city of publication (APA 7th dropped this)
+   - Include DOI where available; URL with retrieval date for webpages
    - Hanging indent 0.3"; single line spacing; TNR 12
+   - No *ibid.*, *op. cit.*, or *loc. cit.*
 
 6. **Output**
    - Print the formatted bibliography entry, ready to paste.
-   - Also print the corresponding **in-text citation**: `(Stone 1988)` or `(Stone 1988: 42)`.
+   - Also print the corresponding **in-text citation**: `(North, 1990)` or `(North, 1990, p. 34)`.
    - If the user is adding this to `PhD.bib`, remind them to run `/sync-bib` after updating Zotero.
