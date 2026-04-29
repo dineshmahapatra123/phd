@@ -1,7 +1,7 @@
 ---
 type: Topic
-Paper_Linked: [[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Land tenure and property rights_ theory and implications for development policy]]
-Last_Processed: 2026-04-25
+Paper_Linked: "[[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Land tenure and property rights_ theory and implications for development policy]], [[Land record management in India]]"
+Last_Processed: 2026-04-29
 Status: Sapling+++
 ---
 
@@ -134,3 +134,34 @@ Evolution is not automatic; it is a result of the interaction between the **dema
 4. **The Collateral Premium**: A landmark stage in evolution is reached when land acquires a **[[Collateral Premium]]**. This signifies that the institutional framework is strong enough for banks to accept land as a substitute for personal reputation, effectively turning dead capital into liquid financial assets.
 
 **Theoretical link**: This adds a "Political Economy of Supply" layer to the Demsetzian "Economic Demand" model, explaining why some countries (like India) remain stuck in a "Presumptive Title Trap" despite high economic demand for clarity.
+
+## The Techno-Institutional Turn: DLT as Evolutionary Stage (Kapoor, Esposito & Anand, 2024 — NEW)
+Kapoor et al. (2024) identify the current moment as a potential inflection point in India's property rights evolution — a **Techno-Institutional Turn** in which [[Distributed Ledger Technology (DLT)]] offers the first technological architecture that natively satisfies all three Torrens principles simultaneously:
+
+| Torrens Principle | Traditional System | DLT Mechanism |
+|--|--|--|
+| Mirror | Requires bureaucratic accuracy | Immutable on-chain ledger inherently mirrors registered state |
+| Curtain | Requires deep document trails | Smart contracts eliminate retrospective search |
+| Indemnity | Requires state political will | State can confidently back once data integrity is established |
+
+**Case Evidence**: Andhra Pradesh (blockchain + GIS via Zebi Records, 2017), Telangana (PPP blockchain district with Tech Mahindra), Georgia (1.5 million titles on-chain by 2018), Ghana (OpenLedger with IBM/Bitland), Sweden (Lantmäteriet private blockchain, 2016–2021). These cases suggest DLT-based evolution is technically feasible — but dependent on institutional pre-conditions.
+
+**The Central Constraint**: DLT cannot substitute for political will or legal reform. DILRMP (see [[DILRMP]]) — India's current modernisation programme — has digitised land *records* without resolving *ownership*. Erroneous, fragmented, or politically contested baseline data, once placed on a DLT, is immutably wrong. The evolutionary logic therefore requires: (i) legal transition from presumptive to conclusive titling; (ii) clean, reconciled baseline data; (iii) unified institutional governance; before DLT can deliver its Mirror, Curtain, and Indemnity benefits.
+
+## The Neo-Liberal Critique of Apolitical Reform (Kapoor et al., 2024 — NEW)
+Kapoor et al. introduce a critical meta-argument: the drive for DLT-based land governance is partly a **neo-liberal impulse to find apolitical solutions** to deeply political problems. The World Bank and donor agencies have pushed technology-based land formalisation as a substitute for redistributive politics, demographic pressures of urbanisation having made land reform politically difficult. This critique draws on **[[Daniel Bromley]]** (2008), who argues formalisation without accompanying economic conditions — jobs, credit access, urbanisation planning — cannot create development. In this reading, DLT is in danger of repeating the DILRMP error at a higher technological register: computerising poverty without addressing its structural causes.
+
+### ⚠️ Contradiction: Formalization as Development vs. Formalization as Exclusion
+- **De Soto / Feder Position**: Formal titles → secure property rights → long-term capital investment → poverty reduction. Secure land records are a precondition for financial inclusion.
+- **Bromley / Gurumurthy Position**: Formalisation without structural economic conditions fails to create development and actively excludes marginalised communities (tribals, sharecroppers, CPR users) by converting collective and customary tenure into legible individual parcels that the state and elites can then appropriate. See [[DILRMP]] for empirical evidence (Jharkhand land bank, Coorg *jamma* enclosure, Gujarat data errors).
+- **PhD Resolution**: The contradiction is not fully resolved in the literature. The key moderating variable appears to be *whose* land gets formalised first, and with what governance design. Baxi's incremental approach (formalise Ninth Schedule beneficiaries first) and the Meghalaya exception (community ownership exempted from ULPIN) represent partial institutional responses to this contradiction.
+
+## Governance Framework Requirements for DLT Integration (Kapoor et al., 2024)
+For DLT to constitute a genuine evolutionary advance rather than technological overreach, Kapoor et al. propose a three-principle governance framework:
+1. **Transparency**: Clear rights, powers, and obligations for all blockchain network participants; traceable decision-making.
+2. **Legitimacy**: Verification mechanisms for the accuracy and authenticity of on-chain data; trust infrastructure.
+3. **Accountability**: Defined liability for disputes and errors; responsible actor identification.
+
+Institutional requirements: (i) single unified land agency replacing the current three-department silo structure; (ii) national DLT authority (analogous to NPCI) with state membership; (iii) state-level land titling authority for implementation; (iv) formal power-sharing with Gram Sabhas and Panchayats for local record management.
+
+**PhD Application**: The governance framework maps onto North's "Rules vs Players" dynamic — the DLT platform is the new institutional grid; the unified agency and national authority are the organisations that must be structured to navigate it productively rather than extractively.

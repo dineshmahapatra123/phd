@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[Institutions, institutional change and economic performance]], [[Institutions and credible commitment]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[Institutions, institutional change and economic performance]], [[Institutions and credible commitment]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]]"
+Last_Processed: 2026-04-29
 Status: Sapling
 ---
 
@@ -36,8 +36,11 @@ Key pillars of his lens (refined in his 1990 framework) include:
 - **Mentors/Peers**: [[Armen Alchian]], [[Harold Demsetz]], [[Ronald Coase]].
 - **Contrast**: [[Oliver Williamson]] (Vertical integration/Governance focused) vs. North (Institutional evolution/Macro-historical focused).
 
-## Methodological Bias
-North utilizes **Historical Institutionalism** and cliometrics. He emphasizes **Path Dependence**, arguing that historical accidents and early institutional choices lock societies into long-term trajectories. 
+## Key Concepts (1993 Contributions)
+North's 1993 JITE paper is the clearest synthesis of his mature framework. It adds three analytical tools beyond his 1990 book:
+- **[[Political Markets (Transaction Cost Theory)]]**: Political exchange has structurally higher transaction costs than economic markets (voter ignorance, measurement ambiguity, long enforcement cycles), explaining why inefficient institutions can persist in democratic equilibria.
+- **[[Adaptive Efficiency]]**: Distinguished from static allocative efficiency. An adaptively efficient economy provides a wide menu of organisational forms, encourages decentralized experimentation, and rapidly eliminates failures — the real criterion for long-run institutional performance.
+- **The Law Merchant**: Pre-state mechanism for credible commitment. Motivationally credible (reputation-based), but limited to small repeat-trade networks. Explains the transition from personal to impersonal exchange as the precondition for market scale.
 
----
-**Source Context**: Created during deconstruction of [[Institutions and credible commitment.md]].
+## Methodological Bias
+North utilizes **Historical Institutionalism** and cliometrics. He emphasizes **Path Dependence**, arguing that historical accidents and early institutional choices lock societies into long-term trajectories.

@@ -1,7 +1,7 @@
 ---
 type: Concept
 Paper_Linked: [[Guaranteeing title to land]]
-Last_Processed: 2026-04-21
+Last_Processed: 2026-04-29
 Status: Sapling
 Contradicts:
 ---
@@ -35,8 +35,19 @@ Wadhwa (2002) documents:
 ## Computerisation Fallacy
 Computerising land records does not close the Record-Reality Gap. It merely produces **computerised incorrect presumptive records**. The legal character — presumptive rather than conclusive — remains unchanged. Wadhwa (2002): "Instead of incorrect presumptive land records, we have computerised incorrect presumptive land records."
 
+## Credit Market Evidence: What Lenders Say (Wadhwa 2002)
+The most consequential cost of the Record-Reality Gap is its exclusion of land from functioning as collateral in formal credit markets. Wadhwa (2002) compiles direct statements from major Indian lending institutions:
+
+- **Life Insurance Corporation**: "The present day land records kept by the state government are either not proper or are not up-to-date. In the eyes of law, even the registered deeds raise only presumption of title. They do not constitute final and authentic evidence of a clear and marketable title to the land."
+- **CanFin Homes**: Under Torrens, land would become "a definite and distinct commodity conferring perfect title to its owners… [Lenders could] accept land as security in as simple a way as accepting fixed deposit receipts or company scrips or gold ornaments. The mortgages taken by lending institutions can be made negotiable securities and traded in the secondary market."
+- **National Housing Bank**: Registration of title "literally takes the burden of title verification off the chest of a lending agency."
+
+The CanFin formulation is analytically precise: the difference between presumptive and conclusive title is the difference between a contested factual claim and a standardised financial instrument. A fixed deposit receipt is uncontestable; it can be traded, pledged, and liquidated at low cost. A presumptive land record is the opposite — its validity is always open to challenge, making it illiquid as collateral. Torrens converts the former into the latter.
+
+**PhD Application**: This is the clearest statement of why land tenure reform is a financial development intervention, not merely a legal or administrative one. The Record-Reality Gap does not just create litigation — it structurally excludes land from serving as the collateral basis for agricultural and housing credit. See [[Collateral Value of Land]], [[Presumptive vs Conclusive Title]].
+
 ## Solution
-The only durable solution is transitioning from **presumptive** to **conclusive title** ([[Torrens System]]). Under Torrens, there is no registration without simultaneous mutation — eliminating the mechanism that produces the gap.
+The only durable solution is transitioning from **presumptive** to **conclusive title** ([[Torrens System]]). Under Torrens, there is no registration without simultaneous mutation — eliminating the mechanism that produces the gap. "Litigation will always stay ahead of resolution" under presumptive title; Torrens addresses the source, not the symptom.
 
 ## Related Articles
 - [[Presumptive vs Conclusive Title]]

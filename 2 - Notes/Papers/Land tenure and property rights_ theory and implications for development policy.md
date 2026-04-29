@@ -5,7 +5,7 @@ Last_Processed: 2026-04-25
 Status: Seed
 _organized: true
 ---
-APA Citation from Zotero: Feder, G., & Feeny, D.. (1991). Land tenure and property rights: Theory and implications for development policy. The World Bank Economic Review, 5(1), 135–153. <https://doi.org/10.1093/wber/5.1.135>
+APA Citation from Zotero: Feder, G., & Feeny, D.. (1991). Land Tenure and Property Rights: Theory and Implications for Development Policy. The World Bank Economic Review, 5(1), 135–153. https://doi.org/10.1093/wber/5.1.135
 
 Tags:
 

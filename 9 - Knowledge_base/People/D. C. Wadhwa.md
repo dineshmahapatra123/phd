@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]]
-Last_Processed: 2026-04-21
+Paper_Linked: "[[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[Land record management in India]]"
+Last_Processed: 2026-04-29
 Status: Sapling
 ---
 
@@ -27,3 +27,6 @@ In his 1989 paper, "Guaranteeing title to land_ a preliminary study," Wadhwa arg
 
 ## The Maharashtra Pilot Episode (2002)
 Wadhwa's 2002 paper documents his involvement in a state-level pilot project for the Torrens system approved by the Maharashtra Chief Minister. The Revenue Department selectively omitted a key decision from the official minutes — a form of bureaucratic overruling. Wadhwa resigned from the project in protest, framing it as the department "doing indirectly what it cannot do directly." This episode is the primary empirical case for [[Implementation Failure (Land Reform)]].
+
+## Legacy: The 1989 Reform Trajectory and DILRMP
+Kapoor et al. (2024) trace the transition from presumptive to conclusive titling in India's modernisation trajectory to Wadhwa's 1989 One-Man Committee recommendation. The DILRMP and its digital initiatives (see [[DILRMP]], [[Bhu-Aadhaar]]) are the institutional descendants of this 1989 reform impulse. Wadhwa's critique that digitisation without legal reform is insufficient has been confirmed by DILRMP's failure to resolve the ownership question despite significant computerisation investment.

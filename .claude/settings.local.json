@@ -14,7 +14,10 @@
       "mcp__claude_ai_Google_Drive__read_file_content",
       "mcp__claude_ai_Google_Drive__download_file_content",
       "WebFetch(domain:tiss.ac.in)",
-      "Bash(curl -k -L \"https://tiss.ac.in/uploads/files/Manual_of_Style.pdf\" -o /tmp/tiss_manual_of_style.pdf)"
+      "Bash(curl -k -L \"https://tiss.ac.in/uploads/files/Manual_of_Style.pdf\" -o /tmp/tiss_manual_of_style.pdf)",
+      "Bash(python3 \"/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/scripts/scaffold.py\")",
+      "Bash(curl -s -H \"Zotero-API-Key: SZu9e4D70klRvMtsJeKzznAC\" \"https://api.zotero.org/users/15086139/collections/32MFM4ZJ/items?itemType=-attachment&limit=100\")",
+      "Bash(python3 -c ' *)"
     ]
   }
 }

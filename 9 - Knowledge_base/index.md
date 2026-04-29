@@ -76,6 +76,13 @@
     - [[State Property]]
     - [[Collateral Premium]]
     - [[Asymmetric Information (Land Rights)]]
+    - [[Distributed Ledger Technology (DLT)]]
+    - [[DILRMP]]
+    - [[Bhu-Aadhaar]]
+    - [[Ownership Forms Typology]]
+    - [[Optimal Ownership Scale]]
+    - [[Political Markets (Transaction Cost Theory)]]
+    - [[Adaptive Efficiency]]
 - **[[People/]]** — Scholarly Networks  
     - [[Armen Alchian]]
     - [[Harold Demsetz]]
@@ -91,6 +98,9 @@
     - [[Gershon Feder]]
     - [[David Feeny]]
     - [[Frank F.K. Byamugisha]]
+    - [[Amit Kapoor]]
+    - [[Hernando de Soto]]
+    - [[Daniel Bromley]]
 - **[[Methods/]]** — Research Design & Tools  
     - [[Comparative Institutional Analysis]]
     - [[Historical Institutionalism (Land)]]
@@ -120,7 +130,7 @@
 ---
 
 ## 📈 Statistics
-- Total Articles: 68
-- Last Neural Scan: 2026-04-25
+- Total Articles: 81
+- Last Neural Scan: 2026-04-29
 - Source Repository: `7 - Raw/`
 
