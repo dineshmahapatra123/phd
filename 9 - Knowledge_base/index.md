@@ -8,7 +8,6 @@
 ## 🧠 Brain Layers
 
 - [[PHD_SCHEMA]] — The rules of the engine.
-- [Wiki Map] — (Building now...)
 
 ---
 
@@ -17,6 +16,21 @@
 ## 🚀 Quick Navigation
 
 - **[[Concepts/]]** — Theoretical Frameworks  
+    - [[Land Liberalization]]
+    - [[Property as a Social Relation]]
+    - [[Land Titling]]
+    - [[Bundle of Rights]]
+    - [[Record of Rights (RoR)]]
+    - [[Conclusive Land Title]]
+    - [[The Torrens System]]
+    - [[Neoliberal Land Policy]]
+    - [[Secure Property Rights]]
+    - [[Presumptive Property Titles]]
+    - [[The Four Regimes of Property]]
+    - [[Transaction Costs in Land]]
+    - [[JNNURM]]
+    - [[Zamindari System]]
+    - [[Permanent Settlement]]
     - [[Property Right Bundle]]
     - [[Communal Rights]]
     - [[Domain of Demarcated Uses]]
@@ -35,18 +49,6 @@
     - [[Land Resistance Movements]]
     - [[Ulgulan]]
     - [[Chotanagpur Tenancy Act 1908]]
-    - [x] Establishing Source record in `9 - Knowledge_base/sources/`
-    - [x] Updating/Creating Concepts
-        - [x] Update `Transaction Costs.md`
-        - [x] Update `Communal Rights.md` (Add Ostrom contradiction)
-        - [x] Create `Internalization of Externalities.md`
-    - [x] Extracting Methodology
-        - [x] Create `Comparative Institutional Analysis.md`
-    - [x] Updating People
-        - [x] Update `Harold Demsetz.md`
-    - [x] Backlinking & Indexing
-        - [x] Update `9 - Knowledge_base/index.md`
-    - [x] Verification & Walkthrough
     - [[Credible Commitment]]
     - [[Institutions vs Organizations]]
     - [[Transaction Costs]]
@@ -83,7 +85,24 @@
     - [[Optimal Ownership Scale]]
     - [[Political Markets (Transaction Cost Theory)]]
     - [[Adaptive Efficiency]]
+    - [[Deeds vs Title Systems]]
+    - [[Illegibly legible]]
+    - [[LRUP (Telangana)]]
+    - [[Dharani Portal]]
+    - [[Technocracy in Land Administration]]
+    - [[Rythu Bandhu Scheme]]
 - **[[People/]]** — Scholarly Networks  
+    - [[C. B. Macpherson]]
+    - [[Pradeep Nayak]]
+    - [[A. M. Honoré]]
+    - [[Adam Smith]]
+    - [[Wesley NewComb Hohfeld]]
+    - [[Robert C. Ellickson]]
+    - [[Daniel W. Bromley]]
+    - [[Richard Posner]]
+    - [[John Locke]]
+    - [[Garrett Hardin]]
+    - [[P.S. Appu]]
     - [[Armen Alchian]]
     - [[Harold Demsetz]]
     - [[Ranjan K. Ghosh]]
@@ -101,20 +120,30 @@
     - [[Amit Kapoor]]
     - [[Hernando de Soto]]
     - [[Daniel Bromley]]
+    - [[Klaus Deininger]]
+    - [[R. Ramakumar]]
+    - [[Padmini Ramesh]]
 - **[[Methods/]]** — Research Design & Tools  
+    - [[Law and Economics Approach to Property]]
+    - [[Qualitative Document Analysis]]
     - [[Comparative Institutional Analysis]]
     - [[Historical Institutionalism (Land)]]
     - [[Cadastral Survey]]
     - [[Schlager-Ostrom Taxonomy]]
     - [[New Institutional Economics]]
     - [[Land Titling]]
+    - [[Low-cost Land Certification]]
+    - [[Multi-level Case Study (Land Governance)]]
 - **[[Topics/]]** — Field Debates  
     - [[Definition of Private Property]]
     - [[Institutional Property Rights Evolution]]
+    - [[Land Registration and Economic Development (Evidence)]]
 - **[[Comparisons/]]** — Cross-Paper Analysis  
     - [[Spain vs England Institutional Divergence]]
 - **[[Queries/]]** — AI Research Interactions & Question Logs (Unindexed. Search `9 - Knowledge_base/Queries/` directly for context and past answers)
 - **[[sources/]]** — Machine-Readable Research  
+    - [[Land reforms in India]]
+    - [[Land reforms to land titling_ emerging paradigms of land governance in India]]
     - [[The property right paradigm]]
     - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
     - [[Guaranteeing title to land_ a preliminary study]]
@@ -126,11 +155,17 @@
     - [[Private and common property rights]]
     - [[Toward a theory of property rights]]
     - [[The benefits of land registration and titling_ economic and social perspectives]]
+    - [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
+    - [[Land tenure and property rights_ theory and implications for development policy]]
+    - [[Land record management in India]]
+    - [[Land registration, governance, and development_ evidence and implications for policy]]
+    - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]
+    - [[Property relations and economic development_ the other land reform]]
 
 ---
 
 ## 📈 Statistics
-- Total Articles: 81
-- Last Neural Scan: 2026-04-29
+- Total Articles: 142
+- Last Neural Scan: 2026-04-30
 - Source Repository: `7 - Raw/`
 

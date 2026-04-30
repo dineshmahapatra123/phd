@@ -1,8 +1,8 @@
 ---
 type: Concept
-Paper_Linked: [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
-Last_Processed: 2026-04-24
-Status: Seed
+Paper_Linked: "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Land registration, governance, and development_ evidence and implications for policy]]"
+Last_Processed: 2026-04-29
+Status: Sapling
 Related: [[Tenure Security]], [[Land Market Efficiency]], [[Land Liquidity]]
 ---
 
@@ -13,16 +13,24 @@ The channel through which land registration enhances allocative efficiency of la
 
 ## Scholarly Debate
 
-- **[[Frank F.K. Byamugisha]] (1999)**: Identifies labor mobility as the fifth and often-overlooked linkage between land registration and economic growth. The mechanism operates in two directions:
-    1. **Outward mobility**: Secure tenure → landowner can lease out land → migrate to better urban/non-agricultural opportunities without risking land loss; active land market → can also sell and re-enter market later.
-    2. **Return mobility**: When opportunities contract, landowners can return to agriculture — re-entering the land market to buy or activate their retained ownership.
-- **Thailand case**: During the 1980s–90s economic boom, rural-to-urban migration eased labor shortages in manufacturing and services. During the 1997 financial crisis, reverse migration (urban-to-rural) provided a social safety net. Byamugisha argues this bidirectional flexibility was enabled by secure land tenure and active land markets — both products of Thailand's land registration programme.
+- **[[Frank F.K. Byamugisha]] (1999)**: Identifies labor mobility as the fifth and often-overlooked linkage between land registration and economic growth.
+- **[[Klaus Deininger]] & [[Gershon Feder]] (2009)**: Review empirical evidence confirming the labor mobility effect in both urban and rural settings.
 
-## Distinction from Land Market Efficiency
-[[Land Market Efficiency]] focuses on land moving to higher-value *users*. Labor Mobility focuses on *people* moving to higher-value *uses* — the labor market allocative effect of land registration, not just the land market effect.
+### 1. Urban Context: The Protection Effect (Peru)
+**Erica Field (2007)** found that in urban Peru, receiving a title resulted in a large labor supply response.
+- **Mechanism**: Households with insecure rights were required to stay home to protect the plot.
+- **Impact**: Titled households increased their participation in the formal labor market by 45 hours per week (a 50% increase).
+- **Secondary Effect**: Reduced demand for child labor as adults no longer required children to assist in protective activities.
+
+### 2. Rural Context: Non-Farm Diversification (Vietnam)
+**Do & Iyer (2008)** found that land use certificates (LUCs) in Vietnam facilitated occupational shifts.
+- **Impact**: Provinces with more progress in certification saw an 11–12 week increase in labor supply to non-agricultural employment.
+- **Significance**: This effect was more pronounced for the poor, highlighting land registration as a tool for poverty reduction through income diversification.
 
 ## PhD Application
-In India, insecure land tenure discourages rural-to-urban migration (fear of losing land claims) and constrains the reverse safety net. This creates dual inefficiency: labor stays in low-productivity agriculture, and urban growth is constrained. Connects to the informal tenure literature in the eminent domain paper.
+In India, insecure land tenure (e.g., [[Mutation Lag]]) discourages rural-to-urban migration and constrains the reverse safety net. This creates dual inefficiency: labor stays in low-productivity agriculture, and urban growth is constrained. The evidence from Peru and Vietnam provides a cross-country empirical baseline for the labor market benefits of the [[DILRMP]] and [[Bhu-Aadhaar]] initiatives.
 
-## Related Papers
-- [[2 - Notes/Papers/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
+---
+**Sources**: 
+- [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
+- [[Land registration, governance, and development_ evidence and implications for policy]]

@@ -1,6 +1,6 @@
 ---
 type: Topic
-Paper_Linked: "[[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Land tenure and property rights_ theory and implications for development policy]], [[Land record management in India]]"
+Paper_Linked: "[[Land reforms to land titling_ emerging paradigms of land governance in India]], [[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Land tenure and property rights_ theory and implications for development policy]], [[Land record management in India]], [[Land reforms in India]], [[Toward a theory of property rights]], [[Institutions and credible commitment]], [[Property relations and economic development_ the other land reform]]"
 Last_Processed: 2026-04-29
 Status: Sapling+++
 ---
@@ -73,6 +73,20 @@ Evolution is driven by "Subaltern Feedback" and "Ecological Constraints":
 - **The Swiss-Alpine Exception (Ostrom)**: Evolution toward individual private property is arrested in environments with **high variance/risk** and **economies of scale** (Swiss alps, Japanese forests). In these contexts, **[[Communal Rights]]** are the *efficient* evolutionary endpoint because the costs of individual fencing and monitoring exceed the benefits.
 - **Institutional Disruption**: According to Ostrom, evolution is often reversed by "top-down" nationalization (e.g., colonial land seizures) which dismantles functioning communal regimes and replaces them with ineffective state control, causing a reversion to de facto **Open Access**.
 
+## Taxonomy of Property Regimes and the "Other Land Reform" (Bromley, 1989)
+**[[Daniel Bromley]]** (1989) challenges the teleological view that all property must evolve toward individual freehold to be efficient. He argues that for lands at the **extensive economic margin** (forests, grazing lands), the administrative costs of privatization (fencing, surveying, monitoring) often exceed the marginal gains.
+
+### The Four Property Regimes
+Bromley distinguishes four distinct resource regimes:
+1.  **State-property**: Ownership and control in the hands of the state. (e.g., National Forests). Often fails due to "indifferent enforcement."
+2.  **Private-property**: Ownership by individuals or corporations. Administered by a group in corporate forms.
+3.  **[[Common-property Regime]]**: Ownership by a well-defined group (**res communis**). "Private property for the group" where all others are excluded.
+4.  **Nonproperty (Open Access)**: Absence of ownership (**[[Open-access Regime]]** or **res nullius**). Characterized by "mutual privilege and no rights."
+
+### The "Other Land Reform"
+Bromley advocates for an **Institutional Fix**—the conversion of open-access regimes into common-property regimes—rather than a "Capital Fix" or forced privatization. This "other" land reform focuses on restoring the rules, duties, and rights necessary for sustainable collective use of common-pool resources.
+
+---
 ### ⚠️ Contradiction: The King's "Supreme Ownership"
 - **Western/Colonial View**: Assumes the sovereign (British/Mughal) had absolute ownership via **[[Eminent Domain]]**.
 - **Ancient Indian View**: **Jaimini** and **Kautilya** argue property is NOT vested in the king. The king is a **Trustee** who must purchase land from private owners for donations (e.g., Gautamiputra Satakarni bought land for 4000 karshapanas).
@@ -106,6 +120,12 @@ Wadhwa's full 2002 report adds a critical dimension absent from economic efficie
 - **The McKinsey Paradox**: Unclear land titles cost India **1.3% of annual GDP** (vs. 0.3% for inflexible labour laws), yet land reform is entirely absent from the policy agenda while labour reform is loudly debated. This inversion of economic priority over political salience is the central puzzle.
 
 **PhD Link**: This is the strongest empirical case in the India land literature for the **[[State as a Discriminating Monopolist]]** dynamic — the state maintains inefficient property rights not by accident but because the current system serves the monitoring and rent-extraction interests of the bureaucratic apparatus.
+
+## The Political Economy of Non-Reform (Appu, 1996 — NEW)
+Complementing Wadhwa's analysis of the bureaucratic veto, **[[P.S. Appu]]** (1996) emphasizes the ultimate underlying constraint: the lack of **political will**. 
+- While the Abolition of Intermediaries (Zamindari Abolition) succeeded because it aligned with the political interests of the new republic to dismantle colonial structures, subsequent reforms (Tenancy Reform, Land Ceilings) failed dramatically.
+- This failure wasn't primarily due to administrative complexity or legislative loopholes, but because the political power structure is inherently dominated by landowning interests.
+- **PhD Link**: Appu establishes that institutional property rights evolution is fundamentally arrested when the ruling political class derives its power from the very inefficiencies (like ambiguous tenancy or concentration of land) that reform seeks to eliminate.
 
 ## 📜 The Fiscal and Financial Transition
 According to **Feder & Nishio (1998)**, a critical evolutionary stage occurs when property rights move beyond simple "use-right" protection into **Institutional Credit Eligibility**:
@@ -165,3 +185,12 @@ For DLT to constitute a genuine evolutionary advance rather than technological o
 Institutional requirements: (i) single unified land agency replacing the current three-department silo structure; (ii) national DLT authority (analogous to NPCI) with state membership; (iii) state-level land titling authority for implementation; (iv) formal power-sharing with Gram Sabhas and Panchayats for local record management.
 
 **PhD Application**: The governance framework maps onto North's "Rules vs Players" dynamic — the DLT platform is the new institutional grid; the unified agency and national authority are the organisations that must be structured to navigate it productively rather than extractively.
+
+
+## The Transition from Land Reforms to Land Titling (Nayak, 2020 — NEW)
+Pradeep Nayak (2020) contextualizes the contemporary shift in India from redistributive land reforms to conclusive land titling within the neoliberal political economy. 
+- **The Neoliberal Turn**: The state has abandoned the equity-based redistributive agenda (ceiling laws, tenancy reform) in favor of a "pro-business" land liberalization regime intended to facilitate capital investment. 
+- **The Formalization Push**: The state seeks to transition from presumptive property records to secure, conclusive titles (the **[[Torrens System]]**). This aligns with Hernando de Soto's logic of unlocking "dead capital," but Nayak cautions against viewing this as an apolitical, techno-managerial fix.
+- **The Limits of Formalization**: Nayak critiques the "one-size-fits-all" advocacy of the World Bank, highlighting that formalization in highly unequal societies can facilitate the alienation of land from the poor to wealthier interests rather than unlocking credit for smallholders.
+
+**PhD Application**: Nayak's work bridges the gap between the economic drivers of evolution and the sociological reality of India. The push for the "Conclusive Shift" is driven by market demand for land (capital investment), but the institutional framework is fundamentally misaligned with the complex reality of India's mixed and customary tenure systems.

@@ -1,6 +1,6 @@
 ---
 type: Concept
-Paper_Linked: "[[Land record management in India]]"
+Paper_Linked: "[[Land reforms to land titling_ emerging paradigms of land governance in India]], [[Land record management in India]]"
 Last_Processed: 2026-04-29
 Status: Seed
 Related: "[[Presumptive vs Conclusive Title]], [[Record-Reality Gap]], [[Mutation Lag]], [[Implementation Failure (Land Reform)]], [[Bhu-Aadhaar]], [[Distributed Ledger Technology (DLT)]], [[Land Tenure Systems (India)]]"

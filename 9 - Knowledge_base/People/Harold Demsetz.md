@@ -1,6 +1,6 @@
 ---
 type: Person
-Paper_Linked: "[[Toward a theory of property rights]], [[The property right paradigm]]"
+Paper_Linked: "[[Land reforms to land titling_ emerging paradigms of land governance in India]], [[Toward a theory of property rights]], [[The property right paradigm]]"
 Last_Processed: 2026-04-29
 Status: Evergreen
 ---

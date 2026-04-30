@@ -8,7 +8,7 @@ Status: Seed
 [[Institutions, institutional change and economic performance.pdf]]
 [View High-Fidelity Source](file:///Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My%20Drive/PhD/9%20-%20Knowledge_base/sources/Institutions,%20institutional%20change%20and%20economic%20performance.md)
 
-APA Citation from Zotero: North, D. C.. (1990). Institutions, Institutional Change and Economic Performance. Cambridge University Press.
+APA Citation from Zotero: North, D. C.. (1990). Institutions, institutional change and economic performance. Cambridge University Press.
 
 Tags: #institutions #new-institutional-economics #property-rights #path-dependence #transaction-costs #north1990 #mental-models
 

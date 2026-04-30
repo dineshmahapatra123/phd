@@ -1,40 +1,50 @@
 ---
 type: Concept
-Related: [[Definition of Private Property]], [[Institutional Property Rights Evolution]], [[Collateral Value of Land]], [[Prerequisites for Land Registration]], [[Systematic vs Sporadic Registration]]
-Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]]
-Last_Processed: 2026-04-24
-Status: Sapling
+Related: [[Definition of Private Property]], [[Institutional Property Rights Evolution]], [[Collateral Value of Land]], [[Prerequisites for Land Registration]], [[Systematic vs Sporadic Registration]], [[Labor Mobility (Land Registration)]]
+Paper_Linked: "[[The benefits of land registration and titling_ economic and social perspectives]], [[Land registration, governance, and development_ evidence and implications for policy]]"
+Last_Processed: 2026-04-29
+Status: Sapling++
 ---
 
 # Tenure Security
 
-**Tenure Security** refers to the degree to which an individual or community believes their land-rights are protected from challenges, whether through ownership disputes, eviction, or state expropriation (Feder & Nishio, 1998).
+**Tenure Security** refers to the degree to which an individual or community believes their land-rights are protected from challenges, whether through ownership disputes, eviction, or state expropriation (Feder & Nishio, 1998; Deininger & Feder, 2009).
 
-## **The Mechanic: Incentive to Invest**
-The primary economic function of tenure security is the extension of the **investment horizon**.
+## **Economic Mechanisms**
+
+### 1. Investment Horizon Extension
+The primary function is the extension of the **investment horizon**.
 - If an investor is uncertain about their future possession of land, they will under-invest in **land-attached improvements** (e.g., irrigation, fencing, permanent crops).
 - Security ensures that the investor reaps the long-term benefits of their current capital expenditure.
 
-## **Linkages**
-- **Link to Credit**: Secure tenure is often a prerequisite for using land as collateral.
-- **Link to Markets**: Reduces information asymmetry between buyers and sellers, making land markets more liquid.
+### 2. Reduction in Defensive Resource Dissipation
+Deininger & Feder (2009) highlight that ill-defined rights force users to spend resources (time, guards, fences) to defend their land. 
+- Publicly enforced tenure security realizes economies of scale and frees these resources for productive uses.
+- **Evidence**: In urban Peru, titling led to a 50% increase in participation in the formal labor market as adults no longer had to stay home to protect the plot (Field, 2007).
 
-## **⚠️ Contradiction: The Customary Exception**
-Feder & Nishio (1998) note that formal titling is not always the only path to security. In many parts of **Sub-Saharan Africa**, indigenous customary systems provide sufficient de-facto security for current levels of economic development, making formal registration potentially redundant or even disruptive if implemented prematurely.
+### 3. Transferability and Efficient Allocation
+Secure tenure reduces information asymmetry, allowing land to move to more efficient users via rental or sales markets.
+- **Evidence**: In Ethiopia, low-cost certification increased the propensity of renting out land by 9 percentage points (Deininger et al., 2008).
 
-## **Empirical Evidence (Feder & Nishio, 1999)**
+## **Gendered Impacts & Empowerment**
+Titling can redistribute intra-household bargaining power if rights are granted to or shared with women.
+- **Evidence (Peru)**: Households where women received joint titles saw a 22% reduction in fertility and improved nutritional indicators for children (Field, 2003; Galiani & Schargrodsky, 2004).
+- **Evidence (India)**: Joint titling in Punjab and Gujarat increased women's attachment to homes and their ability to assert rights in court (Datta, 2006).
 
-| Country | Finding |
-|---------|---------|
-| Thailand (rural) | Titled farmers had 52–521% more institutional credit; 14.5–20.8% higher revenue; 25–132% higher land values |
-| Philippines (Davao) | Formal sector housing 58% more expensive than informal (identical units) — premium = tenure security |
-| Indonesia (Jakarta) | Registered titles 10.6–28.5% more valuable than tax-receipt-only parcels |
-| Honduras | USAID-titled farmers invested 117% more in attached improvements; received 4.5× more credit |
-| Brazil (Pará) | Titled land 45–189% more valuable depending on distance from market; 21–48% more area in permanent crops |
-| Sub-Saharan Africa | No clear impact in Ghana/Rwanda/Kenya — customary systems provided sufficient de-facto security at current development stage |
+## **Empirical Evidence Summary**
 
-## **Conditional Nature**
-Tenure security via formal registration is NOT universally beneficial. Feder identifies prerequisites — see [[Prerequisites for Land Registration]].
+| Study | Context | Finding |
+| :--- | :--- | :--- |
+| **Feder & Nishio (1998)** | Thailand | Titled farmers had 52–521% more institutional credit; 25–132% higher land values. |
+| **Field (2007)** | Peru (Urban) | Titles led to 45 extra hours of labor supply per week due to reduced need for protection. |
+| **Galiani & Schargrodsky (2005)** | Buenos Aires | Titled squatters had 40% higher probability of good housing quality; children had 0.42 extra years of school achievement. |
+| **Deininger et al. (2008)** | Ethiopia | Low-cost certification reduced conflicts and improved bargaining power for women. |
+| **Jacoby & Minten (2007)** | Madagascar | **Contradiction**: Formal title had no effect on plot-specific investment; land values rose by only 6%. |
+
+## **⚠️ Critical Caveat: The Governance Diagnosis**
+Deininger & Feder (2009) warn that land registration is **not a panacea**. In contexts of bad governance, titling may be used by elites to grab land or "cement" unequal power structures. Interventions should only follow a careful diagnosis of the social and governance environment.
 
 ---
-**Source**: [[The benefits of land registration and titling_ economic and social perspectives]]
+**Sources**: 
+- [[The benefits of land registration and titling_ economic and social perspectives]]
+- [[Land registration, governance, and development_ evidence and implications for policy]]
