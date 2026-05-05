@@ -1,7 +1,7 @@
 ---
 type: Method
-Paper_Linked: "[[Private and common property rights]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Private and common property rights.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
 ---
 

@@ -1,8 +1,12 @@
 ---
 type: Concept
-Paper_Linked: "[[Toward a theory of property rights]], [[The property right paradigm]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Toward a theory of property rights.pdf]]"
+  - "[[The property right paradigm.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related: "[[Ownership Forms Typology]]"
+Contradicts: ""
 ---
 
 # Internalization of Externalities
@@ -35,8 +39,7 @@ This is the core "efficiency" explanation for why new land titling systems are i
 ## Measurement/Methods
 - **[[Comparative Institutional Analysis]]**: Comparing resource outcomes (depletion rates, investment levels) under different property regimes.
 
-## Related Papers
+## Also Appears In
 - [[Toward a theory of property rights]] (Demsetz, 1967)
 - [[The property right paradigm]] (Alchian & Demsetz, 1973)
 - [[Private and common property rights]] (Ostrom, 2000 — rebuttal)
-- [[Ownership Forms Typology]]

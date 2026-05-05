@@ -9,7 +9,7 @@ Status: Seed
 
 APA Citation from Zotero: North, D. C.. (1993). Institutions and credible commitment. Journal of Institutional and Theoretical Economics (JITE) / Zeitschrift Für Die Gesamte Staatswissenschaft, 149(1), 11–23.
 
-Tags: [[Institutional Property Rights Evolution]]
+Tags: 
 
 
 # Highlights
@@ -186,7 +186,7 @@ North identifies four deep problems that remain open:
 
 **3. Changes in formal rules come through the polity.** Successful economic growth has been historically linked with the evolution of representative government, and secure property rights with the rule of law; but puzzles abound. Some modern economies achieved successful growth without representative institutions and without crippling corruption — the East Asian developmental states, implicitly. This challenges the simple representative-government-as-prerequisite story. North calls for more careful modeling of political processes in non-Western contexts.
 
-**4. Mental models shape policy.** Seventy years of communist economic policy should demonstrate that ideas matter independently of material incentives. Mental models do not automatically converge to efficient equilibria. And crucially, the interaction between mental models and institutional structure is the key to path dependence — not just because organizational entrepreneurs have a stake in existing institutions, but because the mental models that have evolved with that institutional structure will be broadly complementary to the existing institutional framework. Changing institutions therefore requires changing minds as well as rules — a much harder problem.
+**4. ==Mental models shape policy.** Seventy years of communist economic policy should demonstrate that ideas matter independently of material incentives. Mental models do not automatically converge to efficient equilibria. And crucially, the interaction between mental models and institutional structure is the key to path dependence — not just because organizational entrepreneurs have a stake in existing institutions, but because the mental models that have evolved with that institutional structure will be broadly complementary to the existing institutional framework.== Changing institutions therefore requires changing minds as well as rules — a much harder problem.
 
 ---
 

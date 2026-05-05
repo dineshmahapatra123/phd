@@ -1,7 +1,11 @@
 ---
 type: Person
-Paper_Linked: "[[Institutions, institutional change and economic performance]], [[Institutions and credible commitment]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Institutions, institutional change and economic performance.pdf]]"
+  - "[[Institutions and credible commitment.pdf]]"
+  - "[[Institutions and economic growth_ An historical introduction.pdf]]"
+  - "[[Institutions, transaction costs and economic growth.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
 ---
 
@@ -14,7 +18,7 @@ Douglass North is a foundational figure in **New Institutional Economics (NIE)**
 In *"Institutions and Credible Commitment,"* North positions himself in the lineage of:
 - **Armen Alchian & Harold Demsetz**: Resurrected property rights from Marxist heritage.
 - **Ronald Coase**: Persuaded economists that property rights affect performance when transaction costs are positive.
-- **[[State as a Discriminaining Monopolist]] (1989)**: Explains the "Political Inefficiency Paradox" through the lens of a ruler's fiscal survival. Rulers prioritize monitorable/taxable (inefficient) rights over complex/efficient ones if the latter risk political overthrow.
+- **[[State as a Discriminating Monopolist]] (1989)**: Explains the "Political Inefficiency Paradox" through the lens of a ruler's fiscal survival. Rulers prioritize monitorable/taxable (inefficient) rights over complex/efficient ones if the latter risk political overthrow.
 - **[[Spain vs England Institutional Divergence]] (1989)**: Tests the impact of initial political centralization on long-term path dependence.
 
 Key pillars of his lens (refined in his 1990 framework) include:
@@ -33,8 +37,8 @@ Key pillars of his lens (refined in his 1990 framework) include:
 - **Institutions and Credible Commitment (1993)**: Analyzes how the "shackling" of the state enables complex contracting.
 
 ## Inter-Person Links
-- **Mentors/Peers**: [[Armen Alchian]], [[Harold Demsetz]], [[Ronald Coase]].
-- **Contrast**: [[Oliver Williamson]] (Vertical integration/Governance focused) vs. North (Institutional evolution/Macro-historical focused).
+- **Mentors/Peers**: [[Armen Alchian]], [[Harold Demsetz]], Ronald Coase.
+- **Contrast**: Oliver Williamson (Vertical integration/Governance focused) vs. North (Institutional evolution/Macro-historical focused).
 
 ## Key Concepts (1993 Contributions)
 North's 1993 JITE paper is the clearest synthesis of his mature framework. It adds three analytical tools beyond his 1990 book:

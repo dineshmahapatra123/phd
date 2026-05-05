@@ -1,8 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[Guaranteeing title to land_ a preliminary study]]
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Guaranteeing title to land_ a preliminary study.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Record-Reality Gap]]"
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[DILRMP]]"
+  - "[[Institutional Reliability]]"
+Contradicts: ""
 ---
 
 # Acts in Law vs Acts of the Sovereign
@@ -34,4 +40,3 @@ The result is an internal legal contradiction: the Evidence Act grants special e
 - [[Presumptive vs Conclusive Title]]
 - [[Institutional Reliability]]
 - [[Record-Reality Gap]]
-- [[Domesday Book]]

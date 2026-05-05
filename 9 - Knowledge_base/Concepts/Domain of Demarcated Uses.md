@@ -1,8 +1,16 @@
 ---
 type: Concept
-Paper_Linked: "[[The property right paradigm]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[The property right paradigm.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Internalization of Externalities]]"
+  - "[[Open Access (Property Right)]]"
+  - "[[DILRMP]]"
+  - "[[Bhu-Aadhaar]]"
+  - "[[Khuntkatti]]"
+  - "[[Property Right Bundle]]"
+Contradicts: ""
 ---
 
 # Concept: Domain of Demarcated Uses
@@ -32,8 +40,6 @@ Where unbranded animals are communal property but branded animals are private, t
 ## PhD Application
 India's land records system is a domain demarcation problem. The colonial-era Record of Rights demarcated agricultural uses (cultivation, tenancy) but left many uses — mineral rights, forest rights, tribal communal rights — undemarcated or assigned to the state by default. DILRMP and Bhu-Aadhaar attempt to extend demarcation to all parcels, but do so without resolving the contested customary uses that tribal communities exercise under undemarcated rights. Demarcating the parcel boundary without demarcating the use-rights within it replicates the problem at a finer scale. See [[DILRMP]], [[Bhu-Aadhaar]], [[Khuntkatti]].
 
-## Related Papers
+## Also Appears In
 - [[The property right paradigm]] (Alchian & Demsetz, 1973)
 - [[Toward a theory of property rights]] (Demsetz, 1967)
-- [[Open Access (Property Right)]]
-- [[Property Right Bundle]]

@@ -1,10 +1,19 @@
 ---
 type: Concept
-Paper_Linked: "[[Land reforms to land titling_ emerging paradigms of land governance in India]], [[Land record management in India]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Land reforms to land titling_ emerging paradigms of land governance in India.pdf]]"
+  - "[[Land record management in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Seed
-Related: "[[Presumptive vs Conclusive Title]], [[Record-Reality Gap]], [[Mutation Lag]], [[Implementation Failure (Land Reform)]], [[Bhu-Aadhaar]], [[Distributed Ledger Technology (DLT)]], [[Land Tenure Systems (India)]]"
-Contradicts:
+Related:
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[Record-Reality Gap]]"
+  - "[[Mutation Lag]]"
+  - "[[Implementation Failure (Land Reform)]]"
+  - "[[Bhu-Aadhaar]]"
+  - "[[Distributed Ledger Technology (DLT)]]"
+  - "[[Land Tenure Systems (India)]]"
+Contradicts: ""
 ---
 
 # DILRMP (Digital India Land Records Modernization Programme)
@@ -72,7 +81,7 @@ DILRMP has not resolved this silo structure — sale deeds are stored in the reg
 ## PhD Application
 DILRMP exemplifies [[Implementation Failure (Land Reform)]] at a programmatic scale. It represents a technocratic, apolitical solution applied to a deeply political problem — consistent with the neo-liberal push (World Bank, donor agencies) to use technology to bypass redistributive politics. The program's failure to address ownership — only digitising possession records — means the [[Record-Reality Gap]] persists in digital form.
 
-## Related Papers
+## Also Appears In
 - [[Land record management in India]] (Kapoor, Esposito & Anand, 2024) — primary source
 - [[Guaranteeing title to land]] (Wadhwa, 2002) — original critique of presumptive system
 - [[The benefits of land registration and titling_ economic and social perspectives]] (Byamugisha, 1999)

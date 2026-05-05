@@ -1,9 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]]
-Last_Processed: 2026-04-24
+Paper_Linked: "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+Last_Processed: "2026-04-24"
 Status: Seed
-Related: [[Tenure Security]], [[Collateral Value of Land]], [[Transaction Costs]], [[Communal Rights]]
+Related:
+  - "[[Tenure Security]]"
+  - "[[Collateral Value of Land]]"
+  - "[[Transaction Costs]]"
+  - "[[Communal Rights]]"
+Contradicts: ""
 ---
 
 # Land Market Efficiency
@@ -26,5 +31,5 @@ The degree to which land can be transferred to its highest-value user at low tra
 ## PhD Application
 Land market efficiency is central to the argument for land registration in India. The suppression of land transactions due to unclear records (Record-Reality Gap) maintains allocative inefficiency and suppresses investment. Connects directly to the McKinsey 1.3% GDP loss estimate ([[Collateral Value of Land]]).
 
-## Related Papers
-- [[2 - Notes/Papers/The benefits of land registration and titling_ economic and social perspectives]]
+## Also Appears In
+- [[The benefits of land registration and titling_ economic and social perspectives]]

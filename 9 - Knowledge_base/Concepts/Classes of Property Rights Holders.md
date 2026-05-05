@@ -1,8 +1,13 @@
 ---
 type: Concept
-Paper_Linked: [[Private and common property rights]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[Private and common property rights.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Seed
+Related:
+  - "[[Property Right Bundle]]"
+  - "[[Communal Rights]]"
+  - "[[Common-pool resources]]"
+Contradicts: ""
 ---
 
 # Concept: Classes of Property Rights Holders
@@ -21,8 +26,8 @@ A taxonomy developed by **[[Edella Schlager]]** and **[[Elinor Ostrom]]** (1992)
 | **Owner** | x | x | x | x | x |
 
 ## PhD Application
-This framework allows for granular analysis of land tenure where "ownership" is not absolute. It helps identify **[[Proprietors]]** (who can regulate and exclude but not sell) as viable and efficient resource managers, challenging the idea that only "Owners" have incentives for long-term investment.
+This framework allows for granular analysis of land tenure where "ownership" is not absolute. It helps identify **Proprietors** (who can regulate and exclude but not sell) as viable and efficient resource managers, challenging the idea that only "Owners" have incentives for long-term investment.
 
-## Related Papers
+## Also Appears In
 - [[Private and common property rights]] (Ostrom, 2000)
 - "Property-Rights Regimes and Natural Resources: A Conceptual Analysis" (Schlager & Ostrom, 1992)

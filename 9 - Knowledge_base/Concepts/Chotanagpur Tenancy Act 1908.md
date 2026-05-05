@@ -1,8 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Sapling
+Related:
+  - "[[Khuntkatti]]"
+  - "[[Ulgulan]]"
+  - "[[Eminent Domain]]"
+  - "[[Birsa Munda]]"
+Contradicts: ""
 ---
 
 # Chotanagpur Tenancy Act 1908
@@ -18,7 +24,5 @@ The **Chotanagpur Tenancy Act (CNT Act) of 1908** is a seminal piece of protecti
 ## PhD Application
 The CNT Act is a primary example of how subaltern resistance movements can successfully force shifts in the **[[Eminent Domain]]** regime. It serves as a historical precedent for modern tribal land protection laws in India (e.g., PESA, Forest Rights Act).
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Singh, K. S. (1983)]]
-- [[Murmu (2024)]]

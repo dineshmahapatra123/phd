@@ -1,8 +1,12 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions and credible commitment]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Institutions and credible commitment.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[DILRMP]]"
+  - "[[Implementation Failure (Land Reform)]]"
+Contradicts: ""
 ---
 
 # Concept: Political Markets (Transaction Cost Theory)
@@ -35,7 +39,7 @@ This model implies a deeply pessimistic view of democratic reform pathways — c
 ## PhD Application
 The persistent failure of India's land record modernization (DILRMP) to deliver conclusive title despite decades of investment is explicable through this framework. State governments face incentives to maintain opaque, discretionary land records (enabling political patronage and revenue extraction) and the political market for reform — voters demanding clean title — is too costly to operate effectively at scale. See [[DILRMP]], [[Implementation Failure (Land Reform)]].
 
-## Related Papers
+## Also Appears In
 - [[Institutions and credible commitment]] (North, 1993)
 - [[Institutions, institutional change and economic performance]] (North, 1990)
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)

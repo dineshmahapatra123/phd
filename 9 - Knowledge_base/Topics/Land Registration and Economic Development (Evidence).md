@@ -1,7 +1,12 @@
 ---
 type: Topic
-Paper_Linked: "[[Land registration, governance, and development_ evidence and implications for policy]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Illegibly legible_ outcomes of a land records modernisation programme in South India]], [[Property relations and economic development_ the other land reform]]"
-Last_Processed: 2026-04-30
+Paper_Linked:
+  - "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
+  - "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+  - "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf]]"
+  - "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
+  - "[[Property relations and economic development_ the other land reform.pdf]]"
+Last_Processed: "2026-04-30"
 Status: Sapling
 ---
 

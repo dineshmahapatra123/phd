@@ -1,10 +1,15 @@
 ---
 type: Concept
-Paper_Linked: "[[Land record management in India]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Land record management in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Seed
-Related: "[[Torrens System]], [[Presumptive vs Conclusive Title]], [[DILRMP]], [[Bhu-Aadhaar]], [[Record-Reality Gap]]"
-Contradicts:
+Related:
+  - "[[Torrens System]]"
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[DILRMP]]"
+  - "[[Bhu-Aadhaar]]"
+  - "[[Record-Reality Gap]]"
+Contradicts: ""
 ---
 
 # Distributed Ledger Technology (DLT)
@@ -61,7 +66,7 @@ Kapoor et al. (2024) also note that blockchain-based software is largely develop
 ## PhD Application
 DLT offers a techno-institutional solution to India's [[Record-Reality Gap]] and fragmented multi-department record system. However, its efficacy is contingent on first resolving the upstream data quality and legal legitimacy problems that [[DILRMP]] has not adequately addressed. The formalization-first critique (see [[Daniel Bromley]]) applies equally to DLT-based reforms: technology cannot substitute for political will and inclusive institutional design.
 
-## Related Papers
+## Also Appears In
 - [[Land record management in India]] (Kapoor, Esposito & Anand, 2024) — primary source
 - [[The benefits of land registration and titling_ economic and social perspectives]] (Byamugisha, 1999)
 - [[Land tenure and property rights_ theory and implications for development policy]] (Feder & Feeny, 1991)

@@ -1,6 +1,6 @@
 ---
 type: Person
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]]"
+Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
 Last_Processed: "2026-04-25"
 Status: Seed
 ---

@@ -1,9 +1,13 @@
 ---
 type: Concept
-Related: [[Torrens System]], [[Land Titling]], [[Tenure Security]]
-Paper_Linked: [[Land registration, governance, and development_ evidence and implications for policy]]
-Last_Processed: 2026-04-29
+Related:
+  - "[[Torrens System]]"
+  - "[[Land Titling]]"
+  - "[[Tenure Security]]"
+Paper_Linked: "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Seed
+Contradicts: ""
 ---
 
 # Deeds vs Title Systems

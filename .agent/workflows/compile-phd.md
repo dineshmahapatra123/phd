@@ -29,9 +29,32 @@ Use this command to process a research paper—either a new PDF from your inbox 
 - Topics are **not** created here — they are managed by `/refresh-topic`.
 - **Contradiction Rule**: If a claim in this paper directly contradicts an existing wiki note, do NOT overwrite. Instead add a `### ⚠️ Contradiction` section to the existing note and set `Contradicts: [[conflicting note]]` in its YAML frontmatter.
 
+#### YAML Field Rules (mandatory — do not deviate)
+
+**`Paper_Linked`** — links to the PDF in `7 - Raw/`, always with `.pdf` extension.
+- Single PDF → inline: `Paper_Linked: "[[Filename.pdf]]"`
+- Multiple PDFs → YAML list (one per line, so each is clickable in Obsidian):
+  ```yaml
+  Paper_Linked:
+    - "[[Paper A.pdf]]"
+    - "[[Paper B.pdf]]"
+  ```
+- Never link to `2 - Notes/Papers/` master notes or KB files here.
+
+**`Related`** (Concepts only) — links to other KB files (Concepts, People, Methods, Topics). Never PDFs, never paper notes.
+- Single link → inline: `Related: "[[Concept A]]"`
+- Multiple links → YAML list:
+  ```yaml
+  Related:
+    - "[[Concept A]]"
+    - "[[Concept B]]"
+  ```
+
+**`## Also Appears In`** (body section, Concepts only) — links to master notes in `2 - Notes/Papers/` (no `.pdf` extension). These are secondary papers that discuss the concept beyond the primary `Paper_Linked`. Never link to PDFs or KB files here.
+
 ### 4. Backlinking & Indexing
 - Link all new wiki articles to each other.
-- Link them back to the original source (`2 - Notes/Papers/` for papers, or the source file for notes).
+- Link them back to master notes in `2 - Notes/Papers/` (not to PDFs) in the `## Also Appears In` body section.
 - Update `9 - Knowledge_base/index.md` with the new entries.
 
 ### 5. Activity Log

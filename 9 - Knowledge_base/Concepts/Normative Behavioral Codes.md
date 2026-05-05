@@ -1,10 +1,14 @@
 ---
 type: Concept
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]]"
+Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
 Last_Processed: "2026-04-29"
 Status: Sapling
-Related: "[[Constitutional Order]], [[Institutional Arrangements]], [[Informal Constraints]], [[Record-Reality Gap]]"
-Contradicts:
+Related:
+  - "[[Constitutional Order]]"
+  - "[[Institutional Arrangements]]"
+  - "[[Informal Constraints]]"
+  - "[[Record-Reality Gap]]"
+Contradicts: ""
 ---
 
 ## Standard Definition
@@ -39,6 +43,6 @@ The [[Record-Reality Gap]] in Indian land records is, in substantial part, a nor
 ## Measurement / Methods
 Ethnographic studies, cultural analysis, and surveys on social legitimacy of laws.
 
-## Related Papers
+## Also Appears In
 - [[Land tenure and property rights_ theory and implications for development policy]]
 - [[Institutions, institutional change and economic performance]]

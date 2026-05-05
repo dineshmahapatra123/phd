@@ -1,9 +1,15 @@
 ---
 type: Concept
-Paper_Linked: [[Guaranteeing title to land]]
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Guaranteeing title to land.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
-Contradicts:
+Related:
+  - "[[Acts in Law vs Acts of the Sovereign]]"
+  - "[[DILRMP]]"
+  - "[[Torrens System]]"
+  - "[[Record-Reality Gap]]"
+  - "[[Presumptive vs Conclusive Title]]"
+Contradicts: ""
 ---
 
 # Mutation Lag

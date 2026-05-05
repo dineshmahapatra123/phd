@@ -2,10 +2,13 @@
 type: Person
 Role: Economist / Researcher
 Affiliation: Formerly World Bank, IFPRI
-Topic_Specialization: [[Land Policy]], [[Agricultural Economics]], [[Tenure Security]]
-Paper_Linked: "[[The benefits of land registration and titling_ economic and social perspectives]], [[Land tenure and property rights_ theory and implications for development policy]], [[Land registration, governance, and development_ evidence and implications for policy]]"
-Last_Processed: 2026-04-29
-Status: Sapling++
+Topic_Specialization: "Land Policy, Agricultural Economics, [[Tenure Security]]"
+Paper_Linked:
+  - "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+  - "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
+  - "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
+Last_Processed: "2026-04-29"
+Status: Sapling
 ---
 
 # Gershon Feder
@@ -30,7 +33,7 @@ In later collaborations with [[Klaus Deininger]], Feder moved toward a more nuan
 - **Credit Market Imperfections**: Lack of foreclosure ability or "risk rationing" by the poor.
 
 ## **Linkages**
-- **Collaborators**: [[Klaus Deininger]], [[Akihiko Nishio]], [[David Feeny]].
+- **Collaborators**: [[Klaus Deininger]], Akihiko Nishio, [[David Feeny]].
 - **Theoretical Base**: [[Property Right Bundle]], [[Transaction Costs]], [[Constitutional Order]].
 - **Institutional Alignment**: [[Torrens System]], [[Deeds vs Title Systems]], [[Land Titling]], [[Low-cost Land Certification]].
 

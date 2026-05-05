@@ -1,8 +1,13 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions and credible commitment]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Institutions and credible commitment.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[DILRMP]]"
+  - "[[Bhu-Aadhaar]]"
+  - "[[Common-pool resources]]"
+Contradicts: ""
 ---
 
 # Concept: Adaptive Efficiency
@@ -39,7 +44,7 @@ Adaptive efficiency is difficult to operationalize empirically — how does one 
 ## PhD Application
 India's land governance crisis illustrates an adaptive *in*efficiency: DILRMP is a centrally mandated, one-size-fits-all institutional reform that does not permit local organisational experimentation (contrast with Ostrom's polycentric governance). States with different tenure regimes (Meghalaya's community land system) are forced into a uniform Bhu-Aadhaar template, eliminating organisational diversity. See [[DILRMP]], [[Bhu-Aadhaar]], [[Common-pool resources]].
 
-## Related Papers
+## Also Appears In
 - [[Institutions and credible commitment]] (North, 1993)
 - [[Institutions, institutional change and economic performance]] (North, 1990)
 - [[Private and common property rights]] (Ostrom, 2000)

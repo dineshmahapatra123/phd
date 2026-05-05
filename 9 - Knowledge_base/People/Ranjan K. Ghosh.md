@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-05
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-05"
 Status: Seed
 ---
 
@@ -15,12 +15,12 @@ Status: Seed
 
 ## Inter-Person Links
 - **[[Satish Y. Deodhar]]**: Frequent collaborator on ancient vs. modern Indian economic institutions.
-- **[[Acemoglu et al.]]**: Ghosh applies their "Extractive Institutions" framework to the Indian land acquisition context.
+- **Acemoglu et al.**: Ghosh applies their "Extractive Institutions" framework to the Indian land acquisition context.
 - **[[Elinor Ostrom]]**: His work on common property aligns with Ostrom's theories on CPR.
 
 ## Methodological Bias
 Uses **Historical Institutionalism** and **Comparative Institutional Analysis**. He relies heavily on archival records (British GTS reports, ancient treaties) to trace the evolution of rules.
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
 

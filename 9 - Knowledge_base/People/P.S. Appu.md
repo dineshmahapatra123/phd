@@ -1,6 +1,6 @@
 ---
 type: Person
-Paper_Linked: "[[Land reforms in India]]"
+Paper_Linked: "[[Land reforms in India.pdf]]"
 Last_Processed: "2026-04-29"
 Status: Seed
 ---

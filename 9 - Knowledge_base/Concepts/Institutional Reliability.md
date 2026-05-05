@@ -1,8 +1,17 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions and economic growth_ An historical introduction]], [[Institutions, institutional change and economic performance]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Institutions and economic growth_ An historical introduction.pdf]]"
+  - "[[Institutions, institutional change and economic performance.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[State as a Discriminating Monopolist]]"
+  - "[[Credible Commitment]]"
+  - "[[DILRMP]]"
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[Personal vs Impersonal Exchange]]"
+Contradicts: ""
 ---
 
 # Institutional Reliability
@@ -36,8 +45,6 @@ In land governance, institutional reliability is the target of a **Conclusive Ti
 
 DILRMP's digitization improves the speed of access to register data but does not change the reliability of the title itself: the state retains discretion to alter or dispute records, measurement of attributes remains incomplete, and enforcement remains imperfect. True institutional reliability requires the legislative reform that conclusive title entails — not only a digital record but an irrevocable state guarantee of that record. See [[DILRMP]], [[Presumptive vs Conclusive Title]], [[Personal vs Impersonal Exchange]].
 
-## Related Papers
+## Also Appears In
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
 - [[Institutions, institutional change and economic performance]] (North, 1990)
-- [[Credible Commitment]]
-- [[Personal vs Impersonal Exchange]]

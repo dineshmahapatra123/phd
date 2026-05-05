@@ -1,7 +1,10 @@
 ---
 type: Person
-Paper_Linked: "[[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[Land record management in India]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Guaranteeing title to land_ a preliminary study.pdf]]"
+  - "[[Guaranteeing title to land.pdf]]"
+  - "[[Land record management in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
 ---
 

@@ -1,8 +1,17 @@
 ---
 type: Concept
-Paper_Linked: [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]]
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Guaranteeing title to land_ a preliminary study.pdf]]"
+  - "[[Guaranteeing title to land.pdf]]"
+  - "[[Land reforms to land titling_ emerging paradigms of land governance in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[Record-Reality Gap]]"
+  - "[[Implementation Failure (Land Reform)]]"
+  - "[[Deeds vs Title Systems]]"
+Contradicts: ""
 ---
 
 # Torrens System
@@ -62,8 +71,8 @@ The Chief Minister of Maharashtra approved a pilot project for the Torrens syste
 - [[Presumptive vs Conclusive Title]]
 - [[Acts in Law vs Acts of the Sovereign]]
 - [[Sir Robert Torrens]]
-- [[Assurance Fund]]
-- [[Mirror, Curtain, and Insurance Principles]]
+- Assurance Fund
+- Mirror, Curtain, and Insurance Principles
 - [[Record-Reality Gap]]
 - [[Mutation Lag]]
 - [[Implementation Failure (Land Reform)]]

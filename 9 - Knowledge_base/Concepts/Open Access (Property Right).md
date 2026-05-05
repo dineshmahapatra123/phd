@@ -1,10 +1,15 @@
 ---
 type: Concept
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]], [[The property right paradigm]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
+  - "[[The property right paradigm.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
-Related: "[[Communal Rights]], [[State Property]], [[Attenuated Property Rights]]"
-Contradicts:
+Related:
+  - "[[Communal Rights]]"
+  - "[[State Property]]"
+  - "[[Attenuated Property Rights]]"
+Contradicts: ""
 ---
 
 # Concept: Open Access (Property Right)
@@ -36,9 +41,7 @@ The "Tragedy of the Commons" (Hardin 1968) — which this regime is most associa
 ## PhD Application
 "Wasteland" and forest degradation in India frequently reflects open-access outcomes created by colonial-era dispossession of customary management institutions, not the natural state of communal tenure. DILRMP's conversion of communally-managed land into individual parcels under Bhu-Aadhaar may eliminate the communal governance institution without replacing it — creating genuine open access where managed communal property previously existed. See [[DILRMP]], [[Bhu-Aadhaar]], [[Common-pool resources]].
 
-## Related Papers
+## Also Appears In
 - [[The property right paradigm]] (Alchian & Demsetz, 1973)
 - [[Land tenure and property rights_ theory and implications for development policy]] (Feder & Feeny, 1991)
 - [[Private and common property rights]] (Ostrom, 2000)
-- [[Communal Rights]]
-- [[Attenuated Property Rights]]

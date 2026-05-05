@@ -1,10 +1,13 @@
 ---
 type: Concept
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]]"
+Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
 Last_Processed: "2026-04-29"
 Status: Sapling
-Related: "[[Institutional Arrangements]], [[Normative Behavioral Codes]], [[Path Dependence]]"
-Contradicts:
+Related:
+  - "[[Institutional Arrangements]]"
+  - "[[Normative Behavioral Codes]]"
+  - "[[Path Dependence]]"
+Contradicts: ""
 ---
 
 ## Standard Definition
@@ -38,6 +41,6 @@ India's Constitution (Article 300A, post-44th Amendment 1978) protects against a
 ## Measurement / Methods
 Qualitative analysis of constitutional law, foundational legal principles, and state architecture.
 
-## Related Papers
+## Also Appears In
 - [[Land tenure and property rights_ theory and implications for development policy]]
 - [[Institutions, institutional change and economic performance]]

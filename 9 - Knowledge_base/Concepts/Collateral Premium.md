@@ -1,10 +1,13 @@
 ---
 type: Concept
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]]"
+Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
 Last_Processed: "2026-04-29"
 Status: Sapling
-Related: "[[Asymmetric Information (Land Rights)]], [[Tenure Security]], [[Record-Reality Gap]]"
-Contradicts:
+Related:
+  - "[[Asymmetric Information (Land Rights)]]"
+  - "[[Tenure Security]]"
+  - "[[Record-Reality Gap]]"
+Contradicts: ""
 ---
 
 ## Standard Definition
@@ -60,6 +63,6 @@ In India, land prices in peri-urban and agricultural areas routinely exceed agri
 ## Measurement / Methods
 Hedonic price modelling comparing titled and untitled land prices while controlling for quality and location.
 
-## Related Papers
+## Also Appears In
 - [[Land tenure and property rights_ theory and implications for development policy]]
 - [[The benefits of land registration and titling_ economic and social perspectives]]

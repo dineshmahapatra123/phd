@@ -1,8 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-29
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[DILRMP]]"
+  - "[[Khuntkatti]]"
+  - "[[Eminent Domain]]"
+  - "[[Extraction Institutions]]"
+Contradicts: ""
 ---
 
 # Land Tenure Systems (India)
@@ -61,8 +67,5 @@ The British introduced **three novel elements** absent from both Hindu and Mugha
 ## PhD Application
 Modern India's land record system — the patwari apparatus, the 7/12 extract, the khasra/khata ledger — is a direct inheritance of the colonial cadastral system, designed for revenue extraction not property rights protection. DILRMP digitises this colonial infrastructure without addressing the underlying legal character. Tribal communal land systems (Khuntkatti, Northeast customary tenure) were never recognized by the colonial cadastre and remain outside the formal record. See [[DILRMP]], [[Khuntkatti]], [[Eminent Domain]], [[Extraction Institutions]].
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Eminent Domain]]
-- [[Khuntkatti]]
-- [[Extraction Institutions]]

@@ -1,9 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[Guaranteeing title to land]]
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Guaranteeing title to land.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
-Contradicts:
+Related:
+  - "[[Collateral Value of Land]]"
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[Torrens System]]"
+  - "[[Mutation Lag]]"
+Contradicts: ""
 ---
 
 # Record-Reality Gap

@@ -51,14 +51,40 @@ Status: Draft | Revised | Final
 ```
 
 ### Concept (`Types/concept.md`)
+
+> **Paper_Linked rules** (apply to ALL types below):
+> - Always links to the **PDF file in `7 - Raw/`** — include the `.pdf` extension.
+> - Single PDF: `Paper_Linked: "[[filename.pdf]]"`
+> - Multiple PDFs: use YAML list format so each link is independently clickable in Obsidian:
+>   ```yaml
+>   Paper_Linked:
+>     - "[[Paper A.pdf]]"
+>     - "[[Paper B.pdf]]"
+>   ```
+> - Never link to master notes (`2 - Notes/Papers/`) or KB files here.
+>
+> **Related rules** (Concept only):
+> - Contains only links to other KB files (Concepts, People, Methods, Topics) — never PDFs, never paper notes.
+> - Single link: `Related: "[[Concept A]]"`
+> - Multiple links: use YAML list format:
+>   ```yaml
+>   Related:
+>     - "[[Concept A]]"
+>     - "[[Concept B]]"
+>   ```
+>
+> **Also Appears In** (body section, Concept only):
+> - Links to master notes in `2 - Notes/Papers/` — no `.pdf` extension, never KB files.
+> - These are secondary papers that discuss the concept beyond the primary `Paper_Linked`.
+
 ```yaml
 ---
 type: Concept
-Paper_Linked: "[[Paper Title]]"
+Paper_Linked: "[[Paper Title.pdf]]"
 Last_Processed: "YYYY-MM-DD"
 Status: Seed | Sapling | Evergreen
-Related: "[[Concept A]], [[Concept B]]"
-Contradicts: "[[Conflicting Concept]]"
+Related: "[[Concept A]]"
+Contradicts: ""
 ---
 ```
 
@@ -66,7 +92,9 @@ Contradicts: "[[Conflicting Concept]]"
 ```yaml
 ---
 type: Topic
-Paper_Linked: "[[Paper A]], [[Paper B]]"
+Paper_Linked:
+  - "[[Paper A.pdf]]"
+  - "[[Paper B.pdf]]"
 Last_Processed: "YYYY-MM-DD"
 Status: Seed | Sapling | Sapling++ | Evergreen
 ---
@@ -76,7 +104,9 @@ Status: Seed | Sapling | Sapling++ | Evergreen
 ```yaml
 ---
 type: Comparison
-Paper_Linked: "[[Paper A]], [[Paper B]]"
+Paper_Linked:
+  - "[[Paper A.pdf]]"
+  - "[[Paper B.pdf]]"
 Last_Processed: "YYYY-MM-DD"
 Status: Seed | Sapling | Evergreen
 ---
@@ -96,7 +126,7 @@ Status: Permanent Log
 ```yaml
 ---
 type: Person
-Paper_Linked: "[[Key Paper]]"
+Paper_Linked: "[[Key Paper.pdf]]"
 Last_Processed: "YYYY-MM-DD"
 Status: Seed | Sapling | Evergreen
 ---
@@ -106,7 +136,7 @@ Status: Seed | Sapling | Evergreen
 ```yaml
 ---
 type: Method
-Paper_Linked: "[[Paper where method is used]]"
+Paper_Linked: "[[Paper where method is used.pdf]]"
 Last_Processed: "YYYY-MM-DD"
 Status: Seed | Sapling | Evergreen
 ---
@@ -177,7 +207,7 @@ Tags:
 2. **Scholarly Debate** — how different schools define this (e.g., [[Author1]] vs [[Author2]])
 3. **PhD Application** — how this maps to your thesis
 4. **Measurement / Methods** — how researchers operationalise this
-5. **Related Papers** — wikilinks to paper master notes
+5. **Also Appears In** — wikilinks to paper master notes where this concept appears (beyond the primary `Paper_Linked`)
 
 ### Person
 - **Scholarly Lens** — their core philosophical or ideological position

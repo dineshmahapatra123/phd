@@ -3,7 +3,11 @@ type: Concept
 Paper_Linked: "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
 Last_Processed: "2026-04-30"
 Status: Seed
-Related: "[[DILRMP]], [[Rythu Bandhu Scheme]], [[Dharani Portal]]"
+Related:
+  - "[[DILRMP]]"
+  - "[[Rythu Bandhu Scheme]]"
+  - "[[Dharani Portal]]"
+Contradicts: ""
 ---
 
 # LRUP (Telangana)
@@ -22,5 +26,5 @@ LRUP serves as a contemporary case study of **[[Implementation Failure (Land Ref
 - **Process**: Conducted in two parts (Part A for undisputed records, Part B for disputed ones).
 - **Outcomes**: Measured through the number of new Patta Passbooks (PPBs) issued and the percentage of cleared agricultural khatas.
 
-## Related Papers
+## Also Appears In
 - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]

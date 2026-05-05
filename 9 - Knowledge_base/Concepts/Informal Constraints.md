@@ -1,8 +1,13 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions, institutional change and economic performance]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Institutions, institutional change and economic performance.pdf]]"
+  - "[[Institutions and economic growth_ An historical introduction.pdf]]"
+  - "[[Institutions, transaction costs and economic growth.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related: "[[Torrens System]]"
+Contradicts: ""
 ---
 
 # Informal Constraints
@@ -42,7 +47,7 @@ Critically, specialization creates **ideological fragmentation**: as individuals
 
 This frames a deep tension: the same economic forces that create demand for impersonal exchange (specialization) also destroy the informal ideological substrate that made personal exchange cheap. The transition to formal law is therefore not merely institutionally demanding — it requires replacing an entire normative architecture.
 
-## Related Papers
+## Also Appears In
 - [[Institutions, institutional change and economic performance]] (North, 1990)
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
 - [[Institutions, transaction costs and economic growth]] (North, 1987)

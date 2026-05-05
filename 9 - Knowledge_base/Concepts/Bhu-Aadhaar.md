@@ -1,10 +1,14 @@
 ---
 type: Concept
-Paper_Linked: "[[Land record management in India]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Land record management in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Seed
-Related: "[[DILRMP]], [[Record-Reality Gap]], [[Distributed Ledger Technology (DLT)]], [[Land Tenure Systems (India)]]"
-Contradicts:
+Related:
+  - "[[DILRMP]]"
+  - "[[Record-Reality Gap]]"
+  - "[[Distributed Ledger Technology (DLT)]]"
+  - "[[Land Tenure Systems (India)]]"
+Contradicts: ""
 ---
 
 # Bhu-Aadhaar (ULPIN)
@@ -42,5 +46,5 @@ The exemption of Meghalaya for community ownership reasons reveals that ULPIN's 
 ## PhD Application
 Bhu-Aadhaar represents the foundational data layer required before any [[Distributed Ledger Technology (DLT)]] integration can be attempted — it is the "anchor" that would allow DLT to mirror, track, and verify parcel-level transactions. However, the Meghalaya exception and data quality problems reveal that a one-size-fits-all parcel identity system conflicts with India's plural tenure landscape. Successful DLT integration depends on resolving this upstream problem first.
 
-## Related Papers
+## Also Appears In
 - [[Land record management in India]] (Kapoor, Esposito & Anand, 2024) — primary source

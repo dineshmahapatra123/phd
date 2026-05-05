@@ -1,8 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Sapling
+Related:
+  - "[[Khuntkatti]]"
+  - "[[Eminent Domain]]"
+  - "[[Birsa Munda]]"
+  - "[[Chotanagpur Tenancy Act 1908]]"
+Contradicts: ""
 ---
 
 # Ulgulan
@@ -18,6 +24,5 @@ Status: Sapling
 ## PhD Application
 The **Ulgulan** is the seminal "counter-colonial moment" in Indian land history. It highlights how the clash between Western **[[Eminent Domain]]** and indigenous property bundles results in protracted conflict and eventual (though often partial) legal reform.
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Singh, K. S. (1983)]]: *Birsa Munda and His Movement*.

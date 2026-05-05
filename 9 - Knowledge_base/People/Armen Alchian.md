@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[The property right paradigm]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[The property right paradigm.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Sapling
 ---
 
@@ -24,5 +24,5 @@ Armen Alchian is a founding figure of **New Institutional Economics (NIE)**. His
 - **Comparative Institutional Analysis**: Constantly comparing how different rules (private, communal, state) change the behavior of individuals by altering their incentives and transaction costs.
 - **Information Cost Focus**: Heavy emphasis on how the cost of acquiring information and monitoring behavior dictates institutional form.
 
-## Related Papers
+## Also Appears In
 - [[The property right paradigm]]

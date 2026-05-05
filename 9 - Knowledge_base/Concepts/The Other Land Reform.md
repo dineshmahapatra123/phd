@@ -1,8 +1,12 @@
 ---
 type: Concept
-Paper_Linked: "[[Property relations and economic development_ the other land reform]]"
-Last_Processed: 2026-04-30
+Paper_Linked: "[[Property relations and economic development_ the other land reform.pdf]]"
+Last_Processed: "2026-04-30"
 Status: Seed
+Related:
+  - "[[Open-access Regime]]"
+  - "[[Common-property Regime]]"
+Contradicts: ""
 ---
 
 # The Other Land Reform

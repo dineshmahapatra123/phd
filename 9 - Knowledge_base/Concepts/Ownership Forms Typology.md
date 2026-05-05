@@ -1,10 +1,14 @@
 ---
 type: Concept
-Paper_Linked: "[[Toward a theory of property rights]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Toward a theory of property rights.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
-Related: "[[Communal Rights]], [[Property Right Bundle]], [[Common-pool resources]], [[Internalization of Externalities]]"
-Contradicts:
+Related:
+  - "[[Communal Rights]]"
+  - "[[Property Right Bundle]]"
+  - "[[Common-pool resources]]"
+  - "[[Internalization of Externalities]]"
+Contradicts: ""
 ---
 
 # Ownership Forms Typology
@@ -37,12 +41,12 @@ Demsetz's core argument: private ownership reduces the *number of parties* who m
 [[Elinor Ostrom]] (2000) rejects the communal/private binary. She shows that the communal form — when properly governed — is neither equivalent to open access nor inferior to private ownership. Her Swiss Alpine and Japanese forest cases demonstrate that communal arrangements can out-perform private ownership where variance is high and monitoring costs are low at the group level. See [[Communal Rights]] for full debate.
 
 ### ⚠️ Contradiction: State Ownership Understated
-Demsetz largely brackets state ownership. Post-colonial critiques (including [[Ghosh & Deodhar]] via [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]) show that state ownership — combined with [[Eminent Domain]] — is the dominant form in Indian land history and cannot be bracketed as a residual category.
+Demsetz largely brackets state ownership. Post-colonial critiques (including [[Ranjan K. Ghosh]] & [[Satish Y. Deodhar]] via [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]) show that state ownership — combined with [[Eminent Domain]] — is the dominant form in Indian land history and cannot be bracketed as a residual category.
 
 ## PhD Application
 The typology establishes the benchmark against which India's land tenure evolution is measured. India's history moves from communal ([[Samudaya]]) → state/revenue extraction (Mughal Zabt, British) → incomplete transition toward private ([[Presumptive vs Conclusive Title]]). The failure to reach the private-with-conclusive-title stage is the central institutional puzzle of the PhD.
 
-## Related Papers
+## Also Appears In
 - [[Toward a theory of property rights]] (Demsetz, 1967) — primary source
 - [[The property right paradigm]] (Alchian & Demsetz, 1973) — extension into bundle logic
 - [[Private and common property rights]] (Ostrom, 2000) — challenge and refinement

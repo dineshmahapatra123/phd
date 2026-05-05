@@ -1,8 +1,14 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions, transaction costs and economic growth]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Institutions, transaction costs and economic growth.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[State as a Discriminating Monopolist]]"
+  - "[[DILRMP]]"
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[Transaction Costs]]"
+Contradicts: ""
 ---
 
 # Institutional Efficiency
@@ -38,8 +44,6 @@ The implied benchmark: a *rising* transaction sector share alongside *rising* pr
 ## PhD Application
 India's land records system is a case of institutional inefficiency measured primarily through nonmarket costs: landowners pay in time, uncertainty, legal fees, and bribery to transact property that a conclusive title system would transfer cheaply. DILRMP's digitization reduces some market transaction costs (official registry fees, processing time) but does not address the nonmarket costs (corruption, litigation risk, presumptive title uncertainty). A full measure of efficiency improvement requires capturing both. See [[DILRMP]], [[Presumptive vs Conclusive Title]], [[Transaction Costs]].
 
-## Related Papers
+## Also Appears In
 - [[Institutions, transaction costs and economic growth]] (North, 1987)
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
-- [[State as a Discriminating Monopolist]]
-- [[Transaction Costs]]

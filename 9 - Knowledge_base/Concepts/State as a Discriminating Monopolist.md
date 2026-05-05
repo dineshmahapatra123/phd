@@ -1,8 +1,16 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions and economic growth_ An historical introduction]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Institutions and economic growth_ An historical introduction.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Path Dependence]]"
+  - "[[Institutions vs Organizations]]"
+  - "[[DILRMP]]"
+  - "[[Implementation Failure (Land Reform)]]"
+  - "[[Political Markets (Transaction Cost Theory)]]"
+  - "[[Spain vs England Institutional Divergence]]"
+Contradicts: ""
 ---
 
 # State as a Discriminating Monopolist
@@ -37,8 +45,6 @@ Because the state provides the framework within which all other organizations op
 ## PhD Application
 India's land registry exemplifies the discriminating monopolist logic: presumptive title systems generate recurring registration and mutation fees (measurable, collectable), while a conclusive title system would reduce state discretion and eliminate the rents that accrue to local revenue officials (patwaris). The fiscal and survival constraints operate simultaneously — DILRMP's failure to adopt conclusive title reflects both the measurement cost advantage of the existing system and the political cost of offending officials whose compliance the reform requires. See [[DILRMP]], [[Implementation Failure (Land Reform)]], [[Political Markets (Transaction Cost Theory)]].
 
-## Related Papers
+## Also Appears In
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
 - [[Institutions, transaction costs and economic growth]] (North, 1987)
-- [[Spain vs England Institutional Divergence]]
-- [[Path Dependence]]

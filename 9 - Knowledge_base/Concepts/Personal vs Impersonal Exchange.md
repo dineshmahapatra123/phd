@@ -1,8 +1,15 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions, transaction costs and economic growth]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Institutions, transaction costs and economic growth.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[State as a Discriminating Monopolist]]"
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[DILRMP]]"
+  - "[[Institutional Reliability]]"
+  - "[[Transaction Costs]]"
+Contradicts: ""
 ---
 
 # Personal vs Impersonal Exchange
@@ -46,8 +53,6 @@ The neoclassical literature and much of game theory implies the progress from pe
 ## PhD Application
 India's land governance crisis sits precisely at the transition between Type 2 and Type 3. The colonial-era record of rights system created a form of impersonal-exchange-without-reliable-3rd-party-enforcement: formal registers existed, but the state (as Discriminating Monopolist) designed them for revenue extraction rather than title security. DILRMP attempts to shift toward Type 3 without the legislative reform (conclusive title) that would actually complete the transition. See [[Presumptive vs Conclusive Title]], [[DILRMP]], [[Institutional Reliability]].
 
-## Related Papers
+## Also Appears In
 - [[Institutions, transaction costs and economic growth]] (North, 1987)
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
-- [[Institutional Reliability]]
-- [[Transaction Costs]]

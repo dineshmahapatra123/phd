@@ -3,7 +3,10 @@ type: Concept
 Paper_Linked: "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
 Last_Processed: "2026-04-30"
 Status: Seed
-Related: "[[LRUP (Telangana)]], [[Technocracy in Land Administration]]"
+Related:
+  - "[[LRUP (Telangana)]]"
+  - "[[Technocracy in Land Administration]]"
+Contradicts: ""
 ---
 
 # Dharani Portal
@@ -21,5 +24,5 @@ The Dharani portal is an example of **digitization as an instrument of technocra
 ## Measurement / Methods
 - Evaluated through **system runtime errors**, **data entry speeds**, and **grievance redressal rates**.
 
-## Related Papers
+## Also Appears In
 - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]

@@ -1,10 +1,13 @@
 ---
 type: Concept
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]]"
+Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
 Last_Processed: "2026-04-29"
 Status: Sapling
-Related: "[[Constitutional Order]], [[Normative Behavioral Codes]], [[Property Right Bundle]]"
-Contradicts:
+Related:
+  - "[[Constitutional Order]]"
+  - "[[Normative Behavioral Codes]]"
+  - "[[Property Right Bundle]]"
+Contradicts: ""
 ---
 
 ## Standard Definition
@@ -55,5 +58,5 @@ DILRMP is the most recent Institutional Arrangement designed to reduce asymmetri
 ## Measurement / Methods
 Analysis of specific legislation, regulatory frameworks, and contractual patterns.
 
-## Related Papers
+## Also Appears In
 - [[Land tenure and property rights_ theory and implications for development policy]]

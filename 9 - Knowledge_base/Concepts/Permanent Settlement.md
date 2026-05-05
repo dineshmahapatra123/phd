@@ -1,6 +1,6 @@
 ---
 type: Concept
-Paper_Linked: "[[Land reforms in India]]"
+Paper_Linked: "[[Land reforms in India.pdf]]"
 Last_Processed: "2026-04-29"
 Status: Seed
 Related: "[[Zamindari System]]"
@@ -20,4 +20,4 @@ Essential for understanding the historical context of land governance, agrarian 
 Historical analysis, policy review.
 
 ## 5. Related Papers
-- [[Land reforms in India.md]]
+- [[Land reforms in India]]

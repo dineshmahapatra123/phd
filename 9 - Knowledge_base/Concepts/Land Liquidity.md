@@ -1,9 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
-Last_Processed: 2026-04-24
+Paper_Linked: "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf]]"
+Last_Processed: "2026-04-24"
 Status: Seed
-Related: [[Collateral Value of Land]], [[Land Market Efficiency]], [[Tenure Security]], [[Prerequisites for Land Registration]]
+Related:
+  - "[[Collateral Value of Land]]"
+  - "[[Land Market Efficiency]]"
+  - "[[Tenure Security]]"
+  - "[[Prerequisites for Land Registration]]"
+Contradicts: ""
 ---
 
 # Land Liquidity
@@ -28,5 +33,5 @@ The capacity of land to be efficiently converted into other resources — throug
 ## PhD Application
 India's unclear land records suppress this liquidity channel entirely. The McKinsey 1.3% GDP estimate ([[Collateral Value of Land]]) captures only the credit suppression effect; the broader liquidity-investment channel is an additional, unquantified loss. Byamugisha's framework gives a theoretical basis for estimating economy-wide losses from India's incomplete land registration.
 
-## Related Papers
-- [[2 - Notes/Papers/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
+## Also Appears In
+- [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]

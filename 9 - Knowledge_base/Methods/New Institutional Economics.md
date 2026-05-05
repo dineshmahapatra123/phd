@@ -1,7 +1,7 @@
 ---
 type: Method
-Paper_Linked: [[Institutions, transaction costs and economic growth]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[Institutions, transaction costs and economic growth.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Seed
 ---
 
@@ -19,9 +19,9 @@ This is the core methodology of the thesis. It allows for the analysis of land t
 
 ## Key Proponents
 - [[Douglass North]]
-- [[Ronald Coase]]
-- [[Yoram Barzel]]
-- [[Steven N. S. Cheung]]
+- Ronald Coase
+- Yoram Barzel
+- Steven N. S. Cheung
 
 ## References
 - North, D. C. (1987). *Institutions, transaction costs and economic growth*.

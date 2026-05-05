@@ -1,7 +1,9 @@
 ---
 type: Method
-Paper_Linked: [[Toward a theory of property rights]], [[The property right paradigm]]
-Last_Processed: 2026-04-06
+Paper_Linked:
+  - "[[Toward a theory of property rights.pdf]]"
+  - "[[The property right paradigm.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Seed
 ---
 
@@ -23,7 +25,7 @@ Instead of looking at a "market failure" against a theoretical optimum, this met
 ## PhD Relevance
 This is the primary method for comparing **Pre-Colonial** vs. **Colonial** land rights in your thesis. It allows you to model whether colonial "enclosure" were driven by economic efficiency (Demsetzian) or by political extraction.
 
-## Related Papers
+## Also Appears In
 - [[Toward a theory of property rights]] (Historical illustration via the fur trade)
 - [[The property right paradigm]] (Theoretical framework)
 - [[Private and common property rights]] (Ostrom's rebuttal/extension)

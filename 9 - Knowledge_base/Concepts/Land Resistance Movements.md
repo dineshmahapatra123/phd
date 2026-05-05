@@ -1,8 +1,15 @@
 ---
 type: Concept
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Sapling
+Related:
+  - "[[Eminent Domain]]"
+  - "[[Ulgulan]]"
+  - "[[Khuntkatti]]"
+  - "[[Extraction Institutions]]"
+  - "[[Birsa Munda]]"
+Contradicts: ""
 ---
 
 # Land Resistance Movements
@@ -22,7 +29,5 @@ Status: Sapling
 ## PhD Application
 Useful for analyzing the "Social Feedback Loop" in land governance. It shows how the state's use of **Eminent Domain** is consistently met with countervailing social movements that shape future policy.
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Guha, Ranajit (1983)]]: *Elementary Aspects of Peasant Insurgency*.
-- [[Birsa Munda]]

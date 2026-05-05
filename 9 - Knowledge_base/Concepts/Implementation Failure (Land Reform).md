@@ -1,9 +1,17 @@
 ---
 type: Concept
-Paper_Linked: "[[Guaranteeing title to land]], [[Land record management in India]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Guaranteeing title to land.pdf]]"
+  - "[[Land record management in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
-Contradicts:
+Related:
+  - "[[Informal Constraints]]"
+  - "[[Record-Reality Gap]]"
+  - "[[DILRMP]]"
+  - "[[Path Dependence]]"
+  - "[[Presumptive vs Conclusive Title]]"
+Contradicts: ""
 ---
 
 # Implementation Failure (Land Reform)

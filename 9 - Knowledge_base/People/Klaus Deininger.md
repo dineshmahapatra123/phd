@@ -2,9 +2,11 @@
 type: Person
 Role: Lead Economist, World Bank
 Affiliation: Development Research Group, The World Bank
-Topic_Specialization: [[Land Policy]], [[Tenure Security]], [[Land Reform]]
-Paper_Linked: "[[Land registration, governance, and development_ evidence and implications for policy]], [[The benefits of land registration and titling_ economic and social perspectives]]"
-Last_Processed: 2026-04-29
+Topic_Specialization: "Land Policy, [[Tenure Security]], Land Reform"
+Paper_Linked:
+  - "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
+  - "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Seed
 ---
 

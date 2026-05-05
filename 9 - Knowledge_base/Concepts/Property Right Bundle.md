@@ -1,8 +1,17 @@
 ---
 type: Concept
-Paper_Linked: [[The property right paradigm]], [[Private and common property rights]], [[Land tenure and property rights_ theory and implications for development policy]]
-Last_Processed: 2026-04-25
+Paper_Linked:
+  - "[[The property right paradigm.pdf]]"
+  - "[[Private and common property rights.pdf]]"
+  - "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
+Last_Processed: "2026-04-25"
 Status: Evergreen
+Related:
+  - "[[Communal Rights]]"
+  - "[[Attenuated Property Rights]]"
+  - "[[Ownership Forms Typology]]"
+  - "[[Transaction Costs]]"
+Contradicts: ""
 ---
 
 # Concept: Property Right Bundle
@@ -25,7 +34,7 @@ This concept is foundational for analyzing how different institutional arrangeme
 ## Measurement/Methods
 Analyzed through **[[Comparative Institutional Analysis]]** and the **[[Schlager-Ostrom Taxonomy]]**, looking at how partitioning the bundle affects incentives, transaction costs, and resource allocation.
 
-## Related Papers
+## Also Appears In
 - [[The property right paradigm]] (Alchian & Demsetz, 1973)
 - [[Private and common property rights]] (Ostrom, 2000)
 - [[Land tenure and property rights_ theory and implications for development policy]] (Feder & Feeny, 1991)

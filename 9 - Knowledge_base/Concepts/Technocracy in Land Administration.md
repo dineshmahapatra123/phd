@@ -3,7 +3,10 @@ type: Concept
 Paper_Linked: "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
 Last_Processed: "2026-04-30"
 Status: Seed
-Related: "[[Neoliberal Land Policy]], [[Dharani Portal]]"
+Related:
+  - "[[Neoliberal Land Policy]]"
+  - "[[Dharani Portal]]"
+Contradicts: ""
 ---
 
 # Technocracy in Land Administration
@@ -21,5 +24,5 @@ This concept is vital for understanding the **political implications of digital 
 ## Measurement / Methods
 - Analyzed through the **abolition of local bureaucratic posts** (like the *patwari*) and the **mandatory use of digital portals** for all land transactions.
 
-## Related Papers
+## Also Appears In
 - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]

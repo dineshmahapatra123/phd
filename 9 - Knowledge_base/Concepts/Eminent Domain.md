@@ -1,8 +1,15 @@
 ---
 type: Concept
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-29
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Khuntkatti]]"
+  - "[[Ulgulan]]"
+  - "[[Land Resistance Movements]]"
+  - "[[Extraction Institutions]]"
+  - "[[Land Tenure Systems (India)]]"
+Contradicts: ""
 ---
 
 # Eminent Domain
@@ -43,8 +50,5 @@ The downstream consequence: between 1834 and 1920, approximately 1.3 million ind
 ## PhD Application
 Post-independence India retained the LAA 1894 until 2013 and replaced it with a statute that preserves the eminent domain principle while adding process requirements. The doctrine has been applied to displacement for dams, special economic zones, and urban development — replicating the colonial logic of "public purpose" as cover for economic extraction. See [[Extraction Institutions]], [[Land Tenure Systems (India)]], [[State Property]].
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Extraction Institutions]]
-- [[Land Resistance Movements]]
-- [[Khuntkatti]]

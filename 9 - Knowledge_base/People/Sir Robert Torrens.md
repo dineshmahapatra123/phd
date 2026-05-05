@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[Guaranteeing title to land_ a preliminary study]]
-Last_Processed: 2026-04-07
+Paper_Linked: "[[Guaranteeing title to land_ a preliminary study.pdf]]"
+Last_Processed: "2026-04-07"
 Status: Sapling
 ---
 
@@ -18,7 +18,7 @@ Drawing from his experience in the customs house, Torrens realized that land tit
 
 ## Major Concepts
 - **[[Torrens System]]**
-- **[[The Mirror Principle]]**
-- **[[The Curtain Principle]]**
-- **[[The Insurance Principle]]**
-- **[[Indefeasible Title]]**
+- The Mirror Principle
+- The Curtain Principle
+- The Insurance Principle
+- Indefeasible Title

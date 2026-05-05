@@ -1,9 +1,15 @@
 ---
 type: Concept
-Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]]
-Last_Processed: 2026-04-24
+Paper_Linked: "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+Last_Processed: "2026-04-24"
 Status: Seed
-Related: [[Tenure Security]], [[Collateral Value of Land]], [[Land Market Efficiency]], [[Systematic vs Sporadic Registration]], [[Implementation Failure (Land Reform)]]
+Related:
+  - "[[Tenure Security]]"
+  - "[[Collateral Value of Land]]"
+  - "[[Land Market Efficiency]]"
+  - "[[Systematic vs Sporadic Registration]]"
+  - "[[Implementation Failure (Land Reform)]]"
+Contradicts: ""
 ---
 
 # Prerequisites for Land Registration
@@ -28,5 +34,5 @@ Laws must have realistic evidence requirements, clear dispute resolution procedu
 ## PhD Application
 This framework is a diagnostic checklist for evaluating India's land titling programmes. India partially satisfies prerequisites 1, 2, and 4 in urban areas; rural areas often fail on all four — explaining why DILRMP has generated records without economic impact. Directly confronts the "registration as development" assumption in Indian policy.
 
-## Related Papers
-- [[2 - Notes/Papers/The benefits of land registration and titling_ economic and social perspectives]]
+## Also Appears In
+- [[The benefits of land registration and titling_ economic and social perspectives]]

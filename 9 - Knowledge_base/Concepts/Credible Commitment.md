@@ -1,8 +1,13 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions and credible commitment]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Institutions and credible commitment.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Personal vs Impersonal Exchange]]"
+  - "[[Presumptive vs Conclusive Title]]"
+  - "[[Spain vs England Institutional Divergence]]"
+Contradicts: ""
 ---
 
 # Credible Commitment
@@ -45,8 +50,6 @@ Time is critical for credibility:
 ## PhD Application: Land Governance
 In the transition from **Presumptive to Conclusive Title**, the state's guarantee of land title is an exercise in **Imperative Credibility**. If the state retains arbitrary power to alter the registry or eminent domain without "shackled" procedures, the title remains presumptive because the commitment to property rights is not imperatively bound. India's DILRMP faces exactly this problem: digital records without legislative reform to conclusive title leave the state's property guarantee motivationally rather than imperatively credible.
 
-## Related Papers
+## Also Appears In
 - [[Institutions and credible commitment]] (North, 1993)
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
-- [[Presumptive vs Conclusive Title]]
-- [[Spain vs England Institutional Divergence]]

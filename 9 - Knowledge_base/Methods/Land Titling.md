@@ -1,6 +1,6 @@
 ---
 type: Method
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]]"
+Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
 Last_Processed: "2026-04-25"
 Status: Seed
 ---
@@ -15,7 +15,7 @@ The formal process of granting or certifying a legal title to land, providing th
 ## PhD Relevance
 The central theme of land registration debates. Relevant for analyzing the effectiveness of the Digital India Land Records Modernization Programme (DILRMP).
 
-## Related Papers
+## Also Appears In
 - [[Land tenure and property rights_ theory and implications for development policy]]
 - [[The benefits of land registration and titling_ economic and social perspectives]]
 - [[Guaranteeing title to land]]

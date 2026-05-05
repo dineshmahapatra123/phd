@@ -1,9 +1,8 @@
 ---
-Type: Query
-Query: "The importance of cadastral maps in the Indian context"
-Last_Processed: 2026-04-07
-Status: Permanent Log
 type: Query
+Query: "The importance of cadastral maps in the Indian context"
+Last_Processed: "2026-04-07"
+Status: Permanent Log
 ---
 
 # Query: The importance of cadastral maps in the Indian context
@@ -28,5 +27,5 @@ The importance of cadastral maps in India is rooted in their role as the scienti
     *   **Legal Foundation**: These maps remains the most reliable source for revenue, taxation, and the exercise of Eminent Domain by the state.
 
 ### Next Steps
-1. **Atomorphy Check**: [[Khasra]] and [[Khata]] should be shattered into individual Concept notes to satisfy the Constitution's "Atomorphy" rule.
-2. **Synthesis**: Link this query to a broader Topic note on [[Colonial Land Revenue Systems]] to track the evolution of the debate.
+1. **Atomorphy Check**: Khasra and Khata should be shattered into individual Concept notes to satisfy the Constitution's "Atomorphy" rule.
+2. **Synthesis**: Link this query to a broader Topic note on Colonial Land Revenue Systems to track the evolution of the debate.

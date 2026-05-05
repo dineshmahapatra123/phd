@@ -1,8 +1,17 @@
 ---
 type: Concept
-Paper_Linked: "[[Guaranteeing title to land_ a preliminary study]], [[Land record management in India]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Guaranteeing title to land_ a preliminary study.pdf]]"
+  - "[[Land record management in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Torrens System]]"
+  - "[[Path Dependence]]"
+  - "[[Collateral Value of Land]]"
+  - "[[Implementation Failure (Land Reform)]]"
+  - "[[Distributed Ledger Technology (DLT)]]"
+Contradicts: ""
 ---
 
 # Presumptive vs Conclusive Title

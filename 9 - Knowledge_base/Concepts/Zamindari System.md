@@ -1,9 +1,9 @@
 ---
 type: Concept
-Paper_Linked: "[[Land reforms in India]]"
+Paper_Linked: "[[Land reforms in India.pdf]]"
 Last_Processed: "2026-04-29"
 Status: Seed
-Related: "[[Permanent Settlement]], [[Raiyatwari System]]"
+Related: "[[Permanent Settlement]]"
 Contradicts: ""
 ---
 
@@ -20,4 +20,4 @@ Crucial for understanding the rationale behind the first wave of Indian land ref
 Historical analysis.
 
 ## 5. Related Papers
-- [[Land reforms in India.md]]
+- [[Land reforms in India]]

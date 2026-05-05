@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-05
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-05"
 Status: Seed
 ---
 
@@ -16,11 +16,11 @@ Status: Seed
 
 ## Inter-Person Links
 - **[[Ranjan K. Ghosh]]**: Primary collaborator on institutional land governance research.
-- **[[Kautilya]]**: Deodhar frequently interprets Kautilya's *Arthashastra* through a modern economic lens.
+- **Kautilya**: Deodhar frequently interprets Kautilya's *Arthashastra* through a modern economic lens.
 
 ## Methodological Bias
 Focuses on **Comparative Institutional Philosophy**. He maps ancient Sanskrit terms like **[[Vasundhara]]** and **[[Samudaya]]** to contemporary economic concepts of wealth and common property.
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
 

@@ -1,8 +1,25 @@
 ---
 type: Topic
-Paper_Linked: "[[Land reforms to land titling_ emerging paradigms of land governance in India]], [[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[Guaranteeing title to land]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Land tenure and property rights_ theory and implications for development policy]], [[Land record management in India]], [[Land reforms in India]], [[Toward a theory of property rights]], [[Institutions and credible commitment]], [[Property relations and economic development_ the other land reform]]"
-Last_Processed: 2026-04-29
-Status: Sapling+++
+Paper_Linked:
+  - "[[Land reforms to land titling_ emerging paradigms of land governance in India.pdf]]"
+  - "[[Institutions, institutional change and economic performance.pdf]]"
+  - "[[The property right paradigm.pdf]]"
+  - "[[Guaranteeing title to land_ a preliminary study.pdf]]"
+  - "[[Guaranteeing title to land.pdf]]"
+  - "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+  - "[[Institutions and economic growth_ An historical introduction.pdf]]"
+  - "[[Institutions, transaction costs and economic growth.pdf]]"
+  - "[[Private and common property rights.pdf]]"
+  - "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+  - "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf]]"
+  - "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
+  - "[[Land record management in India.pdf]]"
+  - "[[Land reforms in India.pdf]]"
+  - "[[Toward a theory of property rights.pdf]]"
+  - "[[Institutions and credible commitment.pdf]]"
+  - "[[Property relations and economic development_ the other land reform.pdf]]"
+Last_Processed: "2026-04-29"
+Status: Sapling++
 ---
 
 # Topic: The Evolution of Institutional Property Rights
@@ -15,7 +32,7 @@ The development and formalization of property rights through institutional chang
 - **Alchian & Demsetz (1973)**: Extend the 1967 logic into the **[[Property Right Bundle]]** paradigm, focusing on how different rights structures (partitions of the bundle) affect economic outcomes and **Information Costs**.
 - **D. C. Wadhwa**: Focuses on the **Record-Reality Gap** in India. He argues that property evolution is stunted when the state remains a fiscal-only recorder rather than a proprietary guarantor.
 - **Douglass North (1987)**: Establishes the **[[Personal vs Impersonal Exchange]]** transition as the essential requirement for sustained growth. Identifies the "Political Inefficiency Paradox" where rulers produce suboptimal rights for political survival.
-- **Douglass North (1989)**: Introduces the theory of the **[[State as a Discriminaining Monopolist]]**. Argues that "inefficient" property rights persist because they are easier for rulers to monitor and tax than efficient ones. Highlights the **Spain vs England Divergence** to test how initial institutional frameworks affect growth.
+- **Douglass North (1989)**: Introduces the theory of the **[[State as a Discriminating Monopolist]]**. Argues that "inefficient" property rights persist because they are easier for rulers to monitor and tax than efficient ones. Highlights the **Spain vs England Divergence** to test how initial institutional frameworks affect growth.
 - **Douglass North (1990)**: Formalizes **[[Path Dependence]]** as a result of increasing returns and bounded rationality. Property rights are the primary "rules of the game" that solve the **Cooperation Problem** in impersonal exchange.
 - **Douglass North (1993)**: Argues that evolution is a process of creating **[[Credible Commitment]]** to binding agreements. Evolution is a struggle to "shackle" the state, moving from **Motivational Credibility** (self-enforcing) to **Imperative Credibility** (discretion-disabled) to enable complex, anonymous contracting.
 - **Ghosh & Deodhar (2025)**: Document the "Tectonic Shift" in Indian land relations—from decentralized **[[Samudaya]]** (ancient) to revenue-centric **Zabt** (Mughal) to extractive **[[Eminent Domain]]** (British).

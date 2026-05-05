@@ -1,9 +1,15 @@
 ---
 type: Concept
-Related: [[Tenure Security]], [[Transaction Costs]], [[Institutions and credible commitment]], [[Prerequisites for Land Registration]]
-Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
-Last_Processed: 2026-04-24
+Related:
+  - "[[Tenure Security]]"
+  - "[[Transaction Costs]]"
+  - "[[Prerequisites for Land Registration]]"
+Paper_Linked:
+  - "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+  - "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf]]"
+Last_Processed: "2026-04-24"
 Status: Sapling
+Contradicts: ""
 ---
 
 # Collateral Value of Land
@@ -31,3 +37,6 @@ Wadhwa (2002) documents a direct illustration of the collateral problem in India
 **GDP-Level Estimate**: McKinsey (2001) estimates India loses **1.3% of annual GDP** from unclear land titles — primarily through suppressed agricultural credit, development land lock-up, and litigation costs.
 
 **Source**: [[Guaranteeing title to land]]
+
+## Also Appears In
+- [[Institutions and credible commitment]]

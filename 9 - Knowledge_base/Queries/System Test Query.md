@@ -1,9 +1,8 @@
 ---
-Type: Query
-Query: "How does the dual-layer Q&A system work?"
-Last_Processed: 2026-04-05
-Status: Permanent Log
 type: Query
+Query: "How does the dual-layer Q&A system work?"
+Last_Processed: "2026-04-05"
+Status: Permanent Log
 ---
 
 # Query: How does the dual-layer Q&A system work?

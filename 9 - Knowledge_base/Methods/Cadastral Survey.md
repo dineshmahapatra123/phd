@@ -1,6 +1,6 @@
 ---
 type: Method
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]]"
+Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
 Last_Processed: "2026-04-25"
 Status: Seed
 ---
@@ -15,6 +15,6 @@ A technical and administrative method of surveying land to determine boundaries,
 ## PhD Relevance
 A critical component of land record modernization in India. The "mutation lag" often results from the difficulty of updating cadastral records after surveys are completed.
 
-## Related Papers
+## Also Appears In
 - [[Land tenure and property rights_ theory and implications for development policy]]
 - [[Guaranteeing title to land]] (Wadhwa 2002)

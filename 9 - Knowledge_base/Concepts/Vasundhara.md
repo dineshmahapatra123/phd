@@ -1,8 +1,13 @@
 ---
 type: Concept
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Seed
+Related:
+  - "[[Eminent Domain]]"
+  - "[[Property Right Bundle]]"
+  - "[[Satish Y. Deodhar]]"
+Contradicts: ""
 ---
 
 # Vasundhara
@@ -18,7 +23,5 @@ The Sanskrit word for land, literally translating to **"someone that holds wealt
 ## PhD Application
 Useful for contrasting pre-colonial property bundle theories with post-1894 **Eminent Domain** logic. It highlights an "Indigenous Property Right Bundle" that is often erased in mainstream legal histories.
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Kautilya's Arthashastra]]
-- [[Satish Y. Deodhar (2019)]]

@@ -1,9 +1,15 @@
 ---
 type: Concept
-Paper_Linked: "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]], [[Land registration, governance, and development_ evidence and implications for policy]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf]]"
+  - "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
-Related: [[Tenure Security]], [[Land Market Efficiency]], [[Land Liquidity]]
+Related:
+  - "[[Tenure Security]]"
+  - "[[Land Market Efficiency]]"
+  - "[[Land Liquidity]]"
+Contradicts: ""
 ---
 
 # Labor Mobility (Land Registration)

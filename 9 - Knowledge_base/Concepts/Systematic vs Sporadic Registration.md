@@ -1,9 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[The benefits of land registration and titling_ economic and social perspectives]]
-Last_Processed: 2026-04-24
+Paper_Linked: "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+Last_Processed: "2026-04-24"
 Status: Seed
-Related: [[Tenure Security]], [[Land Market Efficiency]], [[Implementation Failure (Land Reform)]], [[Prerequisites for Land Registration]]
+Related:
+  - "[[Tenure Security]]"
+  - "[[Land Market Efficiency]]"
+  - "[[Implementation Failure (Land Reform)]]"
+  - "[[Prerequisites for Land Registration]]"
+Contradicts: ""
 ---
 
 # Systematic vs Sporadic Registration
@@ -27,5 +32,5 @@ In most developing countries (including India), registration is sporadic — ini
 ## PhD Application
 The systematic vs sporadic distinction is a direct policy lever for the India land formalization debate. Systematic registration is a prerequisite for achieving the equity goals of programmes like DILRMP. Connects to the implementation failure literature ([[Implementation Failure (Land Reform)]]).
 
-## Related Papers
-- [[2 - Notes/Papers/The benefits of land registration and titling_ economic and social perspectives]]
+## Also Appears In
+- [[The benefits of land registration and titling_ economic and social perspectives]]

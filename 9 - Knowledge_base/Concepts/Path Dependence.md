@@ -1,8 +1,15 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions, institutional change and economic performance]], [[Institutions and economic growth_ An historical introduction]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Institutions, institutional change and economic performance.pdf]]"
+  - "[[Institutions and economic growth_ An historical introduction.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Khuntkatti]]"
+  - "[[Informal Constraints]]"
+  - "[[Spain vs England Institutional Divergence]]"
+Contradicts: ""
 ---
 
 # Path Dependence
@@ -41,7 +48,6 @@ Path dependence as a theory risks becoming unfalsifiable: if every outcome is ex
 - **Resistance to reform**: Patwari-based record-keeping, manual mutation procedures, and the absence of conclusive title are not technical failures — they are path-dependent institutional arrangements that serve the interests of the organizations that have adapted to them.
 - **Tribal tenure persistence**: [[Khuntkatti]] and related customary tenure systems survive formal legal override because the informal constraints that embed them are more persistent than statutory rules. See [[Informal Constraints]].
 
-## Related Papers
+## Also Appears In
 - [[Institutions, institutional change and economic performance]] (North, 1990)
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
-- [[Spain vs England Institutional Divergence]]

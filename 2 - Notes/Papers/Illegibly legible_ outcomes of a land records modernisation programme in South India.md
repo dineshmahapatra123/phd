@@ -7,8 +7,7 @@ Status: Processed
 
 APA Citation from Zotero: Ramakumar, R., & Ramesh, P. (2023). Illegibly legible: Outcomes of a land records modernisation programme in South India. *Journal of Agrarian Change*, *23*(4), 729–754. https://doi.org/10.1111/joac.12556
 
-Tags: [[Land Registration and Economic Development (Evidence)]], [[Institutional Property Rights Evolution]]
-
+Tags: 
 # Highlights
 *(Paste your verbatim quotes, page numbers, and raw thoughts here)*
 

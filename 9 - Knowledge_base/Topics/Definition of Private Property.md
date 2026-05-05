@@ -1,7 +1,18 @@
 ---
 type: Topic
-Paper_Linked: "[[Institutions, institutional change and economic performance]], [[The property right paradigm]], [[Guaranteeing title to land_ a preliminary study]], [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]], [[Institutions, transaction costs and economic growth]], [[Private and common property rights]], [[The benefits of land registration and titling_ economic and social perspectives]], [[Land record management in India]], [[Toward a theory of property rights]], [[Land registration, governance, and development_ evidence and implications for policy]], [[Property relations and economic development_ the other land reform]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Institutions, institutional change and economic performance.pdf]]"
+  - "[[The property right paradigm.pdf]]"
+  - "[[Guaranteeing title to land_ a preliminary study.pdf]]"
+  - "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+  - "[[Institutions, transaction costs and economic growth.pdf]]"
+  - "[[Private and common property rights.pdf]]"
+  - "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+  - "[[Land record management in India.pdf]]"
+  - "[[Toward a theory of property rights.pdf]]"
+  - "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
+  - "[[Property relations and economic development_ the other land reform.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling++
 ---
 
@@ -24,7 +35,7 @@ Following **North (1990)**, "Private" property is an institutional solution to t
 Following **[[D. C. Wadhwa]]**, property is only "Private" and secure when it is **Conclusive**. This requires an absolute symmetry between:
 - **Acts in Law**: Private transactions.
 - **Acts of the Sovereign**: The state's guarantee (e.g., the **[[Torrens System]]**).
-Without this, property remains **[[Presumptive vs Conclusive Title | Presumptive]]** (merely fiscal).
+Without this, property remains **[[Presumptive vs Conclusive Title|Presumptive]]** (merely fiscal).
 
 ### 4. The Power of Override (Political Basis)
 As shown by **Ghosh & Deodhar (2025)**, private property is always bounded by the state's reserve power of **[[Eminent Domain]]**. Private rights are not absolute but exist in a "negotiated state" with the sovereign's public purpose requirements.

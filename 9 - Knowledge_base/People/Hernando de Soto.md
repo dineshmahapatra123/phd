@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[Land reforms to land titling_ emerging paradigms of land governance in India]], "[[Land record management in India]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Land reforms to land titling_ emerging paradigms of land governance in India.pdf]]"[[Land record management in India.pdf]]""
+Last_Processed: "2026-04-29"
 Status: Seed
 ---
 

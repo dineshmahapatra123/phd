@@ -1,9 +1,15 @@
 ---
 type: Concept
-Related: "[[Property Right Bundle]], [[Transaction Costs]], [[Institutional Property Rights Evolution]]"
-Paper_Linked: "[[The property right paradigm]]"
-Last_Processed: 2026-04-29
+Related:
+  - "[[Property Right Bundle]]"
+  - "[[Transaction Costs]]"
+  - "[[Institutional Property Rights Evolution]]"
+  - "[[Communal Rights]]"
+  - "[[Open Access (Property Right)]]"
+Paper_Linked: "[[The property right paradigm.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Contradicts: ""
 ---
 
 # Concept: Attenuated Property Rights
@@ -37,8 +43,6 @@ This theorem is a direct target of Ostrom's critique: she shows that neither pri
 ## PhD Application
 India's land tenure system is a case of cumulative attenuation: colonial layering of Zamindari, Jagir, and government-easement rights created bundles where no single party held the full complement of use, exclusion, and alienation rights. The result is the pattern Alchian-Demsetz predict: non-price allocation (political favour, caste affiliation, bribery), rising transaction costs (litigation, Record-Reality Gap), and increasing regulatory intervention to substitute for the missing private incentive structure. DILRMP's digitization does not address the attenuation — it is an administrative reform without a rights reform. See [[Record-Reality Gap]], [[DILRMP]], [[Presumptive vs Conclusive Title]].
 
-## Related Papers
+## Also Appears In
 - [[The property right paradigm]] (Alchian & Demsetz, 1973)
 - [[Land tenure and property rights_ theory and implications for development policy]] (Feder & Feeny, 1991)
-- [[Communal Rights]]
-- [[Open Access (Property Right)]]

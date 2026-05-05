@@ -9,7 +9,7 @@ Status: Seed
 
 APA Citation from Zotero: North, D. C.. (1989). Institutions and economic growth: An historical introduction. World Development, 17(9), 1319–1332. https://doi.org/10.1016/0305-750X(89)90075-2
 
-Tags: #PropertyRights #InstitutionalEconomics #North1989 #GrowthTheory
+Tags: 
 
 # Highlights
 Not done

@@ -1,10 +1,14 @@
 ---
 type: Concept
-Paper_Linked: "[[Toward a theory of property rights]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Toward a theory of property rights.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Seed
-Related: "[[Ownership Forms Typology]], [[Internalization of Externalities]], [[Transaction Costs]], [[Property Right Bundle]]"
-Contradicts:
+Related:
+  - "[[Ownership Forms Typology]]"
+  - "[[Internalization of Externalities]]"
+  - "[[Transaction Costs]]"
+  - "[[Property Right Bundle]]"
+Contradicts: ""
 ---
 
 # Optimal Ownership Scale
@@ -46,6 +50,6 @@ Optimal Ownership Scale provides the efficiency benchmark for evaluating institu
 - Would a single unified land agency (as proposed by Kapoor et al. 2024 for [[DILRMP]]) lower the sum of costs?
 - At what parcel size does the [[Torrens System]]'s guarantee become cost-effective?
 
-## Related Papers
+## Also Appears In
 - [[Toward a theory of property rights]] (Demsetz, 1967) — primary source
 - [[Land record management in India]] (Kapoor et al., 2024) — governance fragmentation as administrative-scale failure

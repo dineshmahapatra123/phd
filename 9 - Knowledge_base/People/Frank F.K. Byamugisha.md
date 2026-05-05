@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]
-Last_Processed: 2026-04-24
+Paper_Linked: "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf]]"
+Last_Processed: "2026-04-24"
 Status: Seed
 ---
 

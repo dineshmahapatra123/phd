@@ -1,7 +1,7 @@
 ---
-type: null
+type: Note
 Paper_Linked: "[[Land record management in India.pdf]]"
-Last_Processed: "2026-04-29"
+Last_Processed: 2026-04-29
 Status: Seed
 ---
 

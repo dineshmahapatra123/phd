@@ -1,8 +1,14 @@
 ---
 type: Concept
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-29
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Eminent Domain]]"
+  - "[[Khuntkatti]]"
+  - "[[Land Tenure Systems (India)]]"
+  - "[[State Property]]"
+Contradicts: ""
 ---
 
 # Extraction Institutions
@@ -35,7 +41,5 @@ The extraction institutions of colonial India were not random — they were driv
 ## PhD Application
 This concept allows for a critical critique of colonial legal shadows in modern land governance, specifically how "Public Purpose" is often a mask for old extractive practices. The continuity runs through: eminent domain (LAA 1894 → LARR 2013) → forced displacement → landlessness → vulnerability. DILRMP's extension of cadastral coverage to unrecorded tribal and forest lands, without recognising customary rights, continues the colonial pattern of using land records as an instrument of state control rather than rights protection. See [[Eminent Domain]], [[Land Tenure Systems (India)]], [[Khuntkatti]].
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Acemoglu et al. (2001)]]
-- [[Frankema (2010)]]

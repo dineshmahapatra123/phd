@@ -1,8 +1,16 @@
 ---
 type: Concept
-Paper_Linked: "[[Private and common property rights]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Private and common property rights.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Communal Rights]]"
+  - "[[Open Access (Property Right)]]"
+  - "[[DILRMP]]"
+  - "[[Bhu-Aadhaar]]"
+  - "[[Land Tenure Systems (India)]]"
+  - "[[Schlager-Ostrom Taxonomy]]"
+Contradicts: ""
 ---
 
 # Concept: Common-pool resources (CPR)
@@ -56,9 +64,6 @@ Demsetz (1967) and North (1990) treat common property as characterised by under-
 ## PhD Application
 India's "wastelands" and forest commons were, in many cases, governed communal property systems before colonial-era land settlement. The colonial state's failure to record and recognise these systems as property converted them to open access — the opposite of the intended rationalisation. DILRMP continues this pattern by digitising parcel-level records without addressing the question of which users hold which rights over communal lands. See [[DILRMP]], [[Bhu-Aadhaar]], [[Land Tenure Systems (India)]].
 
-## Related Papers
+## Also Appears In
 - [[Private and common property rights]] (Ostrom, 2000)
 - [[Toward a theory of property rights]] (Demsetz, 1967 — contradicted)
-- [[Schlager-Ostrom Taxonomy]]
-- [[Open Access (Property Right)]]
-- [[Communal Rights]]

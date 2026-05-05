@@ -1,8 +1,14 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions, institutional change and economic performance]], [[Institutions and economic growth_ An historical introduction]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Institutions, institutional change and economic performance.pdf]]"
+  - "[[Institutions and economic growth_ An historical introduction.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Informal Constraints]]"
+  - "[[Institutions vs Organizations]]"
+Contradicts: ""
 ---
 
 # Subjective Models
@@ -64,8 +70,7 @@ Neoclassical economics assumes that information arbitrage eventually corrects di
 - **Land titling resistance**: Local communities may perceive DILRMP and Bhu-Aadhaar as predatory even when framed as wealth-enhancing, because their subjective model of state-land relations is shaped by centuries of extractive colonial administration. The reform's credibility problem is not informational — it is ideological.
 - **Elite subjective models**: Land revenue officials' subjective models of their own role (gatekeeper rather than registrar) shape their resistance to digitization, independently of explicit rent-seeking calculation. See [[Informal Constraints]], [[Institutions vs Organizations]].
 
-## Related Papers
+## Also Appears In
 - [[Institutions, institutional change and economic performance]] (North, 1990)
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
 - [[The property right paradigm]] (contrast: Alchian-Demsetz emphasize information costs; North emphasizes subjective processing of information)
-- [[Informal Constraints]]

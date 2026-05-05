@@ -1,10 +1,14 @@
 ---
 type: Concept
-Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy]]"
+Paper_Linked: "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
 Last_Processed: "2026-04-29"
 Status: Sapling
-Related: "[[Institutional Arrangements]], [[Record-Reality Gap]], [[Collateral Premium]], [[Torrens System]]"
-Contradicts:
+Related:
+  - "[[Institutional Arrangements]]"
+  - "[[Record-Reality Gap]]"
+  - "[[Collateral Premium]]"
+  - "[[Torrens System]]"
+Contradicts: ""
 ---
 
 ## Standard Definition
@@ -46,7 +50,7 @@ India's presumptive title system creates endemic information asymmetry in both l
 ## Measurement / Methods
 Analysis of land dispute incidence, transaction costs, and credit market segmentation. The Thailand study used a quasi-experimental design comparing titled farmers, squatters with official acceptance, and squatters without — across three regions with different dominant credit regimes.
 
-## Related Papers
+## Also Appears In
 - [[Land tenure and property rights_ theory and implications for development policy]]
 - [[The benefits of land registration and titling_ economic and social perspectives]]
 - [[Guaranteeing title to land]]

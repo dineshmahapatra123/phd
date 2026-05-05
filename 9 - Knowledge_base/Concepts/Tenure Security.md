@@ -1,9 +1,18 @@
 ---
 type: Concept
-Related: [[Definition of Private Property]], [[Institutional Property Rights Evolution]], [[Collateral Value of Land]], [[Prerequisites for Land Registration]], [[Systematic vs Sporadic Registration]], [[Labor Mobility (Land Registration)]]
-Paper_Linked: "[[The benefits of land registration and titling_ economic and social perspectives]], [[Land registration, governance, and development_ evidence and implications for policy]]"
-Last_Processed: 2026-04-29
-Status: Sapling++
+Paper_Linked:
+  - "[[The benefits of land registration and titling_ economic and social perspectives.pdf]]"
+  - "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
+Last_Processed: "2026-04-29"
+Status: Sapling
+Related:
+  - "[[Definition of Private Property]]"
+  - "[[Institutional Property Rights Evolution]]"
+  - "[[Collateral Value of Land]]"
+  - "[[Prerequisites for Land Registration]]"
+  - "[[Systematic vs Sporadic Registration]]"
+  - "[[Labor Mobility (Land Registration)]]"
+Contradicts: ""
 ---
 
 # Tenure Security

@@ -3,7 +3,10 @@ type: Concept
 Paper_Linked: "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
 Last_Processed: "2026-04-30"
 Status: Seed
-Related: "[[LRUP (Telangana)]], [[Neoliberal Land Policy]]"
+Related:
+  - "[[LRUP (Telangana)]]"
+  - "[[Neoliberal Land Policy]]"
+Contradicts: ""
 ---
 
 # Rythu Bandhu Scheme
@@ -21,5 +24,5 @@ The Rythu Bandhu Scheme is a key example of how **land records serve as the gate
 ## Measurement / Methods
 - Evaluated through **disbursement data**, **landholding size distributions**, and **tenant exclusion rates**.
 
-## Related Papers
+## Also Appears In
 - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]

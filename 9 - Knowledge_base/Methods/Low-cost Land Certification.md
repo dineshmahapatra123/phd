@@ -1,8 +1,11 @@
 ---
 type: Method
-Related: [[Tenure Security]], [[Land Titling]], [[Systematic vs Sporadic Registration]]
-Paper_Linked: [[Land registration, governance, and development_ evidence and implications for policy]]
-Last_Processed: 2026-04-29
+Related:
+  - "[[Tenure Security]]"
+  - "[[Land Titling]]"
+  - "[[Systematic vs Sporadic Registration]]"
+Paper_Linked: "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Seed
 ---
 

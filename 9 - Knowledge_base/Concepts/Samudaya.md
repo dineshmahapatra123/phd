@@ -1,8 +1,13 @@
 ---
 type: Concept
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Sapling
+Related:
+  - "[[Common-pool resources]]"
+  - "[[Eminent Domain]]"
+  - "[[Extraction Institutions]]"
+Contradicts: ""
 ---
 
 # Samudaya
@@ -18,7 +23,5 @@ Status: Sapling
 ## PhD Application
 This concept allows for tracking the "Long-Term Erosion of Common Pool Resources (CPR)". It provides a counter-narrative to the idea that land was always privately owned or state-absolutist in India.
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Rangarajan (1992)]]
-- [[Elinor Ostrom's CPR Theory]]

@@ -1,8 +1,17 @@
 ---
 type: Concept
-Paper_Linked: "[[The property right paradigm]], [[Toward a theory of property rights]], [[Private and common property rights]], [[Land tenure and property rights_ theory and implications for development policy]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[The property right paradigm.pdf]]"
+  - "[[Toward a theory of property rights.pdf]]"
+  - "[[Private and common property rights.pdf]]"
+  - "[[Land tenure and property rights_ theory and implications for development policy.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Evergreen
+Related:
+  - "[[Internalization of Externalities]]"
+  - "[[DILRMP]]"
+  - "[[Common-pool resources]]"
+Contradicts: ""
 ---
 
 # Concept: Communal Rights
@@ -42,8 +51,8 @@ Useful for analyzing "open access" scenarios in resource management or public in
 ## Measurement/Methods
 Contrastive analysis using the **[[Schlager-Ostrom Taxonomy]]** to distinguish between de jure open access and de facto communal governance.
 
-## Related Papers
+## Also Appears In
 - [[The property right paradigm]] (Alchian & Demsetz, 1973)
 - [[Private and common property rights]] (Ostrom, 2000)
-- [[Governing the Commons]] (Ostrom, 1990)
+- *Governing the Commons* (Ostrom, 1990)
 - [[Land tenure and property rights_ theory and implications for development policy]] (Feder & Feeny, 1991)

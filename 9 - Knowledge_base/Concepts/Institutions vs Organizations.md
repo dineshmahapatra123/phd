@@ -1,8 +1,12 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions and credible commitment]]"
-Last_Processed: 2026-04-29
+Paper_Linked: "[[Institutions and credible commitment.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[Political Markets (Transaction Cost Theory)]]"
+  - "[[Path Dependence]]"
+Contradicts: ""
 ---
 
 # Institutions vs Organizations
@@ -45,8 +49,6 @@ In the context of **Digital Land Records**, the Registry itself is an Institutio
 
 The Five Propositions also explain DILRMP's repeated implementation failures: intended rationality (state designs efficient digital registry) diverges from realized outcomes (patwari resistance, data quality failures, Tamil Nadu CAG findings) because the reform does not alter the underlying pay-off structure that makes opacity valuable to incumbents.
 
-## Related Papers
+## Also Appears In
 - [[Institutions and credible commitment]] (North, 1993)
 - [[Institutions, institutional change and economic performance]] (North, 1990)
-- [[Political Markets (Transaction Cost Theory)]]
-- [[Path Dependence]]

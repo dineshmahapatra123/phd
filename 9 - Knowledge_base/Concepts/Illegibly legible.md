@@ -3,7 +3,11 @@ type: Concept
 Paper_Linked: "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
 Last_Processed: "2026-04-30"
 Status: Seed
-Related: "[[Record-Reality Gap]], [[Path Dependence]], [[Neoliberal Land Policy]]"
+Related:
+  - "[[Record-Reality Gap]]"
+  - "[[Path Dependence]]"
+  - "[[Neoliberal Land Policy]]"
+Contradicts: ""
 ---
 
 # Illegibly legible
@@ -22,5 +26,5 @@ This concept is critical for analyzing the **outcomes of land records modernisat
 - Measured by the **[[Record-Reality Gap]]**: Discrepancies between official RoRs and ground-level possession.
 - Evaluated through **Qualitative Case Studies** and analysis of **Grievance Redressal Data** (e.g., helpline complaints).
 
-## Related Papers
+## Also Appears In
 - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]

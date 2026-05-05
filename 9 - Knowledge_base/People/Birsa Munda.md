@@ -1,7 +1,7 @@
 ---
 type: Person
-Paper_Linked: [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-Last_Processed: 2026-04-06
+Paper_Linked: "[[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf]]"
+Last_Processed: "2026-04-06"
 Status: Sapling
 ---
 
@@ -15,13 +15,12 @@ Status: Sapling
 - **Birsaait Faith**: Founded a new religious sect that combined spiritual purity with political resistance.
 
 ## Inter-Person Links
-- **[[Tilak Manjhi]]**: Predecessor in tribal armed resistance.
-- **[[Sido and Kanhu Murmu]]**: Santhal leaders whose earlier rebellion paved the way for Munda's resistance.
+- **Tilak Manjhi**: Predecessor in tribal armed resistance.
+- **Sido and Kanhu Murmu**: Santhal leaders whose earlier rebellion paved the way for Munda's resistance.
 - **[[Ranjan K. Ghosh]]**: Analyzes Munda's resistance as a catalyst for institutional change (CT Act 1908).
 
 ## Methodological Bias
 N/A (Historical Figure). His legacy is analyzed through **Subaltern Studies** and **Tribal Resistance History**.
 
-## Related Papers
+## Also Appears In
 - [[In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India]]
-- [[Singh, K. S. (1983)]]: *Birsa Munda and His Movement*.

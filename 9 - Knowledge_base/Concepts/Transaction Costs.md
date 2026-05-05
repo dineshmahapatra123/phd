@@ -1,8 +1,15 @@
 ---
 type: Concept
-Paper_Linked: "[[Institutions and economic growth_ An historical introduction]], [[Institutions, transaction costs and economic growth]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]]"
-Last_Processed: 2026-04-29
+Paper_Linked:
+  - "[[Institutions and economic growth_ An historical introduction.pdf]]"
+  - "[[Institutions, transaction costs and economic growth.pdf]]"
+  - "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf]]"
+Last_Processed: "2026-04-29"
 Status: Sapling
+Related:
+  - "[[State as a Discriminating Monopolist]]"
+  - "[[Informal Constraints]]"
+Contradicts: ""
 ---
 
 # Transaction Costs
@@ -47,7 +54,7 @@ Standard GDP accounting conceals transaction costs in three ways (North 1987):
 
 This last category is particularly important for developing economies: the true cost of the bazaar/suq economy or of India's land registry system lies largely in nonmarket transaction costs (time, uncertainty, corruption), which GDP cannot capture.
 
-## Related Papers
+## Also Appears In
 - [[Institutions, transaction costs and economic growth]] (North, 1987)
 - [[Institutions and economic growth_ An historical introduction]] (North, 1989)
 - [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework]] (Feder & Nishio, 1998)
