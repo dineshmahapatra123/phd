@@ -91,6 +91,12 @@
     - [[Dharani Portal]]
     - [[Technocracy in Land Administration]]
     - [[Rythu Bandhu Scheme]]
+    - [[State Legibility]]
+    - [[High Modernism]]
+    - [[Metis]]
+    - [[Open-access Regime]]
+    - [[The Other Land Reform]]
+    - [[Common-property Regime]]
 - **[[People/]]** — Scholarly Networks  
     - [[C. B. Macpherson]]
     - [[Pradeep Nayak]]
@@ -123,6 +129,7 @@
     - [[Klaus Deininger]]
     - [[R. Ramakumar]]
     - [[Padmini Ramesh]]
+    - [[James C. Scott]]
 - **[[Methods/]]** — Research Design & Tools  
     - [[Law and Economics Approach to Property]]
     - [[Qualitative Document Analysis]]
@@ -161,11 +168,12 @@
     - [[Land registration, governance, and development_ evidence and implications for policy]]
     - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]
     - [[Property relations and economic development_ the other land reform]]
+    - [[Seeing like a state_ How certain schemes to improve the human condition have failed]]
 
 ---
 
 ## 📈 Statistics
-- Total Articles: 142
-- Last Neural Scan: 2026-04-30
+- Total Articles: 149
+- Last Neural Scan: 2026-05-07
 - Source Repository: `7 - Raw/`
 

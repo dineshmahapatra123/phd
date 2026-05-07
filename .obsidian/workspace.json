@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "473dc3986797d15f",
+        "id": "a2aeb627fed23f16",
         "type": "tabs",
         "children": [
           {
-            "id": "591ac7c0dae920bf",
+            "id": "d26672928e33b798",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough/Chapter 2/Seeing like a state.md",
+                "file": "9 - Knowledge_base/log.md",
                 "mode": "source",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Seeing like a state"
+              "title": "log"
             }
           }
         ]
@@ -94,13 +96,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 - Rough/Chapter 2/Seeing like a state.md",
+                "file": "9 - Knowledge_base/log.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Seeing like a state"
+              "title": "Outline of log"
             }
           },
           {
@@ -188,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5
+    "width": 334.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,54 +214,54 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "591ac7c0dae920bf",
+  "active": "d26672928e33b798",
   "lastOpenFiles": [
-    "Untitled Kanban.md",
-    "CODEX.md",
-    "CLAUDE.md",
-    "1 - Rough/Handy_notes_02/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_annots.md",
-    "Excalidraw/Drawing 2026-01-03 00.11.57.excalidraw.md",
-    "Excalidraw/Message from Antigravity.excalidraw.md",
-    "Excalidraw/PhD Workflow Flowchart.excalidraw.md",
-    "Untitled Kanban 1.md",
-    "1 - Rough/Chapter 2/Seeing like a state.md",
-    "9 - Knowledge_base/Concepts/Common-pool resources.md",
-    "1 - Rough/Handy notes/Random/Prompt for the PhD folder.md",
-    "1 - Rough/Handy notes/Random/Prompts.md",
-    "9 - Knowledge_base/Concepts/Land Tenure Systems (India).md",
-    "9 - Knowledge_base/Concepts/Deeds vs Title Systems.md",
-    "9 - Knowledge_base/Concepts/DILRMP.md",
-    "9 - Knowledge_base/Concepts/Conflict Resolution (Institutions).md",
-    "9 - Knowledge_base/Concepts/Constitutional Order.md",
+    "antigravity_test.md",
+    "9 - Knowledge_base/Concepts/State Legibility.md",
+    "9 - Knowledge_base/log.md",
+    "9 - Knowledge_base/Concepts/High Modernism.md",
+    "9 - Knowledge_base/Concepts/Asymmetric Information (Land Rights).md",
+    "9 - Knowledge_base/Concepts/Acts in Law vs Acts of the Sovereign.md",
     "9 - Knowledge_base/Concepts/Adaptive Efficiency.md",
     "9 - Knowledge_base/Concepts/Zamindari System.md",
-    "9 - Knowledge_base/Concepts/The Torrens System.md",
-    "9 - Knowledge_base/Concepts/Transaction Costs in Land.md",
-    "9 - Knowledge_base/Concepts/The Four Regimes of Property.md",
-    "9 - Knowledge_base/Concepts/Secure Property Rights.md",
-    "9 - Knowledge_base/Concepts/Property as a Social Relation.md",
-    "9 - Knowledge_base/Concepts/Record of Rights (RoR).md",
-    "9 - Knowledge_base/Concepts/Presumptive Property Titles.md",
+    "9 - Knowledge_base/Concepts/Land Titling.md",
+    "9 - Knowledge_base/Concepts/Land Liberalization.md",
+    "9 - Knowledge_base/Concepts/JNNURM.md",
+    "9 - Knowledge_base/Concepts/Conclusive Land Title.md",
+    "9 - Knowledge_base/Concepts/Common-property Regime.md",
+    "9 - Knowledge_base/Concepts/Bundle of Rights.md",
+    "9 - Knowledge_base/Concepts/Torrens System.md",
+    "9 - Knowledge_base/Concepts/Vasundhara.md",
+    "9 - Knowledge_base/Concepts/Common-pool resources.md",
+    "9 - Knowledge_base/Concepts/Metis.md",
+    "9 - Knowledge_base/Concepts/DILRMP.md",
+    "9 - Knowledge_base/Concepts/Permanent Settlement.md",
+    "2 - Notes/Papers/Seeing like a state_ How certain schemes to improve the human condition have failed.md",
+    "9 - Knowledge_base/logs/2026-05-07-scott-shatter.md",
+    "9 - Knowledge_base/People/James C. Scott.md",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed.md",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile463.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile462.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile461.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile460.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile459.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile458.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile457.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile456.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile455.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images/imageFile454.png",
+    "9 - Knowledge_base/sources/Seeing like a state_ How certain schemes to improve the human condition have failed_images",
+    "1 - Rough/Chapter 2/Seeing like a state.md",
+    "1 - Rough/Handy notes/Random/Prompts.md",
+    "7 - Raw/Seeing like a state_ How certain schemes to improve the human condition have failed.pdf",
+    "7 - Raw/Seeing Like a State_ How Certain Schemes to Improve the -- James C_ Scott -- 2020 -- Yale University Press -- ddecbc27665ef920439f83cf6fb3424a -- Anna’s Archive.pdf",
+    "7 - Raw/Property relations and economic development_ the other land reform.pdf",
     "7 - Raw/Private and common property rights.pdf",
     "7 - Raw/Land reforms in India.pdf",
     "7 - Raw/The property right paradigm.pdf",
     "7 - Raw/Land reforms to land titling_ emerging paradigms of land governance in India.pdf",
     "7 - Raw/Guaranteeing title to land.pdf",
     "7 - Raw/Guaranteeing title to land_ a preliminary study.pdf",
-    "7 - Raw/In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf",
-    "7 - Raw/Property relations and economic development_ the other land reform.pdf",
-    "7 - Raw/Land tenure and property rights_ theory and implications for development policy.pdf",
-    "7 - Raw/Institutions and economic growth_ An historical introduction.pdf",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile264.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile263.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile262.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile261.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile260.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile259.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile258.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile257.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile256.png",
-    "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile255.png",
     "Untitled.canvas"
   ]
 }

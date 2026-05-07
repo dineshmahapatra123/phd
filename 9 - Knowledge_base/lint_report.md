@@ -1,32 +1,147 @@
-# 🔍 Neuro-Linter: Health Report (2026-04-30 10:15:00)
+# 🔍 Neuro-Linter: Health Report (2026-05-07 20:11:09)
 
 This report identifies structural and scholarly gaps in the PhD Knowledge Base. Review and address these to maintain high-integrity synthesis.
 
-## ✅ Resolved Issues (from 2026-04-29)
-- **Missing YAML Frontmatter**: [[Concepts/Labor Mobility (Land Registration)]] and [[People/Gershon Feder]] have been updated.
-- **Unindexed Articles**: All 4 previously unindexed articles have been added to the Master Index.
-
 ## 🔗 Unindexed Articles
-*No unindexed articles found. The Master Index is currently up to date.*
+These articles exist but are not linked in the Master Index. Add them to `index.md` to prevent silos.
+- [[Concepts/Open-access Regime]]
+- [[Concepts/The Other Land Reform]]
+- [[Concepts/Common-property Regime]]
+
+## 🚩 Broken Source Links
+Metadata points to a paper that does not exist in the `sources/` folder.
+- [[Concepts/Conflict Resolution (Institutions)]] -> Missing source: `The property right paradigm.pdf`
+- [[Concepts/Classes of Property Rights Holders]] -> Missing source: `Private and common property rights.pdf`
+- [[Concepts/Credible Commitment]] -> Missing source: `Institutions and credible commitment.pdf`
+- [[Concepts/Adaptive Efficiency]] -> Missing source: `Institutions and credible commitment.pdf`
+- [[Concepts/Internalization of Externalities]] -> Missing source: `Toward a theory of property rights.pdf`
+- [[Concepts/Torrens System]] -> Missing source: `Guaranteeing title to land_ a preliminary study.pdf`
+- [[Concepts/Implementation Failure (Land Reform)]] -> Missing source: `Guaranteeing title to land.pdf`
+- [[Concepts/Dharani Portal]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
+- [[Concepts/Property Right Bundle]] -> Missing source: `The property right paradigm.pdf`
+- [[Concepts/Land Liberalization]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Communal Rights]] -> Missing source: `The property right paradigm.pdf`
+- [[Concepts/Attenuated Property Rights]] -> Missing source: `The property right paradigm.pdf`
+- [[Concepts/Eminent Domain]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/DILRMP]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Personal vs Impersonal Exchange]] -> Missing source: `Institutions, transaction costs and economic growth.pdf`
+- [[Concepts/Open-access Regime]] -> Missing source: `Property relations and economic development_ the other land reform.pdf`
+- [[Concepts/Ownership Forms Typology]] -> Missing source: `Toward a theory of property rights.pdf`
+- [[Concepts/Mutation Lag]] -> Missing source: `Guaranteeing title to land.pdf`
+- [[Concepts/Zamindari System]] -> Missing source: `Land reforms in India.pdf`
+- [[Concepts/Domain of Demarcated Uses]] -> Missing source: `The property right paradigm.pdf`
+- [[Concepts/Property as a Social Relation]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Vasundhara]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Metis]] -> Missing source: `Seeing like a state_ How certain schemes to improve the human condition have failed.pdf`
+- [[Concepts/The Other Land Reform]] -> Missing source: `Property relations and economic development_ the other land reform.pdf`
+- [[Concepts/Open Access (Property Right)]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[Concepts/Land Tenure Systems (India)]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Path Dependence]] -> Missing source: `Institutions, institutional change and economic performance.pdf`
+- [[Concepts/Institutional Reliability]] -> Missing source: `Institutions and economic growth_ An historical introduction.pdf`
+- [[Concepts/Prerequisites for Land Registration]] -> Missing source: `The benefits of land registration and titling_ economic and social perspectives.pdf`
+- [[Concepts/Land Market Efficiency]] -> Missing source: `The benefits of land registration and titling_ economic and social perspectives.pdf`
+- [[Concepts/Samudaya]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Collateral Value of Land]] -> Missing source: `The benefits of land registration and titling_ economic and social perspectives.pdf`
+- [[Concepts/Distributed Ledger Technology (DLT)]] -> Missing source: `Land record management in India.pdf`
+- [[Concepts/Land Titling]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Bundle of Rights]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Record of Rights (RoR)]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Systematic vs Sporadic Registration]] -> Missing source: `The benefits of land registration and titling_ economic and social perspectives.pdf`
+- [[Concepts/Conclusive Land Title]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Acts in Law vs Acts of the Sovereign]] -> Missing source: `Guaranteeing title to land_ a preliminary study.pdf`
+- [[Concepts/The Torrens System]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Technocracy in Land Administration]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
+- [[Concepts/Collateral Premium]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[Concepts/Labor Mobility (Land Registration)]] -> Missing source: `The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf`
+- [[Concepts/Chotanagpur Tenancy Act 1908]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Neoliberal Land Policy]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Rythu Bandhu Scheme]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
+- [[Concepts/Secure Property Rights]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/State as a Discriminating Monopolist]] -> Missing source: `Institutions and economic growth_ An historical introduction.pdf`
+- [[Concepts/Informal Constraints]] -> Missing source: `Institutions, institutional change and economic performance.pdf`
+- [[Concepts/Presumptive Property Titles]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Political Markets (Transaction Cost Theory)]] -> Missing source: `Institutions and credible commitment.pdf`
+- [[Concepts/Land Resistance Movements]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Institutional Arrangements]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[Concepts/Presumptive vs Conclusive Title]] -> Missing source: `Guaranteeing title to land_ a preliminary study.pdf`
+- [[Concepts/LRUP (Telangana)]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
+- [[Concepts/Optimal Ownership Scale]] -> Missing source: `Toward a theory of property rights.pdf`
+- [[Concepts/Transaction Costs]] -> Missing source: `Institutions and economic growth_ An historical introduction.pdf`
+- [[Concepts/Extraction Institutions]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Tenure Security]] -> Missing source: `The benefits of land registration and titling_ economic and social perspectives.pdf`
+- [[Concepts/Record-Reality Gap]] -> Missing source: `Guaranteeing title to land.pdf`
+- [[Concepts/Constitutional Order]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[Concepts/The Four Regimes of Property]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Subjective Models]] -> Missing source: `Institutions, institutional change and economic performance.pdf`
+- [[Concepts/Ulgulan]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Transaction Costs in Land]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/State Legibility]] -> Missing source: `Seeing like a state_ How certain schemes to improve the human condition have failed.pdf`
+- [[Concepts/JNNURM]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Concepts/Common-property Regime]] -> Missing source: `Property relations and economic development_ the other land reform.pdf`
+- [[Concepts/Bhu-Aadhaar]] -> Missing source: `Land record management in India.pdf`
+- [[Concepts/Institutions vs Organizations]] -> Missing source: `Institutions and credible commitment.pdf`
+- [[Concepts/Permanent Settlement]] -> Missing source: `Land reforms in India.pdf`
+- [[Concepts/Khuntkatti]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Deeds vs Title Systems]] -> Missing source: `Land registration, governance, and development_ evidence and implications for policy.pdf`
+- [[Concepts/Illegibly legible]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
+- [[Concepts/Land Liquidity]] -> Missing source: `The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf`
+- [[Concepts/State Property]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[Concepts/Common-pool resources]] -> Missing source: `Private and common property rights.pdf`
+- [[Concepts/Asymmetric Information (Land Rights)]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[Concepts/High Modernism]] -> Missing source: `Seeing like a state_ How certain schemes to improve the human condition have failed.pdf`
+- [[Concepts/Institutional Efficiency]] -> Missing source: `Institutions, transaction costs and economic growth.pdf`
+- [[Concepts/Normative Behavioral Codes]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[People/C. B. Macpherson]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Hernando de Soto]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Hernando de Soto]] -> Missing source: `Land record management in India.pdf`
+- [[People/Pradeep Nayak]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Gershon Feder]] -> Missing source: `The benefits of land registration and titling_ economic and social perspectives.pdf`
+- [[People/Birsa Munda]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[People/Klaus Deininger]] -> Missing source: `Land registration, governance, and development_ evidence and implications for policy.pdf`
+- [[People/Harold Demsetz]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Sir Robert Torrens]] -> Missing source: `Guaranteeing title to land_ a preliminary study.pdf`
+- [[People/A. M. Honoré]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Satish Y. Deodhar]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[People/Adam Smith]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Ranjan K. Ghosh]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[People/Henry Sumner Maine]] -> Missing source: `Private and common property rights.pdf`
+- [[People/Edella Schlager]] -> Missing source: `Private and common property rights.pdf`
+- [[People/Wesley NewComb Hohfeld]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Robert C. Ellickson]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Amit Kapoor]] -> Missing source: `Land record management in India.pdf`
+- [[People/Daniel W. Bromley]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Douglass North]] -> Missing source: `Institutions, institutional change and economic performance.pdf`
+- [[People/Richard Posner]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/Elinor Ostrom]] -> Missing source: `Private and common property rights.pdf`
+- [[People/P.S. Appu]] -> Missing source: `Land reforms in India.pdf`
+- [[People/Armen Alchian]] -> Missing source: `The property right paradigm.pdf`
+- [[People/Frank F.K. Byamugisha]] -> Missing source: `The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf`
+- [[People/David Feeny]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[People/John Locke]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/D. C. Wadhwa]] -> Missing source: `Guaranteeing title to land_ a preliminary study.pdf`
+- [[People/R. Ramakumar]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
+- [[People/Garrett Hardin]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[People/James C. Scott]] -> Missing source: `Seeing like a state_ How certain schemes to improve the human condition have failed.pdf`
+- [[People/Padmini Ramesh]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
+- [[People/Daniel Bromley]] -> Missing source: `Property relations and economic development_ the other land reform.pdf`
+- [[Methods/Law and Economics Approach to Property]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Methods/Low-cost Land Certification]] -> Missing source: `Land registration, governance, and development_ evidence and implications for policy.pdf`
+- [[Methods/Qualitative Document Analysis]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Methods/Comparative Institutional Analysis]] -> Missing source: `Toward a theory of property rights.pdf`
+- [[Methods/Land Titling]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[Methods/New Institutional Economics]] -> Missing source: `Institutions, transaction costs and economic growth.pdf`
+- [[Methods/Multi-level Case Study (Land Governance)]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
+- [[Methods/Cadastral Survey]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
+- [[Methods/Schlager-Ostrom Taxonomy]] -> Missing source: `Private and common property rights.pdf`
+- [[Methods/Historical Institutionalism (Land)]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Topics/Definition of Private Property]] -> Missing source: `Institutions, institutional change and economic performance.pdf`
+- [[Topics/Land Registration and Economic Development (Evidence)]] -> Missing source: `Land registration, governance, and development_ evidence and implications for policy.pdf`
+- [[Topics/Institutional Property Rights Evolution]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
+- [[Comparisons/Spain vs England Institutional Divergence]] -> Missing source: `Institutions and economic growth_ An historical introduction.pdf`
 
 ## 🌱 Underdeveloped Seed Notes
 These notes are currently very short. Consider performing 'Deep Curation' or more comparative reading.
-- [[Concepts/Illegibly legible]] (Seed - Created today)
-- [[Concepts/LRUP (Telangana)]] (Seed - Created today)
-- [[Concepts/Dharani Portal]] (Seed - Created today)
-- [[Concepts/Technocracy in Land Administration]] (Seed - Created today)
-- [[Concepts/Rythu Bandhu Scheme]] (Seed - Created today)
-- [[People/R. Ramakumar]] (Seed - Created today)
-- [[People/Padmini Ramesh]] (Seed - Created today)
-- [[Methods/Multi-level Case Study (Land Governance)]] (Seed - Created today)
-- [[Concepts/Land Titling]] (265 chars)
-- [[Concepts/The Torrens System]] (277 chars)
-- [[People/Pradeep Nayak]] (206 chars)
-- [[People/Garrett Hardin]] (208 chars)
-
-## ⚠️ Missing YAML Frontmatter
-*No scholarly notes found missing required frontmatter.*
-
-## 🧩 Structural Recommendations
-- **Neural Snowballing**: Consider linking [[Illegibly legible]] to the [[Institutional Property Rights Evolution]] topic to discuss the "Digital Record-Reality Gap" as a path-dependent outcome of colonial land administration.
-- **Topic Expansion**: Create a comparison table between [[LRUP (Telangana)]] and [[DILRMP]] in a new Comparison note.
+- [[Concepts/Land Titling]] (273 chars)
+- [[Concepts/The Torrens System]] (411 chars)
+- [[People/Pradeep Nayak]] (210 chars)
+- [[People/Garrett Hardin]] (212 chars)

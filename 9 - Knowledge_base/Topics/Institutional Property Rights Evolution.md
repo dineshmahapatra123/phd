@@ -18,7 +18,8 @@ Paper_Linked:
   - "[[Toward a theory of property rights.pdf]]"
   - "[[Institutions and credible commitment.pdf]]"
   - "[[Property relations and economic development_ the other land reform.pdf]]"
-Last_Processed: "2026-04-29"
+  - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
+Last_Processed: "2026-05-07"
 Status: Sapling++
 ---
 
@@ -39,6 +40,25 @@ The development and formalization of property rights through institutional chang
 - **Sir Robert Torrens**: Revolutionized the "Evolution" of land rights via the **[[Torrens System]]** (1858), adapting the logic of the **Merchant Shipping Act** to land to eliminate costly retrospective investigations.
 - **[[Gershon Feder]] & [[David Feeny]] (1991)**: Provide a comprehensive framework for evolution based on the **Supply and Demand of Institutions**. Evolution is driven by shifts in relative factor prices (land scarcity) and new technology (demand for credit). They highlight the role of the **[[Constitutional Order]]** as a slow-moving constraint on more rapid changes in **[[Institutional Arrangements]]** (like titling).
 - **[[Elinor Ostrom]] (2000)**: Rejects the linear evolution theory that assumes all property must eventually become private. Evolution is context-dependent and resource-dependent. She identifies the **"Troika of Confusions"** (conflating Open Access, CPRs, and Common Property) that leads to failed institutional transitions.
+
+## The Legibility Tradition — Scott (1998) (NEW)
+**[[James C. Scott]]** introduces a fourth analytical tradition for understanding property rights evolution, orthogonal to both the NIE efficiency tradition (Demsetz, North) and the political economy tradition (Wadhwa, Appu). Scott's tradition focuses on the **governmental function** of property records — their role as instruments through which states make land and persons *legible*, manageable, and controllable from the centre.
+
+Scott argues that property rights evolution is not primarily about efficiency gains or political bargaining — it is about the state manufacturing a simplified, standardised, legally enforceable grid over a complex, locally intelligible social reality. See [[State Legibility]].
+
+**The fiscal Heisenberg principle**: State measurement formulas do not merely record reality — they transform it. The [[Permanent Settlement]] of 1793 did not describe who owned Bengal's land. It created a class of zamindars and simultaneously extinguished the customary rights of millions of cultivators, tenants, and labourers. Property rights "evolution" here is not an efficiency improvement — it is a dispossession event dressed in administrative language.
+
+**The Normalbaum analogy**: Scientific forestry reduced the complex ecology of a European forest to a single number — the revenue yield. German foresters then remade the forest itself to match the abstraction (monoculture, straight rows). The result was the *Waldsterben* — forest death — in the second rotation. Scott applies the same logic to property rights: the *ryot* of the ryotwari system is the agrarian Normalbaum — a standardised legal person attached to a standardised plot, replacing the actual complexity of overlapping claims, seasonal tenancies, and communal arrangements. The question for DILRMP is: what is the agrarian equivalent of the second rotation's *Waldsterben*?
+
+**The palimpsest reading**: Scott provides the conceptual vocabulary for reading India's property rights evolution not as a series of efficiency improvements but as a series of legibility projects, each layering a new simplification grid over what preceded it:
+1. Mughal *zabt* — fiscal legibility (revenue assessment by crop and soil class)
+2. Colonial settlements — juridical legibility (individual owner-cultivator attached to a bounded plot)
+3. Post-independence reform — redistributive legibility (ceiling-law categories, scheduled tribe certificates)
+4. DILRMP — digital legibility (ULPIN, Bhu-Aadhaar, Aadhaar-seeding)
+
+Each layer destroys the locally intelligible arrangements of the previous era while claiming to clarify them.
+
+**Inter-tradition link**: Scott completes the four-tradition framework that your Chapter 2 needs. Demsetz provides the efficiency driver; North provides the political economy of institutional change; the agrarian tradition (Appu, Guha) provides the ground-level dispossession account; Scott provides the governmental-epistemological account of *how* the state creates the property categories through which all the others operate.
 
 ## Theory of The Tectonic Shift (Indian Context)
 Institutional evolution in Indian land governance was not linear but driven by three divergent regimes:

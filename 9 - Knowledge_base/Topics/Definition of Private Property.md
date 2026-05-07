@@ -12,7 +12,8 @@ Paper_Linked:
   - "[[Toward a theory of property rights.pdf]]"
   - "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
   - "[[Property relations and economic development_ the other land reform.pdf]]"
-Last_Processed: "2026-04-29"
+  - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
+Last_Processed: "2026-05-07"
 Status: Sapling++
 ---
 
@@ -67,6 +68,28 @@ The definition of "private" property is further complicated by India's [[DILRMP]
 - **The Continuum**: Property regimes are not bimodal but exist along a continuum between complete individualization and total collectivization.
 - **Private for the Group**: Bromley argues that a [[Common-property Regime]] is essentially "private property for the group"—it carries the same rights of exclusion and management as individual private property, but at a different scale of decision-making unit.
 - **The Rights/Duties Mirror**: "Private" property is defined by a specific symmetry: a party has a **right** only when all others have a **duty** to respect it. Without third-party enforcement of this duty, property reverts to **privilege** (Open Access).
+
+### 10. The Legibility Basis — Scott (1998) (NEW)
+**[[James C. Scott]]** adds a ninth dimension to the definition of private property: the **governmental/legibility basis**. In the modern state, property does not exist until it is *legible* to the state — until it has been mapped, categorised, registered, and attached to an identifiable legal person. The cadastral map does not merely describe a property system; backed by state power, it *creates* the system it claims to describe.
+
+> *"A state cadastral map created to designate taxable property-holders does not merely describe a system of land tenure; it creates such a system through its ability to give its categories the force of law."* (Scott, 1998, p. 3)
+
+This has four implications for the definition of private property:
+
+1. **Property is a state artefact, not a social fact**: What the cadastral map cannot represent — seasonal usufruct, gleaning rights, communal pasture, tree-ownership separate from land-ownership — does not, legally, exist as property. The "private" in private property is a state-imposed category, not a reflection of social reality.
+
+2. **Legibility precedes all other property attributes**: The financial basis (Feder), the legal basis (Wadhwa), and the political basis (Ghosh & Deodhar) all *presuppose* that the state has already rendered the property legible. Legibility is the zeroth condition.
+
+3. **The Normalbaum problem**: Just as German scientific forestry reduced complex forest ecology to a single standardised tree type (*Normalbaum*), the cadastral system reduces complex tenure arrangements to a single standardised legal person (the *pattadar*, the *khatedar*, the *ryot*) attached to a single bounded plot. The definition of "private" property in the state's record is always a heroic abstraction from a far more complex social reality.
+
+4. **Categories become self-fulfilling**: "Categories that may have begun as the artificial inventions of cadastral surveyors, census takers, judges, or police officers can end by becoming categories that organise people's daily experience precisely because they are embedded in state-created institutions that structure that experience." (Scott, 1998, p. 83) — The *pattadar* eventually *becomes* the primary tenure identity of the cultivator, displacing older community-based identities. The definition of private property is thus not stable but accumulates power through institutional embedding.
+
+**PhD Link**: This legibility basis resolves a gap in the existing PhD framework. All eight previous bases define property in terms of its attributes (exclusion, legal title, collateral value, and so on). Scott adds the prior epistemological condition: *how does the state come to know that this property exists and belongs to this person?* The answer — through legibility instruments — is the foundation on which all other property attributes rest. See [[State Legibility]].
+
+### ⚠️ Tension: Legibility Basis vs. Customary Basis
+- **Scott's position**: Property exists — legally and fiscally — only in so far as it has been made legible by the state. Customary tenure without state registration is legally invisible.
+- **Customary / Indigenous tradition** ([[Vasundhara]], [[Khuntkatti]], Ostrom): Pre-state customary tenure is socially real and functionally effective — often *more* stable and *better* enforced than formal registration. The absence of state legibility does not mean the absence of property; it means the absence of the *state's* property categories.
+- **PhD Resolution**: Both are right in their own registers. The tension between them — between the state's legibility-based property system and the community's customary-based tenure system — is precisely the terrain of DILRMP's implementation failure and your Chapter 5 fieldwork.
 
 ## Scholarly Synthesis
 In our PhD framework, property is the **institutional resolution** of the tension between private information (exclusion), state legibility (registration), and historical customary rights. We reject the monolithic definition of private property in favor of **[[Classes of Property Rights Holders]]**. Private property is not a single point on a graph but a spectrum of partitioned authority whose "efficiency" depends on the subtractability and exclusion costs of the underlying **[[Common-pool resources]]**. Kapoor et al. (2024) add a techno-institutional dimension: the definition of "private" in the digital era increasingly requires not just legal title but *digital legibility* — a unique parcel ID, georeferenced boundaries, and on-chain immutability. Communities whose tenure does not conform to this individual-parcel standard risk administrative invisibility or dispossession.

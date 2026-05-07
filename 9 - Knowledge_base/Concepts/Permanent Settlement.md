@@ -19,5 +19,13 @@ Essential for understanding the historical context of land governance, agrarian 
 ## 4. Measurement / Methods
 Historical analysis, policy review.
 
-## 5. Related Papers
+## 5. Scott's Heisenberg Principle Applied
+Scott (1998) names the Permanent Settlement as a paradigm case of the "fiscal Heisenberg principle": the state's measurement formulas do not merely record reality — they transform it. The Settlement did not describe who owned Bengal's land; it *created* a class of zamindars and simultaneously extinguished the customary rights of millions of cultivators, tenants, and labourers.
+
+> *"The permanent settlement in India, for example, created a new class who, because they paid the taxes on the land, became full owners with rights of inheritance and sale where none had existed earlier. At the same time, literally millions of cultivators, tenants, and laborers lost their customary rights of access to the land and its products."* (Scott, 1998, p. 47)
+
+This is Scott's only direct India quote in *Seeing Like a State* and the single most useful passage for anchoring the legibility tradition in Indian agrarian history. See [[State Legibility]].
+
+## 6. Related Papers
 - [[Land reforms in India]]
+- [[Seeing like a state_ How certain schemes to improve the human condition have failed]] (Scott, 1998)

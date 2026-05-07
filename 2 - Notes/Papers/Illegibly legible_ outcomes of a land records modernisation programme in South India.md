@@ -5,7 +5,7 @@ Last_Processed: "2026-04-30"
 Status: Processed
 ---
 
-APA Citation from Zotero: Ramakumar, R., & Ramesh, P. (2023). Illegibly legible: Outcomes of a land records modernisation programme in South India. *Journal of Agrarian Change*, *23*(4), 729–754. https://doi.org/10.1111/joac.12556
+APA Citation from Zotero: Ramakumar, R., & Ramesh, P.. (2023). Illegibly legible: Outcomes of a land records modernisation programme in South India. Journal of Agrarian Change, 23(4), 729–754. https://doi.org/10.1111/joac.12556
 
 Tags: 
 # Highlights

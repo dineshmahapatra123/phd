@@ -1,9 +1,6 @@
 Scott gives you the state-legibility lens — the first of your three analytical traditions. Your task is to understand how the state makes land knowable, why it does so, and what violence that simplification does to local practice. 
 
-
-
-
-The five passages to pay closest attention to:
+**The five passages to pay closest attention to:**
 
 The beehive analogy (Introduction, p. 3) — Scott's cleanest statement of what legibility means: the state redesigns reality to make it readable from above. Write this into your §2.1 as the governmental function.
 Scientific forestry as parable (Ch. 1, pp. 11–22) — The forest is reduced to a "single number: the revenue yield." This is the fiscal function of records. The move from describing a forest to remaking it in the image of the description is the critical move — it's exactly what DILRMP does to village land.
@@ -13,13 +10,14 @@ The Stolypin Reform / Russian village example (Ch. 1, pp. 39–44) — Pre-refor
 
 
 
-Introduction
+# Introduction
 
-Originally, I set out to understand why the state has always seemed to be the enemy of "people who move around," to put it crudely. In the context of Southeast Asia, this prom- ised to be a fruitful way of addressing the perennial tensions between mobile, slash-and-burn hill peoples on one hand and wet-rice, valley kingdoms on the other. The question, however, transcended regional geography. Nomads and pastoralists (such as Berbers and Bedouins), hunter-gatherers, Gypsies, vagrants, homeless people, itinerants, run- away slaves, and serfs have always been a thorn in the side of states.
-the more I came to see them as a state's attempt to make a society legible, to ar- range the population in ways that simplified the classic state functions of taxation, conscription, and prevention of rebellion. 
+Originally, I set out to understand why the state has always seemed to be the enemy of "people who move around," to put it crudely. In the context of Southeast Asia, this promised to be a fruitful way of addressing the perennial tensions between mobile, slash-and-burn hill peoples on one hand and wet-rice, valley kingdoms on the other. The question, however, transcended regional geography. Nomads and pastoralists (such as Berbers and Bedouins), hunter-gatherers, Gypsies, vagrants, homeless people, itinerants, run- away slaves, and serfs have always been a thorn in the side of states.
+
+the more I came to see them as a state's attempt to make a society legible, to arrange the population in ways that simplified the classic state functions of taxation, conscription, and prevention of rebellion. 
 Having begun to think in these terms, I began to see legibility as a central problem in statecraft. 
-
-The premodern state was, in many crucial respects, par- tially blind; it knew precious little about its subjects, their wealth, their landholdings and yields, their location, their very identity. It lacked anything like a detailed "map" of its terrain and its people. It lacked, for the most part, a measure, a metric, that would allow it to "trans- late" what it knew into a common standard necessary for a synoptic view.
+ 
+The premodern state was, in many crucial respects, partially blind; it knew precious little about its subjects, their wealth, their landholdings and yields, their location, their very identity. It lacked anything like a detailed "map" of its terrain and its people. It lacked, for the most part, a measure, a metric, that would allow it to "translate" what it knew into a common standard necessary for a synoptic view.
 
 Suddenly, processes as disparate as the creation of permanent last names, the standardiza- tion of weights and measures, the establishment of cadastral surveys and population registers, the invention of freehold tenure, the standard- ization of language and legal discourse, the design of cities, and the or- ganization of transportation seemed comprehensible as attempts at leg- ibility and simplification. 
 
@@ -40,10 +38,6 @@ A fourth element is closely linked to the third: a prostrate civil so- ciety tha
 
 
 the legibility of a society provides the capacity for large- scale social engineering, high-modernist ideology provides the desire, the authoritarian state provides the determination to act on that de- sire, and an incapacitated civil society provides the leveled social ter- rain on which to build.
-
-Chapter 1
-
-
 
 
 ---

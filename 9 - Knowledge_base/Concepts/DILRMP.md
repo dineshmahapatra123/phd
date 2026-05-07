@@ -81,7 +81,17 @@ DILRMP has not resolved this silo structure — sale deeds are stored in the reg
 ## PhD Application
 DILRMP exemplifies [[Implementation Failure (Land Reform)]] at a programmatic scale. It represents a technocratic, apolitical solution applied to a deeply political problem — consistent with the neo-liberal push (World Bank, donor agencies) to use technology to bypass redistributive politics. The program's failure to address ownership — only digitising possession records — means the [[Record-Reality Gap]] persists in digital form.
 
+### Scott's Legibility Critique — The God's-Eye View
+Scott (1998) provides the deepest theoretical frame for understanding DILRMP's logic and limits. The DILRMP dashboard — where a bureaucrat in Delhi can query any parcel in India by ULPIN — is what Scott calls a "God's-eye view": an administrative utopia designed not for the farmer who owns the land but for the official at the centre who needs to monitor, count, and manage from above. See [[State Legibility]].
+
+The ULPIN identifies the parcel; Aadhaar identifies the person. Together they create the perfectly legible land-person dyad that Scott identifies as the precondition of modern statecraft — the digital completion of what the colonial settlement process began: simultaneously fixing land and fixing persons to that land. DILRMP 2.0's Aadhaar-seeding directive is analytically the same project as the Spanish colonial Philippines naming decree of 1849.
+
+**The dual-use danger**: The same digital record that could protect a Scheduled Tribe member's rights under the Forest Rights Act could, in different political hands, enable rapid identification of PESA-area parcels without encumbrance for acquisition. The technology is neutral; the political purpose that deploys it is not.
+
+**The high-modernist register**: DILRMP's rhetoric — *e-governance*, *transparency*, *ease of doing business*, *citizen-centric services* — is [[High Modernism]] in Scott's precise sense. The programme treats the palimpsest of Indian land records not as historically sedimented meaning but as data quality problems to be engineered away. See [[High Modernism]].
+
 ## Also Appears In
 - [[Land record management in India]] (Kapoor, Esposito & Anand, 2024) — primary source
 - [[Guaranteeing title to land]] (Wadhwa, 2002) — original critique of presumptive system
 - [[The benefits of land registration and titling_ economic and social perspectives]] (Byamugisha, 1999)
+- [[Seeing like a state_ How certain schemes to improve the human condition have failed]] (Scott, 1998)

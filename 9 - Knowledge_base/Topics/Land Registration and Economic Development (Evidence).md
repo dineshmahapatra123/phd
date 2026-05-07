@@ -6,7 +6,8 @@ Paper_Linked:
   - "[[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf]]"
   - "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
   - "[[Property relations and economic development_ the other land reform.pdf]]"
-Last_Processed: "2026-04-30"
+  - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
+Last_Processed: "2026-05-07"
 Status: Sapling
 ---
 
@@ -47,6 +48,17 @@ This topic synthesizes the empirical evidence regarding the impact of land regis
 **Finding**: Modernisation through technocratic means can reproduction or deepen historical exclusions.
 - **Telangana Case ([[R. Ramakumar]] & [[Padmini Ramesh]], 2023)**: The shift from developmental to technocratic administration (e.g., [[Dharani Portal]]) can marginalize groups like tenants who are removed from records to facilitate owner-centric subsidies like the [[Rythu Bandhu Scheme]].
 - **Illegibly Legible**: A state where records are digitally "pure" but disconnected from the ground reality of possession, creating a new form of opacity for the poor.
+
+## **6. The Legibility Critique — Scott (1998) (NEW)**
+**[[James C. Scott]]** provides the deepest structural critique of the land registration optimism, operating at a different analytical register from Bromley's efficiency challenge. Where Bromley asks "does formalisation work?", Scott asks "what does formalisation destroy in the process of working?"
+
+**The Waldsterben counter-question**: Scott's scientific forestry parable (Ch. 1) is the template for evaluating land registration. The monocropped forest yielded higher measurable output in the first rotation — the legibility project appeared successful. The ecological capital that had sustained the diverse forest was invisible to the revenue forester. In the second rotation, the forest died. The question that cross-sectional impact evaluations (Thailand, Vietnam, Peru) cannot answer is: *what is the agrarian equivalent of the second rotation?* What customary tenure arrangements, overlapping rights, gleaning practices, and communal grazing systems are being destroyed by digital cadastral legibility — and when will that destruction become economically visible?
+
+**The dual-use argument**: The same registration system that increases tenure security for titled landholders simultaneously destroys the tenure security of those whose claims cannot be represented in the cadastral grid — seasonal tenants, sharecroppers, common land users, tribal communities with usufruct rights. Scott's legibility framework explains *structurally* why this is not an implementation failure but a design feature: the cadastral map is explicitly designed to represent only a single owner for a bounded parcel at a fixed moment. Everything that does not fit — seasonal reversion, gleaning rights, tree-ownership separate from land-ownership — is not poorly represented; it is simply erased.
+
+**Illegibility as tenure security**: Scott argues that illegibility to outsiders has historically provided "a vital margin of political safety from control by outside elites." For marginalised communities in India's tribal belts, illegibility in the official record is not a problem to be solved — it is a form of protection from state acquisition and elite encroachment. See [[Metis]] and [[State Legibility]].
+
+**The Waldsterben test for DILRMP**: Applying Scott's logic to the existing empirical evidence in this topic: the positive findings on tenure security (Section 1), credit access (Section 2), and labour mobility (Section 3) are all first-rotation results. The second-rotation question is whether the destruction of customary metis — the locally intelligible tenure systems that pre-date formal registration — will become visible in land conflicts, enclosures, and loss of common land access in the medium term. Your Chapter 5 fieldwork in Odisha is documenting precisely this second rotation.
 
 ## **6. Synthesis: Not a Panacea**
 Deininger & Feder (2009) conclude that land registration is an institutional intervention that requires:

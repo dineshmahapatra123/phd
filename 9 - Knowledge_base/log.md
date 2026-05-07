@@ -27,6 +27,11 @@ Rule for agents: do not infer unfinished work from missing manual highlights, pl
 	- **SHATTER**: Created/Updated 8 Concepts (e.g., Deeds vs Title), 2 Methods (Low-cost Certification), and 2 People (Klaus Deininger, Gershon Feder).
 	- **SYNTHESIS**: Created new Topic [[Land Registration and Economic Development (Evidence)]].
 	- **LINT**: Verified Knowledge Base integrity. Updated Master Index.
+### 2026-05-07
+- **LINT**: 3 unindexed articles fixed (`Open-access Regime`, `The Other Land Reform`, `Common-property Regime`). 4 seed notes flagged for future deep-curation (`Land Titling`, `The Torrens System`, `Pradeep Nayak`, `Garrett Hardin`). 130+ "broken source links" are linter false positives (script maps `.pdf` → `.pdf` in sources; actual `.md` files exist). Article count: 149.
+- **SYNTHESIS**: Refreshed 3 Topics with Scott (1998) — `Institutional Property Rights Evolution` (added Legibility Tradition section), `Land Registration and Economic Development` (added Waldsterben critique), `Definition of Private Property` (added Legibility Basis §10).
+- **SHATTER**: Processed [[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]] (Scott, 1998). Created 3 Concepts (`State Legibility`, `High Modernism`, `Metis`), 1 Person (`James C. Scott`). Updated 3 existing articles (`DILRMP`, `Permanent Settlement`, `Cadastral Survey`). Total articles: 146. See `logs/2026-05-07-scott-shatter.md`.
+
 ### 2026-04-30
 - **PHD WORKFLOW**: Processed [[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]] (Ramakumar & Ramesh, 2023).
 - **INGEST**: Renamed PDF, Scaffolded Master Note, Zotero API Integration (Added item & linked PDF), and PDF-to-MD conversion.
