@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "76758119595c359f",
+        "id": "bb4dc818e15820aa",
         "type": "tabs",
         "children": [
           {
-            "id": "faebb23d867a7dc3",
+            "id": "9e7553d761d5621f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "9 - Knowledge_base/Concepts/Torrens System.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Torrens System"
+              "title": "New tab"
             }
           }
         ]
@@ -53,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "prompts for the folder",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,13 +85,25 @@
         "type": "tabs",
         "children": [
           {
+            "id": "c328120253a9b1db",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
             "id": "358c3e123de2267c",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "custom-frames-gemini",
               "state": {},
-              "pinned": true,
               "icon": "lucide-sparkles",
               "title": "Gemini"
             }
@@ -111,35 +119,12 @@
             }
           },
           {
-            "id": "c328120253a9b1db",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "b881f10ec888de9c",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
-            }
-          },
-          {
             "id": "1d90e4f1bde22fc0",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "1 - Rough/Chapter 2/Seeing like a state.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +134,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Seeing like a state"
             }
           },
           {
@@ -193,23 +178,12 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "284d4d567cb9f8e8",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-chatgpt",
-              "state": {},
-              "icon": "lucide-brain",
-              "title": "ChatGPT"
-            }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 334.5,
+    "width": 224.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -229,46 +203,48 @@
       "obsidian-custom-frames:Open NotebookLM": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "lean-terminal:Toggle Terminal": false
+      "lean-terminal:Toggle Terminal": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "faebb23d867a7dc3",
+  "active": "9e7553d761d5621f",
   "lastOpenFiles": [
-    "9 - Knowledge_base/Concepts/Vasundhara.md",
-    "9 - Knowledge_base/Concepts/Classes of Property Rights Holders.md",
-    "9 - Knowledge_base/Concepts/Property Right Bundle.md",
-    "7 - Raw/The property right paradigm.pdf",
+    "1 - Rough/Handy_notes_02/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_annots.md",
+    "Excalidraw/Drawing 2026-01-03 00.11.57.excalidraw.md",
+    "Excalidraw/Message from Antigravity.excalidraw.md",
+    "Excalidraw/PhD Workflow Flowchart.excalidraw.md",
+    "Untitled Kanban 1.md",
+    "Untitled Kanban.md",
+    "1 - Rough/Chapter 2/Seeing like a state.md",
+    "9 - Knowledge_base/Concepts/Common-pool resources.md",
+    "1 - Rough/Handy notes/Random/Prompt for the PhD folder.md",
+    "1 - Rough/Handy notes/Random/Prompts.md",
+    "9 - Knowledge_base/Concepts/Land Tenure Systems (India).md",
+    "9 - Knowledge_base/Concepts/Deeds vs Title Systems.md",
+    "9 - Knowledge_base/Concepts/DILRMP.md",
+    "9 - Knowledge_base/Concepts/Conflict Resolution (Institutions).md",
+    "9 - Knowledge_base/Concepts/Constitutional Order.md",
+    "9 - Knowledge_base/Concepts/Adaptive Efficiency.md",
+    "9 - Knowledge_base/Concepts/Zamindari System.md",
+    "9 - Knowledge_base/Concepts/The Torrens System.md",
+    "9 - Knowledge_base/Concepts/Transaction Costs in Land.md",
+    "9 - Knowledge_base/Concepts/The Four Regimes of Property.md",
+    "9 - Knowledge_base/Concepts/Secure Property Rights.md",
+    "9 - Knowledge_base/Concepts/Property as a Social Relation.md",
+    "9 - Knowledge_base/Concepts/Record of Rights (RoR).md",
+    "9 - Knowledge_base/Concepts/Presumptive Property Titles.md",
+    "9 - Knowledge_base/Concepts/Permanent Settlement.md",
     "9 - Knowledge_base/Concepts/Open-access Regime.md",
-    "9 - Knowledge_base/Concepts/Common-property Regime.md",
-    "9 - Knowledge_base/Concepts/Land Liberalization.md",
-    "9 - Knowledge_base/Concepts/Land Resistance Movements.md",
-    "9 - Knowledge_base/Concepts/Mutation Lag.md",
-    "9 - Knowledge_base/Concepts/Open Access (Property Right).md",
-    "9 - Knowledge_base/Concepts/Torrens System.md",
+    "7 - Raw/Private and common property rights.pdf",
+    "7 - Raw/Land reforms in India.pdf",
+    "7 - Raw/The property right paradigm.pdf",
     "7 - Raw/Land reforms to land titling_ emerging paradigms of land governance in India.pdf",
     "7 - Raw/Guaranteeing title to land.pdf",
     "7 - Raw/Guaranteeing title to land_ a preliminary study.pdf",
-    "9 - Knowledge_base/Concepts/Normative Behavioral Codes.md",
-    "9 - Knowledge_base/Concepts/Common-pool resources.md",
-    "The property right paradigm.pdf]], [[Toward a theory of property rights.pdf]], [[Private and common property rights.pdf]], [[Land tenure and property rights_ theory and implications for development policy.pdf.md",
-    "9 - Knowledge_base/Concepts/Communal Rights.md",
-    "9 - Knowledge_base/Concepts/Dharani Portal.md",
-    "Land reforms to land titling_ emerging paradigms of land governance in India.pdf]], [[Land record management in India.pdf.md",
-    "9 - Knowledge_base/Concepts/DILRMP.md",
-    "9 - Knowledge_base/Concepts/Khuntkatti.md",
     "7 - Raw/In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf",
-    "9 - Knowledge_base/Concepts/Deeds vs Title Systems.md",
     "7 - Raw/Property relations and economic development_ the other land reform.pdf",
     "7 - Raw/Land tenure and property rights_ theory and implications for development policy.pdf",
-    "9 - Knowledge_base/Concepts/State Property.md",
-    "Institutions and economic growth_ An historical introduction.pdf]], [[Institutions, transaction costs and economic growth.pdf]], [[The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf.md",
-    "9 - Knowledge_base/Concepts/Transaction Costs.md",
-    "The property right paradigm.pdf]], [[Private and common property rights.pdf]], [[Land tenure and property rights_ theory and implications for development policy.pdf.md",
-    "9 - Knowledge_base/Concepts/Ulgulan.md",
-    "9 - Knowledge_base/Concepts/Zamindari System.md",
-    "7 - Raw/Land reforms in India.pdf",
     "7 - Raw/Institutions and economic growth_ An historical introduction.pdf",
-    "7 - Raw/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf",
     "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile264.png",
     "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile263.png",
     "9 - Knowledge_base/sources/Property relations and economic development_ the other land reform_images/imageFile262.png",

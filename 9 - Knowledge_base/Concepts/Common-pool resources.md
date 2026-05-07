@@ -1,7 +1,7 @@
 ---
 type: Concept
 Paper_Linked: "[[Private and common property rights.pdf]]"
-Last_Processed: "2026-04-29"
+Last_Processed: 2026-04-29
 Status: Sapling
 Related:
   - "[[Communal Rights]]"
@@ -11,6 +11,7 @@ Related:
   - "[[Land Tenure Systems (India)]]"
   - "[[Schlager-Ostrom Taxonomy]]"
 Contradicts: ""
+_width: normal
 ---
 
 # Concept: Common-pool resources (CPR)
