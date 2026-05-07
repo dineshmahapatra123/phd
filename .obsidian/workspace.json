@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bb4dc818e15820aa",
+        "id": "473dc3986797d15f",
         "type": "tabs",
         "children": [
           {
-            "id": "9e7553d761d5621f",
+            "id": "591ac7c0dae920bf",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough/Chapter 2/Seeing like a state.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Seeing like a state"
             }
           }
         ]
@@ -90,12 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "1 - Rough/Chapter 2/Seeing like a state.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Seeing like a state"
             }
           },
           {
@@ -183,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 224.5,
-    "collapsed": true
+    "width": 224.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,14 +211,16 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "9e7553d761d5621f",
+  "active": "591ac7c0dae920bf",
   "lastOpenFiles": [
+    "Untitled Kanban.md",
+    "CODEX.md",
+    "CLAUDE.md",
     "1 - Rough/Handy_notes_02/The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework_annots.md",
     "Excalidraw/Drawing 2026-01-03 00.11.57.excalidraw.md",
     "Excalidraw/Message from Antigravity.excalidraw.md",
     "Excalidraw/PhD Workflow Flowchart.excalidraw.md",
     "Untitled Kanban 1.md",
-    "Untitled Kanban.md",
     "1 - Rough/Chapter 2/Seeing like a state.md",
     "9 - Knowledge_base/Concepts/Common-pool resources.md",
     "1 - Rough/Handy notes/Random/Prompt for the PhD folder.md",
@@ -233,8 +239,6 @@
     "9 - Knowledge_base/Concepts/Property as a Social Relation.md",
     "9 - Knowledge_base/Concepts/Record of Rights (RoR).md",
     "9 - Knowledge_base/Concepts/Presumptive Property Titles.md",
-    "9 - Knowledge_base/Concepts/Permanent Settlement.md",
-    "9 - Knowledge_base/Concepts/Open-access Regime.md",
     "7 - Raw/Private and common property rights.pdf",
     "7 - Raw/Land reforms in India.pdf",
     "7 - Raw/The property right paradigm.pdf",
