@@ -18,7 +18,10 @@
       "Bash(python3 \"/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/scripts/scaffold.py\")",
       "Bash(curl -s -H \"Zotero-API-Key: SZu9e4D70klRvMtsJeKzznAC\" \"https://api.zotero.org/users/15086139/collections/32MFM4ZJ/items?itemType=-attachment&limit=100\")",
       "Bash(python3 -c ' *)",
-      "Bash(python3 -)"
+      "Bash(python3 -)",
+      "Bash(git worktree *)",
+      "Bash(git add *)",
+      "Bash(git rm *)"
     ]
   }
 }
