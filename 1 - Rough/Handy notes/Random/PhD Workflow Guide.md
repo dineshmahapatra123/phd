@@ -46,6 +46,11 @@ This is a high-integrity, **Cyborg Research Workflow** designed for PhD synthesi
 8. **Sync Bib 🔗 `@[/sync-bib]`** 🤖
    - Agent injects the official **APA Citation** into your Master Note header.
 
+> [!TIP]
+> **Citation writing tools** (available at any time during writing):
+> - **`@[/cite]`** — Generate a correctly formatted TISS in-text author-date citation for any edge case.
+> - **`@[/bib-format]`** — Format a raw citation into a correct TISS bibliography entry (all 8 source types).
+
 ---
 
 ## 🌋 Phase 4: Knowledge Engineering
@@ -82,6 +87,10 @@ This is a high-integrity, **Cyborg Research Workflow** designed for PhD synthesi
 14. **Audit & Garden** 🧠
     - Review the **`lint_report.md`**.
     - Decide which "Seed" notes to expand and which "Orphans" to index.
+
+> [!TIP]
+> **Prose quality tool** (use before submitting any chapter draft):
+> - **`@[/style-check]`** — Lint prose against TISS Manual of Style (spelling, numbers, punctuation, citations, indent).
 
 ## 🛠️ The System Registry
 
