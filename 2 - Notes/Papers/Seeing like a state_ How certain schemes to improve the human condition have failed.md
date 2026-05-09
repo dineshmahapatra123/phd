@@ -1,7 +1,7 @@
 ---
-type: null
+type: Note
 Paper_Linked: "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
-Last_Processed: "2026-05-07"
+Last_Processed: 2026-05-07
 Status: Seed
 ---
 

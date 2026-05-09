@@ -1,7 +1,7 @@
 ---
 type: Note
-Paper_Linked: "[[{{paper_linked}}]]"
-Last_Processed: "{{date}}"
+Paper_Linked: "[[Colonialism and its forms of knowledge_ The British in India.pdf]]"
+Last_Processed: 2026-05-08
 Status: Seed
 ---
 
@@ -16,3 +16,7 @@ Tags:
 
 ## AI Primer
 *(Run `/prime` to populate this section)*
+
+
+# Claude Primer
+
