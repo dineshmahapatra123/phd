@@ -69,4 +69,4 @@ description: Format a raw citation into a correctly structured TISS bibliography
 6. **Output**
    - Print the formatted bibliography entry, ready to paste.
    - Also print the corresponding **in-text citation**: `(North, 1990)` or `(North, 1990, p. 34)`.
-   - If the user is adding this to `PhD.bib`, remind them to run `/sync-bib` after updating Zotero.
+   - `PhD.bib` is a Zotero export — never edit it directly. If the citation needs to be added, tell the user: "Add this entry to Zotero first, then run `/sync-bib` to export it into your master notes."

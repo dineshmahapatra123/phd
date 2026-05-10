@@ -257,7 +257,7 @@ def check_api_usage(api_endpoint):
 - Regularly refresh auth
 - Track all access
 
-## Common Workflows for Claude
+## Common Workflows for Antigravity
 
 ### Workflow 1: User Sends NotebookLM URL
 

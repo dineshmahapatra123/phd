@@ -9,4 +9,4 @@ description: Quickly add a paper/book to Zotero using the Zotero API and move it
 4. **Push the Metadata as an Item:** Use the Bash tool to send a POST request to `https://api.zotero.org/users/<USER_ID>/items` with the citation data (fetch the `itemType` template first via `GET https://api.zotero.org/items/new?itemType=...`).
 5. **Attach PDF as Linked File:** If a PDF was found on the local disk, use the `linkMode=linked_file` attachment template, assign it the `parentItem` matching the newly created item, and POST it to the same API. This avoids uploading large PDF blobs.
 6. **Assign to 'PhD' Collection:** Use `GET https://api.zotero.org/users/<USER_ID>/collections` to find the `PhD` collection ID. Then `PATCH` the newly created item with `{"collections": ["<COLLECTION_ID>"]}`.
-7. **Notify User:** Confirm it's done and ask the user to click the Sync icon in their Zotero Mac app.
+7. **Notify User:** Confirm it's done, then tell the user — "Click the Sync icon in your Zotero Mac app to pull the new item. Once synced and verified, run `/sync-bib` to inject the APA citation into your master note."

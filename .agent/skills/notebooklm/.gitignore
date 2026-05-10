@@ -9,9 +9,9 @@ data/
 data/*
 data/**/*
 
-# Claude-specific
-.claude/
-*.claude
+# Antigravity-specific
+.antigravity/
+*.antigravity
 
 # Python
 __pycache__/

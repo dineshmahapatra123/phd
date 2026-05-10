@@ -14,8 +14,9 @@ All scripts live in `scripts/` and use hardcoded absolute paths under `My Drive/
 # Scaffold master notes + highlights placeholders for any new PDFs in 7 - Raw/
 python scripts/scaffold.py
 
-# Extract Skim PDF annotations to Markdown (requires skimnotes CLI)
-python scripts/extract_skim_notes.py <path/to/file.pdf> [--output <dir>]
+# Extract PDF annotations to Markdown using PyMuPDF
+# Use when the user wants raw annotations pulled from a PDF outside of the /prime workflow
+python scripts/annots.py <path/to/file.pdf> [--output <path/to/output.md>]
 
 # Run health check on the Knowledge Base (Concepts, People, Methods)
 python scripts/lint_wiki.py
@@ -38,6 +39,7 @@ python scripts/generate_flowchart.py
 | `6 - Writings/` | Chapter drafts (`type: Chapter`) |
 | `5 - Templates/` | Note templates; `Paper Title as Zotero Cleaned.md` is the master note template |
 | `3 - Tags/` | Per-topic tag files |
+| `8 - Doc_dump/` | Staging area for auto-downloaded papers (`/ingest-paper` drops files here before manual move to `7 - Raw/`) |
 | `Tweets/` | Saved social-media/thread notes (`type: Tweet`) |
 | `Clippings/` | Saved web/article/newsletter clips (`type: Clip`) |
 | `Types/` | Type definition files — one per note type; specify required frontmatter, icon, and colour |
@@ -52,7 +54,7 @@ Every scholarly vault note belongs to a defined type. Type definitions live in `
 | `Note` | `2 - Notes/Papers/` | `/scaffold` (automated) |
 | `Chapter` | `6 - Writings/` | Manual |
 | `Concept` | `9 - Knowledge_base/Concepts/` | `/compile-phd` |
-| `Topic` | `9 - Knowledge_base/Topics/` | `/refresh-topic` |
+| `Topic` | `9 - Knowledge_base/Topics/` | Manual (updated by `/refresh-topic`) |
 | `Comparison` | `9 - Knowledge_base/Comparisons/` | Manual / research |
 | `Query` | `9 - Knowledge_base/Queries/` | Research interactions |
 | `Person` | `9 - Knowledge_base/People/` | `/compile-phd` |
@@ -74,12 +76,12 @@ Comparisons/ ← Filed results of cross-paper comparisons (must be added to inde
 Queries/     ← AI research interaction logs (unindexed; search directory directly)
 index.md     ← Master index; must be updated when adding Concepts/People/Methods/Comparisons
 PHD_CONSTITUTION.md  ← Governance rules (read first)
-PHD_SCHEMA.md        ← YAML schema and section structure. Use locally configured Zotero credentials if needed. The expected local note is `1 - Rough/Handy notes/HN_01.md`. When reading this file, look for the line containing the label "Zotero" to extract the token. Never print API keys.
+PHD_SCHEMA.md        ← YAML schema and section structure for all note types
 ```
 
 ## Research Workflow
 
-See full workflow: `1 - Rough/Handy notes/PhD Workflow Guide.md`
+See full workflow: `1 - Rough/Handy notes/Random/PhD Workflow Guide.md`
 
 1. **Ingestion**: Drop PDF into `7 - Raw/` → `/rename-paper` → `/scaffold` (creates master note with `## Highlights` section)
 2. **High-Integrity Analysis**: Deep read PDF → manually paste verbatim quotes & raw thoughts into `## Highlights` section of master note → run `/prime` (agent builds AI Primer from your curated highlights)
@@ -104,33 +106,67 @@ See full workflow: `1 - Rough/Handy notes/PhD Workflow Guide.md`
 
 Every scholarly vault note must open with a `type:` YAML field. The full frontmatter spec for all defined types is in `9 - Knowledge_base/PHD_SCHEMA.md`. Type definitions with icons and section structure live in `Types/`.
 
-## Agent Skills & Workflows (`.agent/`)
+## Agent Architecture
 
-Custom slash commands defined in `.agent/skills/` and `.agent/workflows/`. Claude Code loads these automatically.
+This vault is used by three AI agents. Each has its own exclusive layer — do not cross-pollinate:
 
-### Skill
+| Agent | Config file | Command directory | Skills/Workflows |
+|-------|-------------|-------------------|-----------------|
+| **Claude** (you) | `CLAUDE.md` | `.claude/commands/` | `.agent/skills/pdf-to-markdown/` (shared read-only) |
+| **Antigravity** | — | `.agent/workflows/` | `.agent/skills/` |
+| **Codex** | `CODEX.md` | `.codex-phd/workflows/` | `.codex-phd/skills/` |
+
+Claude Code loads slash commands exclusively from `.claude/commands/`. Do not read `.agent/workflows/` or `.codex-phd/` as your operating instructions — those are for the other agents.
+
+## Claude Slash Commands (`.claude/commands/`)
+
+All commands below are defined in `.claude/commands/` and loaded automatically by Claude Code.
+
+### PDF & Ingestion
 
 | Command | Description |
 |---------|-------------|
-| `/pdf2md` | Convert a PDF to Markdown using opendataloader-pdf (requires Java 21 + `.venv-odl`). Output saved to `9 - Knowledge_base/sources/` |
-
-### Workflows
-
-| Command | Description |
-|---------|-------------|
-| `/compile-phd` | Shatter a paper (PDF or `.md`) into atomic wiki articles — runs `/pdf2md` if needed, then creates/updates Concepts, People, Methods, and updates `index.md` |
-| `/scaffold` | Run `scripts/scaffold.py` to create master notes + highlights placeholders for new PDFs in `7 - Raw/` |
+| `/pdf2md` | Convert a PDF to Markdown using opendataloader-pdf (requires Java 21 + `.venv-odl` at `/Users/dineshmahapatra/Downloads/Dinesh/Code/Knowledge_Repo/.venv-odl`). Output saved to `9 - Knowledge_base/sources/` |
 | `/rename-paper` | Web-search the correct title of a PDF and rename it to clean sentence-case |
-| `/prime` | Read a PDF and populate its `2 - Notes/Papers/` note with an AI primer |
-| `/lint-wiki` | Health check of the Knowledge Base (missing YAML, unindexed notes, broken links, seed notes) |
+| `/scaffold` | Run `scripts/scaffold.py` to create master notes + highlights placeholders for new PDFs in `7 - Raw/` |
+| `/ingest-paper` | Find, download, and inject a research paper into `8 - Doc_dump/Automated_Search/` |
+
+### Analysis & Knowledge Engineering
+
+| Command | Description |
+|---------|-------------|
+| `/prime` | Build an AI Primer for a master note by synthesising manually curated highlights — does NOT read the PDF directly |
+| `/compile-phd` | Shatter a paper (PDF or `.md`) into atomic wiki articles — runs `/pdf2md` if needed, creates/updates Concepts, People, Methods, updates `index.md` |
+| `/refresh-topic` | Re-synthesize a Topic note in `9 - Knowledge_base/Topics/` with all latest evidence |
+| `/arxiv-impact` | Bibliometric search for the most cited/impactful papers in a given field and year via WebSearch |
+
+### Citations & Style
+
+| Command | Description |
+|---------|-------------|
+| `/add-zotero` | Add a paper/book to Zotero via API and assign to PhD collection (reads credentials from `HN_01.md`) |
 | `/sync-bib` | Run `scripts/citation_spider.py` to sync APA citations from `PhD.bib` into paper notes |
-| `/add-zotero` | Add a paper/book to Zotero via API and move it to the PhD collection |
-| `/ingest-paper` | Find, download, and inject a research paper into `Doc_dump/` |
-| `/refresh-topic` | Refresh a research synthesis with the latest evidence |
-| `/arxiv-impact` | Find the most cited/impactful ArXiv papers in a given field and year |
-| `/style-check` | Lint prose against TISS Manual of Style (spelling, numbers, punctuation, citations, indent) |
 | `/bib-format` | Format a raw citation into a correct TISS bibliography entry (all 8 source types) |
 | `/cite` | Generate a correctly formatted TISS in-text author-date citation for any edge case |
+| `/style-check` | Lint prose against TISS Manual of Style (spelling, numbers, punctuation, citations, indent) |
+
+### Knowledge Base Maintenance
+
+| Command | Description |
+|---------|-------------|
+| `/lint-wiki` | Health check of the Knowledge Base (missing YAML, unindexed notes, broken links, seed notes) |
+
+## NotebookLM (CLI)
+
+NotebookLM is queried via the `notebooklm` CLI (notebooklm-py), installed in the PhD `.venv`. Auth is stored at `~/.notebooklm/profiles/default/` — no login needed.
+
+```bash
+source "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD/.venv/bin/activate"
+notebooklm use f802377d-2963-487f-8b74-5286f629eb91   # PhD_Papers notebook
+notebooklm ask "Your question here"
+```
+
+> **Note**: `.agent/skills/notebooklm/` is a browser-automation skill for Antigravity — it is NOT used by Claude.
 
 ---
 

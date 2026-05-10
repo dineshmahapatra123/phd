@@ -1,15 +1,15 @@
 <div align="center">
 
-# NotebookLM Claude Code Skill
+# NotebookLM Antigravity Skill
 
-**Let [Claude Code](https://github.com/anthropics/claude-code) chat directly with NotebookLM for source-grounded answers based exclusively on your uploaded documents**
+**Let [Antigravity](https://github.com/anthropics/antigravity-code) chat directly with NotebookLM for source-grounded answers based exclusively on your uploaded documents**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-purple.svg)](https://www.anthropic.com/news/skills)
+[![Antigravity Skill](https://img.shields.io/badge/Antigravity%20Code-Skill-purple.svg)](https://www.anthropic.com/news/skills)
 [![Based on](https://img.shields.io/badge/Based%20on-NotebookLM%20MCP-green.svg)](https://github.com/PleasePrompto/notebooklm-mcp)
 [![GitHub](https://img.shields.io/github/stars/PleasePrompto/notebooklm-skill?style=social)](https://github.com/PleasePrompto/notebooklm-skill)
 
-> Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations - answers only from your uploaded documents.
+> Use this skill to query your Google NotebookLM notebooks directly from Antigravity for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Drastically reduced hallucinations - answers only from your uploaded documents.
 
 [Installation](#installation) • [Quick Start](#quick-start) • [Why NotebookLM](#why-notebooklm-not-local-rag) • [How It Works](#how-it-works) • [MCP Alternative](https://github.com/PleasePrompto/notebooklm-mcp)
 
@@ -17,17 +17,17 @@
 
 ---
 
-## ⚠️ Important: Local Claude Code Only
+## ⚠️ Important: Local Antigravity Only
 
-**This skill works ONLY with local [Claude Code](https://github.com/anthropics/claude-code) installations, NOT in the web UI.**
+**This skill works ONLY with local [Antigravity](https://github.com/anthropics/antigravity-code) installations, NOT in the web UI.**
 
-The web UI runs skills in a sandbox without network access, which this skill requires for browser automation. You must use [Claude Code](https://github.com/anthropics/claude-code) locally on your machine.
+The web UI runs skills in a sandbox without network access, which this skill requires for browser automation. You must use [Antigravity](https://github.com/anthropics/antigravity-code) locally on your machine.
 
 ---
 
 ## The Problem
 
-When you tell [Claude Code](https://github.com/anthropics/claude-code) to "search through my local documentation", here's what happens:
+When you tell [Antigravity](https://github.com/anthropics/antigravity-code) to "search through my local documentation", here's what happens:
 - **Massive token consumption**: Searching through documentation means reading multiple files repeatedly
 - **Inaccurate retrieval**: Searches for keywords, misses context and connections between docs
 - **Hallucinations**: When it can't find something, it invents plausible-sounding APIs
@@ -35,13 +35,13 @@ When you tell [Claude Code](https://github.com/anthropics/claude-code) to "searc
 
 ## The Solution
 
-This Claude Code Skill lets [Claude Code](https://github.com/anthropics/claude-code) chat directly with [**NotebookLM**](https://notebooklm.google/) — Google's **source-grounded knowledge base** powered by Gemini 2.5 that provides intelligent, synthesized answers exclusively from your uploaded documents.
+This Antigravity Skill lets [Antigravity](https://github.com/anthropics/antigravity-code) chat directly with [**NotebookLM**](https://notebooklm.google/) — Google's **source-grounded knowledge base** powered by Gemini 2.5 that provides intelligent, synthesized answers exclusively from your uploaded documents.
 
 ```
-Your Task → Claude asks NotebookLM → Gemini synthesizes answer → Claude writes correct code
+Your Task → Antigravity asks NotebookLM → Gemini synthesizes answer → Antigravity writes correct code
 ```
 
-**No more copy-paste dance**: Claude asks questions directly and gets answers straight back in the CLI. It builds deep understanding through automatic follow-ups, getting specific implementation details, edge cases, and best practices.
+**No more copy-paste dance**: Antigravity asks questions directly and gets answers straight back in the CLI. It builds deep understanding through automatic follow-ups, getting specific implementation details, edge cases, and best practices.
 
 ---
 
@@ -49,7 +49,7 @@ Your Task → Claude asks NotebookLM → Gemini synthesizes answer → Claude wr
 
 | Approach | Token Cost | Setup Time | Hallucinations | Answer Quality |
 |----------|------------|------------|----------------|----------------|
-| **Feed docs to Claude** | 🔴 Very high (multiple file reads) | Instant | Yes - fills gaps | Variable retrieval |
+| **Feed docs to Antigravity** | 🔴 Very high (multiple file reads) | Instant | Yes - fills gaps | Variable retrieval |
 | **Web search** | 🟡 Medium | Instant | High - unreliable sources | Hit or miss |
 | **Local RAG** | 🟡 Medium-High | Hours (embeddings, chunking) | Medium - retrieval gaps | Depends on setup |
 | **NotebookLM Skill** | 🟢 Minimal | 5 minutes | **Minimal** - source-grounded only | Expert synthesis |
@@ -70,13 +70,13 @@ Your Task → Claude asks NotebookLM → Gemini synthesizes answer → Claude wr
 
 ```bash
 # 1. Create skills directory (if it doesn't exist)
-mkdir -p ~/.claude/skills
+mkdir -p ~/.antigravity/skills
 
 # 2. Clone this repository
-cd ~/.claude/skills
+cd ~/.antigravity/skills
 git clone https://github.com/PleasePrompto/notebooklm-skill notebooklm
 
-# 3. That's it! Open Claude Code and say:
+# 3. That's it! Open Antigravity and say:
 "What are my skills?"
 ```
 
@@ -94,12 +94,12 @@ When you first use the skill, it automatically:
 
 ### 1. Check your skills
 
-Say in Claude Code:
+Say in Antigravity:
 ```
 "What skills do I have?"
 ```
 
-Claude will list your available skills including NotebookLM.
+Antigravity will list your available skills including NotebookLM.
 
 ### 2. Authenticate with Google (one-time)
 
@@ -120,17 +120,17 @@ Share: **⚙️ Share → Anyone with link → Copy**
 
 ### 4. Add to your library
 
-**Option A: Let Claude figure it out (Smart Add)**
+**Option A: Let Antigravity figure it out (Smart Add)**
 ```
 "Query this notebook about its content and add it to my library: [your-link]"
 ```
-Claude will automatically query the notebook to discover its content, then add it with appropriate metadata.
+Antigravity will automatically query the notebook to discover its content, then add it with appropriate metadata.
 
 **Option B: Manual add**
 ```
 "Add this NotebookLM to my library: [your-link]"
 ```
-Claude will ask for a name and topics, then save it for future use.
+Antigravity will ask for a name and topics, then save it for future use.
 
 ### 5. Start researching
 
@@ -138,30 +138,30 @@ Claude will ask for a name and topics, then save it for future use.
 "What does my React docs say about hooks?"
 ```
 
-Claude automatically selects the right notebook and gets the answer directly from NotebookLM.
+Antigravity automatically selects the right notebook and gets the answer directly from NotebookLM.
 
 ---
 
 ## How It Works
 
-This is a **Claude Code Skill** - a local folder containing instructions and scripts that Claude Code can use when needed. Unlike the [MCP server version](https://github.com/PleasePrompto/notebooklm-mcp), this runs directly in Claude Code without needing a separate server.
+This is a **Antigravity Skill** - a local folder containing instructions and scripts that Antigravity can use when needed. Unlike the [MCP server version](https://github.com/PleasePrompto/notebooklm-mcp), this runs directly in Antigravity without needing a separate server.
 
 ### Key Differences from MCP Server
 
 | Feature | This Skill | MCP Server |
 |---------|------------|------------|
-| **Protocol** | Claude Skills | Model Context Protocol |
-| **Installation** | Clone to `~/.claude/skills` | `claude mcp add ...` |
+| **Protocol** | Antigravity Skills | Model Context Protocol |
+| **Installation** | Clone to `~/.antigravity/skills` | `antigravity mcp add ...` |
 | **Sessions** | Fresh browser each question | Persistent chat sessions |
-| **Compatibility** | Claude Code only (local) | Claude Code, Codex, Cursor, etc. |
+| **Compatibility** | Antigravity only (local) | Antigravity, Codex, Cursor, etc. |
 | **Language** | Python | TypeScript |
 | **Distribution** | Git clone | npm package |
 
 ### Architecture
 
 ```
-~/.claude/skills/notebooklm/
-├── SKILL.md              # Instructions for Claude
+~/.antigravity/skills/notebooklm/
+├── SKILL.md              # Instructions for Antigravity
 ├── scripts/              # Python automation scripts
 │   ├── ask_question.py   # Query NotebookLM
 │   ├── notebook_manager.py # Library management
@@ -170,7 +170,7 @@ This is a **Claude Code Skill** - a local folder containing instructions and scr
 └── data/                 # Local notebook library
 ```
 
-When you mention NotebookLM or send a notebook URL, Claude:
+When you mention NotebookLM or send a notebook URL, Antigravity:
 1. Loads the skill instructions
 2. Runs the appropriate Python script
 3. Opens a browser, asks your question
@@ -185,10 +185,10 @@ When you mention NotebookLM or send a notebook URL, Claude:
 NotebookLM significantly reduces hallucinations by answering exclusively from your uploaded documents. If information isn't available, it indicates uncertainty rather than inventing content.
 
 ### **Direct Integration**
-No copy-paste between browser and editor. Claude asks and receives answers programmatically.
+No copy-paste between browser and editor. Antigravity asks and receives answers programmatically.
 
 ### **Smart Library Management**
-Save NotebookLM links with tags and descriptions. Claude auto-selects the right notebook for your task.
+Save NotebookLM links with tags and descriptions. Antigravity auto-selects the right notebook for your task.
 
 ### **Automatic Authentication**
 One-time Google login, then authentication persists across sessions.
@@ -220,7 +220,7 @@ Uses realistic typing speeds and interaction patterns to avoid detection.
 
 **User asks**: "Check my Suzuki GSR 600 workshop manual for brake fluid type, engine oil specs, and rear axle torque."
 
-**Claude automatically**:
+**Antigravity automatically**:
 - Authenticates with NotebookLM
 - Asks comprehensive questions about each specification
 - Follows up when prompted "Is that ALL you need to know?"
@@ -232,7 +232,7 @@ Uses realistic typing speeds and interaction patterns to avoid detection.
 
 **You**: "I need to build an n8n workflow for Gmail spam filtering. Use my n8n notebook."
 
-**Claude's internal process:**
+**Antigravity's internal process:**
 ```
 → Loads NotebookLM skill
 → Activates n8n notebook
@@ -263,7 +263,7 @@ Note: The MCP server uses the same Patchright library but via TypeScript/npm eco
 All data is stored locally within the skill directory:
 
 ```
-~/.claude/skills/notebooklm/data/
+~/.antigravity/skills/notebooklm/data/
 ├── library.json       - Your notebook library with metadata
 ├── auth_info.json     - Authentication status info
 └── browser_state/     - Browser cookies and session data
@@ -279,23 +279,23 @@ All data is stored locally within the skill directory:
 Unlike the MCP server, this skill uses a **stateless model**:
 - Each question opens a fresh browser
 - Asks the question, gets the answer
-- Adds a follow-up prompt to encourage Claude to ask more questions
+- Adds a follow-up prompt to encourage Antigravity to ask more questions
 - Closes the browser immediately
 
 This means:
 - No persistent chat context
 - Each question is independent
 - But your notebook library persists
-- **Follow-up mechanism**: Each answer includes "Is that ALL you need to know?" to prompt Claude to ask comprehensive follow-ups
+- **Follow-up mechanism**: Each answer includes "Is that ALL you need to know?" to prompt Antigravity to ask comprehensive follow-ups
 
-For multi-step research, Claude automatically asks follow-up questions when needed.
+For multi-step research, Antigravity automatically asks follow-up questions when needed.
 
 ---
 
 ## Limitations
 
 ### Skill-Specific
-- **Local Claude Code only** - Does not work in web UI (sandbox restrictions)
+- **Local Antigravity only** - Does not work in web UI (sandbox restrictions)
 - **No session persistence** - Each question is independent
 - **No follow-up context** - Can't reference "the previous answer"
 
@@ -308,14 +308,14 @@ For multi-step research, Claude automatically asks follow-up questions when need
 
 ## FAQ
 
-**Why doesn't this work in the Claude web UI?**
+**Why doesn't this work in the Antigravity web UI?**
 The web UI runs skills in a sandbox without network access. Browser automation requires network access to reach NotebookLM.
 
 **How is this different from the MCP server?**
-This is a simpler, Python-based implementation that runs directly as a Claude Skill. The MCP server is more feature-rich with persistent sessions and works with multiple tools (Codex, Cursor, etc.).
+This is a simpler, Python-based implementation that runs directly as a Antigravity Skill. The MCP server is more feature-rich with persistent sessions and works with multiple tools (Codex, Cursor, etc.).
 
 **Can I use both this skill and the MCP server?**
-Yes! They serve different purposes. Use the skill for quick Claude Code integration, use the MCP server for persistent sessions and multi-tool support.
+Yes! They serve different purposes. Use the skill for quick Antigravity integration, use the MCP server for persistent sessions and multi-tool support.
 
 **What if Chrome crashes?**
 Run: `"Clear NotebookLM browser data"` and try again.
@@ -330,7 +330,7 @@ Chrome runs locally on your machine. Your credentials never leave your computer.
 ### Skill not found
 ```bash
 # Make sure it's in the right location
-ls ~/.claude/skills/notebooklm/
+ls ~/.antigravity/skills/notebooklm/
 # Should show: SKILL.md, scripts/, etc.
 ```
 
@@ -343,7 +343,7 @@ Say: `"Clear NotebookLM browser data"`
 ### Dependencies issues
 ```bash
 # Manual reinstall if needed
-cd ~/.claude/skills/notebooklm
+cd ~/.antigravity/skills/notebooklm
 rm -rf .venv
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
@@ -360,7 +360,7 @@ This tool automates browser interactions with NotebookLM to make your workflow m
 While I've built in humanization features (realistic typing speeds, natural delays, mouse movements) to make the automation behave more naturally, I can't guarantee Google won't detect or flag automated usage. I recommend using a dedicated Google account for automation rather than your primary account—think of it like web scraping: probably fine, but better safe than sorry!
 
 **About CLI tools and AI agents:**
-CLI tools like Claude Code, Codex, and similar AI-powered assistants are incredibly powerful, but they can make mistakes. Please use them with care and awareness:
+CLI tools like Antigravity, Codex, and similar AI-powered assistants are incredibly powerful, but they can make mistakes. Please use them with care and awareness:
 - Always review changes before committing or deploying
 - Test in safe environments first
 - Keep backups of important work
@@ -374,39 +374,39 @@ That said, if you run into problems or have questions, feel free to open an issu
 
 ## Credits
 
-This skill is inspired by my [**NotebookLM MCP Server**](https://github.com/PleasePrompto/notebooklm-mcp) and provides an alternative implementation as a Claude Code Skill:
+This skill is inspired by my [**NotebookLM MCP Server**](https://github.com/PleasePrompto/notebooklm-mcp) and provides an alternative implementation as a Antigravity Skill:
 - Both use Patchright for browser automation (TypeScript for MCP, Python for Skill)
-- Skill version runs directly in Claude Code without MCP protocol
+- Skill version runs directly in Antigravity without MCP protocol
 - Stateless design optimized for skill architecture
 
 If you need:
 - **Persistent sessions** → Use the [MCP Server](https://github.com/PleasePrompto/notebooklm-mcp)
 - **Multiple tool support** (Codex, Cursor) → Use the [MCP Server](https://github.com/PleasePrompto/notebooklm-mcp)
-- **Quick Claude Code integration** → Use this skill
+- **Quick Antigravity integration** → Use this skill
 
 ---
 
 ## The Bottom Line
 
-**Without this skill**: NotebookLM in browser → Copy answer → Paste in Claude → Copy next question → Back to browser...
+**Without this skill**: NotebookLM in browser → Copy answer → Paste in Antigravity → Copy next question → Back to browser...
 
-**With this skill**: Claude researches directly → Gets answers instantly → Writes correct code
+**With this skill**: Antigravity researches directly → Gets answers instantly → Writes correct code
 
-Stop the copy-paste dance. Start getting accurate, grounded answers directly in Claude Code.
+Stop the copy-paste dance. Start getting accurate, grounded answers directly in Antigravity.
 
 ```bash
 # Get started in 30 seconds
-cd ~/.claude/skills
+cd ~/.antigravity/skills
 git clone https://github.com/PleasePrompto/notebooklm-skill notebooklm
-# Open Claude Code: "What are my skills?"
+# Open Antigravity: "What are my skills?"
 ```
 
 ---
 
 <div align="center">
 
-Built as a Claude Code Skill adaptation of my [NotebookLM MCP Server](https://github.com/PleasePrompto/notebooklm-mcp)
+Built as a Antigravity Skill adaptation of my [NotebookLM MCP Server](https://github.com/PleasePrompto/notebooklm-mcp)
 
-For source-grounded, document-based research directly in Claude Code
+For source-grounded, document-based research directly in Antigravity
 
 </div>
