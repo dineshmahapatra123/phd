@@ -2,5 +2,6 @@
   "readableLineLength": true,
   "showLineNumber": false,
   "livePreview": true,
-  "spellcheck": true
+  "spellcheck": true,
+  "showUnsupportedFiles": false
 }

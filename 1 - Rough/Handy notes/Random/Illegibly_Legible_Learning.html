@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Illegibly Legible — Learning Companion</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface2: #222636;
+    --border: #2e3348;
+    --accent: #6c8ef5;
+    --accent2: #f5a623;
+    --accent3: #50c878;
+    --accent4: #e05c5c;
+    --text: #d4d8f0;
+    --text-muted: #7a82aa;
+    --text-bright: #ffffff;
+    --radius: 12px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  header {
+    background: linear-gradient(135deg, #1a1d27 0%, #0f1117 100%);
+    border-bottom: 1px solid var(--border);
+    padding: 2.5rem 2rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  header::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at 50% -20%, rgba(108,142,245,0.15) 0%, transparent 70%);
+  }
+  header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    position: relative;
+  }
+  header h1 span { color: var(--accent); }
+  header p.subtitle {
+    color: var(--text-muted);
+    margin-top: 0.4rem;
+    font-size: 0.95rem;
+    position: relative;
+  }
+  header p.meta {
+    display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center;
+    margin-top: 1rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    position: relative;
+  }
+  header p.meta span {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    padding: 0.2rem 0.75rem;
+    border-radius: 999px;
+  }
+
+  /* ── Nav tabs ── */
+  nav {
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    overflow-x: auto;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  nav button {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 0.45rem 1.1rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    transition: all 0.2s;
+  }
+  nav button:hover { border-color: var(--accent); color: var(--text); }
+  nav button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+    font-weight: 600;
+  }
+
+  /* ── Main layout ── */
+  main { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+  .section { display: none; }
+  .section.active { display: block; }
+
+  /* ── Cards ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .card h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card p { color: var(--text); font-size: 0.95rem; }
+
+  /* ── Argument map ── */
+  .arg-chain {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .arg-step {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  .arg-step .connector {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .arg-step .connector .dot {
+    width: 14px; height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    border: 2px solid var(--bg);
+    box-shadow: 0 0 0 2px var(--accent);
+    flex-shrink: 0;
+    margin-top: 4px;
+  }
+  .arg-step .connector .line {
+    width: 2px;
+    flex: 1;
+    background: var(--border);
+    min-height: 30px;
+    margin: 4px 0;
+  }
+  .arg-step:last-child .connector .line { display: none; }
+  .arg-step .content {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem 1.25rem;
+    margin-bottom: 0.75rem;
+    flex: 1;
+  }
+  .arg-step .content h3 {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 0.35rem;
+  }
+  .arg-step .content p { font-size: 0.92rem; }
+
+  /* ── Failure grid ── */
+  .failure-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1rem;
+  }
+  .failure-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+  }
+  .failure-card:hover { border-color: var(--accent4); transform: translateY(-2px); }
+  .failure-card .label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--accent4);
+    margin-bottom: 0.4rem;
+  }
+  .failure-card h3 { font-size: 0.98rem; color: var(--text-bright); margin-bottom: 0.5rem; }
+  .failure-card p.short { font-size: 0.88rem; color: var(--text-muted); }
+  .failure-card .detail {
+    display: none;
+    margin-top: 0.75rem;
+    font-size: 0.88rem;
+    color: var(--text);
+    border-top: 1px solid var(--border);
+    padding-top: 0.75rem;
+    line-height: 1.6;
+  }
+  .failure-card.open .detail { display: block; }
+  .failure-card .toggle {
+    position: absolute;
+    top: 1rem; right: 1rem;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    transition: transform 0.2s;
+  }
+  .failure-card.open .toggle { transform: rotate(45deg); color: var(--accent4); }
+
+  /* ── Flashcards ── */
+  .flashcard-area { margin-bottom: 1.5rem; }
+  .flashcard {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 2.5rem 2rem;
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.1s;
+    user-select: none;
+  }
+  .flashcard:hover { transform: scale(1.005); }
+  .flashcard .side-label {
+    position: absolute;
+    top: 1rem; left: 1rem;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--text-muted);
+  }
+  .flashcard .side-label.answer { color: var(--accent3); }
+  .flashcard .q { font-size: 1.05rem; font-weight: 600; color: var(--text-bright); }
+  .flashcard .a { font-size: 0.95rem; color: var(--text); display: none; }
+  .flashcard.flipped .q { display: none; }
+  .flashcard.flipped .a { display: block; }
+  .flashcard.flipped { border-color: var(--accent3); }
+  .fc-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  .fc-controls button {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.5rem 1.25rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-size: 0.9rem;
+  }
+  .fc-controls button:hover { background: var(--accent); border-color: var(--accent); color: white; }
+  .fc-controls .counter { color: var(--text-muted); font-size: 0.9rem; }
+  .hint { text-align: center; color: var(--text-muted); font-size: 0.82rem; margin-top: 0.5rem; }
+
+  /* ── Quiz ── */
+  .quiz-q {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .quiz-q p.qtext { font-size: 1rem; font-weight: 600; color: var(--text-bright); margin-bottom: 1rem; }
+  .quiz-q .options { display: flex; flex-direction: column; gap: 0.5rem; }
+  .quiz-q .options button {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 0.65rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0.9rem;
+    transition: all 0.15s;
+  }
+  .quiz-q .options button:hover:not(:disabled) { border-color: var(--accent); color: var(--text-bright); }
+  .quiz-q .options button.correct { background: rgba(80,200,120,0.15); border-color: var(--accent3); color: var(--accent3); }
+  .quiz-q .options button.wrong { background: rgba(224,92,92,0.15); border-color: var(--accent4); color: var(--accent4); }
+  .quiz-q .explanation {
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--surface);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    font-size: 0.88rem;
+    color: var(--text);
+    display: none;
+  }
+  .quiz-q .explanation.show { display: block; }
+  .quiz-score {
+    text-align: center;
+    padding: 1.5rem;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    display: none;
+  }
+  .quiz-score h3 { font-size: 1.5rem; color: var(--text-bright); }
+  .quiz-score p { color: var(--text-muted); margin-top: 0.5rem; }
+  .quiz-score button {
+    margin-top: 1rem;
+    background: var(--accent);
+    border: none;
+    color: white;
+    padding: 0.6rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    font-weight: 600;
+  }
+
+  /* ── Timeline ── */
+  .timeline { position: relative; padding-left: 2rem; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px; top: 0; bottom: 0;
+    width: 2px;
+    background: var(--border);
+  }
+  .timeline-item { position: relative; margin-bottom: 1.5rem; }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 6px;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--accent2);
+    border: 2px solid var(--bg);
+    box-shadow: 0 0 0 2px var(--accent2);
+  }
+  .timeline-item .year {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent2);
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+  }
+  .timeline-item .event {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.9rem 1.1rem;
+  }
+  .timeline-item .event h3 { font-size: 0.95rem; color: var(--text-bright); margin-bottom: 0.25rem; }
+  .timeline-item .event p { font-size: 0.88rem; color: var(--text-muted); }
+
+  /* ── Concepts ── */
+  .concept-grid { display: grid; gap: 1rem; }
+  .concept-item {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1rem;
+    align-items: start;
+  }
+  @media (max-width: 600px) { .concept-item { grid-template-columns: 1fr; } }
+  .concept-item .term {
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 0.95rem;
+  }
+  .concept-item .concept-source {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin-top: 0.2rem;
+    font-style: italic;
+  }
+  .concept-item .defn { font-size: 0.9rem; color: var(--text); }
+
+  /* ── Badges ── */
+  .badge {
+    display: inline-block;
+    padding: 0.15rem 0.65rem;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  .badge-blue { background: rgba(108,142,245,0.15); color: var(--accent); }
+  .badge-orange { background: rgba(245,166,35,0.15); color: var(--accent2); }
+  .badge-green { background: rgba(80,200,120,0.15); color: var(--accent3); }
+  .badge-red { background: rgba(224,92,92,0.15); color: var(--accent4); }
+
+  /* ── Big quote ── */
+  blockquote.pull {
+    border-left: 4px solid var(--accent);
+    padding: 1rem 1.5rem;
+    background: var(--surface2);
+    border-radius: 0 var(--radius) var(--radius) 0;
+    margin: 1rem 0;
+    font-style: italic;
+    color: var(--text);
+  }
+  blockquote.pull cite {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    font-style: normal;
+  }
+
+  /* ── Section headers ── */
+  .sec-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--text-bright);
+    margin-bottom: 0.4rem;
+  }
+  .sec-sub {
+    font-size: 0.88rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+  }
+
+  /* ── Progress ── */
+  .progress-bar {
+    height: 4px;
+    background: var(--border);
+    border-radius: 999px;
+    overflow: hidden;
+    margin-bottom: 0.25rem;
+  }
+  .progress-bar .fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 999px;
+    transition: width 0.4s;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span>Illegibly</span> Legible</h1>
+  <p class="subtitle">Outcomes of a Land Records Modernisation Programme in South India</p>
+  <p class="meta">
+    <span>Ramakumar &amp; Ramesh</span>
+    <span>Journal of Agrarian Change · 2023</span>
+    <span>Vol 23(4) · pp 729–754</span>
+    <span>TISS Mumbai</span>
+  </p>
+</header>
+
+<nav>
+  <button class="active" onclick="switchTab('overview')">Overview</button>
+  <button onclick="switchTab('argument')">Core Argument</button>
+  <button onclick="switchTab('failures')">5 Failures</button>
+  <button onclick="switchTab('concepts')">Key Concepts</button>
+  <button onclick="switchTab('timeline')">Timeline</button>
+  <button onclick="switchTab('flashcards')">Flashcards</button>
+  <button onclick="switchTab('quiz')">Quiz</button>
+</nav>
+
+<main>
+
+<!-- ══════════════════════════════════════════════
+     OVERVIEW
+══════════════════════════════════════════════ -->
+<div id="overview" class="section active">
+  <p class="sec-title">Paper at a Glance</p>
+  <p class="sec-sub">What this paper does, who it's for, and why it matters.</p>
+
+  <div class="card">
+    <h2>🎯 Central Irony</h2>
+    <blockquote class="pull">
+      Land records declared "purified" and made digitally <em>legible</em> by the state remained, in practice, illegible — inaccurate, contested, and politically loaded.
+      <cite>The conceptual contribution behind the title "Illegibly Legible"</cite>
+    </blockquote>
+  </div>
+
+  <div class="card">
+    <h2>📍 Setting</h2>
+    <p>Telangana's <strong>Land Records Updation Programme (LRUP)</strong>, launched September 2017. It covered 10,283 villages, ~23.8 million acres, using 1,523 teams and 3,500 revenue officers. The fieldwork for this paper was conducted in <strong>Adilabad district</strong> in 2019.</p>
+  </div>
+
+  <div class="card">
+    <h2>🧵 Why It Was Really Done</h2>
+    <p>The stated goal was to "purify" land records. The actual driver was the <strong>Rythu Bandhu Scheme (RBS)</strong> — a cash transfer of ₹5,000/acre/season requiring an accurate database of landowners — ahead of the 2018 state elections. LRUP served an electoral and welfare-targeting logic, not agrarian reform.</p>
+  </div>
+
+  <div class="card">
+    <h2>📊 Scale of Failure</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:0.75rem;margin-top:0.5rem;">
+      <div style="background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:1rem;text-align:center;">
+        <div style="font-size:1.8rem;font-weight:800;color:var(--accent4);">4.2M</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);">Errors in records pre-LRUP (official estimate)</div>
+      </div>
+      <div style="background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:1rem;text-align:center;">
+        <div style="font-size:1.8rem;font-weight:800;color:var(--accent4);">300K+</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);">Complaints pending before Revenue Dept by 2022</div>
+      </div>
+      <div style="background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:1rem;text-align:center;">
+        <div style="font-size:1.8rem;font-weight:800;color:var(--accent4);">3.6%</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);">Telangana area actually resurveyed by April 2020</div>
+      </div>
+      <div style="background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:1rem;text-align:center;">
+        <div style="font-size:1.8rem;font-weight:800;color:var(--accent2);">93%</div>
+        <div style="font-size:0.82rem;color:var(--text-muted)">"Purity" claimed by govt — systematically dismantled</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>🔑 Theoretical Pillars</h2>
+    <p>The paper draws on three interlocking frameworks:</p>
+    <ul style="margin-top:0.75rem;display:flex;flex-direction:column;gap:0.5rem;padding-left:1rem;">
+      <li><span class="badge badge-blue">Scott 1998</span>&nbsp; <em>Seeing Like a State</em> — legibility as state-simplification of complex realities</li>
+      <li><span class="badge badge-orange">Polanyi 1944</span>&nbsp; Land as a "fictitious commodity" — eminently unsuited for market governance</li>
+      <li><span class="badge badge-red">Cole 2022</span>&nbsp; Technocracy — depoliticisation of governance through "instrumentally rational techniques"</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>💡 Core Contribution</h2>
+    <p>The paper goes <em>beyond</em> Scott: neoliberal legibility-making doesn't simply simplify — it <strong>actively distorts</strong> in service of new power configurations (corporate land acquisition, welfare targeting, tenant exclusion). The "illegibly legible" concept captures digital transparency masking political opacity.</p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     ARGUMENT MAP
+══════════════════════════════════════════════ -->
+<div id="argument" class="section">
+  <p class="sec-title">The Argumentative Chain</p>
+  <p class="sec-sub">Follow the paper's logic step by step.</p>
+
+  <div class="arg-chain">
+    <div class="arg-step">
+      <div class="connector"><div class="dot"></div><div class="line"></div></div>
+      <div class="content">
+        <h3>Premise 1 — Land is politically embedded</h3>
+        <p>Following Marx and Polanyi, land is not a normal commodity. Its governance is necessarily political — tied to production, exploitation, and historical tenure. Any attempt to reduce it to a technical problem will fail.</p>
+      </div>
+    </div>
+    <div class="arg-step">
+      <div class="connector"><div class="dot"></div><div class="line"></div></div>
+      <div class="content">
+        <h3>Premise 2 — Colonial legibility created path dependence</h3>
+        <p>Colonial cadastral surveys (Scott's legibility) codified land for revenue extraction — not for cultivators. In Telangana, the Nizam-era <em>sethwar</em> (1932–34) became the foundational document. Post-independence reforms layered onto this corrupted base without fixing it.</p>
+      </div>
+    </div>
+    <div class="arg-step">
+      <div class="connector"><div class="dot"></div><div class="line"></div></div>
+      <div class="content">
+        <h3>Premise 3 — Neoliberalism reoriented the project</h3>
+        <p>From the 1980s, the World Bank and USAID promoted land records modernisation not for agrarian reform but for free land markets (EoDB, Torrens titling). India's DILRMP and Telangana's LRUP are products of this reorientation.</p>
+      </div>
+    </div>
+    <div class="arg-step">
+      <div class="connector"><div class="dot"></div><div class="line"></div></div>
+      <div class="content">
+        <h3>Observation — LRUP was driven by electoral logic</h3>
+        <p>LRUP was rushed in 2017 to enable the Rythu Bandhu Scheme before elections. Its design prioritised speed and owner-identification over accuracy, equity, or genuine resurvey.</p>
+      </div>
+    </div>
+    <div class="arg-step">
+      <div class="connector"><div class="dot"></div><div class="line"></div></div>
+      <div class="content">
+        <h3>Finding — Five structural failures compounded</h3>
+        <p>No fresh survey + political urgency + <em>sethwar</em> as infallible benchmark + deliberate tenant exclusion + corruption = a programme that reproduced and deepened illegibility under the guise of modernisation.</p>
+      </div>
+    </div>
+    <div class="arg-step">
+      <div class="connector"><div class="dot" style="background:var(--accent3);box-shadow:0 0 0 2px var(--accent3);"></div><div class="line"></div></div>
+      <div class="content" style="border-color:var(--accent3);">
+        <h3>Conclusion — Technocracy cannot resolve political contradictions</h3>
+        <p>"Illegibly legible": the Dharani portal created digital legibility that masked — and entrenched — political illegibility. The most vulnerable class (tenants, who actually cultivate) was rendered <em>invisible</em> in official records, losing credit, welfare, and legal recognition. Technocratic portals close off democratic accountability without resolving underlying land relations.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     5 FAILURES
+══════════════════════════════════════════════ -->
+<div id="failures" class="section">
+  <p class="sec-title">Five Structural Reasons for Failure</p>
+  <p class="sec-sub">Click each card to expand the full explanation.</p>
+
+  <div class="failure-grid">
+    <div class="failure-card" onclick="toggleFailure(this)">
+      <div class="label">Failure A</div>
+      <h3>The Conclusive vs. Presumptive Title Problem</h3>
+      <p class="short">A "curious third way" — neither here nor there.</p>
+      <div class="detail">
+        No fresh cadastral resurvey was conducted. Only 3.6% of Telangana's area was resurveyed by April 2020. Yet the exercise went beyond simple presumptive updating — new titles derived from old, error-ridden presumptive titles. A bureaucrat explained resistance: "A cadastral survey would open a can of worms." The government's own 2022 sub-committee recommended a fresh digital field survey — effectively quashing its earlier claims that the database had become "authentic."
+      </div>
+      <span class="toggle">+</span>
+    </div>
+
+    <div class="failure-card" onclick="toggleFailure(this)">
+      <div class="label">Failure B</div>
+      <h3>The Political Urgency Problem</h3>
+      <p class="short">10 days per village instead of the needed 10 months.</p>
+      <div class="detail">
+        The LRUP was hurriedly designed to enable a time-bound introduction of RBS. The 3-month timeline (extended by 3 more) was wholly inadequate for 10,000+ villages. Revenue functionaries collected data by day, performed data entry at night, slept in offices. An expert noted earlier pilots took six months for just eight villages. Officials told researchers: "Even with 10 months per village instead of 10 days, ground-level verification could not have been satisfactorily completed." The Revenue Department was also severely understaffed — Adilabad had 18 mandals but only 8–9 surveyors.
+      </div>
+      <span class="toggle">+</span>
+    </div>
+
+    <div class="failure-card" onclick="toggleFailure(this)">
+      <div class="label">Failure C</div>
+      <h3>The Sethwar Problem</h3>
+      <p class="short">An 85-year-old colonial document made infallible by software.</p>
+      <div class="detail">
+        The Dharani portal was programmed to reject any data entry where area under new survey numbers differed from the 1932–34 <em>sethwar</em> by even one <em>gunta</em>. The <em>sethwar</em> bore little resemblance to ground reality after decades of partitions, transactions, manipulations, and encroachments. Cases that couldn't be reconciled were either resolved through the <em>tehsildar's</em> discretionary powers (itself a source of corruption) or dumped into the unresolved Part B. An estimated 200,000 cases were classified into Part B in haste, "just so that the tasks in the village could be completed on time."
+      </div>
+      <span class="toggle">+</span>
+    </div>
+
+    <div class="failure-card" onclick="toggleFailure(this)">
+      <div class="label">Failure D</div>
+      <h3>The Exclusion of Tenants</h3>
+      <p class="short">The most politically consequential outcome — deliberate erasure.</p>
+      <div class="detail">
+        The Telangana government amended the 1971 AP Record of Rights Act in 2020 to <em>remove</em> the requirement to record tenants' interests. The Dharani portal required that owner and cultivator columns carry the same name — legally erasing tenancy. The Chief Minister stated: "Rythu Bandhu is for farmers. The government does not have details of tenant farmers." By the RSV's assessment, one-third of RBS payments went to absentee landlords. 60% of tenants reported lease rates rose after RBS. Tenants lost access to bank credit, crop insurance, PM Kisan, and legal recognition — violating the Land Licensed Cultivators Act 2011.
+      </div>
+      <span class="toggle">+</span>
+    </div>
+
+    <div class="failure-card" onclick="toggleFailure(this)">
+      <div class="label">Failure E</div>
+      <h3>Local Actor Subversion &amp; Corruption</h3>
+      <p class="short">The portal became a site of opacity, not transparency.</p>
+      <div class="detail">
+        Corruption was rampant. A <em>tehsildar</em> and VRO were arrested in 2019 for demanding bribes for corrections. Data entry was entrusted to contract workers with no stake in their tasks. Paradoxically, abolishing the <em>patwari</em> post (as an anti-corruption measure) eliminated the only official with genuine local land knowledge. The Dharani portal had no mechanisms for personal interaction, no accountability for complaint resolution, no legal immunity for collectors who acted on complaints. One collector sarcastically described being "reduced to <em>Dharani</em> Collectors." Human consequences included farmer suicides, death threats to officers, and a female MRO killed over a dispute.
+      </div>
+      <span class="toggle">+</span>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:1.5rem;">
+    <h2>🔗 Connecting Theme</h2>
+    <p>All five failures share a root: the LRUP treated land illegibility as a <strong>technical problem of administrative dysfunction</strong> rather than a <strong>political condition</strong> produced by historical class struggle. Superimposing a digital portal on an unreformed political economy cannot resolve centuries of accumulated contradiction — it only closes off avenues of democratic redress.</p>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     KEY CONCEPTS
+══════════════════════════════════════════════ -->
+<div id="concepts" class="section">
+  <p class="sec-title">Key Concepts &amp; Terms</p>
+  <p class="sec-sub">Theoretical vocabulary the paper uses and builds on.</p>
+
+  <div class="concept-grid">
+    <div class="concept-item">
+      <div>
+        <div class="term">Illegibly Legible</div>
+        <span class="concept-source">Ramakumar &amp; Ramesh (2023)</span>
+      </div>
+      <div class="defn">Land records declared digitally transparent ("legible") by the state that remain, in practice, politically opaque, contested, and inaccurate. The concept captures how digital modernisation can mask rather than resolve underlying power relations. The paper's original theoretical contribution.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">Legibility</div>
+        <span class="concept-source">Scott (1998)</span>
+      </div>
+      <div class="defn">The state's project of simplifying complex, locally managed social realities into standardised, administratively readable forms — enabling taxation, conscription, and control. Applied here to cadastral surveys that "translated" customary tenure for state revenue extraction.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">Fictitious Commodity</div>
+        <span class="concept-source">Polanyi (1944)</span>
+      </div>
+      <div class="defn">Land, labour, and money are not produced for sale, yet capitalism treats them as commodities. Land is "eminently ill-suited to be a commodity" — its commodity description is "entirely fictitious." This explains why market-driven land titling schemes repeatedly fail.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">Technocracy</div>
+        <span class="concept-source">Cole (2022)</span>
+      </div>
+      <div class="defn">"The administrative and political domination of society by a state elite … through the application of instrumentally rational techniques." Technocracy depoliticises governance, insulates state power from accountability, and fetishises the containment of political pressures. The Dharani portal is the paper's primary exhibit.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">Path Dependence</div>
+        <span class="concept-source">Historical institutionalism</span>
+      </div>
+      <div class="defn">Colonial cadastral choices (the <em>sethwar</em>, the three-department structure, the RoR system) created lock-in effects that persisted for a century. Each reform layer was built atop a corrupted colonial foundation rather than replacing it.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">Conclusive vs. Presumptive Title</div>
+        <span class="concept-source">Land admin literature</span>
+      </div>
+      <div class="defn">Conclusive title is state-guaranteed (Torrens system); presumptive title is rebuttable by evidence. The LRUP occupied a "curious third way" — neither guaranteeing titles nor simply recording presumptive ones, creating a system that appeared authoritative but carried neither standard's legal protections.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">Rythu Bandhu Scheme (RBS)</div>
+        <span class="concept-source">Telangana, 2018</span>
+      </div>
+      <div class="defn">Direct income support of ₹5,000/acre/season to landowners (not tenants). Required accurate landowner database — the true motivation behind the LRUP. One-third of payments went to absentee landlords; tenants who actually cultivate received nothing and lost other entitlements.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">Dharani Portal</div>
+        <span class="concept-source">Telangana state, 2020</span>
+      </div>
+      <div class="defn">The digital integrated land records system introduced post-LRUP. Programmed with the 1932–34 <em>sethwar</em> as infallible reference and required owner = cultivator in all records. Became a site of opacity — no personal interaction, no accountability for complaints, concentrated discretionary power.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">Sethwar</div>
+        <span class="concept-source">Telangana, 1932–34</span>
+      </div>
+      <div class="defn">The colonial survey settlement document from the Nizam era, produced for revenue maximisation — not accurate tenure recording. Used as the Dharani portal's benchmark 85 years later. Its errors and omissions were effectively laundered into digital authority.</div>
+    </div>
+    <div class="concept-item">
+      <div>
+        <div class="term">EoDB (Ease of Doing Business)</div>
+        <span class="concept-source">World Bank / neoliberal framework</span>
+      </div>
+      <div class="defn">The World Bank's framework that reoriented land records modernisation from agrarian reform toward facilitating investment and free land markets. By 2005, the Bank supervised land administration projects worth over $1 billion globally. The paper critiques how this agenda depoliticises land governance.</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     TIMELINE
+══════════════════════════════════════════════ -->
+<div id="timeline" class="section">
+  <p class="sec-title">Historical Timeline</p>
+  <p class="sec-sub">From colonial survey to the Dharani portal — a century of accumulated contradiction.</p>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="year">1932–34</div>
+      <div class="event">
+        <h3>Sethwar Survey Settlement</h3>
+        <p>Nizam-era survey and <em>bandobust</em> operation produces the <em>sethwar</em> — benchmark revenue document, not a record of actual cultivation. This becomes the Dharani portal's reference document 85 years later.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">1950</div>
+      <div class="event">
+        <h3>Hyderabad Tenancy &amp; Agricultural Lands Act</h3>
+        <p>Abolishes <em>sarf khas</em> and <em>jagirdari</em> systems. Introduces 38-E certificate for tenant protection. But the <em>khasra pahani</em> (1954) was prepared without fresh survey, using old <em>sethwar</em> — landlord pressure ensures <em>patwaris</em> list original holders, not actual cultivators. Records corrupted from the outset.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">1973</div>
+      <div class="event">
+        <h3>Land Reforms (Ceiling on Agricultural Holdings) Act</h3>
+        <p>Triggers wave of fraudulent manipulation: landlord <em>benamis</em> inserted in place of tenants, new survey numbers fabricated to evade ceiling laws. Revenue officials and <em>patwaris</em> complicit. "Most registers from the 1970s were products of manipulation."</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">1987</div>
+      <div class="event">
+        <h3>D.C. Wadhwa Committee</h3>
+        <p>Documents scale of land records failure nationally. Recommendations not meaningfully implemented.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2002</div>
+      <div class="event">
+        <h3>Karnataka's Bhoomi</h3>
+        <p>Digitisation of land records in Karnataka, promoted as anti-corruption success. Benjamin &amp; Raman (2011) later argue it was designed to facilitate large business access to peri-urban land — treating illegibility as "normative" not "political."</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2008</div>
+      <div class="event">
+        <h3>NLRMP (National Land Records Modernisation Programme)</h3>
+        <p>National programme to modernise land records. Succeeded by DILRMP (2014). Impact assessments show 50% of Maharashtra sample parcels had &gt;20% area deviation from records. Only 13% of Indian villages resurveyed by 2022.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">Sep 2017</div>
+      <div class="event">
+        <h3>LRUP Launched — Telangana</h3>
+        <p>Land Records Updation Programme launched under TRS government, ostensibly to "purify" records. Actual driver: imminent Rythu Bandhu Scheme. 1,523 teams, 3,500 revenue officers, 10-day target per village.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">Jan 2018</div>
+      <div class="event">
+        <h3>Rythu Bandhu Scheme Launched</h3>
+        <p>₹5,000/acre/season to landowners. One-third of payments go to absentee landlords. Tenants excluded. Lease rates rise for 60% of tenants surveyed.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2019</div>
+      <div class="event">
+        <h3>Fieldwork by Ramakumar &amp; Ramesh (Adilabad)</h3>
+        <p>Primary research conducted. 386 LRUP-related Kisan Mitra complaints analysed. Talamadagu village survey: no absentee landlord sharing RBS with tenants; not a single tenant recorded in land records.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2020</div>
+      <div class="event">
+        <h3>Dharani Portal Launched + Patwari Abolished</h3>
+        <p>Integrated digital land records system. Simultaneously, <em>patwari</em> post abolished as anti-corruption measure — paradoxically eliminating the only official with local land knowledge. AP Record of Rights Act amended to remove tenant recording requirement.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2022</div>
+      <div class="event">
+        <h3>300,000+ Complaints Pending</h3>
+        <p>State sub-committee acknowledges 20 types of problems with LRUP/Dharani. Recommends fresh digital field survey — implicitly quashing the government's earlier claims of 93% "purity." Hyderabad High Court chastises the government for non-responsiveness.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     FLASHCARDS
+══════════════════════════════════════════════ -->
+<div id="flashcards" class="section">
+  <p class="sec-title">Flashcards</p>
+  <p class="sec-sub">Test your recall. Click the card to reveal the answer.</p>
+
+  <div class="flashcard-area">
+    <div class="flashcard" id="fc" onclick="flipCard()">
+      <span class="side-label" id="fc-label">Question</span>
+      <p class="q" id="fc-q"></p>
+      <p class="a" id="fc-a"></p>
+    </div>
+    <p class="hint">Click card to flip · Use buttons to navigate</p>
+  </div>
+
+  <div class="fc-controls">
+    <button onclick="prevCard()">← Previous</button>
+    <span class="counter" id="fc-counter">1 / 12</span>
+    <button onclick="nextCard()">Next →</button>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     QUIZ
+══════════════════════════════════════════════ -->
+<div id="quiz" class="section">
+  <p class="sec-title">Quick Quiz</p>
+  <p class="sec-sub">8 questions · Click an option to answer, then move to the next.</p>
+
+  <div id="quiz-body"></div>
+  <div class="quiz-score" id="quiz-score">
+    <h3 id="score-text"></h3>
+    <p id="score-sub"></p>
+    <button onclick="resetQuiz()">Retake Quiz</button>
+  </div>
+</div>
+
+</main>
+
+<script>
+// ══ TAB SWITCHING ══
+function switchTab(id) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  event.currentTarget.classList.add('active');
+}
+
+// ══ FAILURE CARDS ══
+function toggleFailure(el) {
+  el.classList.toggle('open');
+}
+
+// ══ FLASHCARDS ══
+const cards = [
+  { q: "What is the central concept coined by the paper, and what does it mean?", a: "'Illegibly legible' — land records declared digitally transparent ('legible') by the state that remain, in practice, politically opaque, inaccurate, and contested. Digital modernisation masked rather than resolved underlying power relations." },
+  { q: "What was the actual political driver behind LRUP, as opposed to its stated objective?", a: "The Rythu Bandhu Scheme (RBS) — a ₹5,000/acre/season direct income transfer requiring an accurate landowner database, ahead of the 2018 Telangana state elections. LRUP served an electoral and welfare-targeting logic, not genuine agrarian reform." },
+  { q: "How does the paper use Scott's 'legibility' framework, and where does it go beyond it?", a: "It uses Scott (1998) to frame colonial cadastral surveys as state simplification of customary tenure. But it goes beyond Scott by showing neoliberal legibility-making doesn't just simplify — it actively distorts in service of new power configurations: corporate acquisition, welfare targeting, and tenant exclusion." },
+  { q: "Why was the sethwar (1932–34) so problematic in the Dharani portal?", a: "The Dharani portal was programmed to reject any data entry that differed from the sethwar's area measurements by even one gunta. Yet the sethwar was an 85-year-old colonial revenue document bearing little relation to ground reality after decades of partitions, fraud, and manipulation — its errors were thus laundered into digital authority." },
+  { q: "What happened to tenants under LRUP and the Dharani portal?", a: "They were deliberately erased. The 2020 AP Record of Rights Act amendment removed the requirement to record tenants' interests. The portal required owner = cultivator. One-third of RBS payments went to absentee landlords. Tenants lost access to credit, crop insurance, PM Kisan, and legal recognition, violating the Land Licensed Cultivators Act 2011." },
+  { q: "What does Polanyi mean by land as a 'fictitious commodity,' and why is this relevant?", a: "Land is not produced for sale, yet capitalism treats it as a commodity. Its 'commodity description is entirely fictitious.' This explains why market-driven titling schemes (World Bank, EoDB, Torrens) repeatedly fail — land's sociocultural and political embeddedness systematically frustrates technocratic solutions." },
+  { q: "What is technocracy in the sense Cole (2022) uses it, and what does the paper argue it does to land governance?", a: "Technocracy is 'the administrative and political domination of society by a state elite through instrumentally rational techniques.' It depoliticises governance, insulates state power from accountability, and fetishises containment of political pressures. The Dharani portal exemplifies this: it closed off democratic redress without resolving land contradictions." },
+  { q: "What was the official 'purity' claim for LRUP, and why is it hollow?", a: "The government claimed 93% purity — but this merely meant new data was entered in 93% of records based on old entries or the responses of persons assumed to be real landowners. It did not mean accuracy, survey, or verification. By 2022, 300,000+ complaints were pending." },
+  { q: "Why did abolishing the patwari backfire?", a: "The patwari was presented as an anti-corruption measure but was the only official with genuine local knowledge of each village's land situation. Abolition paradoxically forced district collectors to rely on the very patwaris and tehsildars the system was meant to bypass, while removing institutional memory from the system." },
+  { q: "What does the paper argue was the fundamental mistake in treating land illegibility as a 'normative' rather than a 'political' problem? (cite the Karnataka comparison)", a: "Drawing on Benjamin & Raman's (2011) analysis of Karnataka's Bhoomi, the paper argues that treating illegibility as a normative/technical problem — rather than a political condition produced by class struggle — means any digitisation exercise will reproduce (or deepen) existing power relations, since it never addresses the underlying land relations." },
+  { q: "What three departments historically managed land records in India, and why is their fragmentation important?", a: "Revenue Dept (textual: RoR/1-B, Pahani, Khata); Survey & Settlement Dept (spatial: FMB/Tippan, cadastral maps); Registration Dept (transaction: sale deeds). They work in silos — a registered sale deed is NOT automatically reflected in the RoR. This structural fragmentation is a persistent source of illegibility that LRUP did not address." },
+  { q: "What broader policy implications does the paper draw beyond Telangana?", a: "National DILRMP's 'conclusive titling' ambition; PM-KISAN's land-record-tied transfers; blockchain-based registries (ORF/Bal 2017) promoted without political economy analysis; World Bank's global land governance agenda; corporate acquisition via 'clean' digital databases. Implicit argument for participatory, community-verified approaches over top-down portals." }
+];
+
+let fcIndex = 0;
+let fcFlipped = false;
+
+function renderCard() {
+  const c = cards[fcIndex];
+  document.getElementById('fc-q').textContent = c.q;
+  document.getElementById('fc-a').textContent = c.a;
+  document.getElementById('fc-counter').textContent = `${fcIndex + 1} / ${cards.length}`;
+  const fc = document.getElementById('fc');
+  fc.classList.remove('flipped');
+  const lbl = document.getElementById('fc-label');
+  lbl.textContent = 'Question';
+  lbl.className = 'side-label';
+  fcFlipped = false;
+}
+
+function flipCard() {
+  const fc = document.getElementById('fc');
+  const lbl = document.getElementById('fc-label');
+  fcFlipped = !fcFlipped;
+  fc.classList.toggle('flipped', fcFlipped);
+  lbl.textContent = fcFlipped ? 'Answer' : 'Question';
+  lbl.className = fcFlipped ? 'side-label answer' : 'side-label';
+}
+
+function nextCard() {
+  fcIndex = (fcIndex + 1) % cards.length;
+  renderCard();
+}
+
+function prevCard() {
+  fcIndex = (fcIndex - 1 + cards.length) % cards.length;
+  renderCard();
+}
+
+renderCard();
+
+// ══ QUIZ ══
+const quizData = [
+  {
+    q: "What does 'illegibly legible' mean in the paper's framing?",
+    opts: [
+      "Records that are unreadable due to handwriting errors",
+      "Records declared digitally transparent but remaining politically opaque and inaccurate",
+      "Records that are legible to officials but not to farmers",
+      "A description of colonial cadastral maps"
+    ],
+    ans: 1,
+    exp: "The concept captures how digital modernisation can mask rather than resolve political illegibility — records appear 'clean' in the portal but reproduce and deepen old contradictions."
+  },
+  {
+    q: "What was the primary real motivation behind launching LRUP in 2017?",
+    opts: [
+      "Fulfilling a World Bank loan conditionality",
+      "Complying with the DILRMP mandate",
+      "Enabling the Rythu Bandhu Scheme before elections",
+      "Implementing a Supreme Court order on land records"
+    ],
+    ans: 2,
+    exp: "LRUP was rushed to build a landowner database needed for the Rythu Bandhu Scheme (₹5,000/acre/season), which the TRS government was introducing ahead of the 2018 elections."
+  },
+  {
+    q: "Why was using the sethwar as the Dharani portal's benchmark particularly problematic?",
+    opts: [
+      "It was not legally recognised under Indian law",
+      "It was an 85-year-old colonial document that bore little relation to actual ground reality",
+      "It used different measurement units than modern surveys",
+      "It was only available in Urdu, not Telugu"
+    ],
+    ans: 1,
+    exp: "The sethwar dated from 1932–34 and preceded decades of partitions, manipulations, and encroachments. Any discrepancy — even one gunta — caused the portal to reject data, forcing either tehsildar discretion (= corruption risk) or Part B classification."
+  },
+  {
+    q: "Which of these correctly describes what happened to tenants under LRUP?",
+    opts: [
+      "They were recorded as cultivators alongside landowners",
+      "They received a separate RBS benefit of ₹2,500/acre",
+      "They were deliberately erased from records; owner and cultivator columns had to show the same name",
+      "They could appeal to the Dharani portal for recognition within 90 days"
+    ],
+    ans: 2,
+    exp: "The 2020 amendment to the AP Record of Rights Act removed the requirement to record tenants' interests. The portal was programmed so owner = cultivator. The Chief Minister said: 'Rythu Bandhu is for farmers, not tenant Bandhu.'"
+  },
+  {
+    q: "According to Polanyi, why is land 'eminently ill-suited to be a commodity'?",
+    opts: [
+      "Because it cannot be transported or stored",
+      "Because it was never produced for sale — its commodity status is 'entirely fictitious'",
+      "Because only the state can own land under natural law",
+      "Because market prices for land are inherently speculative"
+    ],
+    ans: 1,
+    exp: "Polanyi's concept of the 'fictitious commodity' — land, labour, money — underpins the paper's argument that market-driven titling schemes fail because land is embedded in social, political, and historical relations that resist commodification."
+  },
+  {
+    q: "What paradox arose from abolishing the patwari post in 2020?",
+    opts: [
+      "It increased workload for tehsildars without reducing corruption",
+      "The patwari union went on strike, halting all land mutations",
+      "It eliminated the only official with genuine local village land knowledge",
+      "It created a legal vacuum for mutation requests"
+    ],
+    ans: 2,
+    exp: "The patwari was the only official with local knowledge of each village's land situation. Abolition was meant to reduce corruption but paradoxically forced officials to rely on informal patwari input while removing institutional memory from the system."
+  },
+  {
+    q: "How does the paper characterise the government's claimed 93% 'purity' rate?",
+    opts: [
+      "It was independently verified by the CAG and accepted as broadly accurate",
+      "It only meant new data was entered in 93% of records — not that those records were accurate or verified",
+      "It referred to error-free records, excluding the 7% in Part B",
+      "It was a World Bank metric adopted for the DILRMP"
+    ],
+    ans: 1,
+    exp: "The paper systematically dismantles this claim: '93% purity only meant that new data were entered into 93% of land records based either on the previous entries or on responses received from persons the government assumed were real landowners.'"
+  },
+  {
+    q: "What is the paper's central normative argument about land records modernisation?",
+    opts: [
+      "Computerisation should be completed before any new survey is attempted",
+      "The World Bank's Torrens titling model is the gold standard for India",
+      "Modernisation driven by neoliberal welfare-targeting reproduces and deepens inequalities rather than resolving them",
+      "Only the Union government, not state governments, should manage land records"
+    ],
+    ans: 2,
+    exp: "The paper argues that the neoliberal state envisions land records modernisation as an erasure of history — treating illegibility as a technical dysfunction rather than a political condition produced by class struggle. This reproduces existing inequalities and renders the most vulnerable (tenants, tribals) invisible."
+  }
+];
+
+let quizAnswers = new Array(quizData.length).fill(null);
+let quizDone = 0;
+
+function buildQuiz() {
+  const body = document.getElementById('quiz-body');
+  body.innerHTML = '';
+  quizData.forEach((q, i) => {
+    const div = document.createElement('div');
+    div.className = 'quiz-q';
+    div.id = `qq-${i}`;
+    const opts = q.opts.map((o, j) => `<button onclick="answerQ(${i},${j})">${o}</button>`).join('');
+    div.innerHTML = `
+      <p class="qtext">${i+1}. ${q.q}</p>
+      <div class="options">${opts}</div>
+      <div class="explanation" id="exp-${i}">${q.exp}</div>
+    `;
+    body.appendChild(div);
+  });
+  document.getElementById('quiz-score').style.display = 'none';
+  quizAnswers = new Array(quizData.length).fill(null);
+  quizDone = 0;
+}
+
+function answerQ(qi, oi) {
+  if (quizAnswers[qi] !== null) return;
+  quizAnswers[qi] = oi;
+  quizDone++;
+
+  const qq = document.getElementById(`qq-${qi}`);
+  const btns = qq.querySelectorAll('.options button');
+  const correct = quizData[qi].ans;
+
+  btns.forEach((btn, j) => {
+    btn.disabled = true;
+    if (j === correct) btn.classList.add('correct');
+    if (j === oi && oi !== correct) btn.classList.add('wrong');
+  });
+
+  document.getElementById(`exp-${qi}`).classList.add('show');
+
+  if (quizDone === quizData.length) {
+    setTimeout(showScore, 600);
+  }
+}
+
+function showScore() {
+  const score = quizAnswers.filter((a, i) => a === quizData[i].ans).length;
+  const pct = Math.round(score / quizData.length * 100);
+  document.getElementById('score-text').textContent = `${score} / ${quizData.length} correct (${pct}%)`;
+  const subs = ['Keep reading — revisit the failure cards and timeline.', 'Good foundation — try the flashcards for deeper recall.', 'Strong grasp of the paper!', 'Excellent — you know this paper inside out.'];
+  document.getElementById('score-sub').textContent = pct < 50 ? subs[0] : pct < 75 ? subs[1] : pct < 90 ? subs[2] : subs[3];
+  document.getElementById('quiz-score').style.display = 'block';
+  document.getElementById('quiz-score').scrollIntoView({ behavior: 'smooth' });
+}
+
+function resetQuiz() {
+  buildQuiz();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+buildQuiz();
+</script>
+</body>
+</html>

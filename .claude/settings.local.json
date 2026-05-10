@@ -25,7 +25,9 @@
       "WebFetch(domain:github.com)",
       "Bash(gh api *)",
       "Bash(python3 -c \"import sys,json; [print\\(x['type'], x['path']\\) for x in json.load\\(sys.stdin\\)]\")",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(notebooklm source *)",
+      "Bash(notebooklm ask *)"
     ]
   }
 }
