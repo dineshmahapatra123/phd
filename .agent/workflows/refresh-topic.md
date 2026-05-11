@@ -12,6 +12,8 @@ Use this command to update any existing academic synthesis note in `9 - Knowledg
 ### 2. Re-Analyze the Library
 -   Scan all full-text documents in `9 - Knowledge_base/sources/`.
 -   Identify new papers or concept notes added since the file was last updated.
+-   **Filter for Relevance**: Ensure all new evidence passes the inclusion tests in `9 - Knowledge_base/PHD_LENS.md`.
+-   **MANDATORY**: Only integrate material that directly serves the research questions or chapter mapping defined in the Lens.
 
 ### 3. Update the Answer
 -   **Overwrite/Append**: Update the "Key Arguments" and "State of the Art" sections with the latest research.

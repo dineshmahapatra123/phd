@@ -1,12 +1,6 @@
-# 🔍 Neuro-Linter: Health Report (2026-05-07 20:11:09)
+# 🔍 Neuro-Linter: Health Report (2026-05-11 21:16:17)
 
 This report identifies structural and scholarly gaps in the PhD Knowledge Base. Review and address these to maintain high-integrity synthesis.
-
-## 🔗 Unindexed Articles
-These articles exist but are not linked in the Master Index. Add them to `index.md` to prevent silos.
-- [[Concepts/Open-access Regime]]
-- [[Concepts/The Other Land Reform]]
-- [[Concepts/Common-property Regime]]
 
 ## 🚩 Broken Source Links
 Metadata points to a paper that does not exist in the `sources/` folder.
@@ -54,6 +48,7 @@ Metadata points to a paper that does not exist in the `sources/` folder.
 - [[Concepts/Collateral Premium]] -> Missing source: `Land tenure and property rights_ theory and implications for development policy.pdf`
 - [[Concepts/Labor Mobility (Land Registration)]] -> Missing source: `The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf`
 - [[Concepts/Chotanagpur Tenancy Act 1908]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Investigative Modalities]] -> Missing source: `Colonialism and its forms of knowledge_ The British in India.pdf`
 - [[Concepts/Neoliberal Land Policy]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
 - [[Concepts/Rythu Bandhu Scheme]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
 - [[Concepts/Secure Property Rights]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
@@ -82,6 +77,7 @@ Metadata points to a paper that does not exist in the `sources/` folder.
 - [[Concepts/Institutions vs Organizations]] -> Missing source: `Institutions and credible commitment.pdf`
 - [[Concepts/Permanent Settlement]] -> Missing source: `Land reforms in India.pdf`
 - [[Concepts/Khuntkatti]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
+- [[Concepts/Colonial Legal Reconstitution of Property]] -> Missing source: `Colonialism and its forms of knowledge_ The British in India.pdf`
 - [[Concepts/Deeds vs Title Systems]] -> Missing source: `Land registration, governance, and development_ evidence and implications for policy.pdf`
 - [[Concepts/Illegibly legible]] -> Missing source: `Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf`
 - [[Concepts/Land Liquidity]] -> Missing source: `The effects of land registration on financial development and economic growth_ a theoretical and conceptual framework.pdf`
@@ -106,6 +102,7 @@ Metadata points to a paper that does not exist in the `sources/` folder.
 - [[People/Ranjan K. Ghosh]] -> Missing source: `In the name of eminent domain_ a historical and colonial perspective to land governance and land struggles in India.pdf`
 - [[People/Henry Sumner Maine]] -> Missing source: `Private and common property rights.pdf`
 - [[People/Edella Schlager]] -> Missing source: `Private and common property rights.pdf`
+- [[People/Bernard Cohn]] -> Missing source: `Colonialism and its forms of knowledge_ The British in India.pdf`
 - [[People/Wesley NewComb Hohfeld]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
 - [[People/Robert C. Ellickson]] -> Missing source: `Land reforms to land titling_ emerging paradigms of land governance in India.pdf`
 - [[People/Amit Kapoor]] -> Missing source: `Land record management in India.pdf`

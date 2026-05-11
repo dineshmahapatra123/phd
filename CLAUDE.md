@@ -77,6 +77,7 @@ Queries/     ← AI research interaction logs (unindexed; search directory direc
 index.md     ← Master index; must be updated when adding Concepts/People/Methods/Comparisons
 PHD_CONSTITUTION.md  ← Governance rules (read first)
 PHD_SCHEMA.md        ← YAML schema and section structure for all note types
+PHD_LENS.md          ← Mandatory research relevance filter (read before any wiki edit)
 ```
 
 ## Research Workflow
@@ -86,8 +87,8 @@ See full workflow: `1 - Rough/Handy notes/Random/PhD Workflow Guide.md`
 1. **Ingestion**: Drop PDF into `7 - Raw/` → `/rename-paper` → `/scaffold` (creates master note with `## Highlights` section)
 2. **High-Integrity Analysis**: Deep read PDF → manually paste verbatim quotes & raw thoughts into `## Highlights` section of master note → run `/prime` (agent builds AI Primer from your curated highlights)
 3. **Truth Loop**: `/add-zotero` → manually verify Author/Year/Title in Zotero → `/sync-bib` (injects APA citation into master note)
-4. **Knowledge Engineering**: `/compile-phd` (shatters paper into atomic wiki articles in `9 - Knowledge_base/`)
-5. **Neural Synthesis**: `/refresh-topic` (re-synthesizes related Topics with new evidence)
+4. **Knowledge Engineering**: `/compile-phd` (shatters paper into atomic wiki articles in `9 - Knowledge_base/`). **MANDATORY**: Use `PHD_LENS.md` to filter which concepts are load-bearing for the thesis.
+5. **Neural Synthesis**: `/refresh-topic` (re-synthesizes related Topics with new evidence). **MANDATORY**: Use `PHD_LENS.md` to keep synthesis focused on the research questions.
 6. **Wiki Vitality**: `/lint-wiki` (health check — orphans, seed gaps, broken links)
 
 ## Knowledge Base Rules (from PHD_CONSTITUTION.md)
@@ -101,6 +102,7 @@ See full workflow: `1 - Rough/Handy notes/Random/PhD Workflow Guide.md`
 - **Queries**: Standard AI research interactions go to `Queries/` and are **not** added to `index.md`.
 - **Sources are immutable**: Never edit files in `sources/`.
 - **Operational logging**: Follow `PHD_CONSTITUTION.md` → Operational Logging. Keep `log.md` compact; put detailed provenance in `9 - Knowledge_base/logs/`.
+- **Relevance Filter**: Apply `PHD_LENS.md` inclusion tests (Research Question, Geography, Chapter Mapping) before adding anything to the KB.
 
 ## Wiki Page Schema
 

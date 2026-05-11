@@ -41,6 +41,7 @@ index.md     ← Master index; update when adding any Concept/Person/Method/Topi
 log.md       ← Compact activity ledger; detailed provenance goes in logs/
 PHD_SCHEMA.md       ← YAML schema and section structure for all wiki page types
 PHD_CONSTITUTION.md ← Governance rules
+PHD_LENS.md         ← Mandatory research relevance filter (read before any wiki edit)
 ```
 
 ---
@@ -130,6 +131,7 @@ Tags:
 8. **Queries are NOT indexed**: Files in `Queries/` are never added to `index.md`.
 9. **Topics not created in compile-phd**: Topics are managed by `/refresh-topic` only.
 10. **Operational logging**: Follow `PHD_CONSTITUTION.md` → Operational Logging. Keep `log.md` compact; put detailed provenance in `9 - Knowledge_base/logs/`.
+11. **Relevance Filter**: Apply `PHD_LENS.md` inclusion tests (Research Question, Geography, Chapter Mapping) before adding anything to the KB. Refer to "Active Debates" and "Theoretical Frameworks" in the Lens if in doubt.
 
 ---
 

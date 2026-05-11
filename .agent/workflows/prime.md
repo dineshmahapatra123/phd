@@ -12,6 +12,7 @@ description: Read a PDF and populate the corresponding note with an AI Primer.
     *   **SKIP CONDITION**: If the `## Highlights` section is empty or missing, **STOP**. Inform the user: "No manual highlights found in the `## Highlights` section of the master note. Please paste your verbatim quotes and thoughts there before running Prime."
 
 3.  **Content Analysis**
+    *   **Filter for Relevance**: Before analyzing, verify the highlights align with the research scope defined in `9 - Knowledge_base/PHD_LENS.md`.
     *   Use the extracted highlights from the `## Highlights` section to construct a detailed analysis. Do not use external web search. Rely solely on internal knowledge and the provided text.
     *   **Structure**:
         - **Research Question(s)**: Identify the core research questions driving the selected highlights.

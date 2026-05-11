@@ -21,6 +21,12 @@ Use this command to process a research paper—either a new PDF from your inbox 
 
 ### 3. Deconstruction (The Shattering)
 - Read the FULL TEXT from `9 - Knowledge_base/sources/[Name].md`.
+- **Relevance Filtering (The Lens)**:
+    - **MANDATORY**: As you identify potential Concepts, People, or Methods, apply the **Three Tests** from `9 - Knowledge_base/PHD_LENS.md`:
+        1. **Research Question Link**: Does it bear directly on one of the 6 RQs?
+        2. **Geographic Grounding**: Is it about India or a comparable context for a named theoretical reason?
+        3. **Thesis Contribution**: Can it be mapped to a specific chapter in the Chapter Map?
+    - **When in Doubt**: Consult the **Active Debates** and **Theoretical Frameworks** sections in the Lens. If a candidate doesn't serve these core tensions, **SKIP IT**. We only engineer "load-bearing" knowledge.
 - Analyze against `9 - Knowledge_base/PHD_SCHEMA.md` and the Type definitions in `Types/`.
 - **Create/Update** — each file must open with its correct YAML frontmatter:
     - **Concepts** (`Types/concept.md`): `type: Concept` + `Paper_Linked`, `Last_Processed`, `Status`, `Related`, `Contradicts`

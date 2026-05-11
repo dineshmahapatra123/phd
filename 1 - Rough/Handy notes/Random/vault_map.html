@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PhD Vault — System Map</title>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+  background: #0b1120;
+  color: #e2e8f0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ── */
+header {
+  background: #151f35;
+  border-bottom: 1px solid #1e2d47;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  z-index: 20;
+}
+
+.header-left { display: flex; flex-direction: column; gap: 1px; }
+.header-eyebrow { font-size: 10px; color: #4a6fa5; text-transform: uppercase; letter-spacing: .12em; font-weight: 600; }
+.header-title { font-size: 17px; font-weight: 700; color: #f1f5f9; }
+
+.view-toggle { display: flex; gap: 3px; background: #0b1120; padding: 3px; border-radius: 8px; }
+.vbtn {
+  background: transparent; border: none; color: #4a6fa5;
+  padding: 5px 14px; border-radius: 5px; cursor: pointer;
+  font-size: 12px; font-weight: 500; transition: all .15s;
+}
+.vbtn.active { background: #2563eb; color: #fff; }
+.vbtn:hover:not(.active) { background: #1e2d47; color: #94a3b8; }
+
+/* ── Layout ── */
+.container { display: flex; flex: 1; overflow: hidden; }
+
+#wf-panel {
+  width: 360px;
+  flex-shrink: 0;
+  border-right: 1px solid #1e2d47;
+  overflow-y: auto;
+  padding: 16px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background: #0d1626;
+}
+
+#net-panel { flex: 1; position: relative; background: #0b1120; }
+
+/* ── Workflow ── */
+.phase {
+  background: #111d33;
+  border: 1px solid #1e2d47;
+  border-radius: 10px;
+  padding: 12px 14px;
+  position: relative;
+  transition: border-color .2s;
+}
+.phase:hover { border-color: #2563eb44; }
+
+.phase-accent {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px;
+  border-radius: 10px 0 0 10px;
+}
+
+.phase-head { display: flex; align-items: center; gap: 9px; margin-bottom: 9px; }
+
+.pnum {
+  width: 26px; height: 26px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 700; flex-shrink: 0;
+}
+
+.ptitle { font-size: 13px; font-weight: 600; color: #f1f5f9; flex: 1; }
+
+.pbadge {
+  font-size: 9px; padding: 2px 7px; border-radius: 4px;
+  font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+  white-space: nowrap;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 7px; }
+.tag {
+  font-size: 10px; padding: 2px 7px; border-radius: 4px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  background: #0b1120; border: 1px solid #1e2d47; color: #64748b;
+}
+
+.outputs { display: flex; flex-wrap: wrap; gap: 4px; }
+.out { font-size: 10px; padding: 2px 7px; border-radius: 4px; font-weight: 500; }
+
+.arrow { text-align: center; color: #1e2d47; font-size: 20px; line-height: 1; padding: 2px 0; }
+
+.gov-bar {
+  margin-top: 12px;
+  background: #111d33;
+  border: 1px solid #1e2d47;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.gov-bar-label {
+  font-size: 9px; color: #334155; text-transform: uppercase;
+  letter-spacing: .1em; font-weight: 600; margin-bottom: 7px;
+}
+.gov-pills { display: flex; gap: 6px; flex-wrap: wrap; }
+.gov-pill {
+  font-size: 10px; padding: 3px 10px; border-radius: 20px;
+  font-weight: 600; cursor: default;
+}
+
+/* ── Network ── */
+#net-panel svg { width: 100%; height: 100%; }
+
+.link { stroke-opacity: .55; }
+.node-circle { cursor: pointer; transition: opacity .2s; }
+.node-label { pointer-events: none; }
+.node.dimmed .node-circle { opacity: .08; }
+.node.dimmed .node-label { opacity: .08; }
+.link.dimmed { opacity: .04; }
+.node.highlighted .node-circle { filter: brightness(1.4); }
+
+/* ── Tooltip ── */
+#tip {
+  position: fixed; display: none;
+  background: #151f35;
+  border: 1px solid #2563eb55;
+  border-radius: 8px;
+  padding: 10px 13px;
+  font-size: 12px; line-height: 1.55;
+  max-width: 230px;
+  pointer-events: none;
+  z-index: 100;
+  box-shadow: 0 8px 30px #00000066;
+}
+#tip strong { display: block; margin-bottom: 3px; font-size: 13px; }
+
+/* ── Legend ── */
+#legend {
+  position: absolute; bottom: 14px; right: 14px;
+  background: #111d33; border: 1px solid #1e2d47;
+  border-radius: 8px; padding: 10px 13px;
+  font-size: 11px; z-index: 10;
+}
+.leg-title {
+  font-size: 9px; color: #334155; text-transform: uppercase;
+  letter-spacing: .1em; font-weight: 600; margin-bottom: 7px;
+}
+.leg-row { display: flex; align-items: center; gap: 7px; margin-bottom: 5px; color: #94a3b8; }
+.leg-dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+
+.hint {
+  position: absolute; bottom: 14px; left: 14px;
+  font-size: 10px; color: #334155;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <span class="header-eyebrow">Land Records Modernisation · Odisha</span>
+    <span class="header-title">PhD Vault — System Map</span>
+  </div>
+  <div class="view-toggle">
+    <button class="vbtn" onclick="setView('workflow',this)">Workflow</button>
+    <button class="vbtn active" onclick="setView('both',this)">Both</button>
+    <button class="vbtn" onclick="setView('network',this)">Network</button>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- ── LEFT: 6-Phase Workflow ── -->
+  <div id="wf-panel">
+
+    <!-- Phase 1 -->
+    <div class="phase">
+      <div class="phase-accent" style="background:#6366f1;"></div>
+      <div class="phase-head">
+        <div class="pnum" style="background:#1e1b4b;color:#a5b4fc;">1</div>
+        <span class="ptitle">Ingestion</span>
+        <span class="pbadge" style="background:#1e1b4b;color:#818cf8;">Agent</span>
+      </div>
+      <div class="tags">
+        <span class="tag">/rename-paper</span>
+        <span class="tag">/scaffold</span>
+      </div>
+      <div class="outputs">
+        <span class="out" style="background:#1a1a3a;color:#818cf8;">PDF → 7 - Raw/</span>
+        <span class="out" style="background:#1a1a3a;color:#818cf8;">Note → 2 - Notes/Papers/</span>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Phase 2 -->
+    <div class="phase">
+      <div class="phase-accent" style="background:#f59e0b;"></div>
+      <div class="phase-head">
+        <div class="pnum" style="background:#431407;color:#fb923c;">2</div>
+        <span class="ptitle">Analysis</span>
+        <span class="pbadge" style="background:#431407;color:#fbbf24;">Manual — Dinesh only</span>
+      </div>
+      <div class="tags">
+        <span class="tag">deep-read PDF</span>
+        <span class="tag">paste highlights</span>
+      </div>
+      <div class="outputs">
+        <span class="out" style="background:#1c1208;color:#f59e0b;">## Highlights section filled</span>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Phase 3 -->
+    <div class="phase">
+      <div class="phase-accent" style="background:#10b981;"></div>
+      <div class="phase-head">
+        <div class="pnum" style="background:#022c22;color:#34d399;">3</div>
+        <span class="ptitle">Truth Loop</span>
+        <span class="pbadge" style="background:#022c22;color:#34d399;">Agent + Zotero</span>
+      </div>
+      <div class="tags">
+        <span class="tag">/prime</span>
+        <span class="tag">/add-zotero</span>
+        <span class="tag">Zotero sync ↗</span>
+        <span class="tag">/sync-bib</span>
+      </div>
+      <div class="outputs">
+        <span class="out" style="background:#031a12;color:#34d399;">AI Primer written</span>
+        <span class="out" style="background:#031a12;color:#34d399;">APA citation injected</span>
+        <span class="out" style="background:#031a12;color:#34d399;">PhD.bib updated</span>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Phase 4 -->
+    <div class="phase">
+      <div class="phase-accent" style="background:#f59e0b;"></div>
+      <div class="phase-head">
+        <div class="pnum" style="background:#451a03;color:#fbbf24;">4</div>
+        <span class="ptitle">Knowledge Engineering</span>
+        <span class="pbadge" style="background:#451a03;color:#fbbf24;">Agent</span>
+      </div>
+      <div class="tags">
+        <span class="tag">/pdf2md</span>
+        <span class="tag">/compile-phd</span>
+        <span class="tag" style="border-color:#fb923c55;color:#fb923c;">PHD_LENS filter</span>
+      </div>
+      <div class="outputs">
+        <span class="out" style="background:#1c1000;color:#fbbf24;">Concepts/</span>
+        <span class="out" style="background:#1c1000;color:#fbbf24;">People/</span>
+        <span class="out" style="background:#1c1000;color:#fbbf24;">Methods/</span>
+        <span class="out" style="background:#1c1000;color:#fbbf24;">index.md updated</span>
+        <span class="out" style="background:#1c1000;color:#fbbf24;">log.md entry</span>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Phase 5 -->
+    <div class="phase">
+      <div class="phase-accent" style="background:#8b5cf6;"></div>
+      <div class="phase-head">
+        <div class="pnum" style="background:#2e1065;color:#c4b5fd;">5</div>
+        <span class="ptitle">Neural Synthesis</span>
+        <span class="pbadge" style="background:#2e1065;color:#c4b5fd;">Agent</span>
+      </div>
+      <div class="tags">
+        <span class="tag">/refresh-topic</span>
+        <span class="tag" style="border-color:#fb923c55;color:#fb923c;">PHD_LENS filter</span>
+      </div>
+      <div class="outputs">
+        <span class="out" style="background:#160b2e;color:#c4b5fd;">Topics/ updated</span>
+        <span class="out" style="background:#160b2e;color:#c4b5fd;">logs/ audit file</span>
+      </div>
+    </div>
+
+    <div class="arrow">↓</div>
+
+    <!-- Phase 6 -->
+    <div class="phase">
+      <div class="phase-accent" style="background:#06b6d4;"></div>
+      <div class="phase-head">
+        <div class="pnum" style="background:#0c3040;color:#38bdf8;">6</div>
+        <span class="ptitle">Wiki Vitality</span>
+        <span class="pbadge" style="background:#0c3040;color:#38bdf8;">Agent</span>
+      </div>
+      <div class="tags">
+        <span class="tag">/lint-wiki</span>
+      </div>
+      <div class="outputs">
+        <span class="out" style="background:#051520;color:#38bdf8;">lint_report.md</span>
+        <span class="out" style="background:#051520;color:#38bdf8;">orphans flagged</span>
+        <span class="out" style="background:#051520;color:#38bdf8;">seeds flagged</span>
+      </div>
+    </div>
+
+    <!-- Governance bar -->
+    <div class="gov-bar">
+      <div class="gov-bar-label">Governance — always active</div>
+      <div class="gov-pills">
+        <span class="gov-pill" style="background:#1a0a00;color:#fb923c;border:1px solid #7c2d1244;">PHD_LENS</span>
+        <span class="gov-pill" style="background:#110e2a;color:#818cf8;border:1px solid #312e8144;">PHD_SCHEMA</span>
+        <span class="gov-pill" style="background:#031a12;color:#34d399;border:1px solid #05301e44;">PHD_CONSTITUTION</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ── RIGHT: Network ── -->
+  <div id="net-panel">
+    <svg id="nsvg"></svg>
+    <div id="tip"></div>
+    <div id="legend">
+      <div class="leg-title">Node types</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#60a5fa;"></div>Agents</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#4ade80;"></div>Folders</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#fb923c;"></div>Governance</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#c4b5fd;"></div>Note Types</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#fbbf24;"></div>Scripts</div>
+      <div class="leg-row"><div class="leg-dot" style="background:#f472b6;"></div>External</div>
+    </div>
+    <div class="hint">Scroll to zoom · Drag nodes · Hover to inspect</div>
+  </div>
+
+</div>
+
+<script>
+// ── View toggle ──
+function setView(v, btn) {
+  document.querySelectorAll('.vbtn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const wp = document.getElementById('wf-panel');
+  const np = document.getElementById('net-panel');
+  if (v === 'workflow') {
+    wp.style.display = 'flex'; wp.style.width = '100%';
+    np.style.display = 'none';
+  } else if (v === 'network') {
+    wp.style.display = 'none';
+    np.style.display = 'block'; np.style.flex = '1';
+  } else {
+    wp.style.display = 'flex'; wp.style.width = '360px';
+    np.style.display = 'block'; np.style.flex = '1';
+  }
+  setTimeout(() => { sim.force('center', d3.forceCenter(np.clientWidth/2, np.clientHeight/2)); sim.alpha(0.3).restart(); }, 50);
+}
+
+// ── Network data ──
+const C = {
+  agent:     '#60a5fa',
+  authority: '#93c5fd',
+  governance:'#fb923c',
+  folder:    '#4ade80',
+  kbfolder:  '#86efac',
+  notetype:  '#c4b5fd',
+  script:    '#fbbf24',
+  external:  '#f472b6',
+};
+
+const R = { agent:24, authority:14, governance:19, folder:17, kbfolder:13, notetype:13, script:14, external:16 };
+
+const nodes = [
+  // Agents
+  { id:'claude',        label:'Claude Code',     g:'agent',     desc:'Primary AI agent. Authority: CLAUDE.md. Workflows: .claude/commands/' },
+  { id:'antigravity',   label:'Antigravity',      g:'agent',     desc:'DeepMind agent. Authority: ANTIGRAVITY.md. Workflows: .agent/workflows/' },
+  { id:'codex',         label:'Codex',            g:'agent',     desc:'Third agent. Authority: CODEX.md. Workflows: .codex-phd/' },
+
+  // Authority / memory
+  { id:'claude_md',     label:'CLAUDE.md',        g:'authority', desc:'Claude\'s authority file. Workflow, folder structure, TISS rules, all commands.' },
+  { id:'antg_md',       label:'ANTIGRAVITY.md',   g:'authority', desc:'Antigravity\'s authority file. Mirrors CLAUDE.md for Antigravity.' },
+  { id:'vault_ctx',     label:'vault_context.md', g:'authority', desc:'Antigravity\'s memory. Read at every session start. Lives in .agent/memory/' },
+
+  // Governance
+  { id:'lens',          label:'PHD_LENS',         g:'governance', desc:'Research relevance filter. Three inclusion tests. Read before every KB write. Single source of truth for what enters the KB.' },
+  { id:'schema',        label:'PHD_SCHEMA',       g:'governance', desc:'YAML frontmatter spec for all note types. Body section templates per type.' },
+  { id:'constitution',  label:'PHD_CONSTITUTION', g:'governance', desc:'Vault governance laws. Atomicity, backlinking, contradiction rule, logging protocol.' },
+
+  // Main folders
+  { id:'raw',           label:'7 - Raw/',         g:'folder', desc:'Source PDFs. One per paper. Canonical. Never delete.' },
+  { id:'notes',         label:'2 - Notes/',       g:'folder', desc:'Master notes. One per PDF. Contains ## Highlights (Dinesh) and ## AI Primer (agent).' },
+  { id:'writings',      label:'6 - Writings/',    g:'folder', desc:'Chapter drafts. type: Chapter.' },
+  { id:'docdump',       label:'8 - Doc_dump/',    g:'folder', desc:'Staging area. /ingest-paper drops files here before manual move to 7 - Raw/.' },
+  { id:'kb',            label:'9 - Knowledge_base/', g:'folder', desc:'The brain. All wiki articles, index, schema, governance, logs.' },
+
+  // KB sub-folders
+  { id:'sources',       label:'sources/',         g:'kbfolder', desc:'Full-text MD from /pdf2md. IMMUTABLE — never edit.' },
+  { id:'concepts',      label:'Concepts/',        g:'kbfolder', desc:'Atomic concept notes. Created by /compile-phd. Must pass PHD_LENS.' },
+  { id:'people',        label:'People/',          g:'kbfolder', desc:'Scholar profiles. Created by /compile-phd. Must pass PHD_LENS.' },
+  { id:'methods',       label:'Methods/',         g:'kbfolder', desc:'Research method notes. Created by /compile-phd. Must pass PHD_LENS.' },
+  { id:'topics',        label:'Topics/',          g:'kbfolder', desc:'Synthesis notes. Managed exclusively by /refresh-topic.' },
+  { id:'comparisons',   label:'Comparisons/',     g:'kbfolder', desc:'Cross-paper analysis. Must be added to index.md.' },
+  { id:'queries',       label:'Queries/',         g:'kbfolder', desc:'AI research logs. NOT indexed in index.md.' },
+  { id:'index',         label:'index.md',         g:'kbfolder', desc:'Master index. Updated when any Concept/Person/Method/Comparison is added.' },
+  { id:'logmd',         label:'log.md',           g:'kbfolder', desc:'Compact activity ledger. One-line entries. Detail goes to logs/' },
+
+  // Note types
+  { id:'t_note',        label:'Note',             g:'notetype', desc:'Master note per PDF. Created by /scaffold.' },
+  { id:'t_concept',     label:'Concept',          g:'notetype', desc:'Atomic theoretical note. Created by /compile-phd.' },
+  { id:'t_person',      label:'Person',           g:'notetype', desc:'Scholar profile. Created by /compile-phd.' },
+  { id:'t_method',      label:'Method',           g:'notetype', desc:'Research method. Created by /compile-phd.' },
+  { id:'t_topic',       label:'Topic',            g:'notetype', desc:'Synthesis note. Managed by /refresh-topic only.' },
+  { id:'t_comparison',  label:'Comparison',       g:'notetype', desc:'Cross-paper analysis. Indexed in index.md.' },
+
+  // Scripts
+  { id:'scaffold_py',   label:'scaffold.py',      g:'script', desc:'Creates master notes for new PDFs in 7 - Raw/.' },
+  { id:'spider_py',     label:'citation_spider.py',g:'script', desc:'Syncs APA citations from PhD.bib into master notes.' },
+  { id:'lint_py',       label:'lint_wiki.py',     g:'script', desc:'KB health check. Outputs lint_report.md.' },
+  { id:'pdf2md',        label:'pdf2md',           g:'script', desc:'Converts PDF to Markdown. Requires Java 21 + .venv-odl. Output → sources/.' },
+
+  // External
+  { id:'zotero',        label:'Zotero',           g:'external', desc:'Citation manager. API: api.zotero.org. PhD.bib is the BibTeX export.' },
+  { id:'notebooklm',    label:'NotebookLM',       g:'external', desc:'PhD_Papers notebook. Claude: notebooklm CLI. Antigravity: browser automation skill.' },
+  { id:'phdbib',        label:'PhD.bib',          g:'external', desc:'Zotero BibTeX export. Source of truth for all citations.' },
+];
+
+const links = [
+  // Agent → authority
+  { s:'claude',       t:'claude_md',    w:2, dash:false },
+  { s:'antigravity',  t:'antg_md',      w:2, dash:false },
+  { s:'antigravity',  t:'vault_ctx',    w:1.5, dash:true },
+  { s:'codex',        t:'phdbib',       w:1, dash:true },
+
+  // Governance → KB
+  { s:'lens',         t:'concepts',     w:1.5, dash:true, col:'#fb923c' },
+  { s:'lens',         t:'people',       w:1.5, dash:true, col:'#fb923c' },
+  { s:'lens',         t:'methods',      w:1.5, dash:true, col:'#fb923c' },
+  { s:'schema',       t:'kb',           w:1, dash:true, col:'#818cf8' },
+  { s:'constitution', t:'kb',           w:1, dash:true, col:'#34d399' },
+
+  // Folder hierarchy
+  { s:'docdump',      t:'raw',          w:1.5, dash:false },
+  { s:'raw',          t:'notes',        w:1.5, dash:false },
+  { s:'raw',          t:'sources',      w:1.5, dash:false },
+  { s:'kb',           t:'sources',      w:1, dash:false },
+  { s:'kb',           t:'concepts',     w:1, dash:false },
+  { s:'kb',           t:'people',       w:1, dash:false },
+  { s:'kb',           t:'methods',      w:1, dash:false },
+  { s:'kb',           t:'topics',       w:1, dash:false },
+  { s:'kb',           t:'comparisons',  w:1, dash:false },
+  { s:'kb',           t:'queries',      w:1, dash:false },
+  { s:'kb',           t:'index',        w:1, dash:false },
+  { s:'kb',           t:'logmd',        w:1, dash:false },
+
+  // Scripts
+  { s:'scaffold_py',  t:'notes',        w:1.5, dash:true },
+  { s:'pdf2md',       t:'sources',      w:1.5, dash:true },
+  { s:'spider_py',    t:'phdbib',       w:1.5, dash:true },
+  { s:'spider_py',    t:'notes',        w:1.5, dash:true },
+  { s:'lint_py',      t:'kb',           w:1, dash:true },
+
+  // External
+  { s:'zotero',       t:'phdbib',       w:1.5, dash:false },
+  { s:'notes',        t:'zotero',       w:1, dash:true },
+
+  // Note type → folder
+  { s:'t_note',       t:'notes',        w:1, dash:true, col:'#c4b5fd55' },
+  { s:'t_concept',    t:'concepts',     w:1, dash:true, col:'#c4b5fd55' },
+  { s:'t_person',     t:'people',       w:1, dash:true, col:'#c4b5fd55' },
+  { s:'t_method',     t:'methods',      w:1, dash:true, col:'#c4b5fd55' },
+  { s:'t_topic',      t:'topics',       w:1, dash:true, col:'#c4b5fd55' },
+  { s:'t_comparison', t:'comparisons',  w:1, dash:true, col:'#c4b5fd55' },
+];
+
+// ── D3 setup ──
+const panel = document.getElementById('net-panel');
+const svg = d3.select('#nsvg');
+const g = svg.append('g');
+
+svg.call(
+  d3.zoom().scaleExtent([0.2, 4])
+    .on('zoom', e => g.attr('transform', e.transform))
+);
+
+const tip = document.getElementById('tip');
+
+const linkData = links.map(l => ({ ...l, source: l.s, target: l.t }));
+
+const sim = d3.forceSimulation(nodes)
+  .force('link', d3.forceLink(linkData).id(d => d.id)
+    .distance(d => {
+      const both = (d.source.g || '') + '-' + (d.target.g || '');
+      if (both.includes('kbfolder')) return 55;
+      if (both.includes('notetype')) return 60;
+      if (both.includes('governance')) return 100;
+      if (both.includes('agent')) return 80;
+      return 90;
+    }).strength(0.4))
+  .force('charge', d3.forceManyBody().strength(d => {
+    if (d.g === 'agent') return -450;
+    if (d.g === 'governance') return -350;
+    if (d.g === 'folder') return -300;
+    return -200;
+  }))
+  .force('center', d3.forceCenter(panel.clientWidth / 2, panel.clientHeight / 2))
+  .force('collision', d3.forceCollide().radius(d => R[d.g] + 22).strength(0.8));
+
+// Links
+const linkSel = g.selectAll('.link')
+  .data(linkData).enter().append('line')
+  .attr('class', 'link')
+  .style('stroke', d => d.col || '#1e2d47')
+  .style('stroke-width', d => d.w || 1)
+  .style('stroke-dasharray', d => d.dash ? '4,3' : 'none');
+
+// Nodes
+const nodeSel = g.selectAll('.node')
+  .data(nodes).enter().append('g')
+  .attr('class', 'node')
+  .call(d3.drag()
+    .on('start', (e, d) => { if (!e.active) sim.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; })
+    .on('drag',  (e, d) => { d.fx = e.x; d.fy = e.y; })
+    .on('end',   (e, d) => { if (!e.active) sim.alphaTarget(0); d.fx = null; d.fy = null; }))
+  .on('mouseover', (e, d) => {
+    const col = C[d.g] || '#fff';
+    tip.style.display = 'block';
+    tip.innerHTML = `<strong style="color:${col}">${d.label}</strong>${d.desc}`;
+
+    const conn = new Set([d.id]);
+    linkData.forEach(l => {
+      if (l.source.id === d.id) conn.add(l.target.id);
+      if (l.target.id === d.id) conn.add(l.source.id);
+    });
+    nodeSel.classed('dimmed', n => !conn.has(n.id));
+    nodeSel.classed('highlighted', n => n.id === d.id);
+    linkSel.classed('dimmed', l => l.source.id !== d.id && l.target.id !== d.id);
+  })
+  .on('mousemove', e => {
+    tip.style.left = (e.clientX + 14) + 'px';
+    tip.style.top  = (e.clientY - 8)  + 'px';
+  })
+  .on('mouseout', () => {
+    tip.style.display = 'none';
+    nodeSel.classed('dimmed', false).classed('highlighted', false);
+    linkSel.classed('dimmed', false);
+  });
+
+nodeSel.append('circle')
+  .attr('class', 'node-circle')
+  .attr('r', d => R[d.g])
+  .style('fill', d => (C[d.g] || '#fff') + '1a')
+  .style('stroke', d => C[d.g] || '#fff')
+  .style('stroke-width', d => d.g === 'agent' ? 2.5 : 1.5);
+
+nodeSel.append('text')
+  .attr('class', 'node-label')
+  .attr('dy', d => R[d.g] + 13)
+  .style('text-anchor', 'middle')
+  .style('font-size', d => d.g === 'agent' ? '12px' : '10px')
+  .style('font-weight', d => d.g === 'agent' ? '700' : '400')
+  .style('fill', d => C[d.g] || '#fff')
+  .text(d => d.label);
+
+sim.on('tick', () => {
+  linkSel
+    .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+    .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
+  nodeSel.attr('transform', d => `translate(${d.x},${d.y})`);
+});
+</script>
+</body>
+</html>

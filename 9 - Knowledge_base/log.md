@@ -27,6 +27,11 @@ Rule for agents: do not infer unfinished work from missing manual highlights, pl
 	- **SHATTER**: Created/Updated 8 Concepts (e.g., Deeds vs Title), 2 Methods (Low-cost Certification), and 2 People (Klaus Deininger, Gershon Feder).
 	- **SYNTHESIS**: Created new Topic [[Land Registration and Economic Development (Evidence)]].
 	- **LINT**: Verified Knowledge Base integrity. Updated Master Index.
+### 2026-05-11
+- **LINT**: Post-Cohn run. Broken source links = known false positives (linter checks for `.pdf`; sources are `.md`). 4 pre-existing seed notes flagged (Land Titling, The Torrens System, Pradeep Nayak, Garrett Hardin) — unchanged from 2026-05-07. No new issues introduced.
+- **SYNTHESIS**: Refreshed `Institutional Property Rights Evolution` topic — added Colonial Knowledge Tradition section (Cohn, survey + enumeration modalities, colonial legal reconstitution, Odisha extension note). Paper_Linked updated.
+- **SHATTER**: Processed [[Colonialism and its forms of knowledge_ The British in India.pdf]] (Cohn, 1996). PHD_LENS three-test filter applied. Chapters 4 (museological/artifacts) and 5 (cloth/identity) excluded as failing Test 1 and Test 3. Extracted: 2 Concepts (`Investigative Modalities`, `Colonial Legal Reconstitution of Property`), 1 Person (`Bernard Cohn`). Chapter/section anchors: Ch. 2.2.2, Ch. 2.3.2. index.md updated. See `logs/2026-05-11-cohn-shatter.md`.
+
 ### 2026-05-07
 - **LINT**: 3 unindexed articles fixed (`Open-access Regime`, `The Other Land Reform`, `Common-property Regime`). 4 seed notes flagged for future deep-curation (`Land Titling`, `The Torrens System`, `Pradeep Nayak`, `Garrett Hardin`). 130+ "broken source links" are linter false positives (script maps `.pdf` → `.pdf` in sources; actual `.md` files exist). Article count: 149.
 - **SYNTHESIS**: Refreshed 3 Topics with Scott (1998) — `Institutional Property Rights Evolution` (added Legibility Tradition section), `Land Registration and Economic Development` (added Waldsterben critique), `Definition of Private Property` (added Legibility Basis §10).

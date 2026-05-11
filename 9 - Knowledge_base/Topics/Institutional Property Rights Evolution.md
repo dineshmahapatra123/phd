@@ -19,7 +19,8 @@ Paper_Linked:
   - "[[Institutions and credible commitment.pdf]]"
   - "[[Property relations and economic development_ the other land reform.pdf]]"
   - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
-Last_Processed: "2026-05-07"
+  - "[[Colonialism and its forms of knowledge_ The British in India.pdf]]"
+Last_Processed: "2026-05-11"
 Status: Sapling++
 ---
 
@@ -40,6 +41,17 @@ The development and formalization of property rights through institutional chang
 - **Sir Robert Torrens**: Revolutionized the "Evolution" of land rights via the **[[Torrens System]]** (1858), adapting the logic of the **Merchant Shipping Act** to land to eliminate costly retrospective investigations.
 - **[[Gershon Feder]] & [[David Feeny]] (1991)**: Provide a comprehensive framework for evolution based on the **Supply and Demand of Institutions**. Evolution is driven by shifts in relative factor prices (land scarcity) and new technology (demand for credit). They highlight the role of the **[[Constitutional Order]]** as a slow-moving constraint on more rapid changes in **[[Institutional Arrangements]]** (like titling).
 - **[[Elinor Ostrom]] (2000)**: Rejects the linear evolution theory that assumes all property must eventually become private. Evolution is context-dependent and resource-dependent. She identifies the **"Troika of Confusions"** (conflating Open Access, CPRs, and Common Property) that leads to failed institutional transitions.
+
+## The Colonial Knowledge Tradition — Cohn (1996) (NEW)
+**[[Bernard Cohn]]** anchors the legibility tradition in colonial history, showing that the mechanisms Scott identifies as "state simplification" were first systematically developed as instruments of imperial governance. Where Scott analyses the epistemology of modern state power, Cohn provides its archaeology.
+
+Cohn's [[Investigative Modalities]] framework identifies the survey and enumeration modalities as the twin engines of colonial property-rights production. The **survey modality** — starting with Bengal revenue surveys from the 1770s — did not merely record landholding; it *constituted* a specific legal form of landholding: individual, bounded, taxable, alienable. The **enumeration modality** (colonial census) did not merely record caste; it made caste a *property-relevant category*, determining which classes of persons could hold which tenures under colonial law.
+
+**The colonial legal reconstitution** ([[Colonial Legal Reconstitution of Property]]) completes this picture. Warren Hastings's 1772 codification project extracted property law from Sanskrit Brahmanical texts, producing a sanitised, elite-biased account of Indian property relations that then became the legal baseline against which all subsequent tenure arrangements were assessed. The zamindars created by the Permanent Settlement of 1793 were not discovered in those texts — they were manufactured by them.
+
+**The long genealogy**: The four-stage palimpsest Scott identifies — Mughal *zabt*, colonial settlements, post-independence reform, DILRMP — can now be given a knowledge-institutional reading through Cohn. Each layer is not merely a fiscal or administrative reform; it is a new investigative modality that destroys the previous modality's categories while inheriting its institutional infrastructure. DILRMP's digital cadastre is the survey modality's fifth generation.
+
+**Extension to Odisha**: Cohn's primary empirical base is Bengal and Madras Presidency. The Odisha application requires the extension of his modalities framework through the Orissa Survey and Settlement Act and the specific history of the Madras-Orissa boundary surveys. Chapter 2.4 of the thesis must make this extension explicit, drawing the lineage from Cohn's Bengal account to Odisha's specific settlement tradition.
 
 ## The Legibility Tradition — Scott (1998) (NEW)
 **[[James C. Scott]]** introduces a fourth analytical tradition for understanding property rights evolution, orthogonal to both the NIE efficiency tradition (Demsetz, North) and the political economy tradition (Wadhwa, Appu). Scott's tradition focuses on the **governmental function** of property records — their role as instruments through which states make land and persons *legible*, manageable, and controllable from the centre.

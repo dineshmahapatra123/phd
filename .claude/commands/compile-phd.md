@@ -21,6 +21,7 @@ Use this command to process a research paper—either a new PDF from your inbox 
 
 ### 3. Deconstruction (The Shattering)
 - Read the FULL TEXT from `9 - Knowledge_base/sources/[Name].md`.
+- **Read `9 - Knowledge_base/PHD_LENS.md` before extracting anything.** Use it as the relevance filter: only extract Concepts, People, and Methods that pass the Inclusion Rules. Skip anything that falls under the Exclusion Rules. When in doubt about relevance, check against the Active Debates and Theoretical Frameworks sections of the Lens.
 - Analyze against `9 - Knowledge_base/PHD_SCHEMA.md` and the Type definitions in `Types/`.
 - **Create/Update** — each file must open with its correct YAML frontmatter:
     - **Concepts** (`Types/concept.md`): `type: Concept` + `Paper_Linked`, `Last_Processed`, `Status`, `Related`, `Contradicts`

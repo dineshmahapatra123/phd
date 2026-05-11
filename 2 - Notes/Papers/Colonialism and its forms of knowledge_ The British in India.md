@@ -5,7 +5,7 @@ Last_Processed: 2026-05-08
 Status: Seed
 ---
 
-APA Citation from Zotero: 
+APA Citation from Zotero: Cohn, B. S.. (1996). Colonialism and Its Forms of Knowledge: The British in India. Princeton University Press.
 
 Tags: 
 
@@ -16,7 +16,4 @@ Tags:
 
 ## AI Primer
 *(Run `/prime` to populate this section)*
-
-
-# Claude Primer
 

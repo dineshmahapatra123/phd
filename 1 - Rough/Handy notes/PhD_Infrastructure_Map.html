@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neuro-Scholar: Unified Field Architecture v6.0</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.23.0/cytoscape.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-color: #05060b;
+            --panel-bg: rgba(13, 17, 23, 0.95);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --text-primary: #f0f6fc;
+            --accent-blue: #58a6ff;
+            --accent-green: #3fb950;
+            --accent-purple: #bc8cff;
+            --accent-orange: #d29922;
+            --accent-red: #f85149;
+            --accent-cyan: #39c5bb;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { background-color: var(--bg-color); color: var(--text-primary); font-family: 'Inter', sans-serif; overflow: hidden; height: 100vh; }
+
+        #cy { width: 100%; height: 100%; z-index: 1; }
+
+        /* Overlay UI */
+        .overlay { position: absolute; pointer-events: none; z-index: 10; }
+        .header { top: 40px; left: 40px; }
+        h1 { font-family: 'Outfit', sans-serif; font-size: 28px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+        .subtitle { font-size: 11px; color: var(--accent-cyan); font-weight: 800; letter-spacing: 4px; text-transform: uppercase; }
+
+        .dashboard {
+            top: 40px;
+            right: 40px;
+            width: 400px;
+            max-height: calc(100vh - 80px);
+            background: var(--panel-bg);
+            backdrop-filter: blur(20px);
+            border: 1px solid var(--border-color);
+            border-radius: 20px;
+            pointer-events: auto;
+            box-shadow: 0 40px 80px rgba(0,0,0,0.8);
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+        }
+
+        .node-name { font-family: 'Outfit', sans-serif; font-size: 22px; font-weight: 600; margin-bottom: 15px; color: var(--accent-blue); border-bottom: 1px solid var(--border-color); padding-bottom: 10px; }
+        .node-desc { font-size: 14px; line-height: 1.6; color: #c9d1d9; }
+
+        .workflow-player { margin-top: 30px; }
+        .phase-btn {
+            width: 100%; padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); border-radius: 10px;
+            color: var(--text-primary); font-size: 12px; text-align: left; cursor: pointer; margin-bottom: 8px; display: flex; align-items: center;
+        }
+        .phase-btn:hover { background: rgba(255,255,255,0.08); }
+        .phase-btn.active { background: var(--accent-blue); border-color: var(--accent-blue); color: white; font-weight: 700; }
+
+        .legend { bottom: 40px; left: 40px; padding: 15px; background: var(--panel-bg); border-radius: 12px; border: 1px solid var(--border-color); display: flex; gap: 20px; }
+        .legend-item { display: flex; align-items: center; font-size: 11px; color: var(--text-secondary); }
+        .dot { width: 10px; height: 10px; border-radius: 3px; margin-right: 8px; }
+
+    </style>
+</head>
+<body>
+
+    <div class="overlay header">
+        <div class="subtitle">Neuro-Scholar OS v6.0</div>
+        <h1>THE UNIFIED FIELD</h1>
+    </div>
+
+    <div id="cy"></div>
+
+    <div class="overlay legend">
+        <div class="legend-item"><span class="dot" style="background:var(--accent-orange)"></span> Ingest</div>
+        <div class="legend-item"><span class="dot" style="background:var(--accent-green)"></span> Analysis</div>
+        <div class="legend-item"><span class="dot" style="background:var(--accent-cyan)"></span> Brain</div>
+        <div class="legend-item"><span class="dot" style="background:var(--accent-purple)"></span> Logic</div>
+        <div class="legend-item"><span class="dot" style="background:var(--accent-blue)"></span> Agent</div>
+    </div>
+
+    <div class="overlay dashboard">
+        <div class="node-name" id="d-name">System Dashboard</div>
+        <div class="node-desc" id="d-desc">Click any node to see its function. Use the Workflow Player to see how a paper moves through the system.</div>
+
+        <div class="workflow-player">
+            <button class="phase-btn" onclick="play(1, this)">01. Ingestion & Scaffolding</button>
+            <button class="phase-btn" onclick="play(2, this)">02. Analysis & Priming</button>
+            <button class="phase-btn" onclick="play(3, this)">03. Truth Loop (Zotero)</button>
+            <button class="phase-btn" onclick="play(4, this)">04. Engineering (Shatter)</button>
+            <button class="phase-btn" onclick="play(5, this)">05. Neural Synthesis</button>
+            <button class="phase-btn" onclick="play(6, this)">06. Wiki Vitality Audit</button>
+        </div>
+        <button style="margin-top:20px; padding:10px; border-radius:8px; border:none; background:#333; color:white; cursor:pointer;" onclick="cy.fit()">Reset View</button>
+    </div>
+
+    <script>
+        const elements = [
+            // CONTINENTS
+            { data: { id: 'c1', label: 'INGESTION' } },
+            { data: { id: 'c2', label: 'ANALYSIS' } },
+            { data: { id: 'c3', label: 'THE BRAIN' } },
+            { data: { id: 'c4', label: 'GOVERNANCE' } },
+            { data: { id: 'c5', label: 'AGENTS' } },
+
+            // NODES
+            { data: { id: '7r', parent: 'c1', label: '7-Raw', g: 'i', d: 'Source PDFs.' } },
+            { data: { id: 'ws', parent: 'c1', label: '/scaffold', g: 'w', d: 'Initializes Master Notes.' } },
+            { data: { id: 'wr', parent: 'c1', label: '/rename', g: 'w', d: 'Standardizes names.' } },
+            
+            { data: { id: '2n', parent: 'c2', label: '2-Notes', g: 'a', d: 'Master Notes layer.' } },
+            { data: { id: 'wp', parent: 'c2', label: '/prime', g: 'w', d: 'Builds AI Primers.' } },
+            { data: { id: 'wz', parent: 'c2', label: '/add-zotero', g: 'w', d: 'Syncs to Zotero.' } },
+            
+            { data: { id: 'sc', parent: 'c3', label: 'sources/', g: 'b', d: 'Full-text Markdown.' } },
+            { data: { id: 'wc', parent: 'c3', label: '/compile', g: 'w', d: 'The Shattering engine.' } },
+            { data: { id: 'wrf', parent: 'c3', label: '/refresh', g: 'w', d: 'Synthesis engine.' } },
+            { data: { id: 'cc', parent: 'c3', label: 'Concepts', g: 'b', d: 'Atomic Wiki nodes.' } },
+            { data: { id: 'tp', parent: 'c3', label: 'Topics', g: 'b', d: 'Research debates.' } },
+            
+            { data: { id: 'ls', parent: 'c4', label: 'PHD_LENS', g: 'l', d: 'The Relevance Filter.' } },
+            { data: { id: 'ct', parent: 'c4', label: 'Constitution', g: 'l', d: 'Vault Laws.' } },
+            { data: { id: 'sm', parent: 'c4', label: 'Schema', g: 'l', d: 'Note Blueprints.' } },
+            
+            { data: { id: 'ag', parent: 'c5', label: 'Antigravity', g: 'ag', d: 'Primary Agent.' } },
+            { data: { id: 'cl', parent: 'c5', label: 'Claude', g: 'ag', d: 'Logic Agent.' } }
+        ];
+
+        const edges = [
+            { data: { source: '7r', target: 'wr' } },
+            { data: { source: 'wr', target: 'ws' } },
+            { data: { source: 'ws', target: '2n' } },
+            { data: { source: '2n', target: 'wp' } },
+            { data: { source: 'wp', target: '2n' } },
+            { data: { source: '2n', target: 'wz' } },
+            { data: { source: '7r', target: 'sc' } },
+            { data: { source: 'sc', target: 'wc' } },
+            { data: { source: 'wc', target: 'cc' } },
+            { data: { source: 'cc', target: 'wrf' } },
+            { data: { source: 'wrf', target: 'tp' } },
+            { data: { source: 'ls', target: 'wc' } },
+            { data: { source: 'sm', target: 'wc' } },
+            { data: { source: 'ct', target: 'ag' } },
+            { data: { source: 'ag', target: 'wc' } }
+        ];
+
+        const cy = cytoscape({
+            container: document.getElementById('cy'),
+            elements: [...elements, ...edges.map(e => ({ data: e.data }))],
+            style: [
+                {
+                    selector: 'node',
+                    style: {
+                        'label': 'data(label)',
+                        'width': '80px',
+                        'height': '80px',
+                        'background-color': '#111',
+                        'border-width': '2px',
+                        'border-color': '#444',
+                        'color': '#fff',
+                        'font-family': 'Outfit',
+                        'font-size': '12px',
+                        'text-valign': 'center',
+                        'text-halign': 'center',
+                        'text-wrap': 'wrap'
+                    }
+                },
+                {
+                    selector: ':parent',
+                    style: {
+                        'background-opacity': 0.05,
+                        'background-color': '#fff',
+                        'border-color': 'rgba(255,255,255,0.1)',
+                        'border-style': 'dashed',
+                        'text-valign': 'top',
+                        'padding': '60px',
+                        'font-size': '14px',
+                        'color': 'rgba(255,255,255,0.2)',
+                        'letter-spacing': '4px'
+                    }
+                },
+                { selector: 'node[g="i"]', style: { 'border-color': 'var(--accent-orange)' } },
+                { selector: 'node[g="a"]', style: { 'border-color': 'var(--accent-green)' } },
+                { selector: 'node[g="b"]', style: { 'border-color': 'var(--accent-cyan)' } },
+                { selector: 'node[g="l"]', style: { 'border-color': 'var(--accent-purple)' } },
+                { selector: 'node[g="w"]', style: { 'border-color': 'var(--accent-red)', 'shape': 'round-rectangle' } },
+                { selector: 'node[g="ag"]', style: { 'border-color': 'var(--accent-blue)', 'shape': 'diamond' } },
+                {
+                    selector: 'edge',
+                    style: {
+                        'width': 2,
+                        'line-color': 'rgba(255,255,255,0.1)',
+                        'target-arrow-color': 'rgba(255,255,255,0.1)',
+                        'target-arrow-shape': 'triangle',
+                        'curve-style': 'bezier'
+                    }
+                },
+                { selector: '.highlight', style: { 'background-color': '#fff', 'color': '#000', 'border-color': '#fff', 'line-color': 'var(--accent-blue)', 'target-arrow-color': 'var(--accent-blue)', 'width': 4 } },
+                { selector: '.dim', style: { 'opacity': 0.1 } }
+            ],
+            layout: {
+                name: 'cose',
+                padding: 100,
+                nodeRepulsion: 1000000,
+                idealEdgeLength: 150,
+                edgeElasticity: 0.1
+            }
+        });
+
+        cy.on('tap', 'node', e => {
+            const n = e.target;
+            if (n.isParent()) return;
+            document.getElementById('d-name').innerText = n.data('label');
+            document.getElementById('d-desc').innerText = n.data('d');
+            cy.elements().removeClass('highlight dim');
+            n.addClass('highlight');
+            n.connectedEdges().addClass('highlight');
+            cy.elements().not(n.union(n.connectedEdges())).addClass('dim');
+        });
+
+        const steps = {
+            1: ['7r', 'wr', 'ws', '2n'],
+            2: ['2n', 'wp'],
+            3: ['2n', 'wz'],
+            4: ['sc', 'wc', 'cc', 'ls', 'sm'],
+            5: ['cc', 'wrf', 'tp'],
+            6: ['tp']
+        };
+
+        function play(s, btn) {
+            document.querySelectorAll('.phase-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            const ids = steps[s];
+            cy.elements().removeClass('highlight dim');
+            const target = cy.nodes().filter(n => ids.includes(n.id()));
+            target.addClass('highlight');
+            target.connectedEdges().addClass('highlight');
+            cy.elements().not(target.union(target.connectedEdges())).addClass('dim');
+        }
+
+        setTimeout(() => cy.fit(), 500);
+    </script>
+</body>
+</html>

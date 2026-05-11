@@ -97,6 +97,8 @@
     - [[Open-access Regime]]
     - [[The Other Land Reform]]
     - [[Common-property Regime]]
+    - [[Investigative Modalities]]
+    - [[Colonial Legal Reconstitution of Property]]
 - **[[People/]]** — Scholarly Networks  
     - [[C. B. Macpherson]]
     - [[Pradeep Nayak]]
@@ -130,6 +132,7 @@
     - [[R. Ramakumar]]
     - [[Padmini Ramesh]]
     - [[James C. Scott]]
+    - [[Bernard Cohn]]
 - **[[Methods/]]** — Research Design & Tools  
     - [[Law and Economics Approach to Property]]
     - [[Qualitative Document Analysis]]

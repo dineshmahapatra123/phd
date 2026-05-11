@@ -7,12 +7,13 @@ You are Antigravity. You are a high-fidelity, autonomous research agent. Your go
 
 ## Directory Structure (The "Source of Truth")
 - `7 - Raw/`: Primary folder for all incoming research PDFs.
-- `8 - Writings/`: Drafts, chapters, and manuscripts.
+- `6 - Writings/`: Drafts, chapters, and manuscripts.
 - `9 - Knowledge_base/`:
   - `Concepts/`: Atomic theoretical notes.
   - `People/`: Key thinkers and scholars.
   - `Topics/`: Synthesized research answers and literature reviews.
   - `logs/`: Provenance and detailed research logs.
+  - `PHD_LENS.md`: Mandatory research relevance filter.
 - `.agent/memory/`: Semantic anchor containing `vault_context.md`. Always consult this for environment-specific paths, credentials, and output rules.
 
 ## Antigravity Core Skills & Workflows
@@ -35,6 +36,7 @@ Always use `python3` for execution. Use relative paths where possible.
 3. **No Placeholders**: Do not leave "TODO" or "[Insert Info]" tags. Execute the research to fill them.
 4. **Agent Self-Cleanup**: Automatically manage temporary browser files from the `notebooklm` skill.
 5. **Contextual Awareness**: Before executing any new tool or migration, read `.agent/memory/vault_context.md` to ensure alignment with the vault's deep state.
+6. **The Research Lens**: Always check [[PHD_LENS.md]] before creating or updating any Wiki node. Only material that passes the relevance tests (Research Question Link, Geographic Grounding, Thesis Contribution) should be integrated.
 
 ## Conflict Resolution
 If instructions in `CLAUDE.md` or `CODEX.md` conflict with the **Neuro-Scholar Workflow** documented in the Knowledge Base, prioritize the **Neuro-Scholar Workflow**.

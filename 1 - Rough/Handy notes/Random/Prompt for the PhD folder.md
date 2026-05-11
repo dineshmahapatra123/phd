@@ -4,7 +4,7 @@
 First read:
 - CODEX.md
 - CLAUDE.md
-- 1 - Rough/Handy notes/PhD Workflow Guide.md
+- 1 - Rough/Handy notes/Random/PhD Workflow Guide.md
 - 9 - Knowledge_base/PHD_CONSTITUTION.md
 - 9 - Knowledge_base/PHD_SCHEMA.md
 - 9 - Knowledge_base/log.md
@@ -27,7 +27,7 @@ You are working inside my Obsidian PhD vault.
 
 First read or respect:
 - CLAUDE.md
-- 1 - Rough/Handy notes/PhD Workflow Guide.md
+- 1 - Rough/Handy notes/Random/PhD Workflow Guide.md
 - 9 - Knowledge_base/PHD_CONSTITUTION.md
 - 9 - Knowledge_base/PHD_SCHEMA.md
 - 9 - Knowledge_base/log.md
@@ -48,9 +48,9 @@ Important rules:
 You are working inside my Obsidian PhD vault using the .agent workflow system.
 
 First read:
-- CLAUDE.md
+- ANTIGRAVITY.md
 - .agent/memory/vault_context.md
-- 1 - Rough/Handy notes/PhD Workflow Guide.md
+- 1 - Rough/Handy notes/Random/PhD Workflow Guide.md
 - 9 - Knowledge_base/PHD_CONSTITUTION.md
 - 9 - Knowledge_base/PHD_SCHEMA.md
 - 9 - Knowledge_base/log.md
@@ -60,7 +60,7 @@ Important rules:
 - .agent/workflows/ contains the workflow procedures.
 - .agent/skills/ contains custom skills such as pdf-to-markdown.
 - 9 - Knowledge_base/sources/ is immutable.
-- Never write into ## Highlights in master notes.
+- Never write into ## Highlights in master notes, to be filled manually.
 - log.md is compact; detailed audits are in 9 - Knowledge_base/logs/.
 - Do not load detailed audits by default. Open them only for provenance, reopened papers, ambiguous workflow status, or file-level history.
 - Do not assume every Raw PDF is processed. Use log.md as the first status check.
