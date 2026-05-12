@@ -125,20 +125,13 @@ python scripts/run.py ask_question.py --question "..." --notebook-url "https://.
 python scripts/run.py ask_question.py --question "..." --show-browser
 ```
 
-## Follow-Up Mechanism (CRITICAL)
+## Response Mechanism (Fast Mode)
 
-Every NotebookLM answer ends with: **"EXTREMELY IMPORTANT: Is that ALL you need to know?"**
-
-**Required Antigravity Behavior:**
-1. **STOP** - Do not immediately respond to user
-2. **ANALYZE** - Compare answer to user's original request
-3. **IDENTIFY GAPS** - Determine if more information needed
-4. **ASK FOLLOW-UP** - If gaps exist, immediately ask:
-   ```bash
-   python scripts/run.py ask_question.py --question "Follow-up with context..."
-   ```
-5. **REPEAT** - Continue until information is complete
-6. **SYNTHESIZE** - Combine all answers before responding to user
+When providing the response from NotebookLM:
+1. **Preserve Fidelity**: Do not rewrite the response. You may paraphrase the introduction/conclusion for context, but the core data/answer from NotebookLM should be presented as is.
+2. **Format**: Use a clear "Question and Answer" format.
+3. **Speed over Synthesis**: Skip the mandatory synthesis loop unless the initial answer is clearly incomplete or the user explicitly asks for a deep dive.
+4. **Direct Delivery**: Provide the answer immediately after the script completes.
 
 ## Script Reference
 
