@@ -1,6 +1,6 @@
 # Codex Style Policy
 
-This file resolves style-rule conflicts for Codex without modifying the existing Claude or Antigravity layers.
+This file resolves style-rule conflicts for Codex.
 
 ## Authority Order
 
@@ -9,8 +9,6 @@ When writing or checking PhD prose, use this order:
 1. `9 - Knowledge_base/TISS_STYLE.md`
 2. `9 - Knowledge_base/PHD_SCHEMA.md`
 3. `Types/`
-4. `CLAUDE.md`
-5. `.agent/memory/tiss_style.md`
 
 If any file conflicts with `TISS_STYLE.md`, follow `TISS_STYLE.md`.
 
