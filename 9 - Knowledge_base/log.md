@@ -6,6 +6,9 @@ Rule for agents: do not infer unfinished work from missing manual highlights, pl
 
 ## Chronological Activity
 
+### 2026-05-18
+- **FIX**: Knowledge Base loose-end cleanup. Disambiguated active `Land Titling` links, added Cohn source to `index.md`, refreshed index statistics, normalized malformed contradiction headings, deepened four seed notes (`Land Titling`, `The Torrens System`, `Pradeep Nayak`, `Garrett Hardin`), and updated `lint_wiki.py` to handle PDF/source checks and path-qualified index links. Final lint: all systems nominal.
+
 ### 2026-04-29
 - **COMPLETE**: All 14 papers currently in `7 - Raw/` have successfully completed the full PhD Workflow Guide phases (Ingest, Shatter, Synthesis, and Strengthen).
 - **SHATTER & LINK**: All papers have been processed, and all their corresponding articles (Concepts, People, Methods) have been successfully created, updated, and intricately linked into the Knowledge Base. Total articles in KB: 80.

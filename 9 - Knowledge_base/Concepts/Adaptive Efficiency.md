@@ -38,7 +38,7 @@ North argues that the long-run success of western economies is not fully explain
 - Rapid diffusion of successful forms
 - Political and legal tolerance for disruptive innovation
 
-## ### ⚠️ Contradiction
+### ⚠️ Contradiction
 Adaptive efficiency is difficult to operationalize empirically — how does one measure an "open menu" or "failure elimination speed"? North offers it as an analytical criterion rather than a measurable variable. This limits its falsifiability compared to static efficiency measures.
 
 ## PhD Application

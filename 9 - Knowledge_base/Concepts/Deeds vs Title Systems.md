@@ -2,7 +2,7 @@
 type: Concept
 Related:
   - "[[Torrens System]]"
-  - "[[Land Titling]]"
+  - "[[Concepts/Land Titling|Land Titling]]"
   - "[[Tenure Security]]"
 Paper_Linked: "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
 Last_Processed: "2026-04-29"

@@ -1,163 +1,366 @@
 ---
-type: Quote_Bank
+type: QuoteBank
 Paper_Linked: "[[Colonialism and its forms of knowledge_ The British in India.pdf]]"
 Author: [[Bernard S. Cohn]]
 Year: 1996
-Review_File: "[[Cohn1996_ColonialismKnowledge.md]]"
-Total_Quotes: 24
+Review_Linked: "[[Cohn1996_ColonialismKnowledge.md]]"
+Workflow: review-phd-lens
+Lens: "[[PHD_LENS.md]]"
+Total_Quotes: 45
+Chapter_Sections: 6
+Active_Debates: 4
+Concepts: 9
 Status: Completed
-Date_Extracted: 2026-05-14
+Date_Extracted: 2026-05-18
+Source: "9 - Knowledge_base/sources/Colonialism and its forms of knowledge_ The British in India.md"
 ---
 
-## Axis A: By Thesis Chapter
+# Quote Bank - Colonialism and Its Forms of Knowledge
 
-### Ch. 2.2 (Global land records history)
-1. "The power to define the nature of the past and establish priorities in the creation of a monumental record of a civilization, and to propound canons of taste, are among the most significant instrumentalities of rulership."
-   - **Relevance**: How surveyors and archivists (Colin Mackenzie, Alexander Cunningham) didn't just document India but defined what counts as "history," "art," "antiquity."
-   - **Page**: 9-10
+**Source**: Bernard S. Cohn, *Colonialism and Its Forms of Knowledge: The British in India*.
 
-2. "From the eighteenth century onward, European states increasingly made their power visible not only through ritual performance and dramatic display, but through the gradual extension of 'officializing' procedures that established and extended their capacity in many areas."
-   - **Relevance**: Land records are "officializing procedures"—standardised documentation systems that extend state capacity over territory and population.
-   - **Page**: 3
+This quote bank is thesis-sorted. It privileges passages that pass the PHD_LENS tests for colonial land administration, survey, legal codification, documentary state formation, and record-ground disjuncture.
 
 ---
 
-### Ch. 2.3.2 (Colonial India: investigative modalities)
-3. "An investigative modality includes the definition of a body of information that is needed, the procedures by which appropriate knowledge is gathered, its ordering and classification, and then how it is transformed into usable forms such as published reports, statistical returns, histories, gazetteers, legal codes, and encyclopedias."
-   - **Relevance**: Definition of colonial record-making. DILRMP is a modern investigative modality.
-   - **Page**: 5
+## A. By Thesis Chapter
 
-4. "The 'facts' of this space did not exactly correspond to those of the invaders. Nevertheless, the British believed they could explore and conquer this space through translation: establishing correspondence could make the unknown and the strange knowable."
-   - **Relevance**: Colonial epistemology: indigenous knowledge must be "translated" into European categories to become "knowable" and ruleable.
-   - **Page**: 4
+### Ch. 2.1 - Land Records and Their Institutional Functions
 
-5. "The knowledge of languages was necessary to issue commands, collect taxes, maintain law and order— and to create other forms of knowledge about the people they were ruling."
-   - **Relevance**: Colonial investigative modalities served extraction first; knowledge production was instrumental to control.
-   - **Page**: 4-5
+> "recording transactions such as the sale of property" (p. 3)
+> **Supports**: Land records belong to the modern state's broader officializing apparatus, not merely to private conveyancing.
 
-6. "Seen as a corpus, these texts signal the invasion of an epistemological space occupied by a great number of diverse Indian scholars, intellectuals, teachers, scribes, priests, lawyers, officials, merchants, and bankers, whose knowledge as well as they themselves were to be converted into instruments of colonial rule."
-   - **Relevance**: Knowledge appropriation was deliberate; Indian scholars' knowledge was extracted and redeployed as tools of domination.
-   - **Page**: 21
+> "determining, codifying, controlling, and representing the past" (p. 3)
+> **Supports**: Records function as historical authority; they define what past claims the state can recognise.
 
-7. "Elites had to be found within Indian society who could be made to see that they had an interest in the maintenance of British rule. Political strategies and tactics had to be created and codified into diplomacy through which the country powers could be converted into allied dependencies."
-   - **Relevance**: Colonial investigative modalities identified and co-opted elites; created structural incentives for elite compliance.
-   - **Page**: 21-22
+> "created and normalized a vast amount of information" (p. 3)
+> **Supports**: Record systems normalize state facts and make them administratively durable.
+
+> "administrative power stemmed from the efficient use of these facts" (p. 4)
+> **Supports**: Useful for reading DILRMP's efficiency language as part of an older administrative logic.
+
+> "the form of these facts was taken to be self-evident" (p. 4)
+> **Supports**: Helps question the apparent neutrality of RoR fields, cadastral categories, and digital land datasets.
+
+### Ch. 2.2.2 - Colonial Approaches to Land Records
+
+> "defining and classifying space" (p. 3)
+> **Supports**: Colonial state formation depended on spatial classification.
+
+> "documentation, legitimation, classification, and bounding" (p. 4)
+> **Supports**: Land records can be situated within a linked complex of documentary and territorial practices.
+
+> "invaded and conquered not only a territory but an epistemological space" (p. 4)
+> **Supports**: The strongest thesis quote for colonial knowledge as epistemic conquest.
+
+> "to classify, categorize, and bound the vast social world" (p. 5)
+> **Supports**: Land administration is part of a wider attempt to bound social relations into state categories.
+
+> "investigative modalities devised by the British to collect the facts" (p. 5)
+> **Supports**: Establishes the vocabulary for reading settlement, survey, and legal codification as modalities.
+
+> "transformed into usable forms" (p. 5)
+> **Supports**: Captures the conversion of local knowledge into reports, maps, registers, and legal codes.
+
+> "published reports, statistical returns, histories, gazetteers, legal codes" (p. 5)
+> **Supports**: Lists the documentary outputs that form the colonial knowledge infrastructure.
+
+> "how revenue was assessed and collected" (p. 5)
+> **Supports**: Identifies revenue inquiry as a foundational administrative problem.
+
+> "the land-settlement process" (p. 5)
+> **Supports**: Direct anchor for colonial land records history.
+
+> "customs and local histories" (p. 5)
+> **Supports**: Shows how local tenure practices became inputs into colonial settlement knowledge.
+
+> "district-by-district basis" (p. 6)
+> **Supports**: Settlement knowledge was territorially organised and administratively localised.
+
+### Ch. 2.3.2 - Colonial Settlements and Land Administration in India
+
+> "to measure land for the purpose of establishing boundaries" (p. 7)
+> **Supports**: Direct definition of survey as a boundary-making technology.
+
+> "the most minute measuring of a peasant's fields" (p. 7)
+> **Supports**: Connects colonial survey modality to parcel-level measurement.
+
+> "systematic and official investigation" (p. 7)
+> **Supports**: Survey is not only measurement; it is official investigation of territory and society.
+
+> "covered India with an imaginary grid" (p. 8)
+> **Supports**: Essential for cadastral abstraction and the spatial logic of state land records.
+
+> "a new survey was launched" (p. 8)
+> **Supports**: Territorial acquisition and survey were linked; new rule required new knowledge.
+
+> "went far beyond mapping and bounding" (p. 8)
+> **Supports**: Survey also classified resources, people, economy, history, and society.
+
+> "fixing, bounding, and settling India" (p. 8)
+> **Supports**: Powerful formulation linking survey, settlement, and rule.
+
+> "the structure of the practices by which such knowledge was compiled" (p. 8)
+> **Supports**: Encourages analysis of procedures, not only outputs, in survey-settlement regimes.
+
+> "the underlying theories of classification" (p. 8)
+> **Supports**: Supports an inquiry into what assumptions structure land record categories.
+
+### Ch. 2.4 - Legal and Institutional Infrastructure for Land Records in India
+
+> "administer the rapidly expanding territories" (p. 57)
+> **Supports**: Law is framed as an instrument of territorial administration.
+
+> "assessment and collection of the revenues of Bengal" (p. 58)
+> **Supports**: Revenue collection was central to Company sovereignty.
+
+> "collectors but the proprietors of the nawab's revenues" (p. 59)
+> **Supports**: Shows the fiscal meaning of Company authority after Dewani.
+
+> "unfit to conduct the collection of revenues" (p. 59)
+> **Supports**: Reveals initial British dependence on Indian revenue expertise.
+
+> "The hieroglyphics of Persian estate accounts baffled them" (p. 59)
+> **Supports**: Strong evidence for the record-language-knowledge problem in revenue administration.
+
+> "customs embedded in a variety of local usages" (p. 59)
+> **Supports**: Key passage for explaining formal records' mismatch with lived land relations.
+
+> "The courts established and protected property rights" (p. 59)
+> **Supports**: Links courts, property rights, and revenue enforcement.
+
+> "find who 'owned' the land" (p. 59)
+> **Supports**: Names the colonial translation problem at the core of land administration.
+
+> "a fixed and regular return in the form of revenue" (p. 61)
+> **Supports**: Revenue regularity as administrative success.
+
+> "Hindu law for Hindu and Muslim law for Muslims" (p. 62)
+> **Supports**: Legal categories were communally classified for colonial administration.
+
+> "a fixed body of knowledge" (p. 69)
+> **Supports**: The legal counterpart to fixed land records and standardised title categories.
+
+> "complete digest of Hindu and Mussulman law" (p. 69)
+> **Supports**: Codification as the production of administrable legal knowledge.
+
+> "a standard of Justice" (p. 70)
+> **Supports**: Useful for comparing colonial standardisation with modern title-standardisation claims.
+
+> "English law as the law of India" (p. 75)
+> **Supports**: Cohn's clearest outcome statement on legal transplantation.
+
+### Ch. 3.4 - Critical Reflections on Technocratic Reforms
+
+> "India was a vast collection of numbers" (p. 8)
+> **Supports**: Useful for critiquing modernisation metrics and dashboard-style governance.
+
+> "problems of classification" (p. 8)
+> **Supports**: Land digitisation is not only a data-entry problem; it is a category problem.
+
+> "creation of social categories" (p. 8)
+> **Supports**: Records create as well as reflect governable categories.
+
+> "objectified social, cultural, and linguistic differences" (p. 8)
+> **Supports**: Helps theorise how records objectify possession, caste, ownership, and use.
+
+> "the panoptical view that the British were constructing" (p. 8)
+> **Supports**: Connects enumeration to surveillance and administrative visibility.
+
+> "India was redefined by the British to be a place of rules and orders" (p. 162)
+> **Supports**: Strong quote for how administrative rule converts living practice into enforceable order.
+
+### Ch. 5.7.1 - Divergence Between Records and Ground Reality
+
+> "The British assumed that the census reflected the basic sociological facts" (p. 8)
+> **Supports**: Useful analogy for assuming RoRs reflect ground reality without examining how they produce categories.
+
+> "What is observed and reported is mediated" (p. 7)
+> **Supports**: Helps explain why official observation is never a transparent mirror of ground conditions.
+
+> "custom and superstition were a means to encompass and explain behavior" (p. 162)
+> **Supports**: Cautions against reductive administrative treatment of local practices.
+
+> "deviation from it was defined as rebellion" (p. 162)
+> **Supports**: Shows how state-defined custom becomes enforceable, and alternatives become disorder.
 
 ---
 
-### Ch. 2.4 (Legal infrastructure: codification)
-8. "The decision of Hastings and the Council at Fort William was to have profound effects on the course of the judicial system in India."
-   - **Relevance**: Colonial legal codification established precedent for authoritarian legal transplantation.
-   - **Page**: 27
+## B. By Active Debate
 
-9. "In order to establish what the Hindu law was, Warren Hastings persuaded eleven of the 'most respectable pandits in Bengal' to make a compilation of the relevant shastric literature."
-   - **Relevance**: Colonial officials extracted legal knowledge from pandits, then translated it (through Persian intermediaries) into English codes. Result: depersonalised, standardised "Hindu law."
-   - **Page**: 27
+### Debate 3 - Technocratic Modernisation vs. Political Economy of Reform
 
-10. "Jones wanted to provide the English courts in India, Crown and Company, with a sure basis on which they could render decisions consonant with a 'true' or 'pure' version of Hindu law. Then the pandits, Brahmans, and Indian 'lawyers,' Jones believed, henceforth could not 'deal out Hindoo law as they please, and make it at reasonable rates, when they cannot find it ready made.'"
-    - **Relevance**: Legal codification aimed to eliminate Indian intermediaries' interpretive power and replace it with state-administered law.
-    - **Page**: 30
+> "administrative power stemmed from the efficient use of these facts" (p. 4)
+> **Position**: Complicates technocratic claims by showing that efficient facts are also instruments of rule.
 
----
+> "transformed into usable forms" (p. 5)
+> **Position**: Supports the argument that modernisation is a political transformation of knowledge into state-usable data.
 
-### Ch. 3.4 (Technocratic critique: standardisation)
-11. "It was not just that the personnel who governed Indian were British, but the projects of state building in both countries— documentation, legitimation, classification, and bounding, and the institutions therewith— often reflected theories, experiences, and practices worked out originally in India and then applied in Great Britain, as well as vice versa."
-    - **Relevance**: Colonial and metropolitan state formation were mutually constitutive. Techniques developed in India were later applied in Britain. This bidirectional flow explains why colonial modalities persist.
-    - **Page**: 4
+> "India was a vast collection of numbers" (p. 8)
+> **Position**: Challenges purely numerical progress indicators in land records modernisation.
 
-12. "The reports and investigations of commissions, the compilation, storage, and publication of statistical data on finance, trade, health, demography, crime, education, transportation, agriculture, and industry— these created data requiring as much exegetical and hermeneutical skill to interpret as an arcane Sanskrit text."
-    - **Relevance**: Bureaucratic documentation systems are as culturally constructed as any religious text; they are not neutral information-processing tools.
-    - **Page**: 3
+> "problems of classification" (p. 8)
+> **Position**: Shows why technical fixes fail when the deeper problem is categorical and institutional.
 
----
+### Debate 4 - Colonial Revenue Record to Postcolonial Title Document
 
-### Ch. 5.7 (Spatial-textual disjuncture)
-13. "The result was the vast official documentation project that included the Survey of India, under the direction of George Lambton, which eventually covered India with an imaginary grid on which the government could locate any site in India."
-    - **Relevance**: Surveys don't describe pre-existing territory; they create an "imaginary grid" that becomes the state's reality. Records diverge from ground because records are constructed artifacts, not mirrors of reality.
-    - **Page**: 7-8
+> "how revenue was assessed and collected" (p. 5)
+> **Position**: Supports the claim that land records emerged from revenue imperatives.
 
-14. "The practical question arose as to how the British were to gam knowledge of the 'ancient uses and institutions.' The answer was easy enough to state. The Hindus...had been in possession of laws which continued unchanged, from remotest antiquity."
-    - **Relevance**: Colonial officials claimed to discover pre-existing law; they actually constructed it. This framing obscured that legal codification was innovation, not restoration.
-    - **Page**: 26
+> "the land-settlement process" (p. 5)
+> **Position**: Anchors the genealogy of revenue records in colonial settlement.
 
----
+> "find who 'owned' the land" (p. 59)
+> **Position**: Complicates ownership by showing it was an administrative question tied to revenue.
 
-## Axis B: By Active Debate
+> "a fixed and regular return in the form of revenue" (p. 61)
+> **Position**: Shows that certainty served fiscal extraction before citizen title security.
 
-### Debate 3: Technocratic vs. Political Reform
-15. "Colonialism was not just the result of the power of superior arms, military organization, political power, or economic wealth— as important as these things were. Colonialism was made possible, and then sustained and strengthened, as much by cultural technologies of rule as it was by the more obvious and brutal modes of conquest."
-    - **Relevance**: Technical systems (records, surveys, law codes) are technologies of domination, not neutral tools. Modernisation of these technologies perpetuates domination.
-    - **Page**: Foreword, x
+### Debate 5 - Spatial-Textual Disjuncture
 
-16. "Long before the powerful theoretical proposals of Michel Foucault made 'knowledge' a term that seemed irrevocably linked to power, and before Edward Said so provocatively opened up discussion of the relations between power and knowledge in colonial discourses and Orientalist scholarship, Bernard Cohn had begun to apply an anthropological perspective to the history of colonialism and its forms of knowledge."
-    - **Relevance**: Cohn anticipates that knowledge systems are instruments of power, not sources of liberation.
-    - **Page**: Foreword, ix
+> "defining and classifying space" (p. 3)
+> **Position**: Supports the spatial side of the record problem.
 
-17. "Ruling India through the delineation and reconstitution of systematic grammars for vernacular languages, representing India through the mastery and display of archaeological memories and religious texts, Britain set in motion transformations every bit as powerful as the better-known consequences of military and economic imperialism."
-    - **Relevance**: Cultural/technical projects (grammars, museums, texts) have consequences equivalent to military conquest.
-    - **Page**: Foreword, ix
+> "covered India with an imaginary grid" (p. 8)
+> **Position**: Shows how state spatial order can differ from lived land relations.
 
----
+> "fixing, bounding, and settling India" (p. 8)
+> **Position**: Links spatial fixing to administrative settlement.
 
-### Debate 4: Colonial-to-Postcolonial Continuity
-18. "With growing specialization and division of labor the tribes evolved into polities and economies; the diversity of experience and learning produced increasing different societies and civilizations with very different degrees of success in solving the fundamental economic problems of scarcity. The reason is that as the complexity of the environment increased as human beings became increasingly interdependent, more complex institutional structures were necessary to capture the potential gains from trade."
-    - **Relevance**: Path dependence: institutions lock in. Colonial institutions persist because they structure incentives and reproduction processes.
-    - **Page**: Cohn, introduction
+> "customs embedded in a variety of local usages" (p. 59)
+> **Position**: Complicates the grid by foregrounding lived and local usage.
 
----
+### Debate 7 - NIE Efficiency Logic vs. Agrarian Social Relations
 
-### Debate 5: Spatial-Textual Disjuncture
-19. "Although the itineraries and the particular sites, social types, practices, and encounters with India and Indians that are reported show considerable consistency through a two-hundred-year period, their representation changed through time."
-    - **Relevance**: Maps and records claim to represent reality but are actually constructions that change with political and aesthetic contexts. Records diverge from ground because records are artifacts of power, not mirrors of nature.
-    - **Page**: 6
+> "the form of these facts was taken to be self-evident" (p. 4)
+> **Position**: Challenges efficiency accounts that treat land facts as obvious and apolitical.
 
-20. "The British assumed that the census reflected the basic sociological facts of India. This it did, but through the enumerative modality, the project also objectified social, cultural, and linguistic differences among the peoples of India."
-    - **Relevance**: Records (census, surveys) don't discover categories; they create and reify them. Spatial data (census, maps) and textual data (records) diverge because records actively structure what they claim to describe.
-    - **Page**: 8-9
+> "creation of social categories" (p. 8)
+> **Position**: Shows categories are made through administration, not simply discovered.
+
+> "objectified social, cultural, and linguistic differences" (p. 8)
+> **Position**: Supports a political-economy critique of formalisation that erases social complexity.
+
+> "India was redefined by the British to be a place of rules and orders" (p. 162)
+> **Position**: Shows administrative rationalisation as a disciplinary process.
 
 ---
 
-### Debate 9: International Agenda-Setting
-21. "Both historians and anthropologists— though the latter might not have labeled themselves as such— were always directly involved in the colonial situation...The origins of anthropology as a distinctive form of knowledge lay, in fact, in the internal and external colonies of the Europeans."
-    - **Relevance**: Development and knowledge systems are globally coordinated projects of domination, not local innovations. DILRMP is one instance of global standardisation agenda.
-    - **Page**: 11
+## C. By Concept
 
----
+### Concept: Investigative Modalities
 
-## Axis C: By Core Concept
+> "definition of a body of information that is needed" (p. 5)
+> **Function**: Defines the first step: the state decides what counts as necessary knowledge.
 
-### Concept: Epistemological Appropriation & Conversion
-22. "Europeans of the seventeenth century lived in a world of signs and correspondences, whereas Indians lived in a world of substances...The British in seventeenth-century India operated on the idea that everything and everyone had a 'price.'"
-    - **Relevance**: Fundamental epistemological difference: European market rationality vs. Indian substantive relationality. Colonial conquest was partly the imposition of market rationality onto substantive systems.
-    - **Page**: 18
+> "procedures by which appropriate knowledge is gathered" (p. 5)
+> **Function**: Shows that knowledge production is procedural and institutional.
 
-23. "Hindus and Muslims operated with an unbounded substantive theory of objects and persons. The body of the ruler was literally his authority, the substance of which could be transmitted in what Europeans thought of as objects...Meaning for the English was something attributed to a word, a phrase, or an object, which could be determined and translated."
-    - **Relevance**: Colonial knowledge production involved converting substantive meanings into instrumental/market meanings. Land changed from relational-spiritual-social entity to measurable commodity.
-    - **Page**: 18-19
+> "its ordering and classification" (p. 5)
+> **Function**: Identifies classification as constitutive, not secondary.
 
----
+> "transformed into usable forms" (p. 5)
+> **Function**: Captures the administrative conversion process.
 
-### Concept: Standardisation & Reification
-24. "The formation of official ethnography seemed to involve little more than the addition of endless new categories to the array of castes and customs that became part of the compendia of information Cohn refers to as the 'documentation project.'"
-    - **Relevance**: Standardisation happens through categorical proliferation, not simplification. As more and more categories are enumerated, bounded, and reified, social fluidity is gradually replaced by administrative legibility.
-    - **Page**: xvi
+### Concept: Documentation Project
 
----
+> "created and normalized a vast amount of information" (p. 3)
+> **Function**: Defines the state-making effect of documentation.
 
-## Summary Metadata
+> "reports and investigations of commissions" (p. 3)
+> **Function**: Places inquiry reports inside the state knowledge apparatus.
 
-| Axis | Coverage | Depth |
-|------|----------|-------|
-| **A: Chapter** | Ch. 2.2, 2.3.2, 2.4, 3.4, 5.7 | All thesis chapters represented |
-| **B: Debate** | Debates 3, 4, 5, 9 | 4 of 9 debates directly engaged |
-| **C: Concept** | Epistemological appropriation, standardisation/reification | Core concepts covered |
+> "compilation, storage, and publication of statistical data" (p. 3)
+> **Function**: Shows bureaucratic knowledge as accumulated, stored, and circulated.
 
-**Quote Distribution**:
-- By chapter: Ch. 2.2 (2), Ch. 2.3.2 (5), Ch. 2.4 (3), Ch. 3.4 (2), Ch. 5.7 (2)
-- By debate: D3 (3), D4 (1), D5 (2), D9 (1)
-- By concept: Epistemological conversion (2), Standardisation (1)
+### Concept: Officializing Procedures
 
-**Total unique quotes**: 24 (no duplicates across axes)
+> "extension of 'officializing' procedures" (p. 3)
+> **Function**: Names the process by which state power becomes procedural.
 
-**Retrieval strategy**: Use Axis A for writing on colonial history and investigative modalities; use Axis B for debate-specific arguments (especially tech critique and postcolonial continuity); use Axis C for conceptual framing on how colonialism converts indigenous epistemologies.
+> "recording transactions such as the sale of property" (p. 3)
+> **Function**: Identifies property recording as an officializing act.
 
+> "standardizing languages and scripts" (p. 3)
+> **Function**: Shows standardisation as a general form of state power.
+
+### Concept: Survey Modality
+
+> "to measure land for the purpose of establishing boundaries" (p. 7)
+> **Function**: Basic definition of land survey.
+
+> "systematic and official investigation" (p. 7)
+> **Function**: Expands survey beyond measurement.
+
+> "imaginary grid" (p. 8)
+> **Function**: Names the abstraction through which territory becomes administratively visible.
+
+> "fixing, bounding, and settling India" (p. 8)
+> **Function**: Links survey to rule.
+
+### Concept: Enumerative Modality
+
+> "a vast collection of numbers" (p. 8)
+> **Function**: Shows the numerical imagination of colonial administration.
+
+> "simplest of enumerative projects raised problems of classification" (p. 8)
+> **Function**: Connects enumeration to classification.
+
+> "creation of social categories" (p. 8)
+> **Function**: Shows that counting creates categories.
+
+> "objectified social, cultural, and linguistic differences" (p. 8)
+> **Function**: Shows the reifying effect of enumeration.
+
+### Concept: Land Settlement
+
+> "enquiries" (p. 5)
+> **Function**: Names the inquiry procedure behind revenue knowledge.
+
+> "how revenue was assessed and collected" (p. 5)
+> **Function**: Defines the fiscal question behind land settlement.
+
+> "the land-settlement process" (p. 5)
+> **Function**: Names the core colonial land-administration activity.
+
+> "settlement reports" (p. 6)
+> **Function**: Identifies the documentary output of settlement.
+
+### Concept: Legal Codification
+
+> "a fixed body of knowledge" (p. 69)
+> **Function**: Defines the codifying impulse.
+
+> "complete digest" (p. 69)
+> **Function**: Shows compilation as administrative control.
+
+> "a standard of Justice" (p. 70)
+> **Function**: Frames codification as standardisation.
+
+> "English law as the law of India" (p. 75)
+> **Function**: Names the endpoint of colonial legal translation.
+
+### Concept: Property Rights
+
+> "The courts established and protected property rights" (p. 59)
+> **Function**: Connects property rights to courts and revenue collection.
+
+> "find who 'owned' the land" (p. 59)
+> **Function**: Shows ownership as a colonial administrative problem.
+
+> "public and private" (p. 3)
+> **Function**: Places property within state-defined separations.
+
+### Concept: Custom and Local Usage
+
+> "customs and local histories" (p. 5)
+> **Function**: Shows local practice entering colonial records.
+
+> "local usages" (p. 59)
+> **Function**: Names the social embeddedness that resisted simple legal translation.
+
+> "custom and superstition" (p. 162)
+> **Function**: Shows how colonial categories reduced complex practices.
+
+> "deviation from it was defined as rebellion" (p. 162)
+> **Function**: Shows how administrative definitions of custom became disciplinary.

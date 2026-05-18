@@ -18,7 +18,7 @@
 - **[[Concepts/]]** — Theoretical Frameworks  
     - [[Land Liberalization]]
     - [[Property as a Social Relation]]
-    - [[Land Titling]]
+    - [[Concepts/Land Titling|Land Titling]]
     - [[Bundle of Rights]]
     - [[Record of Rights (RoR)]]
     - [[Conclusive Land Title]]
@@ -141,7 +141,7 @@
     - [[Cadastral Survey]]
     - [[Schlager-Ostrom Taxonomy]]
     - [[New Institutional Economics]]
-    - [[Land Titling]]
+    - [[Methods/Land Titling|Land Titling]]
     - [[Low-cost Land Certification]]
     - [[Multi-level Case Study (Land Governance)]]
 - **[[Topics/]]** — Field Debates  
@@ -172,11 +172,14 @@
     - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]
     - [[Property relations and economic development_ the other land reform]]
     - [[Seeing like a state_ How certain schemes to improve the human condition have failed]]
+    - [[Colonialism and its forms of knowledge_ The British in India]]
 
 ---
 
 ## 📈 Statistics
-- Total Articles: 149
-- Last Neural Scan: 2026-05-07
+- Total Markdown Files: 167
+- Indexed Wiki Notes: 130
+- Source Markdown Files: 21
+- Query Logs: 3
+- Last Neural Scan: 2026-05-18
 - Source Repository: `7 - Raw/`
-

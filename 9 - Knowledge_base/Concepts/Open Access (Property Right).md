@@ -35,7 +35,7 @@ States that permit citizens to treat waterways as free goods create open-access 
 ### Radio Frequencies (1926 — Berne Convention 1928)
 When the Holland telephone company relayed foreign radio programmes to subscribers in 1926 without compensating copyright owners, it was exploiting an open-access regime over broadcast signals: once produced in one country, the signal was costlessly available across borders with no exclusion mechanism. The resulting controversy led to the Berne Convention (1928), which assigned copyright owners the sole right to authorise any communication of broadcast material across national borders. A new technology created a new resource whose open-access character produced a predictable coordination problem; institutional adjustment (rights assignment) followed.
 
-## ### ⚠️ Contradiction
+### ⚠️ Contradiction
 The "Tragedy of the Commons" (Hardin 1968) — which this regime is most associated with — is widely cited as evidence that communal resource management is inherently inefficient. Ostrom (2000) argues this is the product of a category error: Hardin and Alchian-Demsetz are describing *open access* (no governance), not *common property* (governed by a community). The policy implication is opposite: genuine communal property does not require privatisation or state control; it requires recognising and supporting the governance institutions that already exist. See [[Communal Rights]].
 
 ## PhD Application

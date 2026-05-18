@@ -37,7 +37,7 @@ The Canadian government set a quota of 50,000 seals, distributed on a first-come
 ## The Central Theorem: Attenuation → Central Regulation
 Alchian and Demsetz (1973) derive a general theorem: the attempt to resolve scarcity problems by *reducing* the scope of private rights must inevitably result in a *more centrally regulated or indoctrinated society*. When private rights are curtailed, individual incentive disappears. The state must then either directly mandate the desired behaviour (order the hunt; require participation) or invest in cultural indoctrination to substitute for the missing private incentive. This is not a claim about the desirability of private property — it is a structural argument about the institutional substitutes required when private incentives are removed.
 
-## ### ⚠️ Contradiction
+### ⚠️ Contradiction
 This theorem is a direct target of Ostrom's critique: she shows that neither private rights nor central regulation is the only solution to communal resource management problems. Communities can design collective rules that internalize costs without privatization or state mandate. The Alchian-Demsetz theorem is correct when applied to *unmanaged open access* but overstates the case when applied to genuinely governed communal property. See [[Communal Rights]], [[Common-pool resources]].
 
 ## PhD Application

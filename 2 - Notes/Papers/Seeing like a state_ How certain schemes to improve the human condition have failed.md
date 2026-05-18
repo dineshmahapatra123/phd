@@ -3,6 +3,7 @@ type: Note
 Paper_Linked: "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
 Last_Processed: 2026-05-07
 Status: Seed
+_width: wide
 ---
 
 APA Citation from Zotero: Scott, J. C.. (1998). Seeing like a state: How certain schemes to improve the human condition have failed. Yale University Press.

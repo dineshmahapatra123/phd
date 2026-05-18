@@ -26,4 +26,4 @@ Uses historical comparative analysis combined with formal economic modeling to e
 
 ## Linkages
 - **Theoretical Base**: [[Institutional Arrangements]], [[Constitutional Order]], [[Property Right Bundle]].
-- **Keywords**: [[Communal Rights]], [[Open Access (Property Right)]], [[Land Titling]].
+- **Keywords**: [[Communal Rights]], [[Open Access (Property Right)]], [[Concepts/Land Titling|Land Titling]].

@@ -63,7 +63,7 @@ North (1989) distinguishes between two types of informal constraints that shape 
 1. **Derivative norms**: Extensions and elaborations of formal rules — relatively easy to analyze because they follow the logic of the rule structure.
 2. **Independent norms**: Codes of conduct, taboos, standards of behavior shaped by ideology and experience, which can persist even when formal rules change. These are the "tenaciously surviving" norms — integral parts of habitual behavior — that form the deepest layer of institutional stability.
 
-## ### ⚠️ Contradiction
+### ⚠️ Contradiction
 Neoclassical economics assumes that information arbitrage eventually corrects divergent models. North argues feedback is too weak and too ideologically filtered for this correction to occur reliably. However, the subjective model framework is difficult to operationalize: if mental models are unobservable, how does one test when they — rather than material interests — are doing explanatory work? This is a persistent methodological gap in the NIE program.
 
 ## PhD Application

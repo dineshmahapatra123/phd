@@ -59,7 +59,7 @@ Ostrom (2000) synthesises empirical research into seven participant-level condit
 ## The Nationalization → Open Access Pathway
 Ostrom (2000) documents a critical policy failure pattern in developing countries: as concern for natural resource protection mounted in the 1960s, many governments nationalised all land and water not recorded as private property. This eliminated the legal standing of local communal governance institutions — but national governments lacked the resources to monitor and enforce their new formal ownership. The result: resources that had been under *de facto* common property (governed by local users) became *de jure* government property but *de facto* open access. Evidence from Thailand, Niger, Nepal, and India all show that state takeover of locally governed forests produced worse outcomes than the communal regimes they replaced.
 
-## ### ⚠️ Contradiction with Demsetz / North
+### ⚠️ Contradiction with Demsetz / North
 Demsetz (1967) and North (1990) treat common property as characterised by under-investment and over-exploitation, predicting that rising resource values should trigger a shift toward private rights. Ostrom's framework shows this is only true of *open access*, not of *governed communal property*. Communal proprietorship can outperform private property precisely when the resource has the attributes Netting identifies — and the policy prescription (privatise to solve the commons) is wrong when it destroys working communal governance institutions. See [[Communal Rights]], [[Open Access (Property Right)]].
 
 ## PhD Application

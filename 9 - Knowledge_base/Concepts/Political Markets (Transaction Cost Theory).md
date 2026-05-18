@@ -33,7 +33,7 @@ North (1993) applies transaction cost economics to political exchange to explain
 ## The Inefficiency Theorem
 The transaction cost argument implies that **inefficient property rights and institutions can persist indefinitely** in political equilibrium, because the political market that should correct them operates with systematically higher transaction costs than economic markets. Efficient institutions do not automatically win out; they must overcome entrenched political constituencies operating through a broken market.
 
-## ### ⚠️ Contradiction
+### ⚠️ Contradiction
 This model implies a deeply pessimistic view of democratic reform pathways — change comes through crises, external shocks, or ideological shifts, not through rational voter demand for efficient institutions. This sits in tension with Ostrom's finding that local communities *can* design efficient institutions from below, without passing through the inefficient political market.
 
 ## PhD Application

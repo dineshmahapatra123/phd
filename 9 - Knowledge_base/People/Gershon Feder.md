@@ -35,7 +35,7 @@ In later collaborations with [[Klaus Deininger]], Feder moved toward a more nuan
 ## **Linkages**
 - **Collaborators**: [[Klaus Deininger]], Akihiko Nishio, [[David Feeny]].
 - **Theoretical Base**: [[Property Right Bundle]], [[Transaction Costs]], [[Constitutional Order]].
-- **Institutional Alignment**: [[Torrens System]], [[Deeds vs Title Systems]], [[Land Titling]], [[Low-cost Land Certification]].
+- **Institutional Alignment**: [[Torrens System]], [[Deeds vs Title Systems]], [[Concepts/Land Titling|Land Titling]], [[Low-cost Land Certification]].
 
 ---
 **Sources**: 

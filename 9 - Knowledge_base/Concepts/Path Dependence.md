@@ -40,7 +40,7 @@ A second case: medieval lord-serf relations reflected the overwhelming bargainin
 ## The Constitutional Transplant Failure
 The most powerful evidence for path dependence: multiple Latin American countries adopted constitutions modeled directly on the US Constitution after independence — same formal rules, radically different outcomes. Without the underlying informal constraints, organizational skills, and prior institutional evolution that made the US constitution work, the same written rules failed consistently. As North puts it: "The imaginative federal schemes and courageous attempts at decentralization had one thing in common after the first few years of republican independence: they were all tried but none worked." Formal rules are not sufficient conditions for outcomes.
 
-## ### ⚠️ Contradiction
+### ⚠️ Contradiction
 Path dependence as a theory risks becoming unfalsifiable: if every outcome is explained by its history, what would count as evidence against it? North's response is that path dependence makes specific predictions — discontinuous events (revolutions, military defeat, constitutional moments) should produce lasting divergence, while incremental change should show persistence. This is testable but rarely tested rigorously in the NIE literature.
 
 ## PhD Application
