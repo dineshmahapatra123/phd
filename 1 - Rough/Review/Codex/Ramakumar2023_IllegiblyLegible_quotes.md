@@ -1,9 +1,9 @@
 ---
-type: QuoteBank
 Paper_Linked: "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
 Author: "Ramakumar, R.; Ramesh, P."
 Year: 2023
 Review_Linked: "[[Ramakumar2023_IllegiblyLegible.md]]"
+type: Note
 ---
 
 # Quote Bank — Illegibly Legible: Outcomes of a Land Records Modernisation Programme in South India

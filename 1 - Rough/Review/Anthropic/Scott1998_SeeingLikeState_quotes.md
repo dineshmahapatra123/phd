@@ -1,9 +1,9 @@
 ---
-type: QuoteBank
 Paper_Linked: "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
 Author: "James C. Scott"
 Year: 1998
 Review_Linked: "[[Scott1998_SeeingLikeState.md]]"
+type: Note
 ---
 
 # Quote Bank — Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed
