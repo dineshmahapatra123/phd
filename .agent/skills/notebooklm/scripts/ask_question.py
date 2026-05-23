@@ -1,242 +1,106 @@
 #!/usr/bin/env python3
 """
-Simple NotebookLM Question Interface
-Based on MCP server implementation - simplified without sessions
-
-Implements hybrid auth approach:
-- Persistent browser profile (user_data_dir) for fingerprint consistency
-- Manual cookie injection from state.json for session cookies (Playwright bug workaround)
-See: https://github.com/microsoft/playwright/issues/36139
+Question Interface Adapter for NotebookLM.
+Wraps the vault-local notebooklm-py CLI execution to keep the interface
+consistent with Antigravity's expected commands.
 """
 
 import argparse
-import sys
-import time
 import re
+import subprocess
+import sys
 from pathlib import Path
 
-from patchright.sync_api import sync_playwright
+# Paths
+SKILL_DIR = Path(__file__).resolve().parent.parent
+VAULT_ROOT = Path(__file__).resolve().parents[4]
+NOTEBOOKLM_CLI = VAULT_ROOT / ".venv" / "bin" / "notebooklm"
 
-# Add parent directory to path
-sys.path.insert(0, str(Path(__file__).parent))
-
-from auth_manager import AuthManager
-from notebook_manager import NotebookLibrary
-from config import QUERY_INPUT_SELECTORS, RESPONSE_SELECTORS
-from browser_utils import BrowserFactory, StealthUtils
-
-
-# Follow-up reminder (adapted from MCP server for stateless operation)
-# Since we don't have persistent sessions, we encourage comprehensive questions
 FOLLOW_UP_REMINDER = (
     "\n\nEXTREMELY IMPORTANT: Is that ALL you need to know? "
     "You can always ask another question! Think about it carefully: "
     "before you reply to the user, review their original request and this answer. "
     "If anything is still unclear or missing, ask me another comprehensive question "
-    "that includes all necessary context (since each question opens a new browser session)."
+    "that includes all necessary context."
 )
 
 
-def ask_notebooklm(question: str, notebook_url: str, headless: bool = True) -> str:
-    """
-    Ask a question to NotebookLM
+def extract_uuid_from_url(url: str) -> str:
+    """Extracts a UUID from a NotebookLM URL"""
+    match = re.search(r"notebook/([a-fA-F0-9\-]{36})", url)
+    if match:
+        return match.group(1)
+    return url
 
-    Args:
-        question: Question to ask
-        notebook_url: NotebookLM notebook URL
-        headless: Run browser in headless mode
 
-    Returns:
-        Answer text from NotebookLM
-    """
-    auth = AuthManager()
+def run_cli_command(args: list[str]) -> subprocess.CompletedProcess:
+    """Executes notebooklm-py CLI in the vault .venv"""
+    if not NOTEBOOKLM_CLI.exists():
+        print(f"❌ NotebookLM CLI not found in vault environment: {NOTEBOOKLM_CLI}", file=sys.stderr)
+        print("Please ensure you have set up the PhD vault virtual environment.", file=sys.stderr)
+        sys.exit(1)
 
-    if not auth.is_authenticated():
-        print("⚠️ Not authenticated. Run: python auth_manager.py setup")
-        return None
+    cmd = [str(NOTEBOOKLM_CLI)] + args
+    return subprocess.run(cmd, cwd=str(VAULT_ROOT), capture_output=True, text=True)
 
+
+def ask_notebooklm(question: str, notebook_id: str) -> str:
+    """Queries NotebookLM via the direct API CLI"""
     print(f"💬 Asking: {question}")
-    print(f"📚 Notebook: {notebook_url}")
+    print(f"📚 Notebook ID: {notebook_id}")
+    print("  ⏳ Querying direct API (no browser launch)...")
 
-    playwright = None
-    context = None
+    # Call notebooklm ask with explicit notebook ID
+    args = ["ask", "-n", notebook_id, question]
+    res = run_cli_command(args)
 
-    try:
-        # Start playwright
-        playwright = sync_playwright().start()
+    if res.returncode != 0:
+        print(f"❌ API Query failed: {res.stderr}", file=sys.stderr)
+        return ""
 
-        # Launch persistent browser context using factory
-        context = BrowserFactory.launch_persistent_context(
-            playwright,
-            headless=headless
-        )
+    answer = res.stdout.strip()
+    
+    # Strip any potential command prefixes like "Answer:" if notebooklm returns it
+    if answer.startswith("Answer:"):
+        answer = answer[7:].strip()
 
-        # Navigate to notebook
-        page = context.new_page()
-        print("  🌐 Opening notebook...")
-        page.goto(notebook_url, wait_until="domcontentloaded")
-
-        # Wait for NotebookLM
-        page.wait_for_url(re.compile(r"^https://notebooklm\.google\.com/"), timeout=10000)
-
-        # Wait for query input (MCP approach)
-        print("  ⏳ Waiting for query input...")
-        query_element = None
-
-        for selector in QUERY_INPUT_SELECTORS:
-            try:
-                query_element = page.wait_for_selector(
-                    selector,
-                    timeout=10000,
-                    state="visible"  # Only check visibility, not disabled!
-                )
-                if query_element:
-                    print(f"  ✓ Found input: {selector}")
-                    break
-            except:
-                continue
-
-        if not query_element:
-            print("  ❌ Could not find query input")
-            return None
-
-        # Type question (human-like, fast)
-        print("  ⏳ Typing question...")
-        
-        # Use primary selector for typing
-        input_selector = QUERY_INPUT_SELECTORS[0]
-        StealthUtils.human_type(page, input_selector, question)
-
-        # Submit
-        print("  📤 Submitting...")
-        page.keyboard.press("Enter")
-
-        # Small pause
-        StealthUtils.random_delay(500, 1500)
-
-        # Wait for response (MCP approach: poll for stable text)
-        print("  ⏳ Waiting for answer...")
-
-        answer = None
-        stable_count = 0
-        last_text = None
-        deadline = time.time() + 120  # 2 minutes timeout
-
-        while time.time() < deadline:
-            # Check if NotebookLM is still thinking (most reliable indicator)
-            try:
-                thinking_element = page.query_selector('div.thinking-message')
-                if thinking_element and thinking_element.is_visible():
-                    time.sleep(1)
-                    continue
-            except:
-                pass
-
-            # Try to find response with MCP selectors
-            for selector in RESPONSE_SELECTORS:
-                try:
-                    elements = page.query_selector_all(selector)
-                    if elements:
-                        # Get last (newest) response
-                        latest = elements[-1]
-                        text = latest.inner_text().strip()
-
-                        if text:
-                            if text == last_text:
-                                stable_count += 1
-                                if stable_count >= 3:  # Stable for 3 polls
-                                    answer = text
-                                    break
-                            else:
-                                stable_count = 0
-                                last_text = text
-                except:
-                    continue
-
-            if answer:
-                break
-
-            time.sleep(1)
-
-        if not answer:
-            print("  ❌ Timeout waiting for answer")
-            return None
-
-        print("  ✅ Got answer!")
-        # Add follow-up reminder to encourage Antigravity to ask more questions
-        return answer + FOLLOW_UP_REMINDER
-
-    except Exception as e:
-        print(f"  ❌ Error: {e}")
-        import traceback
-        traceback.print_exc()
-        return None
-
-    finally:
-        # Always clean up
-        if context:
-            try:
-                context.close()
-            except:
-                pass
-
-        if playwright:
-            try:
-                playwright.stop()
-            except:
-                pass
+    return answer + FOLLOW_UP_REMINDER
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Ask NotebookLM a question')
+    parser = argparse.ArgumentParser(description='Ask NotebookLM a question (API adapter)')
 
     parser.add_argument('--question', required=True, help='Question to ask')
     parser.add_argument('--notebook-url', help='NotebookLM notebook URL')
     parser.add_argument('--notebook-id', help='Notebook ID from library')
-    parser.add_argument('--show-browser', action='store_true', help='Show browser')
+    parser.add_argument('--show-browser', action='store_true', help='Ignored for adapter')
 
     args = parser.parse_args()
 
-    # Resolve notebook URL
-    notebook_url = args.notebook_url
+    # Determine Notebook ID
+    notebook_id = None
+    if args.notebook_id:
+        notebook_id = args.notebook_id
+    elif args.notebook_url:
+        notebook_id = extract_uuid_from_url(args.notebook_url)
 
-    if not notebook_url and args.notebook_id:
-        library = NotebookLibrary()
-        notebook = library.get_notebook(args.notebook_id)
-        if notebook:
-            notebook_url = notebook['url']
+    if not notebook_id:
+        # Fall back to checking the active notebook context
+        print("🔍 Checking current active notebook context...")
+        status_res = run_cli_command(["status"])
+        output = status_res.stdout + status_res.stderr
+        match = re.search(r"Notebook ID\s*│\s*([a-fA-F0-9\-]+)", output)
+        if not match:
+            match = re.search(r"Notebook:\s+.*?\s+\(([a-fA-F0-9\-]+)\)", output)
+        if match:
+            notebook_id = match.group(1).strip()
+            print(f"📚 Found active notebook ID: {notebook_id}")
         else:
-            print(f"❌ Notebook '{args.notebook_id}' not found")
-            return 1
-
-    if not notebook_url:
-        # Check for active notebook first
-        library = NotebookLibrary()
-        active = library.get_active_notebook()
-        if active:
-            notebook_url = active['url']
-            print(f"📚 Using active notebook: {active['name']}")
-        else:
-            # Show available notebooks
-            notebooks = library.list_notebooks()
-            if notebooks:
-                print("\n📚 Available notebooks:")
-                for nb in notebooks:
-                    mark = " [ACTIVE]" if nb.get('id') == library.active_notebook_id else ""
-                    print(f"  {nb['id']}: {nb['name']}{mark}")
-                print("\nSpecify with --notebook-id or set active:")
-                print("python scripts/run.py notebook_manager.py activate --id ID")
-            else:
-                print("❌ No notebooks in library. Add one first:")
-                print("python scripts/run.py notebook_manager.py add --url URL --name NAME --description DESC --topics TOPICS")
-            return 1
+            print("❌ No active notebook set. Please specify --notebook-id or --notebook-url.")
+            sys.exit(1)
 
     # Ask the question
-    answer = ask_notebooklm(
-        question=args.question,
-        notebook_url=notebook_url,
-        headless=not args.show_browser
-    )
+    answer = ask_notebooklm(args.question, notebook_id)
 
     if answer:
         print("\n" + "=" * 60)
@@ -246,11 +110,11 @@ def main():
         print(answer)
         print()
         print("=" * 60)
-        return 0
+        sys.exit(0)
     else:
-        print("\n❌ Failed to get answer")
-        return 1
+        print("\n❌ Failed to get answer from NotebookLM API")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
