@@ -20,9 +20,9 @@ def clean_text(text):
 
 def find_clean_match(messy_text, source_md_content):
     """
-    Uses fuzzy matching to find the cleanest version of messy_text in the source MD.
-    QUALITY FILTER: If the PDF text is already high quality (score > 90), we keep it
-    to preserve any manual OCR fixes (like Adobe's) that might not be in the Source MD.
+    Reconstructs the cleanest version of messy_text by matching and aligning
+    each of its constituent sentences/segments against the gold-standard Source MD.
+    This preserves multi-sentence paragraphs while perfectly restoring clipped boundaries.
     """
     cleaned_messy = clean_text(messy_text)
     if len(cleaned_messy) < 5:  # Noise filter: ignore very short fragments
@@ -31,22 +31,29 @@ def find_clean_match(messy_text, source_md_content):
     if not source_md_content:
         return cleaned_messy
         
-    # Split MD into sentences (roughly) using common delimiters
+    # Split the clean Source MD into sentences
     sentences = re.split(r'(?<=[.!?])\s+', source_md_content)
     sentences = [s.strip() for s in sentences if len(s.strip()) > 10]
     
-    # Use fuzzy search to find the best matching sentence
-    best_match = process.extractOne(cleaned_messy, sentences, scorer=fuzz.partial_ratio)
+    # Split the messy PDF text into rough sentences/clauses
+    messy_segments = re.split(r'(?<=[.!?])\s+', cleaned_messy)
+    messy_segments = [m.strip() for m in messy_segments if len(m.strip()) > 5]
     
-    if best_match and best_match[1] > 65:
-        # --- Option B: Quality Filter ---
-        # If the match is extremely high (typo-level difference), 
-        # and the PDF text has no obvious noise left, trust the PDF text.
-        # This preserves 'modern' over 'modem' if the user fixed the PDF.
-        if best_match[1] > 92 and '-' not in cleaned_messy:
-            return cleaned_messy
-        # Otherwise, the Source MD is still the Gold Standard for structural cleanup.
-        return best_match[0]
+    matched_sentences = []
+    seen_sentences = set()
+    
+    for segment in messy_segments:
+        # Find the best matching clean sentence for this segment
+        best_match = process.extractOne(segment, sentences, scorer=fuzz.partial_ratio)
+        if best_match and best_match[1] > 65:
+            clean_sentence = best_match[0]
+            if clean_sentence not in seen_sentences:
+                matched_sentences.append(clean_sentence)
+                seen_sentences.add(clean_sentence)
+                
+    if matched_sentences:
+        return " ".join(matched_sentences)
+        
     return cleaned_messy
 
 def extract_annotations(pdf_path, output_path=None):
