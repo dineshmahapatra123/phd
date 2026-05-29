@@ -49,6 +49,11 @@ The revenue of the early modern state came mainly from levies on commerce and la
 
 
 
+
+
+
+
+
 ---
 
 ## AI Primer
@@ -64,7 +69,7 @@ Scott gives you the state-legibility lens — the first of your three analytical
 
 The beehive analogy (Introduction, p. 3) — Scott's cleanest statement of what legibility means: the state redesigns reality to make it readable from above. Write this into your §2.1 as the governmental function.
 Scientific forestry as parable (Ch. 1, pp. 11–22) — The forest is reduced to a "single number: the revenue yield." This is the fiscal function of records. The move from describing a forest to remaking it in the image of the description is the critical move — it's exactly what DILRMP does to village land.
-The hypothetical village tenure example (Ch. 1, pp. 33–36) — Scott imagines a Southeast Asian village with usufruct rights, seasonal reversions, gleaning rights, common pasture. A cadastral map cannot represent any of this. This is your single most useful passage for §2.3.1 (pre-colonial records) and for explaining why DILRMP's "simplification" destroys what it claims to document.
+==The hypothetical village tenure example (Ch. 1, pp. 33–36) — Scott imagines a Southeast Asian village with usufruct rights, seasonal reversions, gleaning rights, common pasture. A cadastral map cannot represent any of this. This is your single most useful passage for §2.3.1 (pre-colonial records) and for explaining why DILRMP's "simplification" destroys what it claims to document.==
 "The crowning artifact... is the cadastral map" (Ch. 1, pp. 36–38) — Scott's direct statement on cadastral maps as state-legibility instruments. Key line: the cadastral map creates the property system it claims to describe. This is the passage to pair with Bhattacharya and Cohn on colonial settlements.
 The Stolypin Reform / Russian village example (Ch. 1, pp. 39–44) — Pre-reform interstripping (illegible to outsiders, perfectly clear to insiders) vs. post-reform consolidated farms (legible to the state, disastrous for peasants). This is your template for reading the Permanent Settlement and post-independence consolidation efforts in India
 
@@ -98,6 +103,10 @@ A fourth element is closely linked to the third: a prostrate civil so- ciety tha
 the legibility of a society provides the capacity for large- scale social engineering, high-modernist ideology provides the desire, the authoritarian state provides the determination to act on that de- sire, and an incapacitated civil society provides the leveled social ter- rain on which to build.
 
 
+
+
+
+
 ---
 
 ## Chapter 1 — "Nature and Space": A Comprehensive Overview
@@ -124,7 +133,7 @@ The early modern European state viewed its forests through what Scott calls a "f
 
 > _"Exaggerating only slightly, one might say that the crown's interest in forests was resolved through its fiscal lens into a single number: the revenue yield of the timber that might be extracted annually."_
 
-This is a perfect model for how Indian land records work in your pre-colonial and colonial regimes. The Mughal zabt-dahsala system similarly reduced the agrarian landscape to a revenue number — the assessed yield per bigha, by crop type, by soil quality. The complexity of actual production relations — communal rights, seasonal fluctuations, caste-based access — disappeared into a fiscal abstraction.
+This is a perfect model for how Indian land records work in your pre-colonial and colonial regimes. ==The Mughal zabt-dahsala system similarly reduced the agrarian landscape to a revenue number — the assessed yield per bigha, by crop type, by soil quality. The complexity of actual production relations — communal rights, seasonal fluctuations, caste-based access — disappeared into a fiscal abstraction.==
 
 #### The creation of the Normalbaum
 
