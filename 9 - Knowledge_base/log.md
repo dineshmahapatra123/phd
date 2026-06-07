@@ -55,3 +55,6 @@ Rule for agents: do not infer unfinished work from missing manual highlights, pl
     - **SHATTER**: Created 3 Concepts ([[Common-property Regime]], [[Open-access Regime]], [[The Other Land Reform]]) and 1 Person ([[Daniel Bromley]]).
     - **SYNTHESIS**: Refreshed [[Institutional Property Rights Evolution]], [[Definition of Private Property]], and [[Land Registration and Economic Development (Evidence)]].
     - **STATUS**: 19/19 papers processed.
+2026-06-05 | SHATTER | Foucault, "Governmentality" ch. 4 | COMPLETE | Created 2 concepts + 1 person; added chapter source, Zotero/BibTeX sync, index update | Details: [[logs/2026-06-05-foucault-governmentality-ch4-shatter]]
+2026-06-06 | SHATTER | Lund, "Rule and Rupture" | COMPLETE | Phase 2 intentionally skipped; created 4 concepts + 1 method + 1 person; updated 3 concepts + 3 topics; Zotero API + BibTeX sync complete | Details: [[logs/2026-06-06-lund-rule-rupture-shatter]]
+2026-06-06 | LINT | Post-Lund workflow scan | COMPLETE | All systems nominal; no structural or scholarly gaps detected.

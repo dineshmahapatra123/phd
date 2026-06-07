@@ -3,7 +3,8 @@ type: Concept
 Paper_Linked:
   - "[[Land reforms to land titling_ emerging paradigms of land governance in India.pdf]]"
   - "[[Land record management in India.pdf]]"
-Last_Processed: "2026-04-29"
+  - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
+Last_Processed: "2026-06-06"
 Status: Seed
 Related:
   - "[[Presumptive vs Conclusive Title]]"
@@ -13,6 +14,8 @@ Related:
   - "[[Bhu-Aadhaar]]"
   - "[[Distributed Ledger Technology (DLT)]]"
   - "[[Land Tenure Systems (India)]]"
+  - "[[Contracts of Recognition]]"
+  - "[[Property-Citizenship Nexus]]"
 Contradicts: ""
 ---
 
@@ -90,8 +93,14 @@ The ULPIN identifies the parcel; Aadhaar identifies the person. Together they cr
 
 **The high-modernist register**: DILRMP's rhetoric — *e-governance*, *transparency*, *ease of doing business*, *citizen-centric services* — is [[High Modernism]] in Scott's precise sense. The programme treats the palimpsest of Indian land records not as historically sedimented meaning but as data quality problems to be engineered away. See [[High Modernism]].
 
+### Lund's Recognition Critique — Digital Recognition as State Formation
+Lund (2016) adds a recognition layer to the DILRMP critique. DILRMP is not only a legibility project; it is a recognition infrastructure. By integrating RoR, cadastral maps, registration, ULPIN, and potentially Aadhaar, the programme strengthens the state's capacity to decide which claims count as property and which persons count as landholding subjects.
+
+The important consequence is recursive: when people rely on Bhulekh or ULPIN to validate claims, they also validate the authority of the institutions that produced those records. DILRMP therefore produces state authority through the production of recognised property claims. The risk is that unrecorded or socially recognised claims — tenancy, women's customary claims, commons use, informal possession — become even harder to assert once the digital record acquires practical authority.
+
 ## Also Appears In
 - [[Land record management in India]] (Kapoor, Esposito & Anand, 2024) — primary source
 - [[Guaranteeing title to land]] (Wadhwa, 2002) — original critique of presumptive system
 - [[The benefits of land registration and titling_ economic and social perspectives]] (Byamugisha, 1999)
 - [[Seeing like a state_ How certain schemes to improve the human condition have failed]] (Scott, 1998)
+- [[Rule and rupture_ State formation through the production of property and citizenship]] (Lund, 2016)

@@ -20,7 +20,8 @@ Paper_Linked:
   - "[[Property relations and economic development_ the other land reform.pdf]]"
   - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
   - "[[Colonialism and its forms of knowledge_ The British in India.pdf]]"
-Last_Processed: "2026-05-11"
+  - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
+Last_Processed: "2026-06-06"
 Status: Sapling++
 ---
 
@@ -71,6 +72,20 @@ Scott argues that property rights evolution is not primarily about efficiency ga
 Each layer destroys the locally intelligible arrangements of the previous era while claiming to clarify them.
 
 **Inter-tradition link**: Scott completes the four-tradition framework that your Chapter 2 needs. Demsetz provides the efficiency driver; North provides the political economy of institutional change; the agrarian tradition (Appu, Guha) provides the ground-level dispossession account; Scott provides the governmental-epistemological account of *how* the state creates the property categories through which all the others operate.
+
+## The Recognition Tradition — Lund (2016) (NEW)
+**[[Christian Lund]]** adds a recognition tradition to the property-rights evolution debate. Where Demsetz asks why property rights emerge, North asks how institutions enforce them, and Scott asks how states make them legible, Lund asks how rights and authority are co-produced through recognition.
+
+The central proposition is that claims to rights prompt the exercise of authority. When an institution recognises a claim to land, membership, or entitlement, it does not merely apply pre-existing authority; it also produces its own authority. See [[Contracts of Recognition]].
+
+**Implication for Indian land records**: The evolution from colonial revenue records to digital RoR and ULPIN is not only a shift in administrative technology. It is a shift in the state's recognition machinery. Each institutional stage changes which claims become recognisable:
+
+1. Colonial settlement recognises revenue-paying landholders.
+2. Post-independence land reform recognises selected tenants and beneficiaries.
+3. Computerised RoR recognises textual record-holders.
+4. DILRMP recognises digitally linkable parcel-person combinations.
+
+**PhD link**: This reframes the record-reality gap. The problem is not only that records fail to mirror ground reality; it is also that records decide which reality is institutionally recognisable. This is directly relevant to Odisha, where Bhulekh may recognise an owner in the RoR while village practice recognises possession, tenancy, or inheritance differently.
 
 ## Theory of The Tectonic Shift (Indian Context)
 Institutional evolution in Indian land governance was not linear but driven by three divergent regimes:

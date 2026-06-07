@@ -99,6 +99,12 @@
     - [[Common-property Regime]]
     - [[Investigative Modalities]]
     - [[Colonial Legal Reconstitution of Property]]
+    - [[Governmentality]]
+    - [[Sovereignty-Discipline-Government Triangle]]
+    - [[Contracts of Recognition]]
+    - [[Property-Citizenship Nexus]]
+    - [[Territorialization and Land Records]]
+    - [[Jurisdictional Competition in Land Governance]]
 - **[[People/]]** — Scholarly Networks  
     - [[C. B. Macpherson]]
     - [[Pradeep Nayak]]
@@ -133,6 +139,8 @@
     - [[Padmini Ramesh]]
     - [[James C. Scott]]
     - [[Bernard Cohn]]
+    - [[Michel Foucault]]
+    - [[Christian Lund]]
 - **[[Methods/]]** — Research Design & Tools  
     - [[Law and Economics Approach to Property]]
     - [[Qualitative Document Analysis]]
@@ -144,6 +152,7 @@
     - [[Methods/Land Titling|Land Titling]]
     - [[Low-cost Land Certification]]
     - [[Multi-level Case Study (Land Governance)]]
+    - [[Rupture Analysis]]
 - **[[Topics/]]** — Field Debates  
     - [[Definition of Private Property]]
     - [[Institutional Property Rights Evolution]]
@@ -173,13 +182,15 @@
     - [[Property relations and economic development_ the other land reform]]
     - [[Seeing like a state_ How certain schemes to improve the human condition have failed]]
     - [[Colonialism and its forms of knowledge_ The British in India]]
+    - [[Governmentality]]
+    - [[Rule and rupture_ State formation through the production of property and citizenship]]
 
 ---
 
 ## 📈 Statistics
-- Total Markdown Files: 167
-- Indexed Wiki Notes: 130
-- Source Markdown Files: 21
+- Total Markdown Files: 180
+- Indexed Wiki Notes: 139
+- Source Markdown Files: 23
 - Query Logs: 3
-- Last Neural Scan: 2026-05-18
+- Last Neural Scan: 2026-06-06
 - Source Repository: `7 - Raw/`

@@ -13,7 +13,8 @@ Paper_Linked:
   - "[[Land registration, governance, and development_ evidence and implications for policy.pdf]]"
   - "[[Property relations and economic development_ the other land reform.pdf]]"
   - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
-Last_Processed: "2026-05-07"
+  - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
+Last_Processed: "2026-06-06"
 Status: Sapling++
 ---
 
@@ -91,8 +92,20 @@ This has four implications for the definition of private property:
 - **Customary / Indigenous tradition** ([[Vasundhara]], [[Khuntkatti]], Ostrom): Pre-state customary tenure is socially real and functionally effective — often *more* stable and *better* enforced than formal registration. The absence of state legibility does not mean the absence of property; it means the absence of the *state's* property categories.
 - **PhD Resolution**: Both are right in their own registers. The tension between them — between the state's legibility-based property system and the community's customary-based tenure system — is precisely the terrain of DILRMP's implementation failure and your Chapter 5 fieldwork.
 
+### 11. The Recognition Basis — Lund (2016)
+**[[Christian Lund]]** adds a recognition basis to the definition of private property. Property is not simply a bundle of rights, a state record, or a collateral asset. It is a legitimised claim to something of value sanctioned by an institution with authority.
+
+This means private property has two linked recognitions:
+
+1. The claimant is recognised as a rights-bearing subject.
+2. The recognising institution is recognised as having authority to validate the claim.
+
+This recognition basis is especially important for India because land records remain presumptive. The RoR does not conclusively prove ownership, but it is still the practical document through which the state recognises a person as a landholder for revenue, welfare, mutation, compensation, and administrative purposes. See [[Contracts of Recognition]] and [[Property-Citizenship Nexus]].
+
+**PhD Link**: Private property in the Odisha land-record system is therefore best treated as a layered institutional recognition, not as a single legal status. A person may hold social possession, registered deed evidence, RoR recognition, cadastral-map correspondence, and welfare eligibility in different combinations. DILRMP's danger is that it may present one layer of recognition as if it were the whole property relation.
+
 ## Scholarly Synthesis
-In our PhD framework, property is the **institutional resolution** of the tension between private information (exclusion), state legibility (registration), and historical customary rights. We reject the monolithic definition of private property in favor of **[[Classes of Property Rights Holders]]**. Private property is not a single point on a graph but a spectrum of partitioned authority whose "efficiency" depends on the subtractability and exclusion costs of the underlying **[[Common-pool resources]]**. Kapoor et al. (2024) add a techno-institutional dimension: the definition of "private" in the digital era increasingly requires not just legal title but *digital legibility* — a unique parcel ID, georeferenced boundaries, and on-chain immutability. Communities whose tenure does not conform to this individual-parcel standard risk administrative invisibility or dispossession.
+In our PhD framework, property is the **institutional resolution** of the tension between private information (exclusion), state legibility (registration), historical customary rights, and institutional recognition. We reject the monolithic definition of private property in favor of **[[Classes of Property Rights Holders]]**. Private property is not a single point on a graph but a spectrum of partitioned authority whose "efficiency" depends on the subtractability and exclusion costs of the underlying **[[Common-pool resources]]**. Kapoor et al. (2024) add a techno-institutional dimension: the definition of "private" in the digital era increasingly requires not just legal title but *digital legibility* — a unique parcel ID, georeferenced boundaries, and on-chain immutability. Lund (2016) adds that digital legibility becomes socially powerful when it becomes institutional recognition. Communities whose tenure does not conform to this individual-parcel standard risk administrative invisibility or dispossession.
 
 ---
 > [!NOTE]

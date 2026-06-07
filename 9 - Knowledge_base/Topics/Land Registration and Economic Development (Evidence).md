@@ -7,7 +7,8 @@ Paper_Linked:
   - "[[Illegibly legible_ outcomes of a land records modernisation programme in South India.pdf]]"
   - "[[Property relations and economic development_ the other land reform.pdf]]"
   - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
-Last_Processed: "2026-05-07"
+  - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
+Last_Processed: "2026-06-06"
 Status: Sapling
 ---
 
@@ -60,7 +61,14 @@ This topic synthesizes the empirical evidence regarding the impact of land regis
 
 **The Waldsterben test for DILRMP**: Applying Scott's logic to the existing empirical evidence in this topic: the positive findings on tenure security (Section 1), credit access (Section 2), and labour mobility (Section 3) are all first-rotation results. The second-rotation question is whether the destruction of customary metis — the locally intelligible tenure systems that pre-date formal registration — will become visible in land conflicts, enclosures, and loss of common land access in the medium term. Your Chapter 5 fieldwork in Odisha is documenting precisely this second rotation.
 
-## **6. Synthesis: Not a Panacea**
+## **7. The Recognition Critique — Lund (2016) (NEW)**
+**[[Christian Lund]]** reframes the land registration debate away from the narrow question of whether titles raise investment or credit. Registration also produces authority by recognising some claims as valid property and rendering others politically weak or invisible.
+
+This matters for economic development evidence because the benefits of registration are distributed through recognition. Recorded owners may gain security, credit access, welfare eligibility, compensation rights, and administrative visibility. Tenants, sharecroppers, women with customary claims, informal possessors, and commons users may lose bargaining power when their claims are not recognised in the record.
+
+**PhD implication**: In Odisha, the development question is not simply "does Bhulekh/DILRMP improve land markets?" The sharper question is: whose claims become institutionally recognisable after modernisation, and whose claims become less capable of being heard?
+
+## **8. Synthesis: Not a Panacea**
 Deininger & Feder (2009) conclude that land registration is an institutional intervention that requires:
 1.  **Good Governance**: Impartial courts and an honest bureaucracy.
 2.  **Diagnosis**: Interventions must respond to grassroots demand and land scarcity levels.
