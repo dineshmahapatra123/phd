@@ -1,13 +1,16 @@
 ---
 type: Concept
-Paper_Linked: "[[Guaranteeing title to land.pdf]]"
-Last_Processed: "2026-04-29"
+Paper_Linked:
+  - "[[Guaranteeing title to land.pdf]]"
+  - "[[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa.pdf]]"
+Last_Processed: "2026-06-07"
 Status: Sapling
 Related:
   - "[[Collateral Value of Land]]"
   - "[[Presumptive vs Conclusive Title]]"
   - "[[Torrens System]]"
   - "[[Mutation Lag]]"
+  - "[[Access to Land as Social Process]]"
 Contradicts: ""
 ---
 
@@ -40,6 +43,13 @@ Wadhwa (2002) documents:
 ## Computerisation Fallacy
 Computerising land records does not close the Record-Reality Gap. It merely produces **computerised incorrect presumptive records**. The legal character — presumptive rather than conclusive — remains unchanged. Wadhwa (2002): "Instead of incorrect presumptive land records, we have computerised incorrect presumptive land records."
 
+## Social-Process Extension (Berry 1993)
+Berry adds a second mechanism to the record-reality gap. The problem is not only delayed mutation or weak administrative updating. It is that land access itself may be socially negotiated and kept open through kinship, lineage, caste, tenancy, local authority, litigation, and political connection.
+
+This means a record can diverge from ground reality even when the state has performed its formal recording function. Registration may name an owner, while village practice continues to recognise multiple claimants, usufruct rights, informal partitions, inheritance expectations, or possession-based claims. In Berry's terms, access to land remains a social process rather than a final legal fact.
+
+**PhD Application**: This helps distinguish two layers in Odisha fieldwork: (1) administrative lag, where the record has not caught up with an otherwise settled transfer; and (2) social contestation, where there is no single uncontested "ground truth" for the record to mirror.
+
 ## Credit Market Evidence: What Lenders Say (Wadhwa 2002)
 The most consequential cost of the Record-Reality Gap is its exclusion of land from functioning as collateral in formal credit markets. Wadhwa (2002) compiles direct statements from major Indian lending institutions:
 
@@ -60,3 +70,4 @@ The only durable solution is transitioning from **presumptive** to **conclusive 
 - [[Mutation Lag]]
 - [[Collateral Value of Land]]
 - [[D. C. Wadhwa]]
+- [[Access to Land as Social Process]]

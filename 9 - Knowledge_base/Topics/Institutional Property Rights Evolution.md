@@ -21,7 +21,8 @@ Paper_Linked:
   - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
   - "[[Colonialism and its forms of knowledge_ The British in India.pdf]]"
   - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
-Last_Processed: "2026-06-06"
+  - "[[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa.pdf]]"
+Last_Processed: "2026-06-07"
 Status: Sapling++
 ---
 
@@ -86,6 +87,13 @@ The central proposition is that claims to rights prompt the exercise of authorit
 4. DILRMP recognises digitally linkable parcel-person combinations.
 
 **PhD link**: This reframes the record-reality gap. The problem is not only that records fail to mirror ground reality; it is also that records decide which reality is institutionally recognisable. This is directly relevant to Odisha, where Bhulekh may recognise an owner in the RoR while village practice recognises possession, tenancy, or inheritance differently.
+
+## The Negotiation Tradition — Berry (1993) (NEW)
+**[[Sara Berry]]** adds a negotiation tradition to the property-rights evolution debate. Where Demsetz and Feder treat clearer property rights as a development solution, Berry shows that land rights may remain socially negotiated even after commercialisation, adjudication, registration, or state reform.
+
+Berry's central contribution is [[Access to Land as Social Process]]: property rights are not only rules attached to parcels but claims embedded in kinship, community membership, litigation, chiefly authority, political patronage, and social networks. Commercialisation does not necessarily consolidate rights into exclusive private ownership. It can multiply claims by increasing the value of land, expanding litigation, and making social identity more politically consequential.
+
+**Implication for the thesis**: Odisha's record-reality gap should not be read only as a lag in formal institutional evolution from presumptive to conclusive title. Some of the gap is produced by continuing social negotiation over inheritance, partition, possession, tenancy, caste-sahi occupation, and encroachment. DILRMP can standardise the record, but it cannot by itself extinguish the social processes through which land claims are locally made and defended.
 
 ## Theory of The Tectonic Shift (Indian Context)
 Institutional evolution in Indian land governance was not linear but driven by three divergent regimes:

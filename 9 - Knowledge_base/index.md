@@ -105,6 +105,8 @@
     - [[Property-Citizenship Nexus]]
     - [[Territorialization and Land Records]]
     - [[Jurisdictional Competition in Land Governance]]
+    - [[Access to Land as Social Process]]
+    - [[Investment in Networks]]
 - **[[People/]]** — Scholarly Networks  
     - [[C. B. Macpherson]]
     - [[Pradeep Nayak]]
@@ -141,6 +143,7 @@
     - [[Bernard Cohn]]
     - [[Michel Foucault]]
     - [[Christian Lund]]
+    - [[Sara Berry]]
 - **[[Methods/]]** — Research Design & Tools  
     - [[Law and Economics Approach to Property]]
     - [[Qualitative Document Analysis]]
@@ -184,13 +187,14 @@
     - [[Colonialism and its forms of knowledge_ The British in India]]
     - [[Governmentality]]
     - [[Rule and rupture_ State formation through the production of property and citizenship]]
+    - [[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa]]
 
 ---
 
 ## 📈 Statistics
-- Total Markdown Files: 180
-- Indexed Wiki Notes: 139
-- Source Markdown Files: 23
+- Total Markdown Files: 185
+- Indexed Wiki Notes: 142
+- Source Markdown Files: 24
 - Query Logs: 3
-- Last Neural Scan: 2026-06-06
+- Last Neural Scan: 2026-06-07
 - Source Repository: `7 - Raw/`

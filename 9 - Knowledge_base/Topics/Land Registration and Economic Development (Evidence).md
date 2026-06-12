@@ -8,7 +8,8 @@ Paper_Linked:
   - "[[Property relations and economic development_ the other land reform.pdf]]"
   - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
   - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
-Last_Processed: "2026-06-06"
+  - "[[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa.pdf]]"
+Last_Processed: "2026-06-07"
 Status: Sapling
 ---
 
@@ -68,7 +69,14 @@ This matters for economic development evidence because the benefits of registrat
 
 **PhD implication**: In Odisha, the development question is not simply "does Bhulekh/DILRMP improve land markets?" The sharper question is: whose claims become institutionally recognisable after modernisation, and whose claims become less capable of being heard?
 
-## **8. Synthesis: Not a Panacea**
+## **8. The Negotiability Critique — Berry (1993) (NEW)**
+**[[Sara Berry]]** gives the land-registration debate a further warning: formal registration may fail to create exclusive, final property rights where land access remains embedded in social networks and adjudicatory arenas. In the Kenyan case discussed by Berry, registration under the Swynnerton Plan did not eliminate family, lineage, and customary claims; many transactions were not recorded, and officials later observed that the register was ceasing to reflect ground realities.
+
+Berry's critique differs from a simple "bad implementation" argument. The deeper point is that land rights are often maintained through ongoing negotiation. Registration may create a document, but it does not automatically dissolve the social relationships through which possession, inheritance, labour contribution, marital claims, and kin membership are recognised.
+
+**PhD implication**: For DILRMP, the question is not only whether digitised records are accurate on the day of entry. It is whether the system can handle continuing social change: inheritance, partition, informal tenancy, encroachment, caste-lane possession, and multi-owner claims. Where it cannot, modernisation may produce a cleaner digital record alongside a widening practical [[Record-Reality Gap]].
+
+## **9. Synthesis: Not a Panacea**
 Deininger & Feder (2009) conclude that land registration is an institutional intervention that requires:
 1.  **Good Governance**: Impartial courts and an honest bureaucracy.
 2.  **Diagnosis**: Interventions must respond to grassroots demand and land scarcity levels.

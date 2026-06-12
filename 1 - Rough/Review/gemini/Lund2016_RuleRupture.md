@@ -49,7 +49,7 @@ Lund builds his framework on five load-bearing concepts, defined with verbatim p
 Lund substantiates his processual framework through historical examples and two main post-rupture case studies:
 
 * **Historical Case: The Domesday Book (1086)**:
-  * Following the Norman Conquest of England in 1066 (a massive political rupture), William the Conqueror compiled the Domesday Book in 1086. It recorded landholdings and identities, establishing that the propertied classes owed their rights entirely to the new sovereign. Thus, "the Domesday Book established the sovereign as much as it established rights" (p. 1202).
+  * ==Following the Norman Conquest of England in 1066 (a massive political rupture), William the Conqueror compiled the Domesday Book in 1086. It recorded landholdings and identities, establishing that the propertied classes owed their rights entirely to the new sovereign. Thus, "the Domesday Book established the sovereign as much as it established rights" (p. 1202).==
 * **Case 1: Chieftaincy in Southern Ghana**:
   * *The Rupture*: Colonial indirect rule.
   * *Mechanism*: Colonial agents declared land as part of the "traditional" realm to keep it non-commoditized and cheap. They consolidated chiefs' power to allocate land to northern migrant cocoa farmers. Postcolonial state reforms (1979–1992) further entrenched chiefs by placing Customary Land Secretariats under their control.

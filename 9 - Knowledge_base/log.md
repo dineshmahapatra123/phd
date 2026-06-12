@@ -58,3 +58,5 @@ Rule for agents: do not infer unfinished work from missing manual highlights, pl
 2026-06-05 | SHATTER | Foucault, "Governmentality" ch. 4 | COMPLETE | Created 2 concepts + 1 person; added chapter source, Zotero/BibTeX sync, index update | Details: [[logs/2026-06-05-foucault-governmentality-ch4-shatter]]
 2026-06-06 | SHATTER | Lund, "Rule and Rupture" | COMPLETE | Phase 2 intentionally skipped; created 4 concepts + 1 method + 1 person; updated 3 concepts + 3 topics; Zotero API + BibTeX sync complete | Details: [[logs/2026-06-06-lund-rule-rupture-shatter]]
 2026-06-06 | LINT | Post-Lund workflow scan | COMPLETE | All systems nominal; no structural or scholarly gaps detected.
+2026-06-07 | SHATTER | Berry, "No Condition Is Permanent" | COMPLETE | Manual reading + prime skipped by instruction; created 2 concepts + 1 person; updated 2 concepts + 2 topics; Zotero API item + linked PDF complete; PhD.bib export not yet updated | Details: [[logs/2026-06-07-berry-no-condition-shatter]]
+2026-06-07 | LINT | Post-Berry workflow scan | COMPLETE | All systems nominal; no structural or scholarly gaps detected.
