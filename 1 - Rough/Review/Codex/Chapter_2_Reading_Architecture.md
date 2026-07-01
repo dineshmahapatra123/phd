@@ -73,8 +73,8 @@ single total explanation.
 
 ### Essential readings
 
-1. **A** Dale, Peter F., and John D. McLaughlin. 1999. *Land Administration*.
-   Oxford University Press.
+1. **A** ==Dale, Peter F., and John D. McLaughlin. 1999. *Land Administration*.==
+   ==Oxford University Press==.
    - The standard conceptual account of land administration, including juridical, fiscal,
      regulatory and information functions.
 
@@ -842,3 +842,236 @@ Before drafting each subsection:
 9. Use Odisha examples only as signposts; reserve the detailed regional argument for
    Chapter 4.
 10. End each major section by stating what institutional inheritance it passes to the next.
+
+
+
+# List
+Yes. After checking both files, I would **not move from the core architecture**, but I would refine the Chapter 2 references.
+
+Your file `Chapter_2_Reading_Architecture.md` is stronger than `list_chapter 2.md`. The latter is useful but too expansive and sometimes too theory-heavy for your Chapter 2.
+
+**My corrected section-wise reference architecture is:**
+
+**2.1 Land Records and Their Functions**
+
+Essential:
+
+- Dale and McLaughlin, _Land Administration_
+- Larsson, _Land Registration and Cadastral Systems_
+- Zevenbergen, _Systems of Land Registration_
+- Williamson et al., _Land Administration for Sustainable Development_
+- UNECE, _Land Administration Guidelines_
+- Schlager and Ostrom, “Property-Rights Regimes and Natural Resources”
+- Ribot and Peluso, “A Theory of Access”
+- Lund, “Rule and Rupture”
+
+Use selectively:
+
+- Scott, _Seeing Like a State_
+- North, _Institutions, Institutional Change and Economic Performance_
+- Polanyi, _The Great Transformation_
+- Demsetz, “Toward a Theory of Property Rights”
+
+My view: **Scott is useful but not the single most important source for 2.1**. Dale, Larsson, Zevenbergen, and UNECE are more directly about land records.
+
+**2.2 Global Evolution of Land Records and Titling Systems**
+
+**2.2.1 Pre-colonial / early land records**
+
+Essential:
+
+- Kain and Baigent, _The Cadastral Map in the Service of the State_
+- Larsson, _Land Registration and Cadastral Systems_
+- Dale and McLaughlin, _Land Administration_
+
+Use selectively:
+
+- Ting and Williamson, “Cadastral Trends”
+- Tan, “The Development of Cadastral Systems”
+
+Keep this short. No huge global survey.
+
+**2.2.2 Colonial approaches**
+
+Essential:
+
+- Kain and Baigent, _The Cadastral Map in the Service of the State_
+- Home, “Scientific Survey and Land Settlement in British Colonialism”
+- Edney, _Mapping an Empire_
+- Cohn, _Colonialism and Its Forms of Knowledge_
+
+Use selectively:
+
+- Bhandar, _Colonial Lives of Property_
+- Mitchell, _Rule of Experts_
+- Divithure and Tang on Sri Lanka
+
+My view: for Chapter 2, **Edney and Cohn are useful**, but only if tied to survey, mapping, and settlement, not abstract colonial knowledge.
+
+**2.2.3 Post-colonial developments**
+
+Essential:
+
+- Feder and Nishio, “The Benefits of Land Registration and Titling”
+- Deininger, _Land Policies for Growth and Poverty Reduction_
+- Platteau, “The Evolutionary Theory of Land Rights”
+- Bromley, “Formalising Property Relations”
+- Sjaastad and Cousins, “Formalisation of Land Rights in the South”
+- Sjaastad and Bromley, “Indigenous Land Rights in Sub-Saharan Africa”
+
+Use selectively:
+
+- Bruce and Migot-Adholla, _Searching for Land Tenure Security in Africa_
+- Toulmin, “Securing Land and Property Rights”
+
+**2.2.4 Contemporary / neoliberal approaches**
+
+Essential:
+
+- de Soto, _The Mystery of Capital_
+- Payne, Durand-Lasserve and Rakodi, “The Limits of Land Titling”
+- Deininger and Feder, “Land Registration, Governance, and Development”
+- Enemark et al., _Fit-for-Purpose Land Administration_
+
+Use selectively:
+
+- Borras and Franco, “Contemporary Discourses and Contestations”
+- Deininger, Selod and Burns, _Land Governance Assessment Framework_
+
+Keep this as a bridge to Chapter 3. Do not fully develop neoliberalism here.
+
+**2.3 History of Land Records in India**
+
+**2.3.1 Pre-colonial India**
+
+Essential:
+
+- Habib, _The Agrarian System of Mughal India_
+- Moosvi, _The Economy of the Mughal Empire_
+- Raychaudhuri and Habib, _Cambridge Economic History of India, Vol. 1_
+
+Use selectively:
+
+- Moreland, _The Agrarian System of Moslem India_
+- Abul Fazl, _Ain-i-Akbari_
+- Stein, _Peasant State and Society in Medieval South India_
+- Fukazawa, _The Medieval Deccan_
+
+Key caution from the file is correct: do **not** say rights were “more or less similar throughout Indian history until the British.”
+
+**2.3.2 Colonial settlements**
+
+Essential:
+
+- Rothermund, “The Record of Rights in British India”
+- Guha, _A Rule of Property for Bengal_
+- Bhattacharya, _The Great Agrarian Conquest_
+- Washbrook, “Law, State and Agrarian Society in Colonial India”
+- Stokes, _The English Utilitarians and India_
+- Baden-Powell, _The Land-Systems of British India_
+
+Use selectively:
+
+- Cohn, _Colonialism and Its Forms of Knowledge_
+- Edney, _Mapping an Empire_
+- Banerjee and Iyer, “History, Institutions, and Economic Performance”
+- Dharma Kumar, _Land and Caste in South India_
+- Dirks, “From Little King to Landlord”
+- Frykenberg, _Land Control and Social Structure in Indian History_
+
+My strongest addition from the file: **Rothermund’s “The Record of Rights in British India” should be Tier 1.** It is more directly relevant than many grand theory texts.
+
+**2.3.3 Post-independence reforms**
+
+Essential:
+
+- Appu, _Land Reforms in India_
+- Wadhwa, “Guaranteeing Title to Land” 1989 and 2002
+- Herring, _Land to the Tiller_
+- Ramachandran and Ramakumar, “Agrarian Reforms and Rural Development Policies in India”
+- Government of India, Planning Commission, _Report of the Task Force on Agrarian Relations_
+
+Use selectively:
+
+- Bandyopadhyay, “Does Land Still Matter?”
+- Besley and Burgess, “Land Reform, Poverty Reduction, and Growth”
+- Agarwal, _A Field of One’s Own_
+- Byres on land reform and agrarian transition
+
+**2.4 Legal and Institutional Infrastructure**
+
+Essential:
+
+- Goswami et al., _Land Records Modernisation in India: An Institutional, Legal & Policy Review_
+- Wadhwa, “Guaranteeing Title to Land”
+- PRS, “Land Records and Titles in India”
+- Deininger, _A Strategy for Improving Land Administration in India_
+- Burman, “Improving Land Records in India” / land market reform papers
+- Registration Act, 1908
+- Transfer of Property Act, 1882
+- Indian Stamp Act, 1899
+- Indian Evidence Act, 1872 / Bharatiya Sakshya Adhiniyam for current law
+- Limitation Act, 1963
+- Constitution: Article 246, State List Entry 18, Articles 31A, 31B, 300A
+
+Use selectively:
+
+- World Bank, _India Land Governance Assessment_
+- Specific Relief Act, 1963
+- Indian Easements Act, 1882
+- state revenue codes and mutation manuals
+
+My correction: **Goswami et al. 2022 should be central for 2.4.** It is probably the best contemporary institutional map.
+
+**2.5 Genesis of DILRMP**
+
+Essential:
+
+- DoLR, CLR documents
+- DoLR, SRA&ULR documents
+- DoLR, NLRMP Guidelines 2008-09
+- DoLR, DILRMP Guidelines / Operational Manual
+- Nayak, “Policy Shifts in Land Records Management”
+- Nayak, _The State and Land Records Modernisation_
+- Goswami et al., _Land Records Modernisation in India_
+- Wadhwa, “Guaranteeing Title to Land”
+- Saxena, _Updating Land Records: Is Computerisation Sufficient?_
+
+Use selectively:
+
+- Deininger and Goyal, “Going Digital”
+- Benjamin and Raman, “Illegible Claims, Legal Titles”
+- Ramakumar and Ramesh / Pratyush, “Illegibly Legible”
+- NCAER / IGIDR / NIPFP DILRMP assessment reports
+- NCAER Land Records and Services Index
+
+My view: **2.5 should be institutional genealogy only.** Save performance evaluation and political economy for Chapter 3.
+
+**Bottom line**
+
+I would now use `Chapter_2_Reading_Architecture.md` as the stronger base, but with this discipline:
+
+- Do not cite everything.
+- Keep Chapter 2 about **historical-institutional genealogy**.
+- Push heavy neoliberalism, welfare, Digital India, Aadhaar, DBT, and political economy into Chapter 3.
+- For Chapter 2, the most load-bearing sources are:
+
+```
+Dale and McLaughlin
+Larsson
+Zevenbergen
+Kain and Baigent
+Habib
+Rothermund
+Guha
+Bhattacharya
+Washbrook
+Appu
+Wadhwa
+Goswami et al.
+Nayak
+NLRMP/DILRMP official documents
+PRS
+```
+
+That is the list I would stand by.

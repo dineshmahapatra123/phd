@@ -9,7 +9,10 @@ Paper_Linked:
   - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
   - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
   - "[[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa.pdf]]"
-Last_Processed: "2026-06-07"
+  - "[[One-Eyed State_ The Politics of Legibility and Property Taxation.pdf]]"
+  - "[[Land and legibility_ When do citizens expect secure property rights in weak states.pdf]]"
+  - "[[Land, Power, and Property Rights_ The Political Economy of Land Titling in Sub-Saharan Africa.pdf]]"
+Last_Processed: "2026-06-18"
 Status: Sapling
 ---
 
@@ -76,11 +79,50 @@ Berry's critique differs from a simple "bad implementation" argument. The deeper
 
 **PhD implication**: For DILRMP, the question is not only whether digitised records are accurate on the day of entry. It is whether the system can handle continuing social change: inheritance, partition, informal tenancy, encroachment, caste-lane possession, and multi-owner claims. Where it cannot, modernisation may produce a cleaner digital record alongside a widening practical [[Record-Reality Gap]].
 
-## **9. Synthesis: Not a Panacea**
+## **9. The Selective-Legibility Critique — Sánchez-Talanquer (2020)**
+**[[Mariano Sánchez-Talanquer]]** challenges the assumption that more registration produces a uniformly stronger state or broader development benefits. In Colombia, land registration expanded disproportionately where threatened landholders had incentives to secure legal recognition, but property valuation and tax extraction did not rise with it. The pattern is consistent with landowners obtaining visibility and protection while keeping fiscal exposure low.
+
+This adds two qualifications to the development evidence:
+
+1. **Registration coverage is not an adequate success measure.** A larger number of registered parcels may coexist with inaccurate values, excluded rival claims, and weak correspondence with possession.
+2. **Benefits may be distributionally asymmetric.** Registration can improve tenure security for established record-holders while making settlers, tenants, or informal claimants more vulnerable by giving one claim the state's official stamp.
+
+**Odisha test**: DILRMP progress indicators should be separated into owner coverage, spatial accuracy, textual-spatial integration, possession correspondence, recognition of secondary claims, and updating quality. A programme can score highly on coverage while remaining [[Selective Legibility|selectively legible]].
+
+## **10. Documentation without State Titling — Ferree et al. (2023)**
+Ferree et al. decompose the conventional land-titling treatment into two attributes: documentary legibility and the authority granting the right. In a conjoint experiment with 4,893 Malawians, explicit written documents reduced expected attempted expropriation by about five percentage points, reduced expected successful expropriation by about four percentage points, and increased purchase recommendations by about three percentage points.
+
+The documentation effect did not depend on whether a chief or the Ministry of Lands issued the rights. This matters for development policy because low uptake of statutory title cannot be interpreted as low demand for written evidence. Citizens may reject the costs, taxation exposure, individualisation, or weak enforcement associated with state title while still valuing receipts, letters, customary certificates, local registers, or community maps.
+
+The evidence also connects documentation to social structure. Written rights mattered more in communities described as having low mutual assistance, suggesting that documentary evidence can partly substitute for weak social support. For some outcomes, documents were also more valuable for women purchasers and more educated respondents.
+
+### ⚠️ Distributional Caveat
+The experiment measures benefits to the named purchaser, not effects on omitted or rival claimants. Ferree et al. explicitly warn that documentation strengthens the person whose name appears in it while weakening those excluded. The development effect therefore depends on whether the recording process represents heirs, tenants, sharecroppers, women, common users, and other secondary rights.
+
+**Odisha test**: Evaluate Bhulekh and RoR documents along two separate axes:
+
+1. **Citizen-facing evidentiary value**: whether households can retrieve and use the record across disputes, welfare offices, banks, registration, and courts.
+2. **Representational completeness**: whether the record captures possession, inheritance, tenancy, co-ownership, boundaries, and secondary claims.
+
+A record may score highly on the first axis while worsening exclusion on the second.
+
+## **11. Synthesis: Not a Panacea**
 Deininger & Feder (2009) conclude that land registration is an institutional intervention that requires:
 1.  **Good Governance**: Impartial courts and an honest bureaucracy.
 2.  **Diagnosis**: Interventions must respond to grassroots demand and land scarcity levels.
 3.  **Cost-Effectiveness**: High-precision systems may be unsustainable in low-value rural areas; low-cost certification may be superior.
 
+## **12. Demand-Driven Uptake and Local Political Mediation — Ribar (2025)**
+Ribar adds a missing uptake mechanism to the development-evidence debate. The question is not only whether titles produce tenure security, investment, credit, or land-market gains after registration. It is also why households seek titles unevenly when titles are formally available.
+
+Across 22 African countries, Ribar finds that households are more likely to possess a title where attainable land value or returns to agricultural investment are higher. This supports a demand-side interpretation: households pursue formalisation when the expected value of protecting land or investment exceeds the cost and risk of titling.
+
+But the developmental effect is politically mediated. Strong customary institutions weaken the land-value/title relationship in centralised land regimes, where titling removes authority from customary intermediaries. In devolved regimes, strong customary institutions strengthen the relationship because local elites can capture the formalisation process and retain authority.
+
+### ⚠️ Distributional Caveat
+The same mechanism that increases title uptake can also make the process exclusionary. Ribar's Côte d'Ivoire case shows that chiefly capture facilitated titling for in-groups while reducing titling and perceived title protection for out-groups. Formalisation can therefore raise aggregate uptake while reproducing local hierarchies.
+
+**Odisha test**: DILRMP progress indicators should be interpreted alongside demand and gatekeeping. A household may avoid mutation or correction because land value is low, the expected benefit is uncertain, or the local verification process is likely to favour stronger claimants. Conversely, high uptake may indicate not only trust in the state but the presence of intermediaries able to convert formalisation into local advantage.
+
 ---
-**Main Source**: [[Land registration, governance, and development_ evidence and implications for policy]], [[Illegibly legible_ outcomes of a land records modernisation programme in South India]]
+**Main Source**: [[Land registration, governance, and development_ evidence and implications for policy]], [[Illegibly legible_ outcomes of a land records modernisation programme in South India]], [[Land, Power, and Property Rights_ The Political Economy of Land Titling in Sub-Saharan Africa]]

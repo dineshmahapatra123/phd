@@ -60,3 +60,9 @@ Rule for agents: do not infer unfinished work from missing manual highlights, pl
 2026-06-06 | LINT | Post-Lund workflow scan | COMPLETE | All systems nominal; no structural or scholarly gaps detected.
 2026-06-07 | SHATTER | Berry, "No Condition Is Permanent" | COMPLETE | Manual reading + prime skipped by instruction; created 2 concepts + 1 person; updated 2 concepts + 2 topics; Zotero API item + linked PDF complete; PhD.bib export not yet updated | Details: [[logs/2026-06-07-berry-no-condition-shatter]]
 2026-06-07 | LINT | Post-Berry workflow scan | COMPLETE | All systems nominal; no structural or scholarly gaps detected.
+2026-06-12 | SHATTER | Sánchez-Talanquer, "One-Eyed State" | COMPLETE | Manual highlights + prime skipped by instruction; created 1 concept + 1 person; updated 3 nodes + 3 topics; Zotero, BibTeX, source conversion, and index complete | Details: [[logs/2026-06-12-sanchez-talanquer-one-eyed-state-shatter]]
+2026-06-12 | LINT | Post-Sánchez-Talanquer workflow scan | COMPLETE | All systems nominal; no structural or scholarly gaps detected.
+2026-06-12 | SHATTER | Ferree et al., "Land and Legibility" | COMPLETE | Manual highlights + prime skipped by instruction; created 1 concept; updated 4 concepts + 3 topics; Zotero, BibTeX, source conversion, review, and index complete | Details: [[logs/2026-06-12-ferree-et-al-land-legibility-shatter]]
+2026-06-12 | LINT | Post-Ferree et al. workflow scan | COMPLETE | All systems nominal; no structural or scholarly gaps detected.
+2026-06-18 | SHATTER | Ribar, "Land, Power, and Property Rights" | COMPLETE | Phase 2 skipped by instruction; created 2 concepts; updated 4 concepts + 2 topics; Zotero, BibTeX, source conversion, and index complete | Details: [[logs/2026-06-18-ribar-land-power-property-rights-shatter]]
+2026-06-18 | LINT | Post-Ribar workflow scan | COMPLETE | All systems nominal; no structural or scholarly gaps detected.

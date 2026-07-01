@@ -1,13 +1,16 @@
 ---
 type: Concept
-Paper_Linked: "[[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa.pdf]]"
-Last_Processed: "2026-06-07"
+Paper_Linked:
+  - "[[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa.pdf]]"
+  - "[[Land, Power, and Property Rights_ The Political Economy of Land Titling in Sub-Saharan Africa.pdf]]"
+Last_Processed: "2026-06-18"
 Status: Seed
 Related:
   - "[[Property as a Social Relation]]"
   - "[[Record-Reality Gap]]"
   - "[[Informal Constraints]]"
   - "[[Colonial Legal Reconstitution of Property]]"
+  - "[[Customary Capture of Land Formalisation]]"
 Contradicts: ""
 ---
 
@@ -25,6 +28,8 @@ Berry intervenes against two simplified positions in land policy:
 - The colonial-customary-law position treats colonial codification as a rigid closure of custom.
 
 Berry's argument is different: colonial rule, commercialisation, and postcolonial reform intensified disputes over custom, authority, and land, but did not resolve them. Even where land was registered or sold, access often remained subject to multiple claims.
+
+Ribar (2025) provides a formalisation-specific extension. Titling is risky because it is not a neutral transcription of local access arrangements. It forces overlapping and seasonal claims into a hierarchy: one person may cultivate, another may graze, another may claim descent-based authority, and another may hold a derived or usufruct claim. When the title process chooses one claimant, it reorganises access rather than merely recording it.
 
 ## PhD Application
 This concept is directly relevant to the thesis debate on the gap between RoR entries and ground reality in Odisha. Berry helps explain why that gap is not only an administrative lag. It is also a social fact: possession, inheritance, tenancy, partition, caste location, gendered claims, and kinship recognition can continue to organise land access even when the record names a different owner.
@@ -44,6 +49,8 @@ Operational signs in village fieldwork include:
 - multi-owner records whose practical possession is caste- or kin-segmented;
 - informal tenancy, sharecropping, or encroachment treated as locally legitimate;
 - disputes settled through kin, caste, village, or revenue-office mediation rather than formal title alone.
+- cases where a formal record clarifies one claim while weakening secondary rights that remain socially recognised.
 
 ## Also Appears In
 - [[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa]]
+- [[Land, Power, and Property Rights_ The Political Economy of Land Titling in Sub-Saharan Africa]]

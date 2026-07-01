@@ -1,3 +1,6 @@
 {
-  "cssTheme": ""
+  "cssTheme": "",
+  "showRibbon": true,
+  "showViewHeader": true,
+  "baseFontSize": 15
 }

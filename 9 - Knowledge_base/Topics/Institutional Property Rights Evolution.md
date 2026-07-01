@@ -22,7 +22,10 @@ Paper_Linked:
   - "[[Colonialism and its forms of knowledge_ The British in India.pdf]]"
   - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
   - "[[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa.pdf]]"
-Last_Processed: "2026-06-07"
+  - "[[One-Eyed State_ The Politics of Legibility and Property Taxation.pdf]]"
+  - "[[Land and legibility_ When do citizens expect secure property rights in weak states.pdf]]"
+  - "[[Land, Power, and Property Rights_ The Political Economy of Land Titling in Sub-Saharan Africa.pdf]]"
+Last_Processed: "2026-06-18"
 Status: Sapling++
 ---
 
@@ -73,6 +76,25 @@ Scott argues that property rights evolution is not primarily about efficiency ga
 Each layer destroys the locally intelligible arrangements of the previous era while claiming to clarify them.
 
 **Inter-tradition link**: Scott completes the four-tradition framework that your Chapter 2 needs. Demsetz provides the efficiency driver; North provides the political economy of institutional change; the agrarian tradition (Appu, Guha) provides the ground-level dispossession account; Scott provides the governmental-epistemological account of *how* the state creates the property categories through which all the others operate.
+
+## The Selective-Legibility Tradition — Sánchez-Talanquer (2020)
+**[[Mariano Sánchez-Talanquer]]** adds a demand-side mechanism to Scott's state-centred account. Property holders may actively seek cadastral registration when it protects them against redistribution or competing claims. They need not accept every component of state capacity, however. By influencing valuation and assessment, they can obtain legal recognition without equivalent taxation.
+
+The resulting [[Selective Legibility]] breaks the assumed sequence in which better cadastral information automatically strengthens taxation, redistribution, or accurate administration. Property-rights evolution can proceed unevenly across institutional functions: ownership recognition expands; rival claims remain outside the record; valuation and taxation stagnate; and established owners gain legal protection.
+
+**PhD implication**: DILRMP may modernise owner identification without modernising possession, boundary verification, tenancy recognition, inheritance, or fiscal attributes. Such unevenness should be analysed as a political-institutional outcome, not automatically classified as temporary implementation lag.
+
+## The Citizen-Driven Legibility Tradition — Ferree et al. (2023)
+Ferree et al. add a second demand-side mechanism. Where Sánchez-Talanquer shows established owners strategically demanding state recognition while resisting taxation, Ferree et al. show ordinary citizens valuing written evidence independently of state authority. In Malawi, respondents regarded documented land as more secure and desirable whether a chief or the Ministry of Lands supplied the written rights.
+
+This finding changes the assumed endpoint of property-rights evolution. Evolution need not move in a single line from oral customary rights to state-issued conclusive title. Hybrid forms can emerge in which customary authority remains intact while claims become more documentary and portable. Receipts, local registers, letters, customary certificates, and community maps may therefore constitute institutional innovations rather than incomplete versions of state title.
+
+The mechanism is [[Legibility as a Strategic Resource]]: documents give claimants evidence they can carry into family, community, customary, administrative, financial, and judicial forums. Their value depends on practical usability, not only sovereign guarantee.
+
+### ⚠️ Tension: Bottom-up Documentation vs. Title-Centred Evolution
+- **Title-centred model**: Institutional evolution culminates in standardised, state-guaranteed, individual title.
+- **Citizen-driven model**: People may seek documentation while rejecting the costs, taxes, individualisation, or weak enforcement attached to state title.
+- **PhD implication**: DILRMP should not be evaluated solely by movement toward conclusive title. The thesis should also assess whether modernisation improves citizens' ability to retrieve, understand, and use documentary evidence while preserving legitimate plural and secondary rights.
 
 ## The Recognition Tradition — Lund (2016) (NEW)
 **[[Christian Lund]]** adds a recognition tradition to the property-rights evolution debate. Where Demsetz asks why property rights emerge, North asks how institutions enforce them, and Scott asks how states make them legible, Lund asks how rights and authority are co-produced through recognition.
@@ -166,6 +188,8 @@ Bromley advocates for an **Institutional Fix**—the conversion of open-access r
 
 ## State of the Art (The Conclusive Shift)
 The modern understanding of property rights evolution highlights the transition from **Registration of Deeds** (presumptive/fiscal) to **Registration of Title** (conclusive/proprietary). 
+
+Sánchez-Talanquer qualifies this transition: greater registration can consolidate selected claims before the system becomes conclusive or accurate. Institutional evolution is therefore not only movement along a deeds-to-title continuum; it can also move toward stronger recognition of recorded owners alongside persistent blindness elsewhere.
 - **The Credibility Link**: A state-guarantee (Torrens) is an exercise in **[[Credible Commitment]]**. It represents the "shackling" of the state from its power to arbitrarily revoke or ignore title, replacing it with an "Imperatively Credible" guarantee.
 - **The Mirror Principle**: The institutional register becomes an exact reflection of fact.
 - **The Curtain Principle**: The register becomes the sole authority, cutting off the need for deep historical searches.
@@ -266,3 +290,15 @@ Pradeep Nayak (2020) contextualizes the contemporary shift in India from redistr
 - **The Limits of Formalization**: Nayak critiques the "one-size-fits-all" advocacy of the World Bank, highlighting that formalization in highly unequal societies can facilitate the alienation of land from the poor to wealthier interests rather than unlocking credit for smallholders.
 
 **PhD Application**: Nayak's work bridges the gap between the economic drivers of evolution and the sociological reality of India. The push for the "Conclusive Shift" is driven by market demand for land (capital investment), but the institutional framework is fundamentally misaligned with the complex reality of India's mixed and customary tenure systems.
+
+## Demand-Driven Evolution and Local Capture (Ribar, 2025)
+Ribar adds a demand-side and local-political layer to the theory of institutional property-rights evolution. In on-demand titling regimes, the mere availability of formal title does not produce uniform uptake. Households seek title when land value or expected investment returns make the benefits worth the costs and risks. This aligns with Demsetz and Feder's demand logic but makes it more concrete at the household level.
+
+The stronger contribution is the interaction between household demand and local authority. Where land administration is centralised, strong customary authorities may resist titling because it removes land from their jurisdiction. Where land administration is devolved, strong customary authorities may facilitate titling because they can capture the process and preserve their authority. Property-rights evolution is therefore not a one-way path from custom to state title. It can move through hybrid arrangements where formal documents are produced through local gatekeeping.
+
+**PhD implication**: For India, this warns against treating DILRMP as an automatic transition from presumptive records to clearer title. Institutional evolution may stall, accelerate, or become selective depending on who controls verification, mutation, cadastral correction, and recognition at the local level. The record-reality gap is therefore partly an evolutionary outcome of competing institutions, not merely an administrative backlog.
+
+### ⚠️ Tension: Demand for Formalisation vs. Risk of Claim Hierarchy
+- **Demand logic**: Higher land value and investment returns increase the incentive to formalise.
+- **Social-process logic**: Formalisation ranks overlapping claims and may weaken secondary rights.
+- **PhD resolution**: DILRMP should be evaluated not only by whether it increases demand for formal records, but by whether it represents possession, inheritance, tenancy, co-ownership, caste/gender claims, and commons before giving one claimant stronger digital recognition.

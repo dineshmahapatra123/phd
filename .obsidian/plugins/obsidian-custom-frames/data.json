@@ -30,7 +30,7 @@
       "icon": "sparkles",
       "hideOnMobile": true,
       "addRibbonIcon": true,
-      "openInCenter": false,
+      "openInCenter": true,
       "zoomLevel": 1,
       "forceIframe": false,
       "customCss": "",

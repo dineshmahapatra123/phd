@@ -11,14 +11,6 @@
     {
       "name": "Text",
       "template": "{{text}}"
-    },
-    {
-      "name": "Emoji",
-      "template": "📖"
-    },
-    {
-      "name": "None",
-      "template": ""
     }
   ],
   "defaultDisplayTextFormatIndex": 0,
@@ -26,24 +18,16 @@
   "syncDefaultDisplayTextFormat": false,
   "copyCommands": [
     {
-      "name": "Quote",
-      "template": "> ({{linkWithDisplay}})\n> {{text}}\n"
+      "name": "Page + text",
+      "template": "{{text}}\n([[{{linktext}}|p.{{pageLabel}}]])"
     },
     {
-      "name": "Link",
-      "template": "{{linkWithDisplay}}"
+      "name": "Text only",
+      "template": "{{text}}"
     },
     {
-      "name": "Embed",
-      "template": "!{{link}}"
-    },
-    {
-      "name": "Callout",
-      "template": "> [!{{calloutType}}|{{color}}] {{linkWithDisplay}}\n> {{text}}\n"
-    },
-    {
-      "name": "Quote in callout",
-      "template": "> [!{{calloutType}}|{{color}}] {{linkWithDisplay}}\n> > {{text}}\n> \n> "
+      "name": "Title/page + text",
+      "template": "{{text}}\n([[{{linktext}}|{{file.basename}}, p.{{pageLabel}}]])"
     }
   ],
   "useAnotherCopyTemplateWhenNoSelection": false,
@@ -221,9 +205,9 @@
   "clearSelectionAfterAutoPaste": true,
   "respectCursorPositionWhenAutoPaste": true,
   "blankLineAboveAppendedContent": true,
-  "autoCopy": false,
+  "autoCopy": true,
   "autoFocus": false,
-  "autoPaste": false,
+  "autoPaste": true,
   "autoFocusTarget": "last-active-and-open-then-last-paste",
   "autoPasteTarget": "last-active-and-open-then-last-paste",
   "openAutoFocusTargetIfNotOpened": true,

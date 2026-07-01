@@ -14,7 +14,9 @@ Paper_Linked:
   - "[[Property relations and economic development_ the other land reform.pdf]]"
   - "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
   - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
-Last_Processed: "2026-06-06"
+  - "[[One-Eyed State_ The Politics of Legibility and Property Taxation.pdf]]"
+  - "[[Land and legibility_ When do citizens expect secure property rights in weak states.pdf]]"
+Last_Processed: "2026-06-12"
 Status: Sapling++
 ---
 
@@ -103,6 +105,25 @@ This means private property has two linked recognitions:
 This recognition basis is especially important for India because land records remain presumptive. The RoR does not conclusively prove ownership, but it is still the practical document through which the state recognises a person as a landholder for revenue, welfare, mutation, compensation, and administrative purposes. See [[Contracts of Recognition]] and [[Property-Citizenship Nexus]].
 
 **PhD Link**: Private property in the Odisha land-record system is therefore best treated as a layered institutional recognition, not as a single legal status. A person may hold social possession, registered deed evidence, RoR recognition, cadastral-map correspondence, and welfare eligibility in different combinations. DILRMP's danger is that it may present one layer of recognition as if it were the whole property relation.
+
+### 12. The Selective-Recognition Basis — Sánchez-Talanquer (2020)
+**[[Mariano Sánchez-Talanquer]]** shows that official recognition is not necessarily accompanied by complete state knowledge. Landholders may seek registration because it validates ownership, assists legal defence, and excludes competing claims, while simultaneously resisting accurate valuation and taxation.
+
+This produces [[Selective Legibility]]: the state recognises the owner but not necessarily the property's real value, actual possession, or rival claimants. Private property is therefore partly defined by an actor's capacity to shape which dimensions of the property relation become institutionally visible.
+
+**PhD Link**: For Odisha, an updated RoR may strengthen the recorded owner's private-property status even when Bhunaksha boundaries, possession, inheritance, tenancy, or parcel attributes remain unresolved. The thesis should not treat "recorded" as equivalent to "fully known" or "conclusively titled."
+
+### 13. The Documentary Basis — Ferree et al. (2023)
+Ferree et al. separate documentary legibility from the authority that issues or enforces a property right. Their Malawi survey experiment finds that respondents regarded written land rights as more secure and desirable whether a chief or the Ministry of Lands provided the documents.
+
+This adds a **documentary basis** to private property: a claim may gain practical force because it is written, portable, and usable as evidence across multiple forums, even if it is not conclusive state title. Documentation does not create absolute ownership, but it changes the claimant's position relative to family members, neighbours, customary authorities, administrators, and other challengers.
+
+This finding qualifies the Scott-Lund sequence. Legibility need not be produced exclusively by the state, and recognition need not originate from a single sovereign institution. A document can strengthen a claim while authority remains plural.
+
+### ⚠️ Tension: Documentary Empowerment vs. Documentary Exclusion
+- **Empowerment**: Written evidence can reduce perceived expropriation risk and help citizens defend claims.
+- **Exclusion**: A document strengthens the person named in it relative to omitted heirs, tenants, women, secondary-rights holders, and customary users.
+- **PhD Resolution**: The value of an RoR must be assessed together with its representational completeness. Odisha fieldwork should ask both whether a document helps its holder and whose claims the same document leaves out.
 
 ## Scholarly Synthesis
 In our PhD framework, property is the **institutional resolution** of the tension between private information (exclusion), state legibility (registration), historical customary rights, and institutional recognition. We reject the monolithic definition of private property in favor of **[[Classes of Property Rights Holders]]**. Private property is not a single point on a graph but a spectrum of partitioned authority whose "efficiency" depends on the subtractability and exclusion costs of the underlying **[[Common-pool resources]]**. Kapoor et al. (2024) add a techno-institutional dimension: the definition of "private" in the digital era increasingly requires not just legal title but *digital legibility* — a unique parcel ID, georeferenced boundaries, and on-chain immutability. Lund (2016) adds that digital legibility becomes socially powerful when it becomes institutional recognition. Communities whose tenure does not conform to this individual-parcel standard risk administrative invisibility or dispossession.

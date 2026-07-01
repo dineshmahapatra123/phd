@@ -1,6 +1,6 @@
 {
   "lastVersion": "4.0.8",
-  "aestheticStyle": "default",
+  "aestheticStyle": "glass",
   "positionStyle": "top",
   "menuCommands": [
     {
@@ -392,6 +392,21 @@
       "id": "editing-toolbar:workplace-fullscreen-focus",
       "name": "Workplace Fullscreen",
       "icon": "exit-fullscreen"
+    },
+    {
+      "id": "workspace:toggle-pin",
+      "name": "Toggle pin",
+      "icon": "lucide-pin"
+    },
+    {
+      "id": "workspace:split-horizontal",
+      "name": "Split down",
+      "icon": "lucide-separator-horizontal"
+    },
+    {
+      "id": "backlink:open",
+      "name": "Backlinks: Show backlinks",
+      "icon": "lucide-link"
     }
   ],
   "followingCommands": [
@@ -424,7 +439,7 @@
   ],
   "enableMultipleConfig": false,
   "enableTopToolbar": true,
-  "enableFollowingToolbar": false,
+  "enableFollowingToolbar": true,
   "enableFixedToolbar": false,
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
@@ -432,7 +447,7 @@
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
   "cMenuWidth": 610,
-  "cMenuFontColor": "#4f81bd",
+  "cMenuFontColor": "#ff0000",
   "cMenuBackgroundColor": "#d3f8b6",
   "autohide": false,
   "Iscentered": false,
@@ -457,13 +472,13 @@
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
       "toolbarIconColor": "var(--text-normal)",
       "toolbarIconSize": 18,
-      "aestheticStyle": "default"
+      "aestheticStyle": "glass"
     },
     "following": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
       "toolbarIconColor": "var(--text-normal)",
       "toolbarIconSize": 18,
-      "aestheticStyle": "default"
+      "aestheticStyle": "tiny"
     },
     "fixed": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",

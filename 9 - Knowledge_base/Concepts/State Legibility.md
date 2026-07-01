@@ -1,7 +1,7 @@
 ---
 type: Concept
 Paper_Linked: "[[Seeing like a state_ How certain schemes to improve the human condition have failed.pdf]]"
-Last_Processed: "2026-05-07"
+Last_Processed: "2026-06-12"
 Status: Sapling
 Related:
   - "[[High Modernism]]"
@@ -11,6 +11,8 @@ Related:
   - "[[Permanent Settlement]]"
   - "[[Illegibly legible]]"
   - "[[Record-Reality Gap]]"
+  - "[[Selective Legibility]]"
+  - "[[Legibility as a Strategic Resource]]"
 Contradicts: ""
 ---
 
@@ -26,6 +28,8 @@ The cadastral map is Scott's centrepiece example. It does not merely record who 
 ## Scholarly Debate
 - **Scott (1998)**: Legibility is simultaneously the tool of welfare provision and the instrument of oppression. The same population register that enables social services enabled the 1941 Nazi deportation of 65,000 Amsterdam Jews. Legibility "merely amplifies the capacity of the state for discriminating interventions — a capacity that could as easily have been deployed to feed the Jews as to deport them."
 - **Ramakumar & Ramesh (2023)**: Extend Scott to the LRUP in Telangana — digitisation produces records that are "illegibly legible": technically standardised yet disconnected from ground-level social reality. See [[Illegibly legible]].
+- **[[Mariano Sánchez-Talanquer]] (2020)**: Adds a demand-side political-economy correction. Landholders do not always resist being seen. When registration protects ownership against redistribution or rival claims, they may seek cadastral inscription while capturing valuation procedures to keep tax liabilities low. The result is [[Selective Legibility]]: visibility of ownership without equivalent visibility of value, possession, or competing claims.
+- **Ferree et al. (2023)**: Add a citizen-facing and non-state correction. In Malawi, respondents valued written land rights whether a chief or the Ministry of Lands issued them. Legibility can therefore be [[Legibility as a Strategic Resource|a strategic resource]] used by citizens across multiple forums, not only a state capacity imposed from above.
 - **de Soto (2000) / Deininger (2003)**: The NIE counter-tradition treats formalisation as unambiguously empowering for the poor — clear titles unlock credit, investment, and markets. Scott's structural critique: the same legibility that creates opportunities for some destroys the customary arrangements ([[Metis]]) that protected others. The NIE tradition is blind to second-rotation consequences.
 
 ## PhD Application
@@ -37,6 +41,10 @@ Scott's legibility framework provides the **governmental function** of Indian la
 
 **The dual-use danger**: The same DILRMP digital record that could protect a Scheduled Tribe member's rights under the Forest Rights Act could, in different political hands, enable rapid identification of PESA-area parcels for acquisition. The technology is neutral; the political purpose that deploys it is not.
 
+**The demand-side correction**: DILRMP should not be evaluated only as a state effort that succeeds or fails to see rural property. Recorded owners and intermediaries may have incentives to improve fields that strengthen ownership recognition while resisting correction of possession, tenancy, inheritance, boundaries, encumbrances, or value. A partially modernised record may therefore represent an equilibrium shaped by power, not merely incomplete implementation.
+
+**The citizen-use correction**: The demand side is not confined to elite capture. A Bhulekh printout, RoR copy, mutation order, rent receipt, or informal agreement may be valuable because it gives a claimant portable evidence, even where the issuing institution is weak or the document is not conclusive title. The thesis should therefore measure both the coercive capacity created by legibility and the practical claim-making capacity citizens derive from documents.
+
 ## Measurement / Methods
 - **Record-Reality Gap analysis**: Comparison of official RoR entries against ground-level possession and customary tenure arrangements
 - **Historical-comparative method**: Tracing how successive legibility layers have accumulated as a palimpsest
@@ -44,3 +52,5 @@ Scott's legibility framework provides the **governmental function** of Indian la
 
 ## Also Appears In
 - [[Illegibly legible_ outcomes of a land records modernisation programme in South India]] (Ramakumar & Ramesh, 2023)
+- [[One-Eyed State_ The Politics of Legibility and Property Taxation]] (Sánchez-Talanquer, 2020)
+- [[Land and legibility_ When do citizens expect secure property rights in weak states]] (Ferree et al., 2023)

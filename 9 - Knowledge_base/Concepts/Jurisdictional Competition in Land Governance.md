@@ -1,7 +1,9 @@
 ---
 type: Concept
-Paper_Linked: "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
-Last_Processed: "2026-06-06"
+Paper_Linked:
+  - "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
+  - "[[Land, Power, and Property Rights_ The Political Economy of Land Titling in Sub-Saharan Africa.pdf]]"
+Last_Processed: "2026-06-18"
 Status: Sapling
 Related:
   - "[[Contracts of Recognition]]"
@@ -9,6 +11,7 @@ Related:
   - "[[Mutation Lag]]"
   - "[[Institutional Arrangements]]"
   - "[[DILRMP]]"
+  - "[[Customary Capture of Land Formalisation]]"
 Contradicts: ""
 ---
 
@@ -23,6 +26,7 @@ Jurisdiction can be territorial, functional, or personal. A land dispute may the
 - **Lund (2016)**: Claims to rights invoke public authority in multiple institutions. Jurisdictions are overlapping fields of authority in the making, not fixed legal boxes.
 - **Sally Falk Moore**: Semi-autonomous social fields can generate rules and enforcement even when formal law exists.
 - **Indian land administration literature**: The separation of revenue, registration, survey, and courts creates institutional fragmentation that sustains the record-reality gap.
+- **Ribar (2025)**: The centralised/devolved design of land titling determines whether customary authorities lose authority or capture the formalisation process. De jure state authority may remain with the land agency, while de facto adjudication sits with village chiefs or local committees.
 
 ## PhD Application
 This concept maps directly onto Odisha's land administration:
@@ -35,10 +39,14 @@ This concept maps directly onto Odisha's land administration:
 
 DILRMP's promise of integration is, in Lund's terms, an attempt to reduce jurisdictional competition by consolidating recognition across institutions. Its risk is that it may harden one institution's version of reality without resolving conflicts among others.
 
+Ribar's comparative evidence sharpens this warning. Moving land decisions downward does not automatically democratise recognition; it can allow local elites to convert their practical authority into control over formal titles. For Odisha, the equivalent question is whether digitised mutation, Bhulekh/Bhunaksha integration, and village-level revenue interactions reduce jurisdictional competition or merely relocate discretion to brokers, RIs, Amins, panchayat actors, and dominant landholders.
+
 ## Measurement / Methods
 - For each village land dispute, identify which institution was approached first and why.
 - Trace whether villagers treat RoR, registered deed, physical possession, map boundary, court order, or community recognition as the most authoritative proof.
 - Document cases where different institutions recognise different claimants for the same parcel.
+- Distinguish the office that certifies a record from the actor who practically controls claim verification.
 
 ## Also Appears In
 - [[Rule and rupture_ State formation through the production of property and citizenship]]
+- [[Land, Power, and Property Rights_ The Political Economy of Land Titling in Sub-Saharan Africa]]

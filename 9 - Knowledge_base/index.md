@@ -107,6 +107,10 @@
     - [[Jurisdictional Competition in Land Governance]]
     - [[Access to Land as Social Process]]
     - [[Investment in Networks]]
+    - [[Selective Legibility]]
+    - [[Legibility as a Strategic Resource]]
+    - [[Demand-Driven Land Titling]]
+    - [[Customary Capture of Land Formalisation]]
 - **[[People/]]** — Scholarly Networks  
     - [[C. B. Macpherson]]
     - [[Pradeep Nayak]]
@@ -144,6 +148,7 @@
     - [[Michel Foucault]]
     - [[Christian Lund]]
     - [[Sara Berry]]
+    - [[Mariano Sánchez-Talanquer]]
 - **[[Methods/]]** — Research Design & Tools  
     - [[Law and Economics Approach to Property]]
     - [[Qualitative Document Analysis]]
@@ -188,13 +193,15 @@
     - [[Governmentality]]
     - [[Rule and rupture_ State formation through the production of property and citizenship]]
     - [[No Condition Is Permanent_ The Social Dynamics of Agrarian Change in Sub-Saharan Africa]]
+    - [[One-Eyed State_ The Politics of Legibility and Property Taxation]]
+    - [[Land, Power, and Property Rights_ The Political Economy of Land Titling in Sub-Saharan Africa]]
 
 ---
 
 ## 📈 Statistics
-- Total Markdown Files: 185
-- Indexed Wiki Notes: 142
-- Source Markdown Files: 24
+- Total Markdown Files: 193
+- Indexed Wiki Notes: 146
+- Source Markdown Files: 27
 - Query Logs: 3
-- Last Neural Scan: 2026-06-07
+- Last Neural Scan: 2026-06-18
 - Source Repository: `7 - Raw/`

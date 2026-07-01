@@ -1,13 +1,14 @@
 ---
 type: Concept
 Paper_Linked: "[[Rule and rupture_ State formation through the production of property and citizenship.pdf]]"
-Last_Processed: "2026-06-06"
+Last_Processed: "2026-06-12"
 Status: Sapling
 Related:
   - "[[Contracts of Recognition]]"
   - "[[Record of Rights (RoR)]]"
   - "[[DILRMP]]"
   - "[[Record-Reality Gap]]"
+  - "[[Selective Legibility]]"
 Contradicts: ""
 ---
 
@@ -22,6 +23,7 @@ Property is a legitimised claim to something of value sanctioned by political au
 - **Lund (2016)**: Property and citizenship are co-produced through recognition. The ability to define who can hold land and who counts as a rights-bearing member is constitutive of state power.
 - **Arendt/Somers tradition**: Citizenship is the "right to have rights." Lund applies this to land and resources: without recognised membership, property claims can be delegitimised.
 - **NIE property-rights literature**: Often treats property as an economic institution for investment and exchange. Lund shows that property is also a political membership relation.
+- **[[Mariano Sánchez-Talanquer]] (2020)**: Shows how cadastral recognition can be selectively appropriated. Established landholders may secure official recognition and legal protection while rival settlers remain outside the record. Recognition is therefore distributive: greater legibility for one claimant can produce greater insecurity for another.
 
 ## PhD Application
 This concept helps explain why land records in Odisha are not just technical instruments. A valid RoR entry can become a practical citizenship device: it determines who can access compensation, welfare transfers, agricultural schemes, institutional credit, and recognition in local disputes.
@@ -41,3 +43,4 @@ The crucial argument is that land-record modernisation may intensify citizenship
 
 ## Also Appears In
 - [[Rule and rupture_ State formation through the production of property and citizenship]]
+- [[One-Eyed State_ The Politics of Legibility and Property Taxation]]
