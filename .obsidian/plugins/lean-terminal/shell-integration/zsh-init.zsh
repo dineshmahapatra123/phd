@@ -1,4 +1,4 @@
-# Lean Terminal — shell integration for zsh
+# Lean Terminal - shell integration for zsh
 if [[ -n "$__LOT_SHELL_INTEGRATION" ]]; then return 0; fi
 __LOT_SHELL_INTEGRATION=1
 if [[ -n "$__LOT_USER_ZDOTDIR" ]]; then

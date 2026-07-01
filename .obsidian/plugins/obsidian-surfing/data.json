@@ -36,13 +36,9 @@
     "defaultCategory": "ROOT",
     "defaultColumnList": [
       "name",
-      "description",
       "url",
-      "category",
-      "tags",
       "created",
-      "modified",
-      "action"
+      "modified"
     ],
     "defaultFilterType": "tree"
   },

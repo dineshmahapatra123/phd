@@ -692,3 +692,7 @@ body.pdf-plus-vim-hint-inverted {
     --pdf-plus-vim-hint-color: var(--text-on-accent);
     --pdf-plus-vim-hint-background-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
 }
+
+body.pdf-plus-hide-toolbar-extras .pdf-toolbar {
+    display: none !important;
+}

@@ -2,14 +2,12 @@
   "better-word-count",
   "calendar",
   "obsidian-custom-frames",
-  "obsidian-file-color",
   "obsidian-zotero-desktop-connector",
-  "pdf-plus",
   "highlightr-plugin",
   "obsidian-read-it-later",
   "surfing",
-  "obsidian42-brat",
   "lean-terminal",
   "editing-toolbar",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "pdf-plus"
 ]

@@ -1,6 +1,6 @@
 {
   "lastVersion": "4.0.8",
-  "aestheticStyle": "glass",
+  "aestheticStyle": "custom",
   "positionStyle": "top",
   "menuCommands": [
     {
@@ -443,7 +443,7 @@
   "enableFixedToolbar": false,
   "appendMethod": "workspace",
   "shouldShowMenuOnSelect": false,
-  "cMenuVisibility": true,
+  "cMenuVisibility": false,
   "cMenuBottomValue": 4.25,
   "cMenuNumRows": 12,
   "cMenuWidth": 610,
@@ -472,7 +472,7 @@
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",
       "toolbarIconColor": "var(--text-normal)",
       "toolbarIconSize": 18,
-      "aestheticStyle": "glass"
+      "aestheticStyle": "custom"
     },
     "following": {
       "toolbarBackgroundColor": "rgba(var(--background-secondary-rgb), 0.7)",

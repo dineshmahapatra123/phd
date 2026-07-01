@@ -1,13 +1,88 @@
 {
   "shellPath": "",
+  "startupCommand": "",
   "fontSize": 12,
   "fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+  "lineHeight": 1,
   "theme": "obsidian-light",
   "backgroundColor": "",
   "cursorBlink": true,
+  "copyOnSelect": false,
   "scrollback": 5000,
+  "ribbonIcon": "file-terminal",
   "defaultLocation": "right",
   "notifyOnCompletion": true,
   "notificationSound": "beep",
-  "notificationVolume": 50
+  "notificationVolume": 50,
+  "searchShortcut": "Ctrl+Alt+F",
+  "persistBuffer": true,
+  "recentSessionsMax": 10,
+  "recentSessions": [
+    {
+      "name": "Terminal 1",
+      "color": "",
+      "cwd": "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD",
+      "bufferSerial": "dineshmahapatra@Dineshs-MacBook-Air PhD % codex\r\n\u001b[2m╭─────────────────────────────────────\r\n─────────╮\r\n│ >_ \u001b[1;22mOpenAI Codex\u001b[22;2m (v0.142.5)\r\n│\r\n│\r\n│\r\n│ model:     \u001b[0mgpt-5.5 medium\u001b[2m   \u001b[36;22m/model\r\n\u001b[39;2mto change │\r\n│ directory: \u001b[0m~/…/…l.com/My Drive/PhD\r\n\u001b[2m│\r\n╰─────────────────────────────────────\r\n─────────╯\r\n\r\n\u001b[0m  \u001b[1mTip:\u001b[0m Try the \u001b[1mCodex App\u001b[0m. Run 'codex\r\n  app' or visit\r\n  https://chatgpt.com/codex?app-landing-page=true\r\n\r\n\u001b[2m• \u001b[0mYou have 2 usage limit resets\r\n\r\n\u001b[33m⚠ MCP client for `paper` failed to\r\n\u001b[0m  \u001b[33mstart: MCP startup failed:\r\n\u001b[0m  \u001b[33mhandshaking with MCP server failed:\r\n\u001b[0m  \u001b[33mSend message error Transport\r\n\u001b[0m  \u001b[33m[rmcp::transport::worker::WorkerTran\r\n\u001b[0m  \u001b[33msport<rmcp::transport::streamable_ht\r\n\u001b[0m  \u001b[33mtp_client::StreamableHttpClientWorke\r\n\u001b[0m  \u001b[33mr<codex_rmcp_client::http_client_ada\r\n\u001b[0m  \u001b[33mpter::StreamableHttpClientAdapter>>]\r\n\u001b[0m  \u001b[33merror: Client error: HTTP request\r\n\u001b[0m  \u001b[33mfailed: http/request failed: error\r\n\u001b[0m  \u001b[33msending request for url\r\n\u001b[0m  \u001b[33m(http://127.0.0.1:29979/mcp), when\r\n\u001b[0m  \u001b[33msend initialize request\r\n\r\n⚠ MCP client for `linear` failed to\r\n\u001b[0m  \u001b[33mstart: MCP startup failed:\r\n\u001b[0m  \u001b[33mhandshaking with MCP server failed:\r\n\u001b[0m  \u001b[33mSend message error Transport\r\n\u001b[0m  \u001b[33m[rmcp::transport::worker::WorkerTran\r\n\u001b[0m  \u001b[33msport<rmcp::transport::streamable_ht\r\n\u001b[0m  \u001b[33mtp_client::StreamableHttpClientWorke\r\n\u001b[0m  \u001b[33mr<rmcp::transport::auth::AuthClient<\r\n\u001b[0m  \u001b[33mcodex_rmcp_client::http_client_adapt\r\n\u001b[0m  \u001b[33mer::StreamableHttpClientAdapter>>>]\r\n\u001b[0m  \u001b[33merror: Auth error: OAuth\r\n\u001b[0m  \u001b[33mauthorization required, when send\r\n\u001b[0m  \u001b[33minitialize request\r\n\r\n⚠ MCP startup incomplete (failed:\r\n\u001b[0m  \u001b[33mfigma, linear, notion, paper)\r\n\r\n\u001b[39;48;5;255m \u001b[37X\r\n\u001b[1m›\u001b[22m \u001b[2mRun /review on my current changes\u001b[3X\r\n\u001b[22m \u001b[37X\r\n\u001b[0m\u001b[2X\u001b[2C\u001b[38;2;213;144;48mgpt-5.5 medium\u001b[39;2m · \u001b[38;2;72;154;54;22m~/Library/CloudSto…\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\u001b[21A\u001b[2C\u001b[0m\u001b[?2004h\u001b[?1004h",
+      "closedAt": 1782907778866
+    },
+    {
+      "name": "Terminal 1",
+      "color": "",
+      "cwd": "/Users/dineshmahapatra/Library/CloudStorage/GoogleDrive-dineshmahapatra123@gmail.com/My Drive/PhD",
+      "bufferSerial": "dineshmahapatra@Dineshs-MacBook-Air PhD % \u001b[?2004h",
+      "closedAt": 1782901249586
+    }
+  ],
+  "enableClaudeIntegration": false,
+  "claudeSessionsDir": "",
+  "claudeRegistryPath": "claude-sessions.md",
+  "claudeSessionsMax": 25,
+  "tabColorTintsBackground": true,
+  "tabColors": [
+    {
+      "name": "None",
+      "value": "",
+      "tintStrength": 0,
+      "builtin": true
+    },
+    {
+      "name": "Vermilion",
+      "value": "#FC3634",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Sky Blue",
+      "value": "#25D0F7",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Gold",
+      "value": "#FFD700",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Mint",
+      "value": "#18BC9C",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Azure",
+      "value": "#007BFF",
+      "tintStrength": 12,
+      "builtin": true
+    },
+    {
+      "name": "Purple",
+      "value": "#A991D4",
+      "tintStrength": 12,
+      "builtin": true
+    }
+  ],
+  "tabBarPosition": "top",
+  "wikiLinkAutocomplete": false,
+  "wikiLinkInsertMode": "wikilink"
 }
