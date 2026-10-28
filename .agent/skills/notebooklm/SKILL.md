@@ -18,50 +18,52 @@ Trigger when user:
 
 ## Core Workflow Commands
 
+Commands can be executed directly from the PhD repository root using either the adapter or the direct CLI binary (`./.venv/bin/notebooklm`).
+
 ### Step 1: Check Authentication Status
 ```bash
-python scripts/run.py auth_manager.py status
+./.venv/bin/notebooklm status
+# Or via adapter:
+python3 .agent/skills/notebooklm/scripts/run.py auth_manager.py status
 ```
 
-### Step 2: Authenticate (If Not Logged In)
+### Step 2: Query NotebookLM (Default active notebook: `PhD_Papers`)
 ```bash
-python scripts/run.py auth_manager.py setup
+# Direct CLI (instant, supports all v0.8.2 features)
+./.venv/bin/notebooklm ask "Your question here"
+
+# Ask with explicit notebook ID
+./.venv/bin/notebooklm ask -n f802377d-2963-487f-8b74-5286f629eb91 "Your question here"
+
+# Or via adapter from vault root:
+python3 .agent/skills/notebooklm/scripts/run.py ask_question.py --question "Your question here"
 ```
 
-### Step 3: Manage Notebook Library
-
+### Step 3: Search Sources & Specific Passages (v0.8.2 Feature)
 ```bash
-# List all notebooks in Google NotebookLM
-python scripts/run.py notebook_manager.py list
-
-# Create a new notebook with optional source URL Ingestion
-python scripts/run.py notebook_manager.py add \
-  --name "Descriptive Name" \
-  --url "https://notebooklm.google.com/notebook/..." \
-  --description "What this notebook contains" \
-  --topics "topic1,topic2,topic3"
-
-# Search notebooks by query
-python scripts/run.py notebook_manager.py search --query "keyword"
-
-# Set active notebook context
-python scripts/run.py notebook_manager.py activate --id notebook-id
-
-# Delete a notebook
-python scripts/run.py notebook_manager.py remove --id notebook-id
+# Search for verbatim quotes or passages across all papers in the notebook:
+./.venv/bin/notebooklm source search "search phrase or concept"
 ```
 
-### Step 4: Ask Questions
-
+### Step 4: Notebook & Source Inspection
 ```bash
-# Basic query (uses active notebook if set)
-python scripts/run.py ask_question.py --question "Your question here"
+# List sources in active notebook
+./.venv/bin/notebooklm source list
 
-# Query a specific notebook
-python scripts/run.py ask_question.py --question "..." --notebook-id notebook-id
+# Get AI-suggested prompts and questions based on your library
+./.venv/bin/notebooklm suggest-prompts
 
-# Query with a notebook URL directly
-python scripts/run.py ask_question.py --question "..." --notebook-url "https://..."
+# Get overall summary and insights of the active notebook
+./.venv/bin/notebooklm summary
+```
+
+### Step 5: Uploading PDFs Directly from PhD Folder
+```bash
+# Upload a local PDF file from 7 - Raw/ into the active notebook:
+./.venv/bin/notebooklm source add "7 - Raw/Filename.pdf"
+
+# Upload with a custom title or to a specific notebook:
+./.venv/bin/notebooklm source add "7 - Raw/Filename.pdf" -n f802377d-2963-487f-8b74-5286f629eb91 --title "Paper Title"
 ```
 
 ## Response Mechanism (Unified & Fast)
